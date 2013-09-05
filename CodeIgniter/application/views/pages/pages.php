@@ -1,1 +1,0 @@
-<h1> this page is namede as pages</h1>
