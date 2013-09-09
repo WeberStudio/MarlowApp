@@ -58,9 +58,9 @@ Ext.define('MarlowApp.view.Main', {
                 // disabled : true,
                 flex : 1,
                 ui: 'gray',
-                handler:function(){
+                /*handler:function(){
                    
-                }
+                }   */
             },
             {
                 xtype: 'button',

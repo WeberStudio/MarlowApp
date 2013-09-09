@@ -4,13 +4,12 @@ class client extends CI_Controller{
     
     function __construct()
     {        
-    parent::__construct();
-
-    //remove_ssl();
-     $this->load->model('Client_model');
-     $this->load->helper(array('form'));
-     $this->load->library('form_validation');
-     $this->load->helper('url');
+         parent::__construct();
+        //remove_ssl();
+         $this->load->model('Client_model');
+         $this->load->helper(array('form'));
+         $this->load->library('form_validation');
+         $this->load->helper('url');
     }
     
     

@@ -47,17 +47,17 @@ Ext.define('MarlowApp.controller.LoginC', {
 
         if( username =='' && password == '' ) 
             {
-            Ext.Msg.alert('', 'Please enter the Username and Password.');  
+            Ext.Msg.alert('Please enter the Username and Password.', 'Please enter the Username and Password.');  
             return false; 
         }
-        else if( username =='' ) 
+        else if(username =='' ) 
             {
-            Ext.Msg.alert('', 'Please enter the Username.');  
+            Ext.Msg.alert('Please enter the Username.', 'Please enter the Username.');  
             return false; 
         }
         else if(password == '')
             {
-            Ext.Msg.alert('', 'Please enter the Password.');
+            Ext.Msg.alert('Please enter the Password.', 'Please enter the Password.');
             return false;  
         }
         if (username != '' && password!='' ){
