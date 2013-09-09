@@ -50,8 +50,8 @@ Ext.define('MarlowApp.view.Main', {
         }, 
         {
             xtype : 'container',
-            layout: 'hbox',              
-            items: [{
+            items: [
+            {
                 xtype: 'button',
                 id: 'loginButton',      
                 text: 'Login',

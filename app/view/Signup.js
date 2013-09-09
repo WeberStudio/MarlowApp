@@ -96,8 +96,7 @@ Ext.define('MarlowApp.view.Signup', {
         },
          
          {
-            xtype : 'container',
-            layout: 'hbox',           
+            xtype : 'container',             
             id:'signupbtns',
             items: [
             {
