@@ -1,4 +1,4 @@
-Ext.define('MarlowApp.view.Dashboard', {
+Ext.define('MarlowApp.view.Dashboard', {   
     extend: 'Ext.List',
     xtype:'dashboardView',     
     config: {
