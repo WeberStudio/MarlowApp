@@ -27,11 +27,11 @@ Ext.application({
     ],
       
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap'
+        'Main', 'Signup', 'Dashboard', 'SnapIt', 'Shops', 'MyItemList'
     ],
     
     controllers: [
-        'LoginC', 'DashboardC', 'SnapC'
+        'LoginC', 'DashboardC'
     ], 
     models: [],   
     stores: [],  
