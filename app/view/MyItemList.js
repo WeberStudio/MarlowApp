@@ -9,13 +9,16 @@ Ext.define('MarlowApp.view.MyItemList', {
               tabBarPosition: 'bottom',
               
         items : [{
-                //title : 'Dashboard',
-                store :'all_productsid', 
-                xtype: 'list',
-                inline: true,
-                id:'list',
-                itemTpl: '<img src="http://localhost/MarlowApp/resources/icons/icon-spot~ipad.png" alt="some_text"><p>{note}<br/><b>{price}</b> </p>',
-                title : 'Dashboard',
+                        //title : 'Dashboard',
+                        store :'all_productsid', 
+                        xtype: 'list',
+                        inline: true,
+                        grouped: true,
+                        id:'list',
+                        itemTpl: '{note}',
+                        title : 'Dashboard',
+
+                        
                 }]
         }
 });
