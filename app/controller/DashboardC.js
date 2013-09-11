@@ -3,8 +3,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
-        models: ['all_products'],         
-        stores: ['all_products'],         
+        models: ['all_products', 'Shops_Model'],         
+        stores: ['all_products', 'Shops_Store'],         
         views : ['Dashboard', 'SnapIt', 'Shops', 'MyItemList'],     
         refs: {
             
@@ -134,18 +134,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 useDefaultXhrHeader: false,
                 success: function(response) {      
                     try{
-                        response = Ext.decode(response.responseText)
-                        
-                        
-                      var store = Ext.getStore('all_productsid');
-                      console.log(store);   
-                      store.setData(response);
-          //  Ext.getStore('all_products').sync(); 
-                        
-                        
-                        //Ext.getStore("all_products").setData(response); 
-                       
-
+                        response    = Ext.decode(response.responseText)
+                        var store   = Ext.getStore('all_productsid');
+                        store.setData(response);                        
                     }catch(err){
                         // console.log(err)
                         Ext.Msg.alert('No internet connection available', 'No internet connection available')
@@ -159,14 +150,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 {
                     //Ext.Msg.alert('', 'Server is not responding please try again'); 
                 }
-            });                   
-           
-                
-                
-                
-                
-             console.log("hellow");
-                
+            });
+            
+            
             Ext.Viewport.setActiveItem({
                 xtype: 'myitemlistview'                 
             }); 
