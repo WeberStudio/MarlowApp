@@ -27,7 +27,7 @@ Ext.application({
     ],
       
     views: [
-        'Main', 'Signup', 'Dashboard', 'SnapIt', 'Shops', 'MyItemList'
+        'Main', 'Signup', 'Dashboard', 'SnapIt', 'Shops', 'MyItemList' , 'AddNote'
     ],
     
     controllers: [

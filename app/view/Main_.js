@@ -1,52 +1,24 @@
 Ext.define('MarlowApp.view.Main', {
     extend: 'Ext.Container',
     xtype: 'main',
-    //html: '<img style="height: 100px; width: 100px;" src="assets/marlow.gif" />',
-    style: "background-image:url(resources/images/marlow_background.gif)",
-	
-	
+    
       config: {
-		
         id:'loginId',
-		
-       	scrollable : 'vertical',
-		items: [
-        {	
-			
-          	xtype: 'tbfill',
-            docked: 'top',
-            xtype: 'titlebar',
-            title: '<div class="toolbarLogo">Marlow Window Shopper</div>',
-			style: 'font-family: calibri; font-weight: normal;'
-        }, 
-		{		
-			xtype: 'container',
-			docked: 'top',
-			layout: {
-			type: 'vbox',
-			align: 'center',
-			pack: 'center'
-			},
-			items: [
-			{
-				xtype: 'image',
-				width:218,
-				height:150,
-				src:'resources/images/marlow.gif'
-			}
-			]
-			
-		},
+       // scrollable : 'vertical',
+        items: [
         {
-            xtype: 'fieldset', 
-			                
+            docked: 'top',
+            xtype: 'titlebar',            
+            title: '<div class="toolbarLogo">Welcome To Marlow</div>'
+        },
+        {
+            xtype: 'fieldset',                 
             items: [{
                 xtype: 'textfield',
                 id:'loginusername',
                 autoComplete: true, 
                 labelWidth : '45%',
                 label: '<div class="separator">Email</div>',
-				//style: 'border: 1px solid #C6C6C6; margin-bottom: 15px;',
                 listeners: {
                     keyup: function(fld, e){
                         //if user hits return button or keyboard-down button
@@ -57,7 +29,6 @@ Ext.define('MarlowApp.view.Main', {
                         }
                     }
                 }
-				
             },
             {
                 xtype: 'passwordfield',
@@ -65,7 +36,6 @@ Ext.define('MarlowApp.view.Main', {
                 labelWidth : '45%',
                 autoComplete: true,   
                 label: '<div class="separator">Password</div>',
-				//style: 'border: 1px solid #C6C6C6;',
                 listeners: {
                     keyup: function(fld, e){
                         //if user hits return button or keyboard-down button
@@ -88,7 +58,6 @@ Ext.define('MarlowApp.view.Main', {
                 // disabled : true,
                 flex : 1,
                 ui: 'gray',
-				style: 'margin-bottom: 15px; height: 50px; margin-left: 20px; margin-right: 20px;', 
                 /*handler:function(){
                    
                 }   */
@@ -99,7 +68,6 @@ Ext.define('MarlowApp.view.Main', {
                 text: 'Sign Up',
                 flex : 1,                 
                 ui: 'gray',
-				style: 'height: 50px; margin-left: 20px; margin-right: 20px;',
                 handler:function()
                 {
                     Ext.Viewport.remove(Ext.getCmp('signupId'))   
@@ -120,7 +88,8 @@ Ext.define('MarlowApp.view.Main', {
                 }
             }]
         },  
-        {        
+        {
+                xtype : 'panel',               
                 listeners  : {
                 element : 'element',
                 tap : function(e) {  
@@ -129,5 +98,4 @@ Ext.define('MarlowApp.view.Main', {
             }         
         ]//end panel items
     }
-	
 });     
