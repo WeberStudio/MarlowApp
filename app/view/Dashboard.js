@@ -4,12 +4,17 @@ Ext.define('MarlowApp.view.Dashboard', {
     inline: true,
     requires: [ 'Ext.dataview.List' ],
     config: {
+         
               tabBarPosition: 'bottom',
+              
         items : [{
+                        //title : 'Dashboard', 
                         xtype: 'list',
                         inline: true,
+                        
                         id:'list',
                         itemTpl: '<div class="contact">{img}{title} </div>',
+                        title : 'Dashboard',
                         data   : [
                             { 
                                 title: 'SNAP IT', 
