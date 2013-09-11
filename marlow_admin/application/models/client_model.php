@@ -39,5 +39,18 @@ class Client_model extends CI_Model {
         
     }
     
+    function get_records($table , $id=false)
+    {
+        if($id!="")
+        {
+            $this->db->where('id',$id);
+        }
+        
+        $this->db->order_by('name', 'ASC');
+        $query = $this->db->get($table);
+    
+    return $query->result();    
+    }
+    
 }
 ?>

@@ -4,5 +4,12 @@ Ext.define('MarlowApp.view.Shops', {
     config: 
     {
         id:'shopid',
-    }
+        items : [{
+                xtype: 'list',
+                inline: true,
+                id:'list',
+                store :'allshopsStoreId',
+                itemTpl: '<div class="contact">{name} </div>',               
+        }]
+    }   
 });

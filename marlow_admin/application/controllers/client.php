@@ -78,5 +78,13 @@ class client extends CI_Controller{
             
         }
     }
+    
+    function get_product($table)
+    {
+        //$table                      = 'shops';
+        $all_product                = $this->Client_model->get_records($table);
+        $product_encode             = json_encode($all_product);
+        echo $product_encode;         
+    }
 }
 ?>
