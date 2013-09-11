@@ -38,6 +38,26 @@ class Client_model extends CI_Model {
        return count($query);
         
     }
+    function get_shop($id=false)
+    {
+        if($id!='')
+        {
+            $this->db->where('id',$id);
+        }
+        $this->db->where('status','1');
+        $query = $this->db->get('shops');
+        return $query->result(); 
+    }
+    function get_records($table , $id=false)
+    {
+        if($id!="")
+        {
+            $this->db->where('id',$id);
+        }
+        
+    $query = $this->db->get($table);
+    return $query->result();    
+    }
     
     function get_records($table , $id=false)
     {
