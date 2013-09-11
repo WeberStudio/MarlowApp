@@ -13,9 +13,9 @@ Ext.define('MarlowApp.view.MyItemList', {
                         store :'all_productsid', 
                         xtype: 'list',
                         inline: true,
-                        
+                        grouped: true,
                         id:'list',
-                        itemTpl: '<img src="http://localhost/MarlowApp/resources/icons/icon-spot~ipad.png" alt="some_text"><p>{note}<br/><b>{price}</b> </p>',
+                        itemTpl: '{note}',
                         title : 'Dashboard',
 
                         
