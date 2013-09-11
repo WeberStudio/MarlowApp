@@ -1314,83 +1314,45 @@ DEBUG - 2013-09-11 16:34:30 --> Helper loaded: form_helper
 DEBUG - 2013-09-11 16:34:30 --> Form Validation Class Initialized
 DEBUG - 2013-09-11 16:34:30 --> Final output sent to browser
 DEBUG - 2013-09-11 16:34:30 --> Total execution time: 0.0832
-DEBUG - 2013-09-11 16:56:44 --> Config Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Hooks Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Utf8 Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> UTF-8 Support Enabled
-DEBUG - 2013-09-11 16:56:44 --> URI Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Router Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Output Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Security Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Input Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-09-11 16:56:44 --> Language Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Loader Class Initialized
-DEBUG - 2013-09-11 16:56:44 --> Helper loaded: url_helper
-DEBUG - 2013-09-11 16:56:44 --> Database Driver Class Initialized
-ERROR - 2013-09-11 16:56:44 --> Unable to select database: marlowpp
-DEBUG - 2013-09-11 16:56:44 --> Language file loaded: language/english/db_lang.php
-DEBUG - 2013-09-11 16:57:39 --> Config Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Hooks Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Utf8 Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> UTF-8 Support Enabled
-DEBUG - 2013-09-11 16:57:39 --> URI Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Router Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Output Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Security Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Input Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-09-11 16:57:39 --> Language Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Loader Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Helper loaded: url_helper
-DEBUG - 2013-09-11 16:57:39 --> Database Driver Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Config Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Hooks Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Utf8 Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> UTF-8 Support Enabled
-ERROR - 2013-09-11 16:57:39 --> Unable to select database: marlowpp
-DEBUG - 2013-09-11 16:57:39 --> Language file loaded: language/english/db_lang.php
-DEBUG - 2013-09-11 16:57:39 --> URI Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Router Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Output Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Security Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Input Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-09-11 16:57:39 --> Language Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Loader Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Helper loaded: url_helper
-DEBUG - 2013-09-11 16:57:39 --> Database Driver Class Initialized
-ERROR - 2013-09-11 16:57:39 --> Unable to select database: marlowpp
-DEBUG - 2013-09-11 16:57:39 --> Language file loaded: language/english/db_lang.php
-DEBUG - 2013-09-11 16:57:39 --> Config Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Hooks Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Utf8 Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> UTF-8 Support Enabled
-DEBUG - 2013-09-11 16:57:39 --> URI Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Router Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Output Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Security Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Input Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-09-11 16:57:39 --> Language Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Loader Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Helper loaded: url_helper
-DEBUG - 2013-09-11 16:57:39 --> Config Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Hooks Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Utf8 Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> UTF-8 Support Enabled
-DEBUG - 2013-09-11 16:57:39 --> Database Driver Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> URI Class Initialized
-ERROR - 2013-09-11 16:57:39 --> Unable to select database: marlowpp
-DEBUG - 2013-09-11 16:57:39 --> Router Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Language file loaded: language/english/db_lang.php
-DEBUG - 2013-09-11 16:57:39 --> Output Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Security Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Input Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Global POST and COOKIE data sanitized
-DEBUG - 2013-09-11 16:57:39 --> Language Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Loader Class Initialized
-DEBUG - 2013-09-11 16:57:39 --> Helper loaded: url_helper
-DEBUG - 2013-09-11 16:57:39 --> Database Driver Class Initialized
-ERROR - 2013-09-11 16:57:39 --> Unable to select database: marlowpp
-DEBUG - 2013-09-11 16:57:39 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-11 16:42:07 --> Config Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Hooks Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 16:42:07 --> URI Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Router Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Output Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Security Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Input Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 16:42:07 --> Language Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Loader Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 16:42:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Controller Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Model Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Model Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-11 16:42:07 --> Form Validation Class Initialized
+DEBUG - 2013-09-11 16:42:07 --> Final output sent to browser
+DEBUG - 2013-09-11 16:42:07 --> Total execution time: 0.0698
+DEBUG - 2013-09-11 16:42:42 --> Config Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Hooks Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 16:42:42 --> URI Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Router Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Output Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Security Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Input Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 16:42:42 --> Language Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Loader Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 16:42:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Controller Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Model Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Model Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-11 16:42:42 --> Form Validation Class Initialized
+DEBUG - 2013-09-11 16:42:42 --> Final output sent to browser
+DEBUG - 2013-09-11 16:42:42 --> Total execution time: 0.0741
