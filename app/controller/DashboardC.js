@@ -5,7 +5,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model'],         
         stores: ['all_products', 'Shops_Store'],         
-        views : ['Dashboard', 'SnapIt', 'Shops', 'MyItemList'],     
+        views : ['Dashboard', 'SnapIt', 'Shops', 'MyItemList', 'AddNote'],     
         refs: {
             
         },
@@ -16,7 +16,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'dashboard'     : 'dashboardView',
             'snapit'        : 'snapIt',
             'shops'         : 'shopsview',
-            'myitemlist'    : 'myitemlistview'           
+            'myitemlist'    : 'myitemlistview',
+            'addnote'       : 'addnoteview'   
             
         }                                    
     },
@@ -162,7 +163,23 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));     
         } 
         //Ext.getCmp("ssntxt").blur(); 
-    }
+    },
+    
+    addnoteview:function(){ 
+        // console.log(Ext.Viewport.getCmp('sigupId'))
+
+        if(Ext.Viewport.getComponent('addnoteid') == undefined)
+            {    
+            Ext.Viewport.setActiveItem({
+                xtype: 'addnoteview'                 
+            }); 
+        }
+        else
+            {
+            Ext.Viewport.setActiveItem(Ext.getCmp('addnoteid'));     
+        } 
+        //Ext.getCmp("ssntxt").blur(); 
+    },
     
    
 });

@@ -1,7 +1,6 @@
 Ext.define('MarlowApp.view.Signup', {
     extend: 'Ext.Container',
     xtype:'sigupView',
-	style: "background-image:url(resources/images/marlow_background.gif)",
     config: {
         id:'signupId',
         scrollable : 'vertical',
@@ -9,26 +8,8 @@ Ext.define('MarlowApp.view.Signup', {
         {
             xtype: 'titlebar',
             docked: 'top',            
-            title: '<div class="toolbarLogo">Sign Up Now!</div>'
+            title: '<div class="toolbarLogo">Sigunup</div>'
         },
-		{		
-			xtype: 'container',
-			docked: 'top',
-			layout: {
-			type: 'vbox',
-			align: 'center',
-			pack: 'center'
-			},
-			items: [
-			{
-				xtype: 'image',
-				width:218,
-				height:150,
-				src:'resources/images/marlow.gif'
-			}
-			]
-			
-		},
         {
             xtype: 'fieldset',           
             defaults : {
@@ -122,7 +103,6 @@ Ext.define('MarlowApp.view.Signup', {
             xtype: 'button',
             id:'setsignupbtn',
             text: 'Sign Up',
-			style: 'margin-bottom: 15px; height: 50px; margin-left: 20px; margin-right: 20px;',
             flex : 1,  
             ui: 'gray' ,            
             handler : function(){
@@ -315,8 +295,7 @@ Ext.define('MarlowApp.view.Signup', {
             xtype: 'button',
             id:'cancelbtn',
             text: 'Cancel',
-            flex : 1,     
-			style: 'height: 50px; margin-left: 20px; margin-right: 20px;',     
+            flex : 1,          
             ui: 'gray',
             handler:function(){
                 

@@ -1,3 +1,10 @@
+$base-color: #0081b7;
+$base-gradient: 'bevel';
+$base-gradient-glossy: 'glossy';
+$base-gradient-matte: 'glossy';
+$base-gradient-bevel: 'glossy';
+$active-color: #0091AD; 
+
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
