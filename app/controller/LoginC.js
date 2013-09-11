@@ -79,7 +79,8 @@ Ext.define('MarlowApp.controller.LoginC', {
                         }, 
                 withCredentials: false,
                 useDefaultXhrHeader: false,
-                success: function(response) {      
+                success: function(response) 
+                {      
                     try{
                         response = Ext.decode(response.responseText)
                          console.log(response);

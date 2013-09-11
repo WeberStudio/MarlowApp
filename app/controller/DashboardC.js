@@ -60,9 +60,50 @@ Ext.define('MarlowApp.controller.DashboardC', {
 
         if(Ext.Viewport.getComponent('shopid') == undefined)
             {    
+              /* Get All Shops Listing */   
+                
+                Ext.Ajax.request({
+                    url: serviceUrl+'get_product'+'/shops',
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Accept': 'application/json',                    
+                        "cache-control": "no-cache"
+                    },
+                    callbackKey: 'callback', 
+                    timeout : 6000,
+                    method: 'GET',                
+                  
+                    withCredentials: false,
+                    useDefaultXhrHeader: false,
+                    success: function(response) {      
+                        try{
+                            
+                            response = Ext.decode(response.responseText) 
+                            var store = Ext.getStore('allshopsStoreId');
+                            //console.log(store);   
+                            store.setData(response);
+                        }catch(err){
+                            // console.log(err)
+                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        }
+                    },                     
+                    failure: function(response) {
+                        //response = Ext.decode(response.responseText)
+                        Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    },
+                    callback:function(response)
+                    {
+                        //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    }
+                });
+                
             Ext.Viewport.setActiveItem({
                 xtype: 'shopsview'                 
             }); 
+            
+            
+            
+             
         }
         else
             {
