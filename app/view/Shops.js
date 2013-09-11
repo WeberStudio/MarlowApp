@@ -7,9 +7,11 @@ Ext.define('MarlowApp.view.Shops', {
         items : [{
                 xtype: 'list',
                 inline: true,
+                grouped: true,  
                 id:'list',
                 store :'allshopsStoreId',
-                itemTpl: '<div class="contact">{name} </div>',               
+                itemTpl: '<div class="contact">{name} </div>',
+                             
         }]
     }   
 });
