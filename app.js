@@ -33,8 +33,8 @@ Ext.application({
     controllers: [
         'LoginC', 'DashboardC'
     ], 
-    models: [],   
-    stores: [],  
+    models: ['SignupInfoM'],   
+    stores: ['SignupInfoS'],  
 
     icon: {
         '57': 'resources/icons/Icon.png',

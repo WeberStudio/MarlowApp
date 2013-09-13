@@ -16,8 +16,8 @@ Ext.define('MarlowApp.controller.LoginC', {
     extend: 'Ext.app.Controller',
     requires: ['Ext.data.JsonP','Ext.Ajax'],
     config: {
-        // models: ['AboutMe'],
-        //stores: ['aboutme'],     
+        // models: ['SignupInfoM'],
+        //stores: ['SignupInfoS'],     
         views : ['Signup'],        
         refs: {
             // Default Controllers refering to the unique elements in the app
@@ -81,13 +81,21 @@ Ext.define('MarlowApp.controller.LoginC', {
                 useDefaultXhrHeader: false,
                 success: function(response) 
                 {      
+                     
+                    //response = Ext.decode(response.responseText);
+                    //console.log(response[0].email);      
                     try{
-                        response = Ext.decode(response.responseText)
-                         console.log(response);
+                        
+                        response = Ext.decode(response.responseText);
+                        Ext.getStore("SignupInfoStore").setData(response[0]);                        
+                        //console.log(Ext.getStore("SignupInfoStore"));
+                        app.application.redirectTo('dashboard');
                        
-
-                    }catch(err){
-                        // console.log(err)
+                      // Ext.Viewport.add(Ext.create('MarlowApp.view.Dashboard'));                               
+                    }
+                    catch(err)
+                    {
+                        //console.log(err)
                         Ext.Msg.alert('No internet connection available', 'No internet connection available')
                     }
                 },                     

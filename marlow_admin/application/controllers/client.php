@@ -24,7 +24,7 @@ class client extends CI_Controller{
         //print_r($decode); 
         $get            = $this->Client_model->login($decode['email'] , $decode['password']); 
        // print_r($get);      
-        echo $count          = count($get);
+        $count          = count($get);
         if($count >=1)
         {   
             $get        = json_encode($get);
