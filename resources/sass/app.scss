@@ -5,6 +5,7 @@ $base-gradient-matte: 'glossy';
 $base-gradient-bevel: 'glossy';
 $active-color: #0091AD; 
 
+
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
@@ -12,6 +13,10 @@ $active-color: #0091AD;
 @import 'sencha-touch/default/all';
 
 // Custom code goes here..
+
+.x-list-normal .x-list-item.x-list-item-tpl,.x-list-normal .x-list-item .x-dock-horizontal{border-top:none;}
+.x-list-normal .x-list-item.x-list-item-tpl.x-list-footer-wrap,.x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal{border-bottom:none;}
+#ext-element-111 .x-list-item-first .x-list-header-wrap .x-list-item .x-stretched .x-list-item-tpl .x-list-item-relative div.contact { margin-left: 200px; }
 
 // Examples of using the icon mixin:
 // @include icon('user');

@@ -9,21 +9,22 @@ Ext.define('MarlowApp.view.Dashboard', {
                         xtype: 'list',
                         inline: true,
                         id:'list',
-                        itemTpl: '<div class="contact">{img}{title} </div>',
+                        itemTpl: '<div class="contact"  style = "font-size: 36px; color: white; font-weight: bolder;" >{img}{title} </div>',
                         style: "background-image:url('resources/images/home_night.gif'); background-size: 100% 100%;",
                         data   : [
                             { 
-                                title: 'SNAP IT',  
-                                img:  '<img src="resources/images/marlow_icons/snap-it-icon.png" alt = "" style = "margin-left: 35px; margin-top: 270px; margin-bottom: -15px; height: auto; width: 25%;" />', 
+                                title: 'SNAP IT ',  
+                                img:  '<img src="resources/images/marlow_icons/snap-it-icon.png" alt = "" style = "margin-left: 60px; margin-top: 270px; margin-bottom: -15px; padding-right: 30px; width: 25%;" />', 
                             },
                             { 
                                 title: 'SHOPS',
-                                img:  '<img src="resources/images/marlow_icons/shops-icon.png" alt = "" style = "margin-left: 35px; width: 25%; margin-bottom: -15px" />' 
+                                img:  '<img src="resources/images/marlow_icons/shops-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;" />' 
                             },
                             { 
                                 title: 'MY LIST',
-                                img:  '<img src="resources/images/marlow_icons/my-list-icon.png" alt = "" style = "margin-left: 35px; width: 25%; margin-bottom: -15px"/>' 
-                            },                            
+                                img:  '<img src="resources/images/marlow_icons/my-list-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;"/>' 
+                            },
+							                            
                         ],
                         fullscreen: true,
                         listeners:

@@ -86,5 +86,13 @@ class client extends CI_Controller{
         $product_encode             = json_encode($all_product);
         echo $product_encode;         
     }
+    
+    function get_mylist_record()
+    {
+      $all_product                = $this->Client_model->get_my_listing_record();
+      
+      $product_encode             = json_encode($all_product);
+      echo $product_encode;  
+    }
 }
 ?>
