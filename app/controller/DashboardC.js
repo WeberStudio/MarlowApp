@@ -121,7 +121,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
                         //geting product from db 
             Ext.Ajax.request({
-                url: serviceUrl+'get_product'+'/products',
+                url: serviceUrl+'get_mylist_record',
                 headers: {
                     "Content-Type": "application/json",
                     'Accept': 'application/json',                    
@@ -137,7 +137,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     try{
                         response    = Ext.decode(response.responseText)
                         var store   = Ext.getStore('all_productsid');
-                        store.setData(response);                        
+                        store.setData(response);
+                        //console.log(response);                        
                     }catch(err){
                         // console.log(err)
                         Ext.Msg.alert('No internet connection available', 'No internet connection available')
