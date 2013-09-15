@@ -23,9 +23,14 @@ Ext.application({
     name: 'MarlowApp',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.form.FieldSet',
+         'Ext.field.Password'
+         
     ],
-      
+    
+   
+     
     views: [
         'Main', 'Signup', 'Dashboard', 'SnapIt', 'Shops', 'MyItemList' , 'AddNote'
     ],
@@ -33,8 +38,9 @@ Ext.application({
     controllers: [
         'LoginC', 'DashboardC'
     ], 
+    
     models: ['SignupInfoM'],   
-    stores: ['SignupInfoS'],  
+    stores: ['SignupInfoS'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -58,7 +64,7 @@ Ext.application({
         // Destroy the #appLoadingIndicator element
         app = this;
         serviceUrl = 'http://localhost/MarlowApp/marlow_admin/client/';
-        imgPath    = 'http://localhost/MarlowApp/resources/icons/';
+        
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view

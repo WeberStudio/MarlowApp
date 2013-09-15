@@ -3,8 +3,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
-        models: ['all_products', 'Shops_Model'],         
-        stores: ['all_products', 'Shops_Store'],         
+        models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
+        stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
         views : ['Dashboard', 'SnapIt', 'Shops', 'MyItemList', 'AddNote'],     
         refs: {
             
@@ -17,7 +17,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'snapit'        : 'snapIt',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
-            'addnote'       : 'addnoteview'   
+            'addnote'       : 'addnoteview',
             
         }                                    
     },

@@ -1,23 +1,21 @@
-Ext.define('MarlowApp.view.Shops', {
+Ext.define('MarlowApp.view.Shops', {  
 	extend: 'Ext.navigation.View', 
-	xtype:'shopsview',
-
+	xtype:'shopsview', 
+    
 	config: 
 	{	
 		id:'shopid',
-
-	items : [
-	{
-		xtype: 'list',
-		//inline: true,
-		grouped: true,  
-	id:'list',
-	
-	store :'allshopsStoreId',
-	itemTpl: '<div class="contact">{name} </div>',
-		 
-	},
-
-]
-}   
+	    items : 
+        [
+	        {
+		        xtype: 'list',
+		        grouped: true,  
+	            id:'list',
+                height :'100%',	
+	            store :'allshopsStoreId',
+	            itemTpl: '<div class="contact">{name}</div>',
+		         
+	        },
+        ]       
+    }             
 });

@@ -21,8 +21,7 @@ Ext.define('MarlowApp.view.SnapIt', {
             },
             {
                 title: 'Shops',
-                iconCls: 'list',
-                 
+                iconCls: 'list',                 
                 styleHtmlContent: true,
                 scrollable: true,
                 items: {

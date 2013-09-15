@@ -135,27 +135,27 @@ Ext.define('MarlowApp.view.Signup', {
                 var fname = Ext.getCmp("fnametxt").getValue();
                  if(fname == '')
                  {
-                    Ext.Msg.alert('', 'Please enter the First Name.');
+                    Ext.Msg.alert('Please enter the First Name.', 'Please enter the First Name.');
                     return false   
                  }
                  
                  
                 if(/[ ,*,?,/,-,_,=,#,$,%,^,&,*,@.:,<,>,+,!,~,(,),{,},[,]]/.test(fname))
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in First Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in First Name.', 'Empty spaces and  special characters are not allowed in First Name.');
                     return false;
                 } 
          
                 if(/[0-9]/.test(fname))
                     {
-                    Ext.Msg.alert('', 'Numbers are not allowed in First Name.');
+                    Ext.Msg.alert('Numbers are not allowed in First Name.', 'Numbers are not allowed in First Name.');
                     return false      
                 }
                var allowchracter = /^[a-zA-Z\_]+$/g;
               // console.log((allowchracter.test(lname)))
                if(!(allowchracter.test(fname))) 
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in First Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in First Name.', 'Empty spaces and  special characters are not allowed in First Name.');
                     return false;
                 }                   
               
@@ -163,27 +163,27 @@ Ext.define('MarlowApp.view.Signup', {
                 var lname = Ext.getCmp('lnametxt').getValue();                
                 if(lname == '')
                 {
-                    Ext.Msg.alert('', 'Please enter the Last Name.');
+                    Ext.Msg.alert('Please enter the Last Name', 'Please enter the Last Name.');
                     return false   
                 }
                       
                 
                if(/[ ,*,?,/,-,_,=,#,$,%,^,&,*,@.:,<,>,+,!,~,(,),{,},[,]]/.test(lname))
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Last Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in Last Name.', 'Empty spaces and  special characters are not allowed in Last Name.');
                     return false;
                 } 
          
                 if(/[0-9]/.test(lname))
                     {
-                    Ext.Msg.alert('', 'Numbers are not allowed in Last Name.');
+                    Ext.Msg.alert('Numbers are not allowed in Last Name.', 'Numbers are not allowed in Last Name.');
                     return false      
                 }
                var allowchracter = /^[a-zA-Z\_]+$/g;
               // console.log((allowchracter.test(lname)))
                if(!(allowchracter.test(lname))) 
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Last Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in Last Name.', 'Empty spaces and  special characters are not allowed in Last Name.');
                     return false;
                 }                   
               
@@ -260,7 +260,8 @@ Ext.define('MarlowApp.view.Signup', {
                             'Accept': 'application/json',
                             "cache-control": "no-cache"
                         },
-                        
+                        withCredentials: false,
+                        useDefaultXhrHeader: false,
                         timeout : 60000,
                         method: 'POST',
                         jsonData: {

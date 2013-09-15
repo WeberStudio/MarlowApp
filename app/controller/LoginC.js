@@ -69,6 +69,8 @@ Ext.define('MarlowApp.controller.LoginC', {
                     'Accept': 'application/json',                    
                     "cache-control": "no-cache"
                 },
+                 withCredentials: false,
+                 useDefaultXhrHeader: false,
                 callbackKey: 'callback', 
                 timeout : 6000,
                 method: 'POST',                
@@ -144,87 +146,30 @@ Ext.define('MarlowApp.controller.LoginC', {
         } 
     } ,
     
-    
-    setGoalsView:function(){ 
-        if(Ext.Viewport.getComponent('setgoalId') == undefined)
-            {    
-            Ext.Viewport.setActiveItem({
-                xtype: 'setgoalView'                 
-            }); 
-        }
-        else
-            {
-            Ext.Viewport.setActiveItem(Ext.getCmp('setgoalId'));     
-        }  
-        var lname     = Ext.getCmp('lnametxt').getValue();
-        var birthday  = Ext.getCmp('birthdaytxt').getValue();
-        var gender    = '';
-        var ssnNumber = Ext.getCmp('ssntxt').getValue();
-        var isParticipate = '';
-        if(document.getElementById("maleRadio").checked == true)
-            {
-            gender = 'Male'  
-        }
-        else if(document.getElementById("femaleRadio").checked == true)
-            {
-            gender = 'Female'  
-        }
-        if(document.getElementById("yesRadio").checked == true)
-            {
-            isParticipate = true
-        }
-        else if(document.getElementById("noRadio").checked == true)
-            {
-            isParticipate = false  
-        }
-        var companyCode      = Ext.getCmp('companyCodetxt').getValue();
-        var newpassword      = Ext.getCmp('newpasswordtxt').getValue();
-        var newuserName      = Ext.getCmp('newuserNametxt').getValue();
-        var confirmPassword  = Ext.getCmp('confirmPasswordtxt').getValue(); 
-        Ext.getCmp('setlnametxt').setValue(lname); 
-        Ext.getCmp('setusernametxt').setValue(newuserName); 
-        Ext.getCmp('setpasswordtxt').setValue(newpassword); 
-        Ext.getCmp('setconfirmtxt').setValue(confirmPassword); 
-    },
-    
-    
-    setcaloriesView:function(){ 
-        if(Ext.Viewport.getComponent('setcaloriesId')== undefined)
-            {    
-            Ext.Viewport.setActiveItem({
-                xtype: 'setcaloriesView'                 
-            }); 
-        }
-        else
-            {
-            Ext.Viewport.setActiveItem(Ext.getCmp('setcaloriesId'));     
-        } 
-
-    },
-    
-    
+        
     onButtonTapsignup:function()
     {
         ///// signup  initial
-        var birthday  = Ext.getCmp('birthdaytxt').getValue();
         var gender    = '';
-        var ssnNumber = Ext.getCmp('ssntxt').getValue();
         var isParticipate = '';
         var companyCode = ''
+        var birthday  = Ext.getCmp('birthdaytxt').getValue();       
+        var ssnNumber = Ext.getCmp('ssntxt').getValue(); 
+               
         if(document.getElementById("maleRadio").checked == true)
-            {
+        {
             gender = 'Male'  
         }
         else if(document.getElementById("femaleRadio").checked == true)
-            {
+        {
             gender = 'Female'  
         } 
         if(document.getElementById("yesRadio").checked == true)
-            {
+        {
             isParticipate = true
         }
         else if(document.getElementById("noRadio").checked == true)
-            {
+        {
             isParticipate = false 
             companyCode      = Ext.getCmp('companyCodetxt').getValue(); 
         }
