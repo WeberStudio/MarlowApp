@@ -5,7 +5,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote'],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote' ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
