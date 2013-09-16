@@ -4,25 +4,29 @@ Ext.define('MarlowApp.view.Dashboard', {
     inline: true,
     requires: [ 'Ext.dataview.List' ],
     config: {
+		fullscreen: true,
+		navigationBar: {
+		hidden: true
+		},
               tabBarPosition: 'bottom',
         items : [{
                         xtype: 'list',
                         inline: true,
                         id:'list',
                         itemTpl: '<div class="contact"  style = "font-size: 36px; color: white; font-weight: bolder;" >{img}{title} </div>',
-                        style: "background-image:url('resources/images/home_night.gif'); background-size: 100% 100%;",
+                        style: "background-image:url('resources/images/marlow-back/home_night.gif'); background-size: 100% 100%;",
                         data   : [
                             { 
                                 title: 'SNAP IT ',  
-                                img:  '<img src="resources/images/marlow_icons/snap-it-icon.png" alt = "" style = "margin-left: 60px; margin-top: 270px; margin-bottom: -15px; padding-right: 30px; width: 25%;" />', 
+                                img:  '<img src="resources/images/marlow/snap-it-icon.png" alt = "" style = "margin-left: 60px; margin-top: 270px; margin-bottom: -15px; padding-right: 30px; width: 25%;" />', 
                             },
                             { 
                                 title: 'SHOPS',
-                                img:  '<img src="resources/images/marlow_icons/shops-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;" />' 
+                                img:  '<img src="resources/images/marlow/shops-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;" />' 
                             },
                             { 
                                 title: 'MY LIST',
-                                img:  '<img src="resources/images/marlow_icons/my-list-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;"/>' 
+                                img:  '<img src="resources/images/marlow/my-list-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;"/>' 
                             },
 							                            
                         ],

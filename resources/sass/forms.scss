@@ -1,0 +1,25 @@
+@mixin form-settings {
+
+	.custom-form-labels   {
+	
+		.x-form-field {
+		
+			color: #1283B8;
+			font-family: 'Calibri';
+			font-size: 22px;
+			font-weight: lighter;
+			height: 100px;
+		}
+		
+		.x-form-label {
+			
+			color: black;
+			font-family: 'Calibri' !important;
+			font-size: 22px !important;
+			font-weight: lighter !important;
+			height: 100px;
+			
+		}
+		
+	}
+}

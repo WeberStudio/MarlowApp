@@ -32,7 +32,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'SnapIt', 'Shops', 'MyItemList' , 'AddNote'
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote'
     ],
     
     controllers: [
