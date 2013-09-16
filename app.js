@@ -63,7 +63,7 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl = 'http://localhost/MarlowApp/marlow_admin/client/';
+        serviceUrl = 'http://192.168.1.6/MarlowApp/marlow_admin/client/';
         
         Ext.fly('appLoadingIndicator').destroy();
 
