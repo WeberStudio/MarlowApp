@@ -26,7 +26,8 @@ Ext.define('MarlowApp.view.Shops', {
 					xtype: 'button',
 					align: 'left',
                     text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
-					cls: 'custom-button'
+					cls: 'custom-button',
+					//action: 'showPopup',
 				},
 				{	
 					xtype: 'button',

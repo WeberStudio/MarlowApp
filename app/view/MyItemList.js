@@ -2,7 +2,7 @@ Ext.define('MarlowApp.view.MyItemList', {
     extend: 'Ext.navigation.View', 
     xtype:'myitemlistview',
     //inline: true,
-    requires: [ 'Ext.dataview.List','Ext.dataview.component.SimpleListItem','' ],
+    requires: [ 'Ext.dataview.List' ],
     
     config: {
     navigationBar: {hidden: true},
