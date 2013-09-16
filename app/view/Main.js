@@ -1,23 +1,22 @@
 Ext.define('MarlowApp.view.Main', {
     extend: 'Ext.Container',
     xtype: 'main',
-    //html: '<img style="height: 100px; width: 100px;" src="assets/marlow.gif" />',
-    style: "background-image:url(resources/images/marlow_background.gif)",
-	
-	
+	cls: 'custom-page-bg',	
       config: {
 		
         id:'loginId',
+		fullscreen: true,
+		navigationBar: {
+			hidden: true
+		},
 		
        	scrollable : 'vertical',
 		items: [
         {	
 			
-          	xtype: 'tbfill',
+     		xtype: 'toolbar',
             docked: 'top',
-            xtype: 'titlebar',
-            title: '<div class="toolbarLogo">Marlow Window Shopper</div>',
-			style: 'font-family: calibri; font-weight: normal;'
+            title: '<div class="toolbarLogo" style = "font-family: Calibri; font-weight: lighter">Marlow Window Shopper</div>',
         }, 
 		{		
 			xtype: 'container',
@@ -32,7 +31,7 @@ Ext.define('MarlowApp.view.Main', {
 				xtype: 'image',
 				width:218,
 				height:150,
-				src:'resources/images/marlow.gif'
+				src:'resources/images/marlow-back/marlow.gif'
 			}
 			]
 			

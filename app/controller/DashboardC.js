@@ -5,16 +5,23 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'SnapIt', 'Shops', 'MyItemList', 'AddNote'],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote'],     
         refs: {
-            
+           
+            saveNoteId:    '#saveNoteId',
+            saveShopId:    '#list',         
         },
         control: {
-           
+            saveNoteId: {
+                tap: 'onButtonTapNote',
+            },
+             saveShopId: {
+                tap: 'onListTapShop',
+            },
         },
         routes : {
             'dashboard'     : 'dashboardView',
-            'snapit'        : 'snapIt',
+            'snapit'        : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
@@ -40,13 +47,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
         } 
         //Ext.getCmp("ssntxt").blur(); 
     },
-    snapIt:function(){ 
+    
+    snapView:function(){ 
         // console.log(Ext.Viewport.getCmp('sigupId'))
 
         if(Ext.Viewport.getComponent('snapitem') == undefined)
             {    
             Ext.Viewport.setActiveItem({
-                xtype: 'snapIt'                 
+                xtype: 'snapView'                 
             }); 
         }
         else
@@ -56,7 +64,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-     shopsview:function(){ 
+    shopsview:function(){ 
         // console.log(Ext.Viewport.getComponent('shopid'))
 
         if(Ext.Viewport.getComponent('shopid') == undefined)
@@ -113,7 +121,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-     myitemlistview:function(){ 
+    onListTapShop: function(){
+        
+        alert('sdfsfs');
+        
+    },
+    
+    myitemlistview:function(){ 
         // console.log(Ext.Viewport.getComponent('shopid'))
 
         if(Ext.Viewport.getComponent('myitemlistid') == undefined)
@@ -180,6 +194,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('addnoteid'));     
         } 
         //Ext.getCmp("ssntxt").blur(); 
+    },
+    
+    onButtonTapNote:function(){
+        note  = Ext.getCmp('noteTextAreaId').getValue()
+        price = Ext.getCmp('notePriceId').getValue()
+        Ext.getStore("SaveInfoStoreId").add({ note: note, price: price });
+        app.application.redirectTo('shops'); 
+        //SaveInfoStoreId.add({ note: note, price: price }); 
+        // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
     
    
