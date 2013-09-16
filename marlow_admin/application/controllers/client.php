@@ -22,7 +22,7 @@ class client extends CI_Controller{
         // $json_e      = json_encode($userinfo);           
         $decode         = json_decode($data, true);
         //print_r($decode); 
-        $get            = $this->Client_model->login($decode['email'] , $decode['password']); 
+        $get            = $this->Client_model->login($decode['email'] , md5($decode['password'])); 
        // print_r($get);      
         $count          = count($get);
         if($count >=1)
@@ -66,7 +66,7 @@ class client extends CI_Controller{
             $save['fname']          = $firstName;
             $save['lname']          = $lastName; 
             $save['email']          = $email; 
-            $save['password']       = $password;
+            $save['password']       = md5($password);
             $save['gender']         = $gender;
             $save['join_date']      = $date;
             $save['status']         = '1';

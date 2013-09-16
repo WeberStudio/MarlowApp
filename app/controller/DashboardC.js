@@ -21,7 +21,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         },
         routes : {
             'dashboard'     : 'dashboardView',
-            'snapit'        : 'snapView',
+            'snapit'          : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
@@ -49,8 +49,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     snapView:function(){ 
-        // console.log(Ext.Viewport.getCmp('sigupId'))
-
+        
+        // console.log(Ext.Viewport.getCmp('sigupId'))           
         if(Ext.Viewport.getComponent('snapitem') == undefined)
             {    
             Ext.Viewport.setActiveItem({
@@ -70,8 +70,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('shopid') == undefined)
             {    
               /* Get All Shops Listing */   
-                
+                loadMask()
                 Ext.Ajax.request({
+                   
                     url: serviceUrl+'get_product'+'/shops',
                     headers: {
                         "Content-Type": "application/json",
@@ -89,9 +90,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
-                            //console.log(store);   
+                            //console.log(store);
+                             hideloadingMask();   
                             store.setData(response);
                         }catch(err){
+                            hideloadingMask();   
                             // console.log(err)
                             Ext.Msg.alert('No internet connection available', 'No internet connection available')
                         }
@@ -105,14 +108,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
                 });
-                
+            
             Ext.Viewport.setActiveItem({
                 xtype: 'shopsview'                 
             }); 
-            
-            
-            
-             
+                
         }
         else
             {
@@ -133,7 +133,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('myitemlistid') == undefined)
             {
             
-                        //geting product from db 
+             loadMask()       
             Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
@@ -152,9 +152,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         response    = Ext.decode(response.responseText)
                         var store   = Ext.getStore('all_productsid');
                         store.setData(response);
-                        //console.log(response);                        
+                        //console.log(response);
+                        hideloadingMask();                          
                     }catch(err){
                         // console.log(err)
+                        hideloadingMask();  
                         Ext.Msg.alert('No internet connection available', 'No internet connection available')
                     }
                 },                     

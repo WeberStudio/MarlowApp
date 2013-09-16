@@ -3,9 +3,7 @@ Ext.define('MarlowApp.view.Snap', {
     xtype:'snapView',     
     config: {
         
-        id:'snapId',
-       
-        
+        id:'snap',      
         
      }
 });
