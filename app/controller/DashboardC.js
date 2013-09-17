@@ -48,18 +48,20 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-    snapView:function(){ 
-        
-        // console.log(Ext.Viewport.getCmp('sigupId'))           
-        if(Ext.Viewport.getComponent('snapitem') == undefined)
-            {    
-            Ext.Viewport.setActiveItem({
-                xtype: 'snapView'                 
-            }); 
+    snapView:function(){
+            
+        if(Ext.Viewport.getComponent('snapId') == undefined)
+        {            
+                Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
+                //console.log(Ext.getStore("SaveInfoStoreId"));     
+                Ext.Viewport.setActiveItem
+                ({
+                    xtype: 'snapView'                 
+                }); 
         }
         else
-            {
-            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));     
+        {
+                Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));     
         } 
         //Ext.getCmp("ssntxt").blur(); 
     },

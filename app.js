@@ -33,7 +33,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote'
+        'Main', 'Signup', 'Dashboard', 'Shops', 'MyItemList' , 'AddNote'
     ],
     
     controllers: [
@@ -64,8 +64,8 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl = 'http://localhost/MarlowApp/marlow_admin/client/';
-        
+        serviceUrl  = 'http://localhost/MarlowApp/marlow_admin/client/';
+        snapSrc     = '';
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
