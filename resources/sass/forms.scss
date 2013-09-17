@@ -20,6 +20,35 @@
 			height: 100px;
 			
 		}
+	}
+	
+	.custom-share-indivisual-inner-text .x-form-label {
+	
+		font-family: 'Calibri' !important;
+		font-weight: lighter !important;
+		font-size: 24px !important;
 		
+	}
+	
+	.custom-share-indivisual-inner-text .x-input-text {
+	
+		margin-top: 16px;
+	}
+	
+	.custom-form-alert {
+		
+		background-image: linear-gradient(bottom, rgb(220,239,242) 29%, rgb(227,227,227) 65%);
+		background-image: -o-linear-gradient(bottom, rgb(220,239,242) 29%, rgb(227,227,227) 65%);
+		background-image: -moz-linear-gradient(bottom, rgb(220,239,242) 29%, rgb(227,227,227) 65%);
+		background-image: -webkit-linear-gradient(bottom, rgb(220,239,242) 29%, rgb(227,227,227) 65%);
+		background-image: -ms-linear-gradient(bottom, rgb(220,239,242) 29%, rgb(227,227,227) 65%);
+		
+		background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.29, rgb(220,239,242)),
+		color-stop(0.65, rgb(227,227,227))
+		);		
 	}
 }

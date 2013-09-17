@@ -32,10 +32,10 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel'  ],
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual'  ],
     
     controllers: [
-        'LoginC', 'DashboardC', 'ConfirmDelC' ], 
+        'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'ShareIndivisualC' ], 
     
     models: ['SignupInfoM'],   
     stores: ['SignupInfoS'],

@@ -5995,6 +5995,11 @@ body.x-desktop {
   border-bottom: none;
 }
 
+.custom-share-inner-text .x-innerhtml {
+  border-bottom: #CFCFCF 1px solid;
+  color: #0079FF;
+}
+
 .custom-button {
   border: none !important;
   background-color: inherit !important;
@@ -6011,6 +6016,19 @@ body.x-desktop {
   border-top: #C5C5C5 1px solid !important;
 }
 
+.custom-share-toolbar {
+  height: 15%;
+  border-bottom: #C0C0C0 solid 1px;
+  font-size: 20px;
+  font-weight: lighter;
+  background-image: linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
+  background-image: -o-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
+  background-image: -moz-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
+  background-image: -webkit-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
+  background-image: -ms-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.08, #dfe8f0), color-stop(1, #f5f5f5));
+}
+
 .custom-form-labels .x-form-field {
   color: #1283B8;
   font-family: 'Calibri';
@@ -6024,6 +6042,25 @@ body.x-desktop {
   font-size: 22px !important;
   font-weight: lighter !important;
   height: 100px;
+}
+
+.custom-share-indivisual-inner-text .x-form-label {
+  font-family: 'Calibri' !important;
+  font-weight: lighter !important;
+  font-size: 24px !important;
+}
+
+.custom-share-indivisual-inner-text .x-input-text {
+  margin-top: 16px;
+}
+
+.custom-form-alert {
+  background-image: linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
+  background-image: -o-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
+  background-image: -moz-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
+  background-image: -webkit-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
+  background-image: -ms-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.29, #dceff2), color-stop(0.65, #e3e3e3));
 }
 
 .custom-page-bg {
