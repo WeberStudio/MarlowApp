@@ -10,7 +10,9 @@ Ext.define('MarlowApp.view.Shops', {
         hidden: true
     	},
 		
-
+        
+        
+        
 	items : [
 	{
             xtype: 'toolbar',
@@ -27,13 +29,21 @@ Ext.define('MarlowApp.view.Shops', {
 					align: 'left',
                     text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
 					cls: 'custom-button',
-					action: 'shareindivisual',
+                    handler:function()
+                    {
+                          app.application.redirectTo('addnote')
+                    }
 				},
 				{	
 					xtype: 'button',
 					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
 					align: 'right',
-					cls: 'custom-button'
+					cls: 'custom-button',
+                    handler:function()
+                    {
+                          app.application.redirectTo('snapit')
+                    }
+                
 				} 
             ]
 	},
@@ -51,14 +61,14 @@ Ext.define('MarlowApp.view.Shops', {
                 {
                     xtype: 'img',
                     iconAlign: 'center',
-                    html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+                    html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
                     iconMask: true,
 					title: 'Snap It'
                 },
                 {
                     xtype: 'img',
                     iconAlign: 'center',
-                    html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+                    html: '<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">',
                     iconMask: true,
 					title: 'Shops'
                 },
@@ -89,6 +99,7 @@ Ext.define('MarlowApp.view.Shops', {
 		indexBar: true,
 	
 	},
+    
 
 ]
 }   

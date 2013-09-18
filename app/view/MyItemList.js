@@ -23,15 +23,27 @@ Ext.define('MarlowApp.view.MyItemList', {
                                 xtype: 'button',
                                 align: 'left',
                                 text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> </span> ',
-                                cls: 'custom-button'
+                                cls: 'custom-button',
+                                itemId: 'loginButton',
                             },
                             {    
                                 xtype: 'button',
                                 text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
                                 align: 'right',
-                                cls: 'custom-button'
-                            } 
-                        ]
+                                cls: 'custom-button',
+                                listeners: 
+                                        {
+                                        painted: function ( btn , e, eOpts ) {
+                                        btn.on('tap', function () {
+                                        app.application.redirectTo('deleteitems'); 
+                                        });
+                                        }}
+                            }
+                            
+                            
+                        ],
+
+                         
                 },
         
                  {
@@ -86,17 +98,20 @@ Ext.define('MarlowApp.view.MyItemList', {
                     id:'list',
                     itemTpl: [
                             '<tpl for=".">',
-                            //'<div class="tweet">',
-                            '<img src="resources/icons/Icon@2x.png" alt = "" style = "float: left; padding-right: 20px; width: 30%; height: auto;" />',
-                            //'<div style = "float: right;">',
-                            '<p style = "text-align: justify; word-wrap:normal; ">{note}</p><br>',
-                            '<b style = "text-align: justify; word-wrap:normal; float: left;">{price}</b>',
-                            //'</div>',
-                            //'</div>',
+                            '<div class="tweet" style = "float: left;">',
+                            '<div style = "float: left;">', 
+                            '<div style = "float: left;"><img src="resources/icons/Icon@2x.png" alt = ""  /></div>',
+                            '<div style = "float: left;">',
+                            '<p style = "">{note}</p><br>',
+                            '<b>{price}</b>',
+                            '</div>',
+                            '</div>',
+                            '</div>',
                             '</tpl>'
                             ]
                     }
         ]
-        }
+        },
+     
 
 });

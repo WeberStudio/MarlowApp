@@ -2,8 +2,59 @@
 
 	.custom-button  {
 	
-		border: none !important;
-		background-color: inherit !important;
+		border              : none !important;
+		background-color    : inherit !important;
 	}
+    .share_button
+    {  
+        border              : none !important;
+        background-color    : #fff !important;
+        width               :50% !important;
+        color               : #1569C7 !important;
+        font-weight         : normal;
+        float               : left;
+        border-radius       : 0px;
+        top                 : -40px;   
+    }
+    .share_button span.x-button-label
+    {
+        font-weight: lighter;    
+    } 
+    final_img
+    {
+        width               : 100%;
+        height              : 10%;
+    }
+    .overlap_text
+    {
+       position: relative;
+       top: -120px;
+ 
+    }
+    .delete_btn
+    {
+       color               : #F75D59 !important;
+       background-color    : #fff !important;
+       border              : none !important;
+       border-radius       : 0px;
+       font-size           : 27px;  
+    }
+    .cancel_btn
+    {
+       color               : #3090C7 !important;
+       background-color    : #fff !important;
+       border              : none !important;
+       border-radius       : 0px;
+       font-size           : 27px;
+       font-weight         : normal;  
+    }
+    
+    .x-item-selected
+    {
+        background-color    : #fcd9db !important;
+        color               : black !important;
+    }
+    
+
 }
  

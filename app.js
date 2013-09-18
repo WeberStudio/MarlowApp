@@ -23,10 +23,11 @@ Ext.application({
     name: 'MarlowApp',
 
     requires: [
+       
         'Ext.MessageBox',
-        'Ext.form.FieldSet',
-        'Ext.field.Password'
-         
+        'Ext.form.*',               
+        'Ext.field.*',         
+        'MarlowApp.bootstrap' 
     ],
     
    
@@ -61,8 +62,8 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl = 'http://localhost/MarlowApp/marlow_admin/client/';
-        
+        serviceUrl  = 'http://localhost/MarlowApp/marlow_admin/client/';
+        snapSrc     = '';
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view

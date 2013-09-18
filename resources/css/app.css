@@ -5978,6 +5978,22 @@ body.x-desktop {
   color: black;
 }
 
+.tweet-wrapper h2 {
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.tweet-wrapper img {
+  border-radius: 5px;
+  float: left;
+}
+.tweet-wrapper .tweet {
+  margin-left: 135px;
+  min-height: 50px;
+}
+.tweet-wrapper .posted {
+  float: right;
+}
+
 .shops-list .x-list-header {
   background-color: white;
   color: black;
@@ -6003,6 +6019,53 @@ body.x-desktop {
 .custom-button {
   border: none !important;
   background-color: inherit !important;
+}
+
+.share_button {
+  border: none !important;
+  background-color: #fff !important;
+  width: 50% !important;
+  color: #1569C7 !important;
+  font-weight: normal;
+  float: left;
+  border-radius: 0px;
+  top: -40px;
+}
+
+.share_button span.x-button-label, .share_button span.x-badge, .share_button .x-hasbadge span.x-badge, .x-hasbadge .share_button span.x-badge {
+  font-weight: lighter;
+}
+
+final_img {
+  width: 100%;
+  height: 10%;
+}
+
+.overlap_text {
+  position: relative;
+  top: -120px;
+}
+
+.delete_btn {
+  color: #F75D59 !important;
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 0px;
+  font-size: 27px;
+}
+
+.cancel_btn {
+  color: #3090C7 !important;
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 0px;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.x-item-selected {
+  background-color: #fcd9db !important;
+  color: black !important;
 }
 
 .top-toolbar .x-innerhtml {
