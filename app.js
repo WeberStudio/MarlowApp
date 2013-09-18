@@ -32,7 +32,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote'
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote' , 'AddToList'
     ],
     
     controllers: [
@@ -63,7 +63,7 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl = 'http://192.168.1.6/MarlowApp/marlow_admin/client/';
+        serviceUrl = 'http://localhost/MarlowApp/marlow_admin/client/';
         
         Ext.fly('appLoadingIndicator').destroy();
 
