@@ -1,5 +1,6 @@
 Ext.define('MarlowApp.controller.DashboardC', {
     extend: 'Ext.app.Controller',
+	require: ['Ext.Img'],
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
@@ -88,6 +89,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     shopsview:function(){ 
+		
+		/*if(Ext.Viewport.setActiveItem(Ext.getCmp('shopsView'))) {
+			
+			if(Ext.Viewport.getCmp('shops-id') == undefined) {
+				
+				this.getComponent('shops-id').setSrc('abc.png');
+				
+			}
+		}*/
         // console.log(Ext.Viewport.getComponent('shopid'))
 
         if(Ext.Viewport.getComponent('shopid') == undefined)
@@ -113,9 +123,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
-                            //console.log(store);
+                            
                              hideloadingMask();   
                             store.setData(response);
+							console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)

@@ -54,28 +54,48 @@ Ext.define('MarlowApp.view.Snap', {
 					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
 					iconMask: true,
-					title: 'Snap It'
+					title: 'Snap It',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('snapit')
+					},
+					},
 				},
 				{
 					xtype: 'img',
 					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
 					iconMask: true,
-					title: 'Shops'
+					title: 'Shops',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('shops')
+					},
+					},
 				},
 				{
 					xtype: 'img',
 					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
 					iconMask: true,
-					title: 'My List'
+					title: 'My List',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('mylist')
+					},
+					},
 				},
 				{
 					xtype: 'img',
 					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
 					iconMask: true,
-					title: 'Info'
+					title: 'Info',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('info')
+					},
+					},
 				}
 			]
 		},

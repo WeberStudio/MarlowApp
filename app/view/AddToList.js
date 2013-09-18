@@ -1,7 +1,11 @@
 Ext.define('MarlowApp.view.AddToList', {
 	//extend: 'Ext.Panel', 
+	require: ['Ext.Img'],
 	extend: 'Ext.Panel', 
     xtype:'addtolistView', 
+	//constructor: function() {
+		//alert(this.self.getName()); // alerts 'My.cool.Class'
+	//},
     
     config: {
         
@@ -32,34 +36,64 @@ Ext.define('MarlowApp.view.AddToList', {
 		},
 			items: [
 				{
-					xtype: 'img',
-					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
-					iconMask: true,
-					title: 'Snap It'
+				xtype: 'img',
+				iconAlign: 'center',
+				html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+				iconMask: true,
+				id: 'snap-it-id',
+				title: 'Snap It',
+				
+				listeners: {
+					tap: function() {
+					app.application.redirectTo('snapit')
+					window.location.reload();
+					},
 				},
-				{
-					xtype: 'img',
-					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
-					iconMask: true,
-					title: 'Shops'
+			},
+			{
+				xtype: 'img',
+				iconAlign: 'center',
+				html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+				iconMask: true,
+				title: 'Shops',
+				itemId: 'shops-id',
+				listeners: {
+					tap: function() {
+						app.application.redirectTo('shops')
+						window.location.reload();
+					},
+					
 				},
-				{
-					xtype: 'img',
-					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
-					iconMask: true,
-					title: 'My List'
+			},
+			{
+				xtype: 'img',
+				iconAlign: 'center',
+				html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+				iconMask: true,
+				id: 'my-list-id',
+				title: 'My List',
+				listeners: {
+					tap: function() {
+					app.application.redirectTo('mylist')
+					window.location.reload();
+					},
 				},
-				{
-					xtype: 'img',
-					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
-					iconMask: true,
-					title: 'Info'
-				}
-			]
+			},
+			{
+				xtype: 'img',
+				iconAlign: 'center',
+				html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
+				iconMask: true,
+				id: 'info-id',
+				title: 'Info',
+				listeners: {
+					tap: function() {
+					app.application.redirectTo('info')
+					window.location.reload();
+					},
+				},
+			}
+						]
 		},
 
 		{
@@ -77,6 +111,11 @@ Ext.define('MarlowApp.view.AddToList', {
 					align: 'left',
 					text: 'Scan another item',
 					cls: 'custom-white-button',
+					handler:function()
+					{
+						app.application.redirectTo('snapit')
+					}
+
 					
 				},
 				{
