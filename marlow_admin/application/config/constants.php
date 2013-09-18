@@ -37,7 +37,7 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 define('URL','http://localhost/MarlowApp/marlow_admin/');
-define('IMG',URL.'assets/img/');
+define('IMG',URL.'assets/images/');
 define('CSS',URL.'assets/css/');
 define('JS',URL.'assets/js/');
 

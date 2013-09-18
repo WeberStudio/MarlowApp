@@ -17,9 +17,9 @@ class Client_model extends CI_Model {
         
     }
     
-    function register($data , $id = false)
+    function register($data)
     {
-        if($id !="")
+        if($data['id'] !="")
         {
             $this->db->where('id', $id);
             $this->db->update('user_info', $data);
@@ -38,6 +38,7 @@ class Client_model extends CI_Model {
        return count($query);
         
     }
+    
     function get_shop($id=false)
     {
         if($id!='')
@@ -48,6 +49,7 @@ class Client_model extends CI_Model {
         $query = $this->db->get('shops');
         return $query->result(); 
     }
+    
     function get_records($table , $id=false)
     {
         if($id!="")
@@ -61,13 +63,12 @@ class Client_model extends CI_Model {
     
     function get_my_listing_record()
     {
-        $this->db->select('p.id AS product_id, p.user_id, p.note, p.price, p.image, p.brand_id, p.status AS pro_status, s.id AS stop_id, s.name, s.address');
-       
-        $this->db->from('products AS p');
-        $this->db->join('shops AS s', 's.id = p.brand_id');
+        $this->db->select('*');
+        $this->db->from('products');
+        $this->db->join('shops', 'shops.id = products.brand_id');
         $query = $this->db->get(); 
         return $query->result();
-    }  
-      
+    }
+    
 }
 ?>
