@@ -1,11 +1,11 @@
 Ext.define('MarlowApp.view.ShareItem',{
 	requires: ['Ext.Button'],
 	extend: 'Ext.dataview.List',  
-	xtype: 'popupbox',
+	xtype: 'shareitem',
 	height: 270,
 	width: 400,
 	config:{  
-		itemId: 'popbox',  
+		itemId: 'shareitem',  
 		floating: true,  
 		centered: true,  
 		modal: true,  
@@ -30,8 +30,8 @@ Ext.define('MarlowApp.view.ShareItem',{
 					xtype: 'button',
 					align: 'left',
                     text: '<span style = "font-size: 20px; font-weight: lighter; color: #0079FF"> Cancel  </span> ',
+					action: 'hide',
 					cls: 'custom-button',
-					action: 'shareitem',
 				},
             ]
 	},

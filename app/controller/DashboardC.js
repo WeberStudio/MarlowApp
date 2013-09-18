@@ -5,7 +5,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel'],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList'],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -27,6 +27,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
+			'mylist' 		: 'mylistView',
             
         }                                    
     },
@@ -49,6 +50,24 @@ Ext.define('MarlowApp.controller.DashboardC', {
         } 
         //Ext.getCmp("ssntxt").blur(); 
     },
+	
+	mylistView:function(){ 
+		// console.log(Ext.Viewport.getCmp('sigupId'))
+		
+		if(Ext.Viewport.getComponent('mylistid') == undefined)
+		{  
+			Ext.Viewport.setActiveItem({
+			xtype: 'mylistView'
+		});
+		
+		}
+		else
+		{
+			Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
+		} 
+		//Ext.getCmp("ssntxt").blur(); 
+	},
+
     
     snapView:function(){
             

@@ -1,11 +1,11 @@
-Ext.define('MarlowApp.view.AddToList', {
+Ext.define('MarlowApp.view.MyList', {
 	//extend: 'Ext.Panel', 
 	extend: 'Ext.Panel', 
-    xtype:'addtolistView', 
+    xtype:'mylistView', 
     
     config: {
         
-        id :'addtolistid',
+        id :'mylistid',
 		fullscreen                  : true, 
 		scrollable                  : true,
 
@@ -13,14 +13,38 @@ Ext.define('MarlowApp.view.AddToList', {
 			{
 				xtype: 'toolbar',
 				docked: 'top',
-				title: 'The Item has been added to your list.',
+				title: 'My List',
 				cls: 'top-toolbar',
 				layout: {
 				pack: 'justify',
 				type: 'hbox'
 			}, 
+				items: [
+					{
+						xtype: 'button',
+						align: 'left',
+						text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
+						cls: 'custom-button',
+						handler:function()
+						{
+							app.application.redirectTo('dashboard')
+						}
+					},
+					{	
+						xtype: 'button',
+						text: '<span style = "font-size: 18px; font-weight: lighter;"> Delete  </span> ',
+						align: 'right',
+						action: 'deleteitem',
+						cls: 'custom-button',
+/*						handler:function()
+						{
+							app.application.redirectTo('addnote')
+						},
+*/					} 
+				]
+				
 		},
-				{
+		{
 			xtype: 'toolbar',
 			docked: 'bottom',
 			ui: "white",
@@ -75,7 +99,7 @@ Ext.define('MarlowApp.view.AddToList', {
 				{
 					xtype: 'button',
 					align: 'left',
-					text: 'Scan another item',
+					text: 'Edit Notes',
 					cls: 'custom-white-button',
 					
 				},
@@ -83,8 +107,8 @@ Ext.define('MarlowApp.view.AddToList', {
 					xtype: 'button',
 					align: 'right',
 					text: 'Share this item',
-					cls: 'custom-white-button',
 					action: 'shareitem',
+					cls: 'custom-white-button'
 				}
 
 			]

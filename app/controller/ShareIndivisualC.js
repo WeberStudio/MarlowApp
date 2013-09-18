@@ -3,6 +3,7 @@ Ext.define('MarlowApp.controller.ShareIndivisualC',{
 	config:{  
 		refs:  
 		{  
+		
 			popup: {  
 			selector: 'formpanel #popupindivisual',  
 			xtype: 'popupindivisual',  

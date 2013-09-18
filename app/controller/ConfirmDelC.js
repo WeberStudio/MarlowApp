@@ -4,15 +4,15 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
 		refs:  
 		{  
 			popup: {  
-			selector: 'formpanel #popbox',  
-			xtype: 'popupbox',  
+			selector: 'formpanel #deletebox',  
+			xtype: 'deletebox',  
 			autoCreate: true,  
 			}  
 		}  
 	},
 	init: function() {  
 		this.control({  
-			'button[action=showPopup]': {  
+			'button[action=deleteitem]': {  
 				tap: 'showPopup'  
 			},  
 			'button[action=hide]':{  

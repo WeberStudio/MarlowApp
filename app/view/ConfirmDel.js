@@ -1,10 +1,10 @@
 Ext.define('MarlowApp.view.ConfirmDel',{
 	  
 	extend: 'Ext.form.Panel',  
-	xtype: 'popupbox',
+	xtype: 'deletebox',
 
 	config:{  
-		itemId: 'popbox',  
+		itemId: 'deletebox',  
 		floating: true,  
 		centered: true,  
 		modal: true,  
@@ -18,8 +18,8 @@ Ext.define('MarlowApp.view.ConfirmDel',{
 		items:[  
 			{  
 				xtype: 'button',
-				baseCls: 'null',  
-				//action: 'hide',  
+				baseCls: 'null',
+				action: 'hide',  
 				text: 'Cancel',  
 				//ui: 'confirm',  
 				docked: 'bottom',
