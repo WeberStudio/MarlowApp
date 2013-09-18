@@ -29,54 +29,76 @@
                 </div>
                 
                 
-                
+
                 <div class="mws-panel grid_8">
                     <div class="mws-panel-header">
                         <span><i class="icon-ok"></i>You Can Add Product Here</span>
                     </div>
                     <div class="mws-panel-body no-padding">
-                        <form id="mws-validate" class="mws-form" method="post" action="<?php echo URL.'index.php/pages/add_shop/'.$id?>">
+                        <form id="mws-validate" class="mws-form" enctype="multipart/form-data" method="post" action="<?php echo URL.'index.php/pages/add_product/'.$id?>">
                             <div id="mws-validate-error" class="mws-form-message error" style="display:none;"></div>
                             <div class="mws-form-inline">
                                 <div class="mws-form-row">
-                                    <label class="mws-form-label">Name</label>
-                                    <div class="mws-form-item">
-                                        <input type="text" name="name" value="<?php echo $name;?>" class="required large">
+                                        <label class="mws-form-label">Select User</label>
+                                        <div class="mws-form-item">
+                                            <select name="user" class="mws-select2 small">
+                                                <option>Select User</option>
+                                                  <?php
+                                                  if(!empty($user))
+                                                  {
+                                                       foreach($user as $users)
+                                                       {
+                                                       ?>
+                                                       <option value="<?php echo $users->id; ?>" <?php if($user_id == $users->id){echo 'selected';}?>><?php echo $users->fname; ?></option> 
+                                                       <?php
+                                                       }
+                                                  }
+                                                  ?>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="mws-form-row">
+                                        <label class="mws-form-label">Select Shop</label>
+                                        <div class="mws-form-item">
+                                            <select name="shop" class="mws-select2 small">
+                                                <option>Select Shop</option>
+                                                  <?php
+                                                  if(!empty($shop))
+                                                  {
+                                                       foreach($shop as $shops)
+                                                       {
+                                                       ?>
+                                                       <option value="<?php echo $shops->id; ?>"<?php if($brand_id==$shops->id){echo 'selected';}?>><?php echo $shops->name; ?></option> 
+                                                       <?php
+                                                       }
+                                                  }
+                                                  ?>
+                                            </select>
+                                        </div>
+                                    </div>                                  
+                                    <div class="mws-form-row">
+                                        <label class="mws-form-label">Note</label>
+                                        <div class="mws-form-item">
+                                            <textarea name="note" id="cleditor" class="large"><?php echo $note;?></textarea>
+                                        </div>
+                                    </div>
+                                    
                                 <div class="mws-form-row">
-                                    <label class="mws-form-label">Gender</label>
+                                    <label class="mws-form-label">Price</label>
                                     <div class="mws-form-item">
-                                        <ul class="mws-form-list">
-                                            <li><input id="gender_male" type="radio" name="gender" class="required"> <label for="gender_male">Male</label></li>
-                                            <li><input id="gender_female" type="radio" name="gender"> <label for="gender_female">Female</label></li>
-                                        </ul>
-                                        <label for="gender" class="error plain" generated="true" style="display:none"></label>
-                                    </div>
-                                </div>                                <div class="mws-form-row">
-                                    <label class="mws-form-label">Join Date</label>
-                                    <div class="mws-form-item">
-                                        <input type="text" class="mws-datepicker large" readonly="readonly">
+                                        <input name="price" value="<?php echo $price;?>" type="text" name="ageField" class="required digits large">
                                     </div>
                                 </div>
+                                
                                 <div class="mws-form-row">
-                                    <label class="mws-form-label">Email </label>
-                                    <div class="mws-form-item">
-                                        <input type="text" name="email" value="<?php echo $email;?>" class="required email large">
-                                    </div>
+                                        <label class="mws-form-label">Select Image</label>
+                                        <div class="mws-form-item">
+                                            <input type="file" name="image" >
+                                            <?php if($image!=""){?>
+                                            <img src="<?php echo URL.'uploads/'.$image?>" style="height: 30px; width: 30px;">
+                                            <?php }?>
+                                        </div>
                                 </div>
-                                <div class="mws-form-row">
-                                    <label class="mws-form-label">Password</label>
-                                    <div class="mws-form-item">
-                                        <input type="text" name="password" value="<?php echo $address;?>" class="required large">
-                                    </div>
-                                </div>
-                                 <!--<div class="mws-form-row">
-                                    <label class="mws-form-label">Description</label>
-                                    <div class="mws-form-item">
-                                        <input type="text" name="des" value="<?php echo $des;?>" class="required large">
-                                    </div>
-                                </div>-->
                                 
                             </div>
                             <div class="mws-button-row">

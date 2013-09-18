@@ -61,7 +61,7 @@ class Client_model extends CI_Model {
     return $query->result();    
     }
     
-    function get_my_listing_record()
+     function get_my_listing_record()
     {
         $this->db->select('p.id AS product_id, p.user_id, p.note, p.price, p.image, p.brand_id, p.status AS pro_status, s.id AS stop_id, s.name, s.address');
        

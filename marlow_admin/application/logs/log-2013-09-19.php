@@ -8809,3 +8809,11300 @@ DEBUG - 2013-09-19 12:25:07 --> Controller Class Initialized
 DEBUG - 2013-09-19 12:25:07 --> Model Class Initialized
 DEBUG - 2013-09-19 12:25:07 --> Model Class Initialized
 ERROR - 2013-09-19 12:25:07 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:35:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:35:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:35:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:35:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> File loaded: application/views/admin/dashboard.php
+DEBUG - 2013-09-19 12:35:33 --> Final output sent to browser
+DEBUG - 2013-09-19 12:35:33 --> Total execution time: 0.3487
+DEBUG - 2013-09-19 12:35:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:35:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:35:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:35:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:35:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:35:34 --> Model Class Initialized
+ERROR - 2013-09-19 12:35:34 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:36:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:44 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:44 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> File loaded: application/views/admin/dashboard.php
+DEBUG - 2013-09-19 12:36:44 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:44 --> Total execution time: 0.3299
+DEBUG - 2013-09-19 12:36:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:44 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:44 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:44 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:44 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:36:47 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:47 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:47 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:48 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:48 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:48 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:48 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:48 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+DEBUG - 2013-09-19 12:36:48 --> File loaded: application/views/admin/all_users.php
+DEBUG - 2013-09-19 12:36:48 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:48 --> Total execution time: 0.3805
+DEBUG - 2013-09-19 12:36:48 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:48 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:48 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:48 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:48 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:36:50 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:50 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:50 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:50 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:50 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:50 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:50 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:50 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:36:50 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+DEBUG - 2013-09-19 12:36:50 --> File loaded: application/views/admin/all_users.php
+DEBUG - 2013-09-19 12:36:50 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:50 --> Total execution time: 0.3816
+DEBUG - 2013-09-19 12:36:50 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:50 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:50 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:51 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:51 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:51 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:36:52 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:52 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:52 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:52 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> File loaded: application/views/admin/add_user.php
+DEBUG - 2013-09-19 12:36:52 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:52 --> Total execution time: 0.3257
+DEBUG - 2013-09-19 12:36:52 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:52 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:53 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:53 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:53 --> Model Class Initialized
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 154
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 154
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 155
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 155
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 156
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 156
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 157
+ERROR - 2013-09-19 12:36:53 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 157
+DEBUG - 2013-09-19 12:36:53 --> File loaded: application/views/admin/add_user.php
+DEBUG - 2013-09-19 12:36:53 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:53 --> Total execution time: 0.4626
+DEBUG - 2013-09-19 12:36:59 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:59 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:59 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:00 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:00 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:00 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:00 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:37:00 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:37:00 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:37:00 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+DEBUG - 2013-09-19 12:37:00 --> File loaded: application/views/admin/all_users.php
+DEBUG - 2013-09-19 12:37:00 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:00 --> Total execution time: 0.3870
+DEBUG - 2013-09-19 12:37:00 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:00 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:00 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:00 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:01 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:10 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:10 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:10 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:10 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:10 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:10 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:11 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:37:11 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+ERROR - 2013-09-19 12:37:11 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_users.php 87
+DEBUG - 2013-09-19 12:37:11 --> File loaded: application/views/admin/all_users.php
+DEBUG - 2013-09-19 12:37:11 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:11 --> Total execution time: 0.3884
+DEBUG - 2013-09-19 12:37:11 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:11 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:11 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:11 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:11 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:15 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:16 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:16 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:16 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:16 --> Total execution time: 0.3511
+DEBUG - 2013-09-19 12:37:16 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:16 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:16 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:16 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:16 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:17 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:18 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:18 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:18 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 12:37:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:37:23 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:23 --> Total execution time: 0.3826
+DEBUG - 2013-09-19 12:37:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:24 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:24 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+ERROR - 2013-09-19 12:37:24 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+DEBUG - 2013-09-19 12:37:24 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:37:24 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:24 --> Total execution time: 0.4912
+DEBUG - 2013-09-19 12:37:34 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:34 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:34 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:34 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:35 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:35 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:35 --> Total execution time: 0.3466
+DEBUG - 2013-09-19 12:37:35 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:35 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:35 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:35 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:35 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:39 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:40 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:40 --> Total execution time: 0.3292
+DEBUG - 2013-09-19 12:37:40 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:40 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:40 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:42 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:42 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:42 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:42 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:43 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:43 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:43 --> Total execution time: 0.3329
+DEBUG - 2013-09-19 12:37:43 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:43 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:43 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:43 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:43 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:45 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:45 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:45 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:45 --> Total execution time: 0.3286
+DEBUG - 2013-09-19 12:37:45 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:45 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:46 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:46 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:46 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:47 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:47 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:47 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:47 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:47 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:47 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:47 --> Total execution time: 0.3385
+DEBUG - 2013-09-19 12:37:47 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:48 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:48 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:48 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:48 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:50 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:50 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:51 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:51 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:51 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:37:51 --> Final output sent to browser
+DEBUG - 2013-09-19 12:37:51 --> Total execution time: 0.3252
+DEBUG - 2013-09-19 12:37:51 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:51 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:51 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:37:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+DEBUG - 2013-09-19 12:37:51 --> Model Class Initialized
+ERROR - 2013-09-19 12:37:51 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:37:59 --> Config Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:37:59 --> URI Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Router Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Output Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Security Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Input Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:37:59 --> Language Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:37:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:38:00 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:00 --> Total execution time: 0.3440
+DEBUG - 2013-09-19 12:38:00 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:00 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:00 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:00 --> Model Class Initialized
+ERROR - 2013-09-19 12:38:00 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:38:17 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:17 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:17 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:17 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:17 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:18 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:38:18 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:18 --> Total execution time: 0.3386
+DEBUG - 2013-09-19 12:38:18 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:18 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:18 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:18 --> Model Class Initialized
+ERROR - 2013-09-19 12:38:18 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:38:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:38:23 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:23 --> Total execution time: 0.3420
+DEBUG - 2013-09-19 12:38:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:24 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:24 --> Model Class Initialized
+ERROR - 2013-09-19 12:38:24 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:38:29 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:29 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:29 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:38:29 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:29 --> Total execution time: 0.3411
+DEBUG - 2013-09-19 12:38:29 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:29 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:29 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:30 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:30 --> URI Class Initialized
+ERROR - 2013-09-19 12:38:30 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:38:30 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:30 --> Router Class Initialized
+ERROR - 2013-09-19 12:38:30 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 12:38:30 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:38:45 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:45 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:38:46 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:46 --> Total execution time: 0.3621
+DEBUG - 2013-09-19 12:38:46 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:46 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:46 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:46 --> Model Class Initialized
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+ERROR - 2013-09-19 12:38:46 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+DEBUG - 2013-09-19 12:38:46 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:38:46 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:46 --> Total execution time: 0.5058
+DEBUG - 2013-09-19 12:38:56 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:56 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:56 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:56 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> File loaded: application/views/admin/dashboard.php
+DEBUG - 2013-09-19 12:38:57 --> Final output sent to browser
+DEBUG - 2013-09-19 12:38:57 --> Total execution time: 0.3461
+DEBUG - 2013-09-19 12:38:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:38:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Output Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Security Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Input Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:38:57 --> Language Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:38:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:38:57 --> Model Class Initialized
+ERROR - 2013-09-19 12:38:57 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:40:00 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:00 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:00 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:00 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:40:00 --> Final output sent to browser
+DEBUG - 2013-09-19 12:40:01 --> Total execution time: 0.3442
+DEBUG - 2013-09-19 12:40:01 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:01 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:01 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:01 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:01 --> Model Class Initialized
+ERROR - 2013-09-19 12:40:01 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:40:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:02 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:02 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:02 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 12:40:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:23 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 12:40:31 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:31 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:31 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:32 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:32 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:32 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:32 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:32 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 12:40:38 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:38 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:38 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:40:39 --> Final output sent to browser
+DEBUG - 2013-09-19 12:40:39 --> Total execution time: 0.3503
+DEBUG - 2013-09-19 12:40:39 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:39 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:39 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:39 --> Model Class Initialized
+ERROR - 2013-09-19 12:40:39 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:40:40 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:41 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:41 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:41 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 12:40:58 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:58 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:58 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> File loaded: application/views/admin/dashboard.php
+DEBUG - 2013-09-19 12:40:58 --> Final output sent to browser
+DEBUG - 2013-09-19 12:40:58 --> Total execution time: 0.3408
+DEBUG - 2013-09-19 12:40:58 --> Config Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:40:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:40:59 --> URI Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Router Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Output Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Security Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Input Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:40:59 --> Language Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:40:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Model Class Initialized
+DEBUG - 2013-09-19 12:40:59 --> Model Class Initialized
+ERROR - 2013-09-19 12:40:59 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:41:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:41:02 --> URI Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Router Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Output Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Security Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Input Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:41:02 --> Language Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:41:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:41:02 --> Final output sent to browser
+DEBUG - 2013-09-19 12:41:02 --> Total execution time: 0.3560
+DEBUG - 2013-09-19 12:41:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:41:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:41:03 --> URI Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Router Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Output Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Security Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Input Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:41:03 --> Language Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:41:03 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Model Class Initialized
+DEBUG - 2013-09-19 12:41:03 --> Model Class Initialized
+ERROR - 2013-09-19 12:41:03 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:31 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:31 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:31 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:31 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:31 --> Total execution time: 0.3657
+DEBUG - 2013-09-19 12:44:31 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:31 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:31 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:31 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:31 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:34 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:34 --> Total execution time: 0.3452
+DEBUG - 2013-09-19 12:44:34 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:34 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:34 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:34 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:34 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:35 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:35 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:35 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:36 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:36 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:36 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:36 --> Total execution time: 0.3500
+DEBUG - 2013-09-19 12:44:36 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:36 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:36 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:36 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:36 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:38 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:38 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:38 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:38 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:38 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:38 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:38 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Total execution time: 0.4006
+DEBUG - 2013-09-19 12:44:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:38 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:38 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:39 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:39 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:39 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:40 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:40 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:40 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:40 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:41 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:41 --> Total execution time: 0.4213
+DEBUG - 2013-09-19 12:44:41 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:41 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:41 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:41 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:41 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:42 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:42 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:42 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:42 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:42 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:42 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:42 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:42 --> Total execution time: 0.3495
+DEBUG - 2013-09-19 12:44:43 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:43 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:43 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:43 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:43 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:44 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:44 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:44 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:44 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 12:44:44 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:44 --> Total execution time: 0.3583
+DEBUG - 2013-09-19 12:44:44 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:44 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:44 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:45 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:45 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:44:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Output Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:57 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:44:57 --> Final output sent to browser
+DEBUG - 2013-09-19 12:44:57 --> Total execution time: 0.3605
+DEBUG - 2013-09-19 12:44:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Output Class Initialized
+ERROR - 2013-09-19 12:44:57 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:44:57 --> Security Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Input Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:44:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Language Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:44:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:44:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:44:57 --> Database Driver Class Initialized
+ERROR - 2013-09-19 12:44:57 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:44:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:44:58 --> Model Class Initialized
+DEBUG - 2013-09-19 12:44:58 --> Model Class Initialized
+ERROR - 2013-09-19 12:44:58 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:45:21 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:21 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Output Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Security Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Input Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:45:21 --> Language Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:45:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:45:21 --> Final output sent to browser
+DEBUG - 2013-09-19 12:45:21 --> Total execution time: 0.3633
+DEBUG - 2013-09-19 12:45:21 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:21 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Output Class Initialized
+ERROR - 2013-09-19 12:45:21 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:45:21 --> Security Class Initialized
+DEBUG - 2013-09-19 12:45:21 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Input Class Initialized
+ERROR - 2013-09-19 12:45:22 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:45:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:45:22 --> Language Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:45:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:22 --> Model Class Initialized
+ERROR - 2013-09-19 12:45:22 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:45:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:45:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:45:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:45:23 --> Final output sent to browser
+DEBUG - 2013-09-19 12:45:23 --> Total execution time: 0.3439
+DEBUG - 2013-09-19 12:45:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:45:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:45:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:45:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:45:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:45:24 --> Model Class Initialized
+DEBUG - 2013-09-19 12:45:24 --> Model Class Initialized
+ERROR - 2013-09-19 12:45:24 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:46:15 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:15 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:15 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:46:15 --> Final output sent to browser
+DEBUG - 2013-09-19 12:46:15 --> Total execution time: 0.3643
+DEBUG - 2013-09-19 12:46:15 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:16 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:16 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:16 --> Model Class Initialized
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+ERROR - 2013-09-19 12:46:16 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+DEBUG - 2013-09-19 12:46:16 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:46:16 --> Final output sent to browser
+DEBUG - 2013-09-19 12:46:16 --> Total execution time: 0.5809
+DEBUG - 2013-09-19 12:46:17 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:17 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:17 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:46:17 --> Final output sent to browser
+DEBUG - 2013-09-19 12:46:17 --> Total execution time: 0.3684
+DEBUG - 2013-09-19 12:46:17 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:17 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:17 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:18 --> Model Class Initialized
+ERROR - 2013-09-19 12:46:18 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:46:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:57 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:57 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:46:57 --> Final output sent to browser
+DEBUG - 2013-09-19 12:46:58 --> Total execution time: 0.3800
+DEBUG - 2013-09-19 12:46:58 --> Config Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:46:58 --> URI Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Router Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Output Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Security Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Input Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:46:58 --> Language Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:46:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Model Class Initialized
+DEBUG - 2013-09-19 12:46:58 --> Model Class Initialized
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 115
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 116
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 117
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+ERROR - 2013-09-19 12:46:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 118
+DEBUG - 2013-09-19 12:46:58 --> File loaded: application/views/admin/add_shop.php
+DEBUG - 2013-09-19 12:46:58 --> Final output sent to browser
+DEBUG - 2013-09-19 12:46:58 --> Total execution time: 0.6022
+DEBUG - 2013-09-19 12:47:01 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:01 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:01 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:01 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:01 --> Output Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Security Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Input Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:47:02 --> Language Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:47:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:47:02 --> Final output sent to browser
+DEBUG - 2013-09-19 12:47:02 --> Total execution time: 0.3731
+DEBUG - 2013-09-19 12:47:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:02 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Output Class Initialized
+ERROR - 2013-09-19 12:47:02 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:47:02 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Security Class Initialized
+ERROR - 2013-09-19 12:47:02 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:47:02 --> Input Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:47:02 --> Language Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:47:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:02 --> Model Class Initialized
+ERROR - 2013-09-19 12:47:02 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:47:04 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:04 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Output Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Security Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Input Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:47:04 --> Language Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:47:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:47:04 --> Final output sent to browser
+DEBUG - 2013-09-19 12:47:04 --> Total execution time: 0.3678
+DEBUG - 2013-09-19 12:47:04 --> Config Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:47:04 --> URI Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Router Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Output Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Security Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Input Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:47:04 --> Language Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:47:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:47:04 --> Model Class Initialized
+ERROR - 2013-09-19 12:47:04 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 196
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 196
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 197
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 197
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 198
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 198
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 199
+ERROR - 2013-09-19 12:47:05 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 199
+DEBUG - 2013-09-19 12:47:05 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:47:05 --> Final output sent to browser
+DEBUG - 2013-09-19 12:47:05 --> Total execution time: 0.5842
+DEBUG - 2013-09-19 12:50:08 --> Config Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:50:08 --> URI Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Router Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Output Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Security Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Input Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:50:08 --> Language Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:50:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Model Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> Model Class Initialized
+DEBUG - 2013-09-19 12:50:08 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:50:08 --> Final output sent to browser
+DEBUG - 2013-09-19 12:50:09 --> Total execution time: 0.3684
+DEBUG - 2013-09-19 12:50:09 --> Config Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:50:09 --> URI Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Router Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Output Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Security Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Input Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:50:09 --> Language Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:50:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Model Class Initialized
+DEBUG - 2013-09-19 12:50:09 --> Model Class Initialized
+ERROR - 2013-09-19 12:50:09 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:51:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:22 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Output Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Security Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Input Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:51:22 --> Language Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:22 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Output Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Security Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Input Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:51:22 --> Language Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:51:22 --> Final output sent to browser
+DEBUG - 2013-09-19 12:51:22 --> Total execution time: 0.3532
+DEBUG - 2013-09-19 12:51:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:22 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Output Class Initialized
+ERROR - 2013-09-19 12:51:23 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:51:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:51:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:51:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Database Driver Class Initialized
+ERROR - 2013-09-19 12:51:23 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:51:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:23 --> Model Class Initialized
+ERROR - 2013-09-19 12:51:23 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:52:13 --> Config Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:52:13 --> URI Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Router Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Output Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Security Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Input Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:52:13 --> Language Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:52:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Model Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Model Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:52:13 --> Final output sent to browser
+DEBUG - 2013-09-19 12:52:13 --> Total execution time: 0.3838
+DEBUG - 2013-09-19 12:52:13 --> Config Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:52:13 --> URI Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Router Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Output Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Security Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Input Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:52:13 --> Language Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:52:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Model Class Initialized
+DEBUG - 2013-09-19 12:52:13 --> Model Class Initialized
+ERROR - 2013-09-19 12:52:13 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:56:03 --> Config Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:56:03 --> URI Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Router Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Output Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Security Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Input Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:56:03 --> Language Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:56:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:56:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:56:04 --> Final output sent to browser
+DEBUG - 2013-09-19 12:56:04 --> Total execution time: 0.3558
+DEBUG - 2013-09-19 12:56:04 --> Config Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:56:04 --> URI Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Router Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Output Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Security Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Input Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:56:04 --> Language Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:56:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Model Class Initialized
+DEBUG - 2013-09-19 12:56:04 --> Model Class Initialized
+ERROR - 2013-09-19 12:56:04 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:57:22 --> Config Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:57:22 --> URI Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Router Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Output Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Security Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Input Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:57:22 --> Language Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:57:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:57:22 --> Model Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:57:23 --> Final output sent to browser
+DEBUG - 2013-09-19 12:57:23 --> Total execution time: 0.3701
+DEBUG - 2013-09-19 12:57:23 --> Config Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:57:23 --> URI Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Router Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Output Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Security Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Input Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:57:23 --> Language Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:57:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Model Class Initialized
+DEBUG - 2013-09-19 12:57:23 --> Model Class Initialized
+ERROR - 2013-09-19 12:57:23 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:58:08 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:08 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:08 --> Router Class Initialized
+DEBUG - 2013-09-19 12:58:08 --> Output Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Security Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Input Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:58:09 --> Language Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:58:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 12:58:09 --> Final output sent to browser
+DEBUG - 2013-09-19 12:58:09 --> Total execution time: 0.3643
+DEBUG - 2013-09-19 12:58:09 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:09 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:09 --> Router Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Router Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Router Class Initialized
+ERROR - 2013-09-19 12:58:09 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:58:09 --> Output Class Initialized
+ERROR - 2013-09-19 12:58:09 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 12:58:09 --> Security Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Input Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:58:09 --> Language Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:58:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:09 --> Model Class Initialized
+ERROR - 2013-09-19 12:58:09 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:58:12 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:12 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Router Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Output Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Security Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Input Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:58:12 --> Language Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:58:12 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:58:12 --> Final output sent to browser
+DEBUG - 2013-09-19 12:58:12 --> Total execution time: 0.3677
+DEBUG - 2013-09-19 12:58:12 --> Config Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:58:12 --> URI Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Router Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Output Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Security Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Input Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:58:12 --> Language Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:58:12 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Model Class Initialized
+DEBUG - 2013-09-19 12:58:12 --> Model Class Initialized
+ERROR - 2013-09-19 12:58:12 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 12:59:31 --> Config Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:59:31 --> URI Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Router Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Output Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Security Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Input Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:59:31 --> Language Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:59:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 12:59:31 --> Final output sent to browser
+DEBUG - 2013-09-19 12:59:31 --> Total execution time: 0.3742
+DEBUG - 2013-09-19 12:59:31 --> Config Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:59:31 --> URI Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Router Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Output Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Security Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Input Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:59:31 --> Language Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:59:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Model Class Initialized
+DEBUG - 2013-09-19 12:59:31 --> Model Class Initialized
+ERROR - 2013-09-19 12:59:31 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 13:04:46 --> Config Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:04:46 --> URI Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Router Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Output Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Security Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Input Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:04:46 --> Language Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:04:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Model Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Model Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 13:04:46 --> Final output sent to browser
+DEBUG - 2013-09-19 13:04:46 --> Config Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Total execution time: 0.3676
+DEBUG - 2013-09-19 13:04:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:04:46 --> URI Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Router Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Output Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Security Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Input Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:04:46 --> Language Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:04:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Model Class Initialized
+DEBUG - 2013-09-19 13:04:46 --> Model Class Initialized
+ERROR - 2013-09-19 13:04:47 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 13:06:14 --> Config Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:06:14 --> URI Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Router Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Output Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Security Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Input Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:06:14 --> Language Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:06:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 13:06:14 --> Final output sent to browser
+DEBUG - 2013-09-19 13:06:14 --> Total execution time: 0.3792
+DEBUG - 2013-09-19 13:06:14 --> Config Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:06:14 --> URI Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Router Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Output Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Security Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Input Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:06:14 --> Language Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:06:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:14 --> Model Class Initialized
+ERROR - 2013-09-19 13:06:14 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 13:06:55 --> Config Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:06:55 --> URI Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Router Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Output Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Security Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Input Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:06:55 --> Language Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:06:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 13:06:55 --> Final output sent to browser
+DEBUG - 2013-09-19 13:06:55 --> Total execution time: 0.3771
+DEBUG - 2013-09-19 13:06:55 --> Config Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:06:55 --> URI Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Router Class Initialized
+DEBUG - 2013-09-19 13:06:55 --> Output Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Security Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Input Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:06:56 --> Language Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:06:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Model Class Initialized
+DEBUG - 2013-09-19 13:06:56 --> Model Class Initialized
+ERROR - 2013-09-19 13:06:56 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 13:10:44 --> Config Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:10:44 --> URI Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Router Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Output Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Security Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Input Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:10:44 --> Language Class Initialized
+DEBUG - 2013-09-19 13:10:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:10:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Model Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Model Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 13:10:45 --> Final output sent to browser
+DEBUG - 2013-09-19 13:10:45 --> Total execution time: 0.3802
+DEBUG - 2013-09-19 13:10:45 --> Config Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:10:45 --> URI Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Router Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Output Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Security Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Input Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 13:10:45 --> Language Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Config Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Config Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 13:10:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:10:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 13:10:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> URI Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> URI Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Router Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Router Class Initialized
+DEBUG - 2013-09-19 13:10:45 --> Model Class Initialized
+ERROR - 2013-09-19 13:10:45 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 13:10:45 --> Model Class Initialized
+ERROR - 2013-09-19 13:10:45 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 13:10:45 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:04:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:04:27 --> URI Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> Router Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> Output Class Initialized
+DEBUG - 2013-09-19 14:04:27 --> Security Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Input Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:04:28 --> Language Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:04:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:04:28 --> Final output sent to browser
+DEBUG - 2013-09-19 14:04:28 --> Total execution time: 0.3863
+DEBUG - 2013-09-19 14:04:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:04:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Output Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Security Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Input Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:04:28 --> Language Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:04:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:04:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:04:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Controller Class Initialized
+ERROR - 2013-09-19 14:04:28 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:04:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:04:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:04:28 --> Model Class Initialized
+ERROR - 2013-09-19 14:04:28 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:05:54 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:54 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Output Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Security Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Input Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:05:54 --> Language Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:05:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 14:05:54 --> Final output sent to browser
+DEBUG - 2013-09-19 14:05:54 --> Total execution time: 0.3883
+DEBUG - 2013-09-19 14:05:54 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:55 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 14:05:55 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:05:55 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Router Class Initialized
+ERROR - 2013-09-19 14:05:55 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:05:55 --> Output Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Security Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Input Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:05:55 --> Language Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:05:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:55 --> Model Class Initialized
+ERROR - 2013-09-19 14:05:55 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:05:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Output Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Security Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Input Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:05:58 --> Language Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:05:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 14:05:58 --> Final output sent to browser
+DEBUG - 2013-09-19 14:05:58 --> Total execution time: 0.3919
+DEBUG - 2013-09-19 14:05:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:05:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Router Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Router Class Initialized
+ERROR - 2013-09-19 14:05:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:05:58 --> Output Class Initialized
+ERROR - 2013-09-19 14:05:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:05:58 --> Security Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Input Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:05:58 --> Language Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:05:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:05:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:05:59 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:05:59 --> Model Class Initialized
+DEBUG - 2013-09-19 14:05:59 --> Model Class Initialized
+ERROR - 2013-09-19 14:05:59 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:06:03 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:03 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Output Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Security Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Input Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:06:03 --> Language Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:06:03 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:06:03 --> Final output sent to browser
+DEBUG - 2013-09-19 14:06:03 --> Total execution time: 0.3784
+DEBUG - 2013-09-19 14:06:03 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:03 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:03 --> Output Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Security Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Input Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:06:04 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Language Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:06:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:04 --> Model Class Initialized
+ERROR - 2013-09-19 14:06:04 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:06:04 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:06:04 --> Router Class Initialized
+ERROR - 2013-09-19 14:06:04 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:06:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Output Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Security Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Input Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:06:56 --> Language Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:06:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:06:56 --> Final output sent to browser
+DEBUG - 2013-09-19 14:06:56 --> Total execution time: 0.3814
+DEBUG - 2013-09-19 14:06:56 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Output Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Security Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Input Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Config Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:06:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Language Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:06:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:06:56 --> URI Class Initialized
+ERROR - 2013-09-19 14:06:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:06:56 --> Router Class Initialized
+ERROR - 2013-09-19 14:06:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:06:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Model Class Initialized
+DEBUG - 2013-09-19 14:06:56 --> Model Class Initialized
+ERROR - 2013-09-19 14:06:56 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:08:42 --> Config Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:08:43 --> URI Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Router Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Output Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Security Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Input Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:08:43 --> Language Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:08:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Model Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Model Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:08:43 --> Final output sent to browser
+DEBUG - 2013-09-19 14:08:43 --> Total execution time: 0.3874
+DEBUG - 2013-09-19 14:08:43 --> Config Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:08:43 --> URI Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Router Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Output Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Security Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Input Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Config Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:08:43 --> Config Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Language Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:08:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:08:43 --> URI Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> URI Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:08:43 --> Router Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Router Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Database Driver Class Initialized
+ERROR - 2013-09-19 14:08:43 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:08:43 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:08:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Model Class Initialized
+DEBUG - 2013-09-19 14:08:43 --> Model Class Initialized
+ERROR - 2013-09-19 14:08:43 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:11:11 --> Config Class Initialized
+DEBUG - 2013-09-19 14:11:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:11:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:11:12 --> URI Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Router Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Output Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Security Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Input Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:11:12 --> Language Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:11:12 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Model Class Initialized
+DEBUG - 2013-09-19 14:11:12 --> Model Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Config Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:11:52 --> URI Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Router Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Output Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Security Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Input Class Initialized
+DEBUG - 2013-09-19 14:11:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:11:53 --> Language Class Initialized
+DEBUG - 2013-09-19 14:11:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:11:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:11:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:11:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:11:53 --> Model Class Initialized
+DEBUG - 2013-09-19 14:11:53 --> Model Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:18:27 --> URI Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Router Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Output Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Security Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Input Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:18:27 --> Language Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:18:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:18:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:18:28 --> Final output sent to browser
+DEBUG - 2013-09-19 14:18:28 --> Total execution time: 0.3996
+DEBUG - 2013-09-19 14:18:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:18:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Output Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Security Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Input Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:18:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Language Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:18:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:18:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:18:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Controller Class Initialized
+ERROR - 2013-09-19 14:18:28 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:18:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:18:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:18:28 --> Model Class Initialized
+ERROR - 2013-09-19 14:18:28 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:19:29 --> Config Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:19:29 --> URI Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Router Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Output Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Security Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Input Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:19:29 --> Language Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:19:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Model Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> Model Class Initialized
+DEBUG - 2013-09-19 14:19:29 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:19:29 --> Final output sent to browser
+DEBUG - 2013-09-19 14:19:30 --> Total execution time: 0.4068
+DEBUG - 2013-09-19 14:19:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:19:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:19:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:19:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:19:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:19:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:19:30 --> Model Class Initialized
+ERROR - 2013-09-19 14:19:30 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:19:30 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:19:30 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:20:05 --> Config Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:20:05 --> URI Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Router Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Output Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Security Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Input Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:20:05 --> Language Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:20:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Model Class Initialized
+DEBUG - 2013-09-19 14:20:05 --> Model Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Config Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:20:57 --> URI Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Router Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Output Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Security Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Input Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:20:57 --> Language Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:20:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Model Class Initialized
+DEBUG - 2013-09-19 14:20:57 --> Model Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Config Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:22:13 --> URI Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Router Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Output Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Security Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Input Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:22:13 --> Language Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:22:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Model Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Model Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:22:13 --> Final output sent to browser
+DEBUG - 2013-09-19 14:22:13 --> Total execution time: 0.3855
+DEBUG - 2013-09-19 14:22:13 --> Config Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:22:13 --> URI Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Router Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Output Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Security Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Input Class Initialized
+DEBUG - 2013-09-19 14:22:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:22:13 --> Language Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Config Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Config Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:22:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:22:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:22:14 --> URI Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> URI Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Router Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Router Class Initialized
+DEBUG - 2013-09-19 14:22:14 --> Controller Class Initialized
+ERROR - 2013-09-19 14:22:14 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:22:14 --> Model Class Initialized
+ERROR - 2013-09-19 14:22:14 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:22:14 --> Model Class Initialized
+ERROR - 2013-09-19 14:22:14 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:27:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Output Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Security Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Input Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:27:24 --> Language Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:27:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:27:24 --> Final output sent to browser
+DEBUG - 2013-09-19 14:27:24 --> Total execution time: 0.3876
+DEBUG - 2013-09-19 14:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:27:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Output Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Security Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Input Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:27:24 --> Language Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:27:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:27:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> URI Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> URI Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> Router Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> Router Class Initialized
+DEBUG - 2013-09-19 14:27:25 --> Model Class Initialized
+ERROR - 2013-09-19 14:27:25 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:27:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:27:25 --> Model Class Initialized
+ERROR - 2013-09-19 14:27:25 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:32:37 --> Config Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:32:37 --> URI Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Router Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Output Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Security Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Input Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:32:37 --> Language Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:32:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:32:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Model Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Model Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:32:38 --> Final output sent to browser
+DEBUG - 2013-09-19 14:32:38 --> Total execution time: 0.3862
+DEBUG - 2013-09-19 14:32:38 --> Config Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:32:38 --> URI Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Router Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Output Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Security Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Input Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:32:38 --> Config Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Config Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Language Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:32:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:32:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:32:38 --> URI Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> URI Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Router Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Controller Class Initialized
+ERROR - 2013-09-19 14:32:38 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:32:38 --> Model Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Router Class Initialized
+DEBUG - 2013-09-19 14:32:38 --> Model Class Initialized
+ERROR - 2013-09-19 14:32:38 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:32:38 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:35:49 --> Config Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:35:49 --> URI Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Router Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Output Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Security Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Input Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:35:49 --> Language Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:35:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Model Class Initialized
+DEBUG - 2013-09-19 14:35:49 --> Model Class Initialized
+ERROR - 2013-09-19 14:35:49 --> Severity: Notice  --> Undefined property: pages::$show C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 186
+DEBUG - 2013-09-19 14:36:23 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:23 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Security Class Initialized
+DEBUG - 2013-09-19 14:36:23 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:24 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:36:24 --> Final output sent to browser
+DEBUG - 2013-09-19 14:36:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Total execution time: 0.4000
+DEBUG - 2013-09-19 14:36:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Security Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:24 --> Model Class Initialized
+ERROR - 2013-09-19 14:36:24 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:36:24 --> Router Class Initialized
+ERROR - 2013-09-19 14:36:24 --> 404 Page Not Found --> pages/example
+ERROR - 2013-09-19 14:36:24 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:36:35 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:35 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Security Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:35 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:35 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Security Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:35 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:35 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 14:36:35 --> Final output sent to browser
+DEBUG - 2013-09-19 14:36:36 --> Total execution time: 0.3895
+DEBUG - 2013-09-19 14:36:36 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:36 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:36 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> URI Class Initialized
+ERROR - 2013-09-19 14:36:36 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:36:36 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Security Class Initialized
+ERROR - 2013-09-19 14:36:36 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:36:36 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:36 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:36 --> Model Class Initialized
+ERROR - 2013-09-19 14:36:36 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:37:09 --> Config Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:37:09 --> URI Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Router Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Output Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Security Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Input Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:37:09 --> Language Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:37:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Model Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Model Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:37:09 --> Final output sent to browser
+DEBUG - 2013-09-19 14:37:09 --> Total execution time: 0.4040
+DEBUG - 2013-09-19 14:37:09 --> Config Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:37:09 --> URI Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Router Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Config Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Output Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Security Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:37:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:37:09 --> Input Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:37:10 --> URI Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Language Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Router Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Loader Class Initialized
+ERROR - 2013-09-19 14:37:10 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:37:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:37:10 --> Config Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> Model Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:37:10 --> Model Class Initialized
+DEBUG - 2013-09-19 14:37:10 --> URI Class Initialized
+ERROR - 2013-09-19 14:37:10 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:37:10 --> Router Class Initialized
+ERROR - 2013-09-19 14:37:10 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:38:10 --> Config Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:38:10 --> URI Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Router Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Output Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Security Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Input Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:38:10 --> Language Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:38:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Model Class Initialized
+DEBUG - 2013-09-19 14:38:10 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:39:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Output Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Security Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Input Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:39:24 --> Language Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:39:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:39:24 --> Final output sent to browser
+DEBUG - 2013-09-19 14:39:24 --> Config Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Total execution time: 0.4131
+DEBUG - 2013-09-19 14:39:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:39:24 --> URI Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Router Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Output Class Initialized
+DEBUG - 2013-09-19 14:39:24 --> Security Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Input Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Config Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Config Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:39:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:39:25 --> Language Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:39:25 --> URI Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> URI Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Router Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Router Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Helper loaded: url_helper
+ERROR - 2013-09-19 14:39:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:39:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Controller Class Initialized
+ERROR - 2013-09-19 14:39:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:39:25 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:25 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:39:25 --> Final output sent to browser
+DEBUG - 2013-09-19 14:39:25 --> Total execution time: 0.6715
+DEBUG - 2013-09-19 14:39:36 --> Config Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:39:36 --> URI Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Router Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Output Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Security Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Input Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:39:36 --> Language Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:39:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:39:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:39:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:39:37 --> Model Class Initialized
+DEBUG - 2013-09-19 14:39:37 --> Model Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Config Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:42:10 --> URI Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Router Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Output Class Initialized
+DEBUG - 2013-09-19 14:42:10 --> Security Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Input Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:42:11 --> Language Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:42:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Model Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Model Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:42:11 --> Final output sent to browser
+DEBUG - 2013-09-19 14:42:11 --> Total execution time: 0.4101
+DEBUG - 2013-09-19 14:42:11 --> Config Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:42:11 --> URI Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Router Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Output Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Security Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Input Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:42:11 --> Language Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:42:11 --> Config Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Config Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:42:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:42:11 --> URI Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Model Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Model Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Router Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> URI Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> File loaded: application/views/admin/add_product.php
+ERROR - 2013-09-19 14:42:11 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:42:11 --> Router Class Initialized
+DEBUG - 2013-09-19 14:42:11 --> Final output sent to browser
+DEBUG - 2013-09-19 14:42:11 --> Total execution time: 0.5667
+ERROR - 2013-09-19 14:42:11 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:44:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:44:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:44:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:44:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:44:30 --> Final output sent to browser
+DEBUG - 2013-09-19 14:44:30 --> Total execution time: 0.3988
+DEBUG - 2013-09-19 14:44:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:44:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:44:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:44:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:44:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:44:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:44:30 --> Router Class Initialized
+ERROR - 2013-09-19 14:44:31 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:44:31 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:44:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:44:31 --> Model Class Initialized
+DEBUG - 2013-09-19 14:44:31 --> Model Class Initialized
+DEBUG - 2013-09-19 14:44:31 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:44:31 --> Final output sent to browser
+DEBUG - 2013-09-19 14:44:31 --> Total execution time: 0.6332
+DEBUG - 2013-09-19 14:46:40 --> Config Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:46:40 --> URI Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> Router Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> Output Class Initialized
+DEBUG - 2013-09-19 14:46:40 --> Security Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Input Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:46:41 --> Language Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:46:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Model Class Initialized
+DEBUG - 2013-09-19 14:46:41 --> Model Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Config Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:52:26 --> URI Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Router Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Output Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Security Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Input Class Initialized
+DEBUG - 2013-09-19 14:52:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:52:27 --> Language Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:52:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Model Class Initialized
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:52:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:52:27 --> Final output sent to browser
+DEBUG - 2013-09-19 14:52:27 --> Total execution time: 0.4997
+DEBUG - 2013-09-19 14:52:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:52:27 --> URI Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Router Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Output Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Security Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Input Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:52:27 --> Language Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:52:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Model Class Initialized
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+DEBUG - 2013-09-19 14:52:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:52:27 --> Config Class Initialized
+ERROR - 2013-09-19 14:52:27 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:52:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:52:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> Final output sent to browser
+DEBUG - 2013-09-19 14:52:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:52:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:52:28 --> Total execution time: 0.6666
+DEBUG - 2013-09-19 14:52:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:52:28 --> Router Class Initialized
+ERROR - 2013-09-19 14:52:28 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:52:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:53:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:27 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Output Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Security Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Input Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:53:27 --> Language Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:53:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:53:27 --> Final output sent to browser
+DEBUG - 2013-09-19 14:53:27 --> Total execution time: 0.4086
+DEBUG - 2013-09-19 14:53:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Output Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Security Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Input Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:53:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Language Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:53:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Database Driver Class Initialized
+ERROR - 2013-09-19 14:53:28 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:53:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:53:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:28 --> Model Class Initialized
+ERROR - 2013-09-19 14:53:28 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:53:28 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:53:28 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:53:28 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:53:28 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:53:28 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:53:28 --> Final output sent to browser
+DEBUG - 2013-09-19 14:53:28 --> Total execution time: 0.6877
+DEBUG - 2013-09-19 14:53:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:53:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:53:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Model Class Initialized
+ERROR - 2013-09-19 14:53:30 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:53:30 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:53:30 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:53:30 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:53:30 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:53:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:53:30 --> Final output sent to browser
+DEBUG - 2013-09-19 14:53:30 --> Total execution time: 0.5019
+DEBUG - 2013-09-19 14:53:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:53:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:53:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:53:31 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:31 --> Router Class Initialized
+ERROR - 2013-09-19 14:53:31 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:53:31 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:53:31 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:53:31 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:53:31 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:53:31 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:53:31 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:53:31 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:53:31 --> Final output sent to browser
+DEBUG - 2013-09-19 14:53:31 --> Total execution time: 0.7321
+DEBUG - 2013-09-19 14:54:17 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:17 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Output Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Security Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Input Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:54:17 --> Language Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:54:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:54:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Model Class Initialized
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:54:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:54:18 --> Final output sent to browser
+DEBUG - 2013-09-19 14:54:18 --> Total execution time: 0.4957
+DEBUG - 2013-09-19 14:54:18 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:18 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Output Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Security Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Input Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:54:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Language Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:54:18 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Router Class Initialized
+ERROR - 2013-09-19 14:54:18 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 14:54:18 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:54:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:18 --> Model Class Initialized
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$user_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$brand_id C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$note C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$price C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:54:18 --> Severity: Notice  --> Undefined property: stdClass::$image C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:54:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:54:18 --> Final output sent to browser
+DEBUG - 2013-09-19 14:54:18 --> Total execution time: 0.7124
+DEBUG - 2013-09-19 14:54:57 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:57 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Output Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Security Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Input Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:54:57 --> Language Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:54:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:57 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:54:58 --> Final output sent to browser
+DEBUG - 2013-09-19 14:54:58 --> Total execution time: 0.4062
+DEBUG - 2013-09-19 14:54:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Output Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Security Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Input Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:54:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Language Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:54:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Router Class Initialized
+ERROR - 2013-09-19 14:54:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:54:58 --> Controller Class Initialized
+ERROR - 2013-09-19 14:54:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:54:58 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:58 --> Model Class Initialized
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+ERROR - 2013-09-19 14:54:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+DEBUG - 2013-09-19 14:54:58 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 14:54:58 --> Final output sent to browser
+DEBUG - 2013-09-19 14:54:58 --> Total execution time: 0.8115
+DEBUG - 2013-09-19 14:55:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:55:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Output Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Security Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Input Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:55:28 --> Language Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:55:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Model Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Config Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:55:28 --> URI Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Router Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Output Class Initialized
+DEBUG - 2013-09-19 14:55:28 --> Security Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Input Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:55:29 --> Language Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:55:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Model Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Model Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 14:55:29 --> Final output sent to browser
+DEBUG - 2013-09-19 14:55:29 --> Total execution time: 0.4298
+DEBUG - 2013-09-19 14:55:29 --> Config Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Config Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:55:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> URI Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:55:29 --> Router Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> URI Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Output Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Router Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Config Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Security Class Initialized
+ERROR - 2013-09-19 14:55:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:55:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Input Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:55:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:55:29 --> Language Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> URI Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Router Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Helper loaded: url_helper
+ERROR - 2013-09-19 14:55:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:55:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Model Class Initialized
+DEBUG - 2013-09-19 14:55:29 --> Model Class Initialized
+ERROR - 2013-09-19 14:55:29 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 14:59:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:59:55 --> URI Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Router Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Output Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Security Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Input Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:59:55 --> Language Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:59:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Model Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Model Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 14:59:55 --> Final output sent to browser
+DEBUG - 2013-09-19 14:59:55 --> Total execution time: 0.4225
+DEBUG - 2013-09-19 14:59:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:59:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:59:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:59:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:59:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> URI Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Output Class Initialized
+ERROR - 2013-09-19 14:59:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:59:56 --> Security Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Router Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Input Class Initialized
+ERROR - 2013-09-19 14:59:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 14:59:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:59:56 --> Language Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:59:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Model Class Initialized
+DEBUG - 2013-09-19 14:59:56 --> Model Class Initialized
+ERROR - 2013-09-19 14:59:56 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:00:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:00:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Router Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Output Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Security Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Input Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:00:34 --> Language Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:00:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:00:34 --> Final output sent to browser
+DEBUG - 2013-09-19 15:00:34 --> Total execution time: 0.4284
+DEBUG - 2013-09-19 15:00:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:00:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:00:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:00:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:00:35 --> URI Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> URI Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Router Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> URI Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Router Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Router Class Initialized
+ERROR - 2013-09-19 15:00:35 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:00:35 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:00:35 --> Output Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Security Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Input Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:00:35 --> Language Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:00:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Model Class Initialized
+DEBUG - 2013-09-19 15:00:35 --> Model Class Initialized
+ERROR - 2013-09-19 15:00:35 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:02:23 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:23 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Security Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:23 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:24 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Security Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:24 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:24 --> Model Class Initialized
+ERROR - 2013-09-19 15:02:24 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:02:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Security Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:34 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Security Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:34 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:35 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:35 --> Model Class Initialized
+ERROR - 2013-09-19 15:02:35 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:02:55 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:55 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Security Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:55 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:55 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Model Class Initialized
+ERROR - 2013-09-19 15:02:56 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 90
+ERROR - 2013-09-19 15:02:56 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 90
+DEBUG - 2013-09-19 15:02:56 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:02:56 --> Final output sent to browser
+DEBUG - 2013-09-19 15:02:56 --> Total execution time: 0.4720
+DEBUG - 2013-09-19 15:02:56 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Config Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:02:56 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> URI Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Output Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Router Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Security Class Initialized
+ERROR - 2013-09-19 15:02:56 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:02:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:02:56 --> Input Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:02:56 --> Language Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:02:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Model Class Initialized
+DEBUG - 2013-09-19 15:02:56 --> Model Class Initialized
+ERROR - 2013-09-19 15:02:56 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:04:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:04:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Router Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Output Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Security Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Input Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:04:37 --> Language Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:04:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Model Class Initialized
+DEBUG - 2013-09-19 15:04:37 --> Model Class Initialized
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:04:38 --> Severity: Notice  --> Undefined property: stdClass::$name C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+DEBUG - 2013-09-19 15:04:38 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:04:38 --> Final output sent to browser
+DEBUG - 2013-09-19 15:04:38 --> Total execution time: 1.1060
+DEBUG - 2013-09-19 15:04:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:04:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:04:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:04:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Router Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Router Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Router Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Output Class Initialized
+ERROR - 2013-09-19 15:04:38 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:04:38 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:04:38 --> Security Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Input Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:04:38 --> Language Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:04:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Model Class Initialized
+DEBUG - 2013-09-19 15:04:38 --> Model Class Initialized
+ERROR - 2013-09-19 15:04:38 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:05:08 --> Config Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:05:08 --> URI Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Router Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Output Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Security Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Input Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:05:08 --> Language Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:05:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Model Class Initialized
+DEBUG - 2013-09-19 15:05:08 --> Model Class Initialized
+ERROR - 2013-09-19 15:05:08 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:05:08 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:05:08 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:05:08 --> Final output sent to browser
+DEBUG - 2013-09-19 15:05:08 --> Total execution time: 0.4684
+DEBUG - 2013-09-19 15:05:09 --> Config Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Config Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Config Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:05:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:05:09 --> URI Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> URI Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:05:09 --> Router Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> URI Class Initialized
+ERROR - 2013-09-19 15:05:09 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:05:09 --> Router Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Router Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Output Class Initialized
+ERROR - 2013-09-19 15:05:09 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:05:09 --> Security Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Input Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:05:09 --> Language Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:05:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Model Class Initialized
+DEBUG - 2013-09-19 15:05:09 --> Model Class Initialized
+ERROR - 2013-09-19 15:05:09 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:06:35 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:35 --> URI Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Output Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Security Class Initialized
+DEBUG - 2013-09-19 15:06:35 --> Input Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:06:36 --> Language Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:06:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Model Class Initialized
+ERROR - 2013-09-19 15:06:36 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:06:36 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:06:36 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:06:36 --> Final output sent to browser
+DEBUG - 2013-09-19 15:06:36 --> Total execution time: 0.4972
+DEBUG - 2013-09-19 15:06:36 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:36 --> URI Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:36 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> URI Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> URI Class Initialized
+ERROR - 2013-09-19 15:06:36 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:06:36 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:06:36 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Output Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Security Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Input Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:06:36 --> Language Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:06:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:36 --> Model Class Initialized
+ERROR - 2013-09-19 15:06:36 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:07:36 --> Config Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:07:36 --> URI Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Router Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Output Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Security Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Input Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:07:36 --> Language Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:07:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Model Class Initialized
+DEBUG - 2013-09-19 15:07:36 --> Model Class Initialized
+ERROR - 2013-09-19 15:07:37 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:07:37 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:07:37 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:07:37 --> Final output sent to browser
+DEBUG - 2013-09-19 15:07:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Total execution time: 0.4847
+DEBUG - 2013-09-19 15:07:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:07:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:07:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:07:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Router Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Router Class Initialized
+ERROR - 2013-09-19 15:07:37 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:07:37 --> Router Class Initialized
+ERROR - 2013-09-19 15:07:37 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:07:37 --> Output Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Security Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Input Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:07:37 --> Language Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:07:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Model Class Initialized
+DEBUG - 2013-09-19 15:07:37 --> Model Class Initialized
+ERROR - 2013-09-19 15:07:37 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:08:13 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:13 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Output Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Security Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Input Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:08:13 --> Language Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:08:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Model Class Initialized
+DEBUG - 2013-09-19 15:08:13 --> Model Class Initialized
+ERROR - 2013-09-19 15:08:13 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:08:14 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:08:14 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:08:14 --> Final output sent to browser
+DEBUG - 2013-09-19 15:08:14 --> Total execution time: 0.4838
+DEBUG - 2013-09-19 15:08:14 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:14 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 15:08:14 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:08:14 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:08:14 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Output Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Security Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Input Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:08:14 --> Language Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:08:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Model Class Initialized
+DEBUG - 2013-09-19 15:08:14 --> Model Class Initialized
+ERROR - 2013-09-19 15:08:14 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:08:29 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:29 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Output Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Security Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Input Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:08:29 --> Language Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:08:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Model Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Model Class Initialized
+ERROR - 2013-09-19 15:08:29 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:08:29 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:08:29 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:08:29 --> Final output sent to browser
+DEBUG - 2013-09-19 15:08:29 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Config Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Total execution time: 0.4859
+DEBUG - 2013-09-19 15:08:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:30 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:08:30 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> URI Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Router Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Router Class Initialized
+ERROR - 2013-09-19 15:08:30 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:08:30 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:08:30 --> Output Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Security Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Input Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:08:30 --> Language Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:08:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Model Class Initialized
+DEBUG - 2013-09-19 15:08:30 --> Model Class Initialized
+ERROR - 2013-09-19 15:08:30 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:09:19 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:19 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:20 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:20 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:09:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+DEBUG - 2013-09-19 15:09:20 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:09:20 --> Final output sent to browser
+DEBUG - 2013-09-19 15:09:20 --> Total execution time: 0.8282
+DEBUG - 2013-09-19 15:09:20 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:20 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:20 --> Router Class Initialized
+ERROR - 2013-09-19 15:09:20 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:09:20 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:09:20 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:21 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:21 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:21 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:09:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:41 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:41 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:41 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined offset:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:09:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:09:42 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:09:42 --> Final output sent to browser
+DEBUG - 2013-09-19 15:09:42 --> Total execution time: 1.1661
+DEBUG - 2013-09-19 15:09:42 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Router Class Initialized
+ERROR - 2013-09-19 15:09:43 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:09:43 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:09:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:43 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:43 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:43 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:09:56 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:56 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:56 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:56 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:56 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 89
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+ERROR - 2013-09-19 15:09:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\all_records.php 92
+DEBUG - 2013-09-19 15:09:57 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:09:57 --> Final output sent to browser
+DEBUG - 2013-09-19 15:09:57 --> Total execution time: 1.1391
+DEBUG - 2013-09-19 15:09:57 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Config Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:09:57 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Router Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> URI Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Router Class Initialized
+ERROR - 2013-09-19 15:09:57 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:09:57 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:09:57 --> Output Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Security Class Initialized
+DEBUG - 2013-09-19 15:09:57 --> Input Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:09:58 --> Language Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:09:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Model Class Initialized
+DEBUG - 2013-09-19 15:09:58 --> Model Class Initialized
+ERROR - 2013-09-19 15:09:58 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:10:33 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:33 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Output Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Security Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Input Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:10:33 --> Language Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:10:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:10:33 --> Final output sent to browser
+DEBUG - 2013-09-19 15:10:33 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Total execution time: 0.4385
+DEBUG - 2013-09-19 15:10:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:33 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Output Class Initialized
+DEBUG - 2013-09-19 15:10:33 --> Security Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Input Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:10:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Language Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:10:34 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:10:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:10:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Utf8 Class Initialized
+ERROR - 2013-09-19 15:10:34 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:10:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:34 --> Router Class Initialized
+ERROR - 2013-09-19 15:10:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:10:47 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:47 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Output Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Security Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Input Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:10:47 --> Language Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:10:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:48 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Output Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Security Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Input Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:10:48 --> Language Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:10:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:10:48 --> Final output sent to browser
+DEBUG - 2013-09-19 15:10:48 --> Config Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Total execution time: 0.4285
+DEBUG - 2013-09-19 15:10:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:10:48 --> URI Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Router Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Output Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Security Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Input Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:10:48 --> Language Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:10:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:10:48 --> Model Class Initialized
+ERROR - 2013-09-19 15:10:48 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:13:06 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:06 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:06 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:07 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:13:07 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:07 --> Total execution time: 0.4354
+DEBUG - 2013-09-19 15:13:07 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:07 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:07 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:07 --> Model Class Initialized
+ERROR - 2013-09-19 15:13:07 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:13:32 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:32 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:32 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:32 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:13:32 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:32 --> Total execution time: 0.4400
+DEBUG - 2013-09-19 15:13:32 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:32 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:32 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:33 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:33 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Controller Class Initialized
+ERROR - 2013-09-19 15:13:33 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:13:33 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Hooks Class Initialized
+ERROR - 2013-09-19 15:13:33 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:13:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:33 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:33 --> Router Class Initialized
+ERROR - 2013-09-19 15:13:33 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:13:42 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:43 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:43 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:13:43 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:43 --> Total execution time: 0.4251
+DEBUG - 2013-09-19 15:13:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:44 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:44 --> Model Class Initialized
+ERROR - 2013-09-19 15:13:44 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:13:46 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:46 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:46 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:13:46 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:46 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Total execution time: 0.4482
+DEBUG - 2013-09-19 15:13:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:47 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:47 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:47 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:47 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Router Class Initialized
+ERROR - 2013-09-19 15:13:47 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:13:47 --> Loader Class Initialized
+ERROR - 2013-09-19 15:13:47 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:13:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:47 --> Model Class Initialized
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 207
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 208
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 208
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 209
+ERROR - 2013-09-19 15:13:47 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 209
+DEBUG - 2013-09-19 15:13:47 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:13:47 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:47 --> Total execution time: 0.8890
+DEBUG - 2013-09-19 15:13:53 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:53 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:53 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:54 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:54 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:13:54 --> Final output sent to browser
+DEBUG - 2013-09-19 15:13:54 --> Total execution time: 0.4348
+DEBUG - 2013-09-19 15:13:54 --> Config Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:13:54 --> URI Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Router Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Output Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Security Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Input Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:13:54 --> Language Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:13:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:13:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:13:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:13:55 --> Model Class Initialized
+DEBUG - 2013-09-19 15:13:55 --> Model Class Initialized
+ERROR - 2013-09-19 15:13:55 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:14:05 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:05 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:05 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:05 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:06 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:06 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:14:06 --> Final output sent to browser
+DEBUG - 2013-09-19 15:14:06 --> Total execution time: 0.4370
+DEBUG - 2013-09-19 15:14:06 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:06 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:06 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:06 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:06 --> Model Class Initialized
+ERROR - 2013-09-19 15:14:06 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:14:12 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:12 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:12 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:13 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:13 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:13 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:14:13 --> Final output sent to browser
+DEBUG - 2013-09-19 15:14:13 --> Total execution time: 0.4431
+DEBUG - 2013-09-19 15:14:13 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:13 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:13 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:14 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:14 --> Model Class Initialized
+ERROR - 2013-09-19 15:14:14 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:14:15 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:15 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:15 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:16 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:14:16 --> Final output sent to browser
+DEBUG - 2013-09-19 15:14:16 --> Total execution time: 0.4209
+DEBUG - 2013-09-19 15:14:16 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:16 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:16 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:16 --> Model Class Initialized
+ERROR - 2013-09-19 15:14:16 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:14:18 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:18 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:14:18 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:14:19 --> Final output sent to browser
+DEBUG - 2013-09-19 15:14:19 --> Total execution time: 0.4681
+DEBUG - 2013-09-19 15:14:19 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:19 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Config Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Output Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:14:19 --> Security Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> URI Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Input Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Router Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 15:14:19 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:14:19 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:14:19 --> Language Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Model Class Initialized
+DEBUG - 2013-09-19 15:14:19 --> Model Class Initialized
+ERROR - 2013-09-19 15:14:19 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:35:07 --> Config Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:35:07 --> URI Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Router Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Output Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Security Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Input Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:35:07 --> Language Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:35:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Model Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Model Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:35:07 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:35:07 --> Final output sent to browser
+DEBUG - 2013-09-19 15:35:07 --> Total execution time: 0.4817
+DEBUG - 2013-09-19 15:35:23 --> Config Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:35:23 --> URI Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Router Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Output Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Security Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Input Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:35:23 --> Language Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:35:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Model Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Model Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:35:23 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:35:23 --> Final output sent to browser
+DEBUG - 2013-09-19 15:35:23 --> Total execution time: 0.5039
+DEBUG - 2013-09-19 15:37:21 --> Config Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:37:21 --> URI Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Router Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Output Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Security Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Input Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:37:21 --> Language Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:37:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:21 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:22 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:37:22 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:37:22 --> Final output sent to browser
+DEBUG - 2013-09-19 15:37:22 --> Total execution time: 0.4717
+DEBUG - 2013-09-19 15:37:27 --> Config Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:37:27 --> URI Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Router Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Output Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Security Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Input Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:37:27 --> Language Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:37:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:37:27 --> Form Validation Class Initialized
+ERROR - 2013-09-19 15:37:27 --> 404 Page Not Found --> client/get_records
+DEBUG - 2013-09-19 15:37:45 --> Config Class Initialized
+DEBUG - 2013-09-19 15:37:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:37:46 --> URI Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Router Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Output Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Security Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Input Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:37:46 --> Language Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:37:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:37:46 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:37:46 --> Form Validation Class Initialized
+ERROR - 2013-09-19 15:37:46 --> 404 Page Not Found --> client/get_records
+DEBUG - 2013-09-19 15:38:25 --> Config Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:38:25 --> URI Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Router Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Output Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Security Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Input Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:38:25 --> Language Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:38:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:38:25 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:38:25 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\MarlowApp\marlow_admin\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2013-09-19 15:38:26 --> Unable to connect to the database
+DEBUG - 2013-09-19 15:38:26 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 15:38:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:38:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Router Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Output Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Security Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Input Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:38:37 --> Language Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:38:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:38:37 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:38:37 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\MarlowApp\marlow_admin\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2013-09-19 15:38:37 --> Unable to connect to the database
+DEBUG - 2013-09-19 15:38:37 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 15:47:49 --> Config Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:47:49 --> URI Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Router Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Output Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Security Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Input Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:47:49 --> Language Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:47:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:47:49 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:47:49 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\MarlowApp\marlow_admin\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2013-09-19 15:47:49 --> Unable to connect to the database
+DEBUG - 2013-09-19 15:47:49 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 15:47:54 --> Config Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:47:54 --> URI Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Router Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Output Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Security Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Input Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:47:54 --> Language Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:47:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:47:54 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:47:54 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\MarlowApp\marlow_admin\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2013-09-19 15:47:54 --> Unable to connect to the database
+DEBUG - 2013-09-19 15:47:54 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 15:48:09 --> Config Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:48:09 --> URI Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> Router Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> Output Class Initialized
+DEBUG - 2013-09-19 15:48:09 --> Security Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Input Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:48:10 --> Language Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:48:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Model Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Model Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:48:10 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:48:10 --> Final output sent to browser
+DEBUG - 2013-09-19 15:48:10 --> Total execution time: 0.4741
+DEBUG - 2013-09-19 15:51:34 --> Config Class Initialized
+DEBUG - 2013-09-19 15:51:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:51:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:51:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:51:34 --> URI Class Initialized
+DEBUG - 2013-09-19 15:51:34 --> Router Class Initialized
+DEBUG - 2013-09-19 15:51:34 --> Output Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Security Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Input Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:51:35 --> Language Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:51:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Model Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Model Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 15:51:35 --> Final output sent to browser
+DEBUG - 2013-09-19 15:51:35 --> Total execution time: 0.4543
+DEBUG - 2013-09-19 15:51:35 --> Config Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:51:35 --> URI Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Router Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Output Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Security Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Input Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:51:35 --> Language Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:51:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Model Class Initialized
+DEBUG - 2013-09-19 15:51:35 --> Model Class Initialized
+ERROR - 2013-09-19 15:51:35 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:52:28 --> Config Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:52:28 --> URI Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Router Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Output Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Security Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Input Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:52:28 --> Language Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:52:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Model Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Model Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:52:28 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:52:28 --> Final output sent to browser
+DEBUG - 2013-09-19 15:52:28 --> Total execution time: 0.5182
+DEBUG - 2013-09-19 15:53:53 --> Config Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:53:53 --> URI Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Router Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Output Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Security Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Input Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:53:53 --> Language Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:53:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Model Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Model Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:53:53 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:53:53 --> Final output sent to browser
+DEBUG - 2013-09-19 15:53:53 --> Total execution time: 0.5002
+DEBUG - 2013-09-19 15:54:52 --> Config Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:54:53 --> URI Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Router Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Output Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Security Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Input Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:54:53 --> Language Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:54:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Model Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Model Class Initialized
+ERROR - 2013-09-19 15:54:53 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 15:54:53 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 15:54:53 --> Severity: Notice  --> Use of undefined constant php - assumed 'php' C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:54:53 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:54:53 --> Final output sent to browser
+DEBUG - 2013-09-19 15:54:53 --> Total execution time: 0.5155
+DEBUG - 2013-09-19 15:54:53 --> Config Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:54:53 --> URI Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Router Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Output Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Security Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Input Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:54:53 --> Language Class Initialized
+DEBUG - 2013-09-19 15:54:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Config Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Config Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:54:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:54:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:54:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> URI Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> URI Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Model Class Initialized
+DEBUG - 2013-09-19 15:54:54 --> Router Class Initialized
+ERROR - 2013-09-19 15:54:54 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:54:54 --> Router Class Initialized
+ERROR - 2013-09-19 15:54:54 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:54:54 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:56:37 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:37 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:37 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:37 --> Model Class Initialized
+ERROR - 2013-09-19 15:56:37 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 15:56:37 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 15:56:37 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:38 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:38 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:38 --> Total execution time: 0.5298
+DEBUG - 2013-09-19 15:56:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:38 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Model Class Initialized
+ERROR - 2013-09-19 15:56:38 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:56:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:38 --> Router Class Initialized
+ERROR - 2013-09-19 15:56:38 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:56:38 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:56:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:41 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:41 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:41 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:41 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Router Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:42 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Input Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:42 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Security Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:42 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Total execution time: 1.0033
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Loader Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:42 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Database Driver Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:42 --> Loader Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Total execution time: 1.0986
+DEBUG - 2013-09-19 15:56:42 --> Controller Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Final output sent to browser
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> Total execution time: 1.1333
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:42 --> File loaded: application/views/admin/add_product.php
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Final output sent to browser
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> Total execution time: 1.1827
+ERROR - 2013-09-19 15:56:42 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 15:56:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:42 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:42 --> Total execution time: 1.1528
+DEBUG - 2013-09-19 15:56:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:43 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:43 --> Utf8 Class Initialized
+ERROR - 2013-09-19 15:56:43 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 15:56:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:43 --> URI Class Initialized
+ERROR - 2013-09-19 15:56:43 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:56:43 --> Router Class Initialized
+ERROR - 2013-09-19 15:56:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:56:47 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:47 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:47 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:48 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:48 --> Total execution time: 0.4705
+DEBUG - 2013-09-19 15:56:48 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:48 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Output Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Security Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Input Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:56:48 --> Language Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:56:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Model Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Model Class Initialized
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+DEBUG - 2013-09-19 15:56:48 --> Config Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Config Class Initialized
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+DEBUG - 2013-09-19 15:56:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Hooks Class Initialized
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+DEBUG - 2013-09-19 15:56:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:56:48 --> Utf8 Class Initialized
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+DEBUG - 2013-09-19 15:56:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:56:48 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 15:56:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 15:56:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+DEBUG - 2013-09-19 15:56:49 --> URI Class Initialized
+DEBUG - 2013-09-19 15:56:49 --> URI Class Initialized
+ERROR - 2013-09-19 15:56:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+DEBUG - 2013-09-19 15:56:49 --> Router Class Initialized
+DEBUG - 2013-09-19 15:56:49 --> Router Class Initialized
+ERROR - 2013-09-19 15:56:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 15:56:49 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:56:49 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:56:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+DEBUG - 2013-09-19 15:56:49 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:56:49 --> Final output sent to browser
+DEBUG - 2013-09-19 15:56:49 --> Total execution time: 0.9965
+DEBUG - 2013-09-19 15:57:48 --> Config Class Initialized
+DEBUG - 2013-09-19 15:57:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:57:49 --> URI Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Router Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Output Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Security Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Input Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:57:49 --> Language Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:57:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Model Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Model Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:57:49 --> Final output sent to browser
+DEBUG - 2013-09-19 15:57:49 --> Total execution time: 0.4570
+DEBUG - 2013-09-19 15:57:49 --> Config Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:57:49 --> URI Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Router Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Output Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Security Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Input Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:57:49 --> Language Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:57:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:57:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Model Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Model Class Initialized
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+DEBUG - 2013-09-19 15:57:50 --> Config Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Config Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Hooks Class Initialized
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+DEBUG - 2013-09-19 15:57:50 --> Utf8 Class Initialized
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+DEBUG - 2013-09-19 15:57:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:57:50 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+DEBUG - 2013-09-19 15:57:50 --> URI Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> URI Class Initialized
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+DEBUG - 2013-09-19 15:57:50 --> Router Class Initialized
+DEBUG - 2013-09-19 15:57:50 --> Router Class Initialized
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 15:57:50 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 15:57:50 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 15:57:50 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 15:57:50 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 15:57:50 --> Final output sent to browser
+DEBUG - 2013-09-19 15:57:50 --> Total execution time: 0.9811
+DEBUG - 2013-09-19 15:58:43 --> Config Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:58:43 --> URI Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Router Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Output Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Security Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Input Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:58:43 --> Language Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:58:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Model Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:58:43 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:58:43 --> Final output sent to browser
+DEBUG - 2013-09-19 15:58:43 --> Total execution time: 0.5162
+DEBUG - 2013-09-19 16:01:17 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:17 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Output Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Security Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Input Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:01:17 --> Language Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:01:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Model Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Model Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:01:17 --> Final output sent to browser
+DEBUG - 2013-09-19 16:01:17 --> Total execution time: 0.4590
+DEBUG - 2013-09-19 16:01:17 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:17 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Output Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Security Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Input Class Initialized
+DEBUG - 2013-09-19 16:01:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:01:18 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Language Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:01:18 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:18 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Controller Class Initialized
+ERROR - 2013-09-19 16:01:18 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:01:18 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:18 --> Model Class Initialized
+ERROR - 2013-09-19 16:01:18 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:01:18 --> Model Class Initialized
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 16:01:18 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+DEBUG - 2013-09-19 16:01:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:01:18 --> Final output sent to browser
+DEBUG - 2013-09-19 16:01:18 --> Total execution time: 0.9806
+DEBUG - 2013-09-19 16:01:53 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:53 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Output Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Security Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Input Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:01:53 --> Language Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:01:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Model Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Model Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:01:53 --> Final output sent to browser
+DEBUG - 2013-09-19 16:01:53 --> Total execution time: 0.4873
+DEBUG - 2013-09-19 16:01:53 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:54 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Output Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Security Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Config Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Input Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:01:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Language Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:01:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:01:54 --> Router Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> URI Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Router Class Initialized
+ERROR - 2013-09-19 16:01:54 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:01:54 --> Controller Class Initialized
+ERROR - 2013-09-19 16:01:54 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:01:54 --> Model Class Initialized
+DEBUG - 2013-09-19 16:01:54 --> Model Class Initialized
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 202
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 203
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 204
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 205
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+ERROR - 2013-09-19 16:01:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 206
+DEBUG - 2013-09-19 16:01:54 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:01:54 --> Final output sent to browser
+DEBUG - 2013-09-19 16:01:54 --> Total execution time: 0.9466
+DEBUG - 2013-09-19 16:02:23 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:23 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Output Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Security Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Input Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:02:23 --> Language Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:02:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:23 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Output Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Security Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Input Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:02:23 --> Language Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:02:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:02:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:02:24 --> Final output sent to browser
+DEBUG - 2013-09-19 16:02:24 --> Total execution time: 0.4595
+DEBUG - 2013-09-19 16:02:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Output Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Security Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Input Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:02:24 --> Language Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:02:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:24 --> Model Class Initialized
+ERROR - 2013-09-19 16:02:24 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:02:45 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:45 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Output Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Security Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Input Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:02:45 --> Language Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:02:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Model Class Initialized
+ERROR - 2013-09-19 16:02:45 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 16:02:45 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+ERROR - 2013-09-19 16:02:45 --> Severity: Notice  --> Undefined variable: user_id C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 52
+DEBUG - 2013-09-19 16:02:45 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:02:45 --> Final output sent to browser
+DEBUG - 2013-09-19 16:02:45 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Total execution time: 0.5735
+DEBUG - 2013-09-19 16:02:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:45 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Output Class Initialized
+DEBUG - 2013-09-19 16:02:45 --> Security Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Input Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:02:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Language Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:46 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Router Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Helper loaded: url_helper
+ERROR - 2013-09-19 16:02:46 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:02:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Config Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Model Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Utf8 Class Initialized
+ERROR - 2013-09-19 16:02:46 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:02:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:02:46 --> URI Class Initialized
+DEBUG - 2013-09-19 16:02:46 --> Router Class Initialized
+ERROR - 2013-09-19 16:02:46 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:03:09 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:09 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:09 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:03:09 --> Final output sent to browser
+DEBUG - 2013-09-19 16:03:09 --> Total execution time: 0.4588
+DEBUG - 2013-09-19 16:03:09 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:10 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:10 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 16:03:10 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 16:03:10 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:03:10 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:10 --> Model Class Initialized
+ERROR - 2013-09-19 16:03:10 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:03:23 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:23 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:23 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:24 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:03:24 --> Final output sent to browser
+DEBUG - 2013-09-19 16:03:24 --> Total execution time: 0.4553
+DEBUG - 2013-09-19 16:03:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:24 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:25 --> Model Class Initialized
+ERROR - 2013-09-19 16:03:25 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:03:29 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:29 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:29 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:30 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:30 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:03:30 --> Final output sent to browser
+DEBUG - 2013-09-19 16:03:30 --> Total execution time: 0.4590
+DEBUG - 2013-09-19 16:03:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:30 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:30 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:31 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:31 --> Model Class Initialized
+ERROR - 2013-09-19 16:03:31 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:03:36 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:37 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:37 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:03:37 --> Final output sent to browser
+DEBUG - 2013-09-19 16:03:37 --> Total execution time: 0.4692
+DEBUG - 2013-09-19 16:03:37 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:37 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:37 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:37 --> Model Class Initialized
+ERROR - 2013-09-19 16:03:37 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:03:44 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:44 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:44 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:03:44 --> Final output sent to browser
+DEBUG - 2013-09-19 16:03:44 --> Total execution time: 0.4926
+DEBUG - 2013-09-19 16:03:44 --> Config Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:03:44 --> URI Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Router Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Output Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Security Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Input Class Initialized
+DEBUG - 2013-09-19 16:03:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:03:45 --> Language Class Initialized
+DEBUG - 2013-09-19 16:03:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:03:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:03:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:03:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:03:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:03:45 --> Model Class Initialized
+ERROR - 2013-09-19 16:03:45 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:04:23 --> Config Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:04:23 --> URI Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Router Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Output Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Security Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Input Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:04:23 --> Language Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:04:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Model Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Model Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:04:23 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:04:23 --> Final output sent to browser
+DEBUG - 2013-09-19 16:04:23 --> Total execution time: 0.6350
+DEBUG - 2013-09-19 16:05:19 --> Config Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:05:19 --> URI Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Router Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Output Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Security Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Input Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:05:19 --> Language Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:05:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Model Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Model Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:05:19 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:05:19 --> Final output sent to browser
+DEBUG - 2013-09-19 16:05:19 --> Total execution time: 0.5142
+DEBUG - 2013-09-19 16:08:04 --> Config Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:08:04 --> URI Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Router Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Output Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Security Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Input Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:08:04 --> Language Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:08:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Model Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Model Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:08:04 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:08:04 --> Final output sent to browser
+DEBUG - 2013-09-19 16:08:04 --> Total execution time: 0.5541
+DEBUG - 2013-09-19 16:11:53 --> Config Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:11:53 --> URI Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Router Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Output Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Security Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Input Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:11:53 --> Language Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:11:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:11:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:11:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:11:54 --> Model Class Initialized
+DEBUG - 2013-09-19 16:11:54 --> Model Class Initialized
+DEBUG - 2013-09-19 16:11:54 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:11:54 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:11:54 --> Final output sent to browser
+DEBUG - 2013-09-19 16:11:54 --> Total execution time: 0.5135
+DEBUG - 2013-09-19 16:12:34 --> Config Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:12:34 --> URI Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Router Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Output Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Security Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Input Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:12:34 --> Language Class Initialized
+DEBUG - 2013-09-19 16:12:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:12:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Model Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Model Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:12:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:12:35 --> Final output sent to browser
+DEBUG - 2013-09-19 16:12:35 --> Total execution time: 0.5319
+DEBUG - 2013-09-19 16:18:49 --> Config Class Initialized
+DEBUG - 2013-09-19 16:18:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:18:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:18:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:18:49 --> URI Class Initialized
+DEBUG - 2013-09-19 16:18:49 --> Router Class Initialized
+DEBUG - 2013-09-19 16:18:49 --> Output Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Security Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Input Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:18:50 --> Language Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:18:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Model Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Model Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:18:50 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:18:50 --> Final output sent to browser
+DEBUG - 2013-09-19 16:18:50 --> Total execution time: 0.5222
+DEBUG - 2013-09-19 16:20:18 --> Config Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:20:18 --> URI Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Router Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Output Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Security Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Input Class Initialized
+DEBUG - 2013-09-19 16:20:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:20:18 --> Language Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:20:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Model Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Model Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:20:19 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:20:19 --> Final output sent to browser
+DEBUG - 2013-09-19 16:20:19 --> Total execution time: 0.5273
+DEBUG - 2013-09-19 16:40:33 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:33 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Output Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Security Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Input Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:40:33 --> Language Class Initialized
+DEBUG - 2013-09-19 16:40:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:40:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:40:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:40:34 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:40:34 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:40:34 --> Final output sent to browser
+DEBUG - 2013-09-19 16:40:34 --> Total execution time: 0.6279
+DEBUG - 2013-09-19 16:40:34 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:34 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Output Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Security Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Input Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:40:34 --> Language Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:40:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:40:34 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:34 --> Controller Class Initialized
+ERROR - 2013-09-19 16:40:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:40:34 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:35 --> Model Class Initialized
+ERROR - 2013-09-19 16:40:35 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:40:35 --> Model Class Initialized
+ERROR - 2013-09-19 16:40:35 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:40:48 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Output Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Security Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Input Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:40:48 --> Language Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:40:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:40:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:40:48 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:40:48 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Output Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Security Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Input Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:40:48 --> Language Class Initialized
+DEBUG - 2013-09-19 16:40:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:40:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:40:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:40:49 --> Final output sent to browser
+DEBUG - 2013-09-19 16:40:49 --> Config Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Total execution time: 0.4891
+DEBUG - 2013-09-19 16:40:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:40:49 --> URI Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Router Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Output Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Security Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Input Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:40:49 --> Language Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:40:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:40:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Model Class Initialized
+DEBUG - 2013-09-19 16:40:49 --> Model Class Initialized
+ERROR - 2013-09-19 16:40:49 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:41:15 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:16 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:16 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:41:16 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:41:16 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:41:16 --> Final output sent to browser
+DEBUG - 2013-09-19 16:41:16 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Total execution time: 0.5718
+DEBUG - 2013-09-19 16:41:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:16 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:17 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Loader Class Initialized
+ERROR - 2013-09-19 16:41:17 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:41:17 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:17 --> Model Class Initialized
+ERROR - 2013-09-19 16:41:17 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:41:17 --> Model Class Initialized
+ERROR - 2013-09-19 16:41:17 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:41:26 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:26 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:26 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:26 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:26 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:27 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:41:27 --> Final output sent to browser
+DEBUG - 2013-09-19 16:41:27 --> Total execution time: 0.5188
+DEBUG - 2013-09-19 16:41:27 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:27 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:27 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:27 --> Model Class Initialized
+ERROR - 2013-09-19 16:41:27 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:41:28 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:28 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:28 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:28 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:28 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:41:29 --> Final output sent to browser
+DEBUG - 2013-09-19 16:41:29 --> Total execution time: 0.4960
+DEBUG - 2013-09-19 16:41:29 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:29 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:29 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:29 --> Model Class Initialized
+ERROR - 2013-09-19 16:41:29 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:41:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:30 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:30 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:41:30 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:41:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:41:30 --> Final output sent to browser
+DEBUG - 2013-09-19 16:41:30 --> Total execution time: 0.5753
+DEBUG - 2013-09-19 16:41:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:30 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:31 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Input Class Initialized
+ERROR - 2013-09-19 16:41:31 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:41:31 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 16:41:31 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:41:31 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:41:31 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:41:31 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:41:31 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:41:31 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:41:31 --> Final output sent to browser
+DEBUG - 2013-09-19 16:41:31 --> Total execution time: 1.0829
+DEBUG - 2013-09-19 16:41:48 --> Config Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:41:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Router Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Output Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Security Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Input Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:41:48 --> Language Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:41:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:41:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:41:48 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:41:48 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:44:47 --> Config Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:44:47 --> URI Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Router Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Output Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Security Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Input Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:44:47 --> Language Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:44:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:44:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Model Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Model Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:44:47 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:44:47 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:44:47 --> Severity: Notice  --> Undefined variable: errerr C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 32
+DEBUG - 2013-09-19 16:44:47 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:44:47 --> Final output sent to browser
+DEBUG - 2013-09-19 16:44:47 --> Total execution time: 0.6179
+DEBUG - 2013-09-19 16:44:47 --> Config Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:44:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Router Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Output Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Security Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Input Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:44:48 --> Config Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Config Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Language Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:44:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:44:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:44:48 --> URI Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:44:48 --> Router Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Router Class Initialized
+ERROR - 2013-09-19 16:44:48 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 16:44:48 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:44:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Model Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:44:48 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:44:48 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:44:48 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:44:49 --> Severity: Notice  --> Undefined variable: errerr C:\AppServ\www\MarlowApp\marlow_admin\application\views\admin\add_product.php 32
+DEBUG - 2013-09-19 16:44:49 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:44:49 --> Final output sent to browser
+DEBUG - 2013-09-19 16:44:49 --> Total execution time: 1.0984
+DEBUG - 2013-09-19 16:45:19 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:19 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:19 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:45:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:19 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:45:20 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:45:20 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:45:20 --> Final output sent to browser
+DEBUG - 2013-09-19 16:45:20 --> Total execution time: 0.5927
+DEBUG - 2013-09-19 16:45:20 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:20 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:20 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:20 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Helper loaded: form_helper
+ERROR - 2013-09-19 16:45:20 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:45:20 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:20 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Database Driver Class Initialized
+ERROR - 2013-09-19 16:45:20 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:45:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:45:20 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:45:20 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:45:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:45:21 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:45:21 --> Final output sent to browser
+DEBUG - 2013-09-19 16:45:21 --> Total execution time: 1.1184
+DEBUG - 2013-09-19 16:45:33 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:33 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:33 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:45:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:45:33 --> The upload path does not appear to be valid.
+DEBUG - 2013-09-19 16:45:33 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:33 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:33 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:45:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 16:45:34 --> Final output sent to browser
+DEBUG - 2013-09-19 16:45:34 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Total execution time: 0.5252
+DEBUG - 2013-09-19 16:45:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:34 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:34 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:45:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:34 --> Model Class Initialized
+ERROR - 2013-09-19 16:45:34 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:46:36 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:36 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Output Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Security Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Input Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:46:36 --> Language Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:46:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:46:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:46:36 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:46:37 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:46:37 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:46:37 --> Final output sent to browser
+DEBUG - 2013-09-19 16:46:37 --> Total execution time: 0.5932
+DEBUG - 2013-09-19 16:46:37 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:37 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Output Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Security Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Input Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:46:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Language Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:46:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:46:37 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Hooks Class Initialized
+ERROR - 2013-09-19 16:46:37 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:46:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:37 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:38 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:38 --> Upload Class Initialized
+ERROR - 2013-09-19 16:46:38 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:46:38 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:46:38 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:46:38 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:46:38 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:46:38 --> Final output sent to browser
+DEBUG - 2013-09-19 16:46:38 --> Total execution time: 1.1847
+DEBUG - 2013-09-19 16:46:44 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:45 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Output Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Security Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Input Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:46:45 --> Language Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:46:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:46:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:46:45 --> The upload path does not appear to be valid.
+DEBUG - 2013-09-19 16:46:45 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:45 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Output Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Security Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Input Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:46:45 --> Language Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:46:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:46:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:45 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:46:46 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:46:46 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:46:46 --> Final output sent to browser
+DEBUG - 2013-09-19 16:46:46 --> Total execution time: 0.6093
+DEBUG - 2013-09-19 16:46:46 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:46 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Output Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:46 --> Security Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Input Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 16:46:46 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:46:46 --> Language Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Config Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:46:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:46:46 --> URI Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Router Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Controller Class Initialized
+ERROR - 2013-09-19 16:46:46 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:46:46 --> Model Class Initialized
+DEBUG - 2013-09-19 16:46:46 --> Model Class Initialized
+ERROR - 2013-09-19 16:46:47 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 16:47:14 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:14 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:14 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:14 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:14 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:47:14 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:47:14 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:14 --> Total execution time: 0.5883
+DEBUG - 2013-09-19 16:47:23 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:23 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:23 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:24 --> The upload path does not appear to be valid.
+DEBUG - 2013-09-19 16:47:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:24 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:24 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:47:24 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:47:24 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:24 --> Total execution time: 0.5898
+DEBUG - 2013-09-19 16:47:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:25 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:25 --> Router Class Initialized
+ERROR - 2013-09-19 16:47:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:47:25 --> Language Class Initialized
+ERROR - 2013-09-19 16:47:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:47:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:25 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:25 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:47:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:47:25 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:47:25 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:25 --> Total execution time: 1.1305
+DEBUG - 2013-09-19 16:47:39 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:39 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:39 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:39 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:40 --> The upload path does not appear to be valid.
+DEBUG - 2013-09-19 16:47:40 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:40 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:40 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:40 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:47:40 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:47:40 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:40 --> Total execution time: 0.6320
+DEBUG - 2013-09-19 16:47:40 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:40 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:40 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:41 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Input Class Initialized
+ERROR - 2013-09-19 16:47:41 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:47:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:41 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:41 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:41 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Helper loaded: url_helper
+ERROR - 2013-09-19 16:47:41 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:47:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:47:41 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:47:41 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:47:41 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:47:41 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:47:42 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:42 --> Total execution time: 1.1971
+DEBUG - 2013-09-19 16:49:40 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:40 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:40 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:40 --> Output Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Security Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Input Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:49:41 --> Language Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:49:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:49:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:49:41 --> The upload path does not appear to be valid.
+DEBUG - 2013-09-19 16:49:41 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:41 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Output Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Security Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Input Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:49:41 --> Language Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:49:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:49:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:49:41 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:49:41 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:49:41 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:49:41 --> Final output sent to browser
+DEBUG - 2013-09-19 16:49:42 --> Total execution time: 0.5981
+DEBUG - 2013-09-19 16:49:42 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:42 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Output Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Security Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Input Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:49:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Language Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:42 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Helper loaded: form_helper
+ERROR - 2013-09-19 16:49:42 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:49:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:49:42 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:42 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:42 --> Upload Class Initialized
+ERROR - 2013-09-19 16:49:42 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:49:42 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:49:42 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:49:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:49:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:49:43 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:49:43 --> Final output sent to browser
+DEBUG - 2013-09-19 16:49:43 --> Total execution time: 1.2319
+DEBUG - 2013-09-19 16:50:00 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:00 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:00 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:50:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:01 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:01 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:01 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:50:01 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:50:01 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:50:01 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:50:01 --> Final output sent to browser
+DEBUG - 2013-09-19 16:50:01 --> Total execution time: 0.5889
+DEBUG - 2013-09-19 16:50:01 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:01 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:02 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Helper loaded: url_helper
+ERROR - 2013-09-19 16:50:02 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:50:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:02 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:02 --> Upload Class Initialized
+ERROR - 2013-09-19 16:50:02 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:50:02 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:50:02 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:50:02 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:50:02 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:50:02 --> Final output sent to browser
+DEBUG - 2013-09-19 16:50:02 --> Total execution time: 1.2518
+DEBUG - 2013-09-19 16:50:24 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:24 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:24 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:24 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:50:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:25 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:25 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:50:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:50:25 --> You did not select a file to upload.
+DEBUG - 2013-09-19 16:50:25 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:50:25 --> Final output sent to browser
+DEBUG - 2013-09-19 16:50:25 --> Total execution time: 0.5995
+DEBUG - 2013-09-19 16:50:25 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:25 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:25 --> Config Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Output Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Security Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:26 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Input Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:50:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Language Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Config Class Initialized
+ERROR - 2013-09-19 16:50:26 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:50:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:50:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:50:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:50:26 --> URI Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Model Class Initialized
+ERROR - 2013-09-19 16:50:26 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 16:50:26 --> Model Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Upload Class Initialized
+DEBUG - 2013-09-19 16:50:26 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 16:50:26 --> You did not select a file to upload.
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 214
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 16:50:26 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 16:50:26 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 16:50:27 --> Final output sent to browser
+DEBUG - 2013-09-19 16:50:27 --> Total execution time: 1.1793
+DEBUG - 2013-09-19 16:51:07 --> Config Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:51:07 --> URI Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Router Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Output Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Security Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Input Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:51:07 --> Language Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:51:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:51:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:51:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:51:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:51:08 --> Model Class Initialized
+DEBUG - 2013-09-19 16:51:08 --> Model Class Initialized
+DEBUG - 2013-09-19 16:51:08 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Config Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:01:28 --> URI Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Router Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Output Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Security Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Input Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:01:28 --> Language Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:01:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:01:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:01:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:01:29 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:01:29 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:01:29 --> Final output sent to browser
+DEBUG - 2013-09-19 17:01:29 --> Total execution time: 0.6168
+DEBUG - 2013-09-19 17:01:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:01:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Output Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Security Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Input Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:01:29 --> Language Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:01:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:01:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:01:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:01:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:01:29 --> Model Class Initialized
+ERROR - 2013-09-19 17:01:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:01:29 --> Upload Class Initialized
+ERROR - 2013-09-19 17:01:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:01:30 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:01:30 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:01:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:01:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:01:30 --> Final output sent to browser
+DEBUG - 2013-09-19 17:01:30 --> Total execution time: 1.1714
+DEBUG - 2013-09-19 17:01:52 --> Config Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:01:52 --> URI Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Router Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Output Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Security Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Input Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:01:52 --> Language Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:01:52 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:01:52 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Model Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Model Class Initialized
+DEBUG - 2013-09-19 17:01:52 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Output Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Security Class Initialized
+DEBUG - 2013-09-19 17:03:19 --> Input Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:03:20 --> Language Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:03:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:03:20 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:03:20 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:03:20 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:03:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:03:26 --> Output Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Security Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Input Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:03:27 --> Language Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:03:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:03:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:03:27 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:03:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:03:27 --> Final output sent to browser
+DEBUG - 2013-09-19 17:03:27 --> Total execution time: 0.5995
+DEBUG - 2013-09-19 17:03:27 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:27 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Router Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Output Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Security Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Input Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:03:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Language Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:27 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:03:28 --> Router Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:03:28 --> Router Class Initialized
+ERROR - 2013-09-19 17:03:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:03:28 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:03:28 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:03:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:03:28 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:03:28 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:03:28 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:03:28 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:03:28 --> Final output sent to browser
+DEBUG - 2013-09-19 17:03:28 --> Total execution time: 1.1480
+DEBUG - 2013-09-19 17:03:40 --> Config Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:03:40 --> URI Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Router Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Output Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Security Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Input Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:03:40 --> Language Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:03:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:03:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:03:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:25 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Output Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Security Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Input Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:04:26 --> Language Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:04:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:04:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:04:26 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:04:26 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:04:26 --> Final output sent to browser
+DEBUG - 2013-09-19 17:04:26 --> Total execution time: 0.6230
+DEBUG - 2013-09-19 17:04:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Output Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Security Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Input Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:04:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Language Class Initialized
+DEBUG - 2013-09-19 17:04:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:04:27 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:04:27 --> Router Class Initialized
+ERROR - 2013-09-19 17:04:27 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:04:27 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:04:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:27 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:04:27 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:04:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:04:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:04:27 --> Final output sent to browser
+DEBUG - 2013-09-19 17:04:27 --> Total execution time: 1.1821
+DEBUG - 2013-09-19 17:04:32 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Input Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:04:33 --> Language Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:04:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:04:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Input Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:04:33 --> Language Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:04:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:04:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:04:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:04:34 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:04:34 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:04:34 --> Final output sent to browser
+DEBUG - 2013-09-19 17:04:34 --> Total execution time: 0.6275
+DEBUG - 2013-09-19 17:04:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:34 --> Output Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Security Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:04:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Input Class Initialized
+ERROR - 2013-09-19 17:04:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:04:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 17:04:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:04:34 --> Language Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:04:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:04:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:04:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:35 --> Model Class Initialized
+DEBUG - 2013-09-19 17:04:35 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:04:35 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:04:35 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:04:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:04:35 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:04:35 --> Final output sent to browser
+DEBUG - 2013-09-19 17:04:35 --> Total execution time: 1.1972
+DEBUG - 2013-09-19 17:09:49 --> Config Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:09:49 --> URI Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Router Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Output Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Security Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Input Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:09:49 --> Language Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:09:49 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:09:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:09:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Config Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:09:50 --> URI Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Router Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Output Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Security Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Input Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:09:50 --> Language Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:09:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:09:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:09:50 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:09:50 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:09:50 --> Final output sent to browser
+DEBUG - 2013-09-19 17:09:50 --> Total execution time: 0.6326
+DEBUG - 2013-09-19 17:09:50 --> Config Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:09:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:09:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Output Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Security Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Config Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Input Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:09:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:09:51 --> Language Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:09:51 --> Config Class Initialized
+ERROR - 2013-09-19 17:09:51 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:09:51 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:09:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:09:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Model Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Model Class Initialized
+ERROR - 2013-09-19 17:09:51 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:09:51 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:09:51 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:09:51 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:09:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:09:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:09:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:09:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:09:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:09:52 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:09:52 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:09:52 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:09:52 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:09:52 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:09:52 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:09:52 --> Final output sent to browser
+DEBUG - 2013-09-19 17:09:52 --> Total execution time: 1.2741
+DEBUG - 2013-09-19 17:10:25 --> Config Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:10:25 --> URI Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Router Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Output Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Security Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Input Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:10:25 --> Language Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:10:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:10:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:10:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:10:26 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:10:26 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:10:26 --> Final output sent to browser
+DEBUG - 2013-09-19 17:10:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Total execution time: 0.6239
+DEBUG - 2013-09-19 17:10:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:10:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Output Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Config Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Security Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:10:26 --> Input Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:10:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:10:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Language Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Router Class Initialized
+ERROR - 2013-09-19 17:10:26 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:10:26 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:10:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:10:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:10:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:10:26 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:10:27 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:10:27 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:10:27 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:10:27 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:10:27 --> Final output sent to browser
+DEBUG - 2013-09-19 17:10:27 --> Total execution time: 1.1618
+DEBUG - 2013-09-19 17:11:14 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:14 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:14 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:14 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:11:14 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:14 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:14 --> Total execution time: 0.6380
+DEBUG - 2013-09-19 17:11:14 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:14 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:15 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:15 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:15 --> URI Class Initialized
+ERROR - 2013-09-19 17:11:15 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:11:15 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:15 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:15 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:11:15 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:11:15 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:16 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:16 --> Total execution time: 1.1670
+DEBUG - 2013-09-19 17:11:40 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:40 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:40 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:40 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:11:41 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:41 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:41 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:41 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:11:41 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:41 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:41 --> Total execution time: 0.6209
+DEBUG - 2013-09-19 17:11:41 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:41 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:42 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:42 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Language Class Initialized
+ERROR - 2013-09-19 17:11:42 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Controller Class Initialized
+ERROR - 2013-09-19 17:11:42 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:42 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:42 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:42 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:11:42 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:11:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:43 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:43 --> Total execution time: 1.3321
+DEBUG - 2013-09-19 17:11:47 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:47 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:47 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:47 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:47 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:47 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:48 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:11:48 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:48 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:48 --> Total execution time: 0.6279
+DEBUG - 2013-09-19 17:11:48 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:48 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Output Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Security Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Input Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:11:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Language Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:11:48 --> Config Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:11:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 17:11:48 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:11:48 --> URI Class Initialized
+DEBUG - 2013-09-19 17:11:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:11:49 --> Router Class Initialized
+DEBUG - 2013-09-19 17:11:49 --> Controller Class Initialized
+ERROR - 2013-09-19 17:11:49 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:11:49 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:49 --> Model Class Initialized
+DEBUG - 2013-09-19 17:11:49 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:11:49 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:11:49 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:11:49 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:11:49 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:11:49 --> Final output sent to browser
+DEBUG - 2013-09-19 17:11:49 --> Total execution time: 1.2048
+DEBUG - 2013-09-19 17:13:21 --> Config Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:13:21 --> URI Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Router Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Output Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Security Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Input Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:13:21 --> Language Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:13:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:13:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Model Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Model Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:13:21 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:13:21 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:13:21 --> Final output sent to browser
+DEBUG - 2013-09-19 17:13:21 --> Total execution time: 0.6330
+DEBUG - 2013-09-19 17:13:21 --> Config Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:13:21 --> URI Class Initialized
+DEBUG - 2013-09-19 17:13:21 --> Router Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Output Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Security Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Config Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Config Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Input Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:13:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> URI Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:13:22 --> Router Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> UTF-8 Support Enabled
+ERROR - 2013-09-19 17:13:22 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:13:22 --> Language Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> URI Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Router Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Helper loaded: form_helper
+ERROR - 2013-09-19 17:13:22 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:13:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:13:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Model Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Model Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:13:22 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:13:22 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:13:22 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:13:22 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:13:22 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:13:22 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:13:22 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:13:23 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:13:23 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:13:23 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:13:23 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:13:23 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:13:23 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:13:23 --> Final output sent to browser
+DEBUG - 2013-09-19 17:13:23 --> Total execution time: 1.3959
+DEBUG - 2013-09-19 17:16:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:30 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Router Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Output Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Security Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Input Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:16:30 --> Language Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:16:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:16:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:16:30 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:16:30 --> Config Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:30 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Router Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Output Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Security Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Input Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:16:30 --> Language Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:16:30 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:16:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:16:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:16:31 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:16:31 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:16:31 --> Final output sent to browser
+DEBUG - 2013-09-19 17:16:31 --> Total execution time: 0.6410
+DEBUG - 2013-09-19 17:16:31 --> Config Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:31 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Router Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Output Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Security Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Input Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Config Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:16:31 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Language Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:16:31 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:31 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:16:31 --> Router Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:16:31 --> Config Class Initialized
+ERROR - 2013-09-19 17:16:31 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:16:32 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:32 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:32 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2013-09-19 17:16:32 --> Router Class Initialized
+ERROR - 2013-09-19 17:16:32 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:16:32 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:16:32 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:16:32 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:16:32 --> Final output sent to browser
+DEBUG - 2013-09-19 17:16:32 --> Total execution time: 1.3525
+DEBUG - 2013-09-19 17:20:49 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:49 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:49 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Output Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Security Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Input Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:20:50 --> Language Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:20:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:20:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:20:50 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:20:50 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:20:50 --> Final output sent to browser
+DEBUG - 2013-09-19 17:20:50 --> Total execution time: 0.6524
+DEBUG - 2013-09-19 17:20:50 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:50 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Output Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Security Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Input Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:20:50 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Language Class Initialized
+DEBUG - 2013-09-19 17:20:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:51 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:20:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:20:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:20:51 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:20:51 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:20:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:20:51 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:20:51 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:20:51 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:20:51 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:20:51 --> Final output sent to browser
+DEBUG - 2013-09-19 17:20:51 --> Total execution time: 1.2170
+DEBUG - 2013-09-19 17:22:18 --> Config Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:22:18 --> URI Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Router Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Output Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Security Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Input Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:22:18 --> Language Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:22:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:22:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:22:18 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:22:18 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:22:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:22:19 --> Final output sent to browser
+DEBUG - 2013-09-19 17:22:19 --> Total execution time: 0.6273
+DEBUG - 2013-09-19 17:22:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:22:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:22:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Output Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Security Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Input Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> No URI present. Default controller set.
+DEBUG - 2013-09-19 17:22:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:22:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:22:19 --> Output Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:22:19 --> Language Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Security Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Input Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Helper loaded: form_helper
+ERROR - 2013-09-19 17:22:19 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:22:19 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:22:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:22:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:22:19 --> Language Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:22:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:22:19 --> Model Class Initialized
+DEBUG - 2013-09-19 17:22:20 --> Model Class Initialized
+DEBUG - 2013-09-19 17:22:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:22:20 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:22:20 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:22:20 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:22:20 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:22:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:22:20 --> Model Class Initialized
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+DEBUG - 2013-09-19 17:22:20 --> Model Class Initialized
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+DEBUG - 2013-09-19 17:22:20 --> File loaded: application/views/admin/index.php
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+DEBUG - 2013-09-19 17:22:20 --> Final output sent to browser
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:22:20 --> Total execution time: 1.1528
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:22:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:22:20 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:22:20 --> Final output sent to browser
+DEBUG - 2013-09-19 17:22:20 --> Total execution time: 1.4702
+DEBUG - 2013-09-19 17:23:05 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:05 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Input Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:23:05 --> Language Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:23:05 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:23:05 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:23:05 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:23:06 --> Final output sent to browser
+DEBUG - 2013-09-19 17:23:06 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Total execution time: 0.6517
+DEBUG - 2013-09-19 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:06 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:06 --> No URI present. Default controller set.
+DEBUG - 2013-09-19 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Input Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:06 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Input Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 17:23:06 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:23:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:23:06 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Language Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Language Class Initialized
+ERROR - 2013-09-19 17:23:06 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:23:06 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:06 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> File loaded: application/views/admin/index.php
+DEBUG - 2013-09-19 17:23:07 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:23:07 --> Final output sent to browser
+DEBUG - 2013-09-19 17:23:07 --> Language file loaded: language/english/upload_lang.php
+DEBUG - 2013-09-19 17:23:07 --> Total execution time: 1.2726
+ERROR - 2013-09-19 17:23:07 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:23:07 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:23:07 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:23:07 --> Final output sent to browser
+DEBUG - 2013-09-19 17:23:07 --> Total execution time: 1.7497
+DEBUG - 2013-09-19 17:23:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Input Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:23:55 --> Language Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:55 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Input Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:23:55 --> Language Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:55 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:23:56 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:23:56 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:23:56 --> Final output sent to browser
+DEBUG - 2013-09-19 17:23:56 --> Total execution time: 0.6582
+DEBUG - 2013-09-19 17:23:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Output Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Security Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:56 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Input Class Initialized
+ERROR - 2013-09-19 17:23:56 --> 404 Page Not Found --> iTunesArtwork.png
+DEBUG - 2013-09-19 17:23:56 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:23:56 --> Hooks Class Initialized
+ERROR - 2013-09-19 17:23:56 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:23:56 --> Language Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:23:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:23:56 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:23:56 --> URI Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:23:57 --> Router Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:23:57 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:23:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:23:57 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:23:57 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:23:57 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:23:57 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:23:57 --> Final output sent to browser
+DEBUG - 2013-09-19 17:23:57 --> Total execution time: 1.4643
+DEBUG - 2013-09-19 17:24:41 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:41 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Output Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Security Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Input Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:24:41 --> Language Class Initialized
+DEBUG - 2013-09-19 17:24:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:24:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:24:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:24:42 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:24:42 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:24:42 --> Final output sent to browser
+DEBUG - 2013-09-19 17:24:42 --> Total execution time: 0.6545
+DEBUG - 2013-09-19 17:24:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:42 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Hooks Class Initialized
+ERROR - 2013-09-19 17:24:42 --> 404 Page Not Found --> uploadsiTunesArtwork.png
+DEBUG - 2013-09-19 17:24:42 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> Output Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Security Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> URI Class Initialized
+ERROR - 2013-09-19 17:24:43 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:24:43 --> Input Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 17:24:43 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:24:43 --> Language Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:24:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:24:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:24:43 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:24:43 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:24:43 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:24:43 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:24:43 --> Final output sent to browser
+DEBUG - 2013-09-19 17:24:43 --> Total execution time: 1.4735
+DEBUG - 2013-09-19 17:24:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:57 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Output Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Security Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Input Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:24:57 --> Language Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:24:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:24:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:24:57 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:24:57 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:24:57 --> Final output sent to browser
+DEBUG - 2013-09-19 17:24:57 --> Total execution time: 0.6556
+DEBUG - 2013-09-19 17:24:57 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:57 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Output Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Security Class Initialized
+DEBUG - 2013-09-19 17:24:57 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Config Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Input Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:24:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Language Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:24:58 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:24:58 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:24:58 --> URI Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:24:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:24:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Router Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Model Class Initialized
+ERROR - 2013-09-19 17:24:58 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:24:58 --> Model Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:24:58 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:24:58 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:24:58 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:24:58 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:24:58 --> Final output sent to browser
+DEBUG - 2013-09-19 17:24:59 --> Total execution time: 1.3050
+DEBUG - 2013-09-19 17:25:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Input Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:25:33 --> Language Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:25:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:25:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:25:33 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:25:33 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:25:33 --> Final output sent to browser
+DEBUG - 2013-09-19 17:25:33 --> Total execution time: 0.6698
+DEBUG - 2013-09-19 17:25:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Output Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Security Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Input Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:25:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Language Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:25:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:25:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:25:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:25:34 --> Controller Class Initialized
+ERROR - 2013-09-19 17:25:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:25:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:25:34 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:25:34 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:25:34 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:25:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:25:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:25:35 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:25:35 --> Final output sent to browser
+DEBUG - 2013-09-19 17:25:35 --> Total execution time: 1.2613
+DEBUG - 2013-09-19 17:25:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:43 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Output Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Security Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Input Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:25:43 --> Language Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:25:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:25:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:25:43 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:25:43 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:25:44 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:25:44 --> Final output sent to browser
+DEBUG - 2013-09-19 17:25:44 --> Total execution time: 0.6596
+DEBUG - 2013-09-19 17:25:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Output Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Security Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Input Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:25:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Language Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:25:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:25:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:25:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Controller Class Initialized
+ERROR - 2013-09-19 17:25:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:25:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:25:44 --> Model Class Initialized
+ERROR - 2013-09-19 17:25:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:25:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:25:45 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:25:45 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:25:45 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:25:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:25:45 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:25:45 --> Final output sent to browser
+DEBUG - 2013-09-19 17:25:45 --> Total execution time: 1.3056
+DEBUG - 2013-09-19 17:26:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:26:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:26:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Input Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:26:34 --> Language Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:26:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:26:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Model Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:26:34 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:26:34 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:26:34 --> Final output sent to browser
+DEBUG - 2013-09-19 17:26:34 --> Total execution time: 0.6583
+DEBUG - 2013-09-19 17:26:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:26:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:26:34 --> Output Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Security Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Input Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:26:35 --> Language Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:26:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:26:35 --> Config Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Config Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Model Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:26:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Model Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:26:35 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> URI Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> URI Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Router Class Initialized
+DEBUG - 2013-09-19 17:26:35 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:26:35 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:26:35 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:26:35 --> Router Class Initialized
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:26:35 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:26:35 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:26:36 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:26:36 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:26:36 --> Final output sent to browser
+DEBUG - 2013-09-19 17:26:36 --> Total execution time: 1.3291
+DEBUG - 2013-09-19 17:27:23 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:23 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Output Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Security Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Input Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:27:23 --> Language Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:27:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:27:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:27:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:27:24 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:27:24 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:27:24 --> Final output sent to browser
+DEBUG - 2013-09-19 17:27:24 --> Total execution time: 0.6622
+DEBUG - 2013-09-19 17:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:24 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Output Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Security Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Input Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Language Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:27:24 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:24 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Helper loaded: url_helper
+ERROR - 2013-09-19 17:27:25 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:27:25 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:27:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:27:25 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:27:25 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:27:25 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:27:25 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:27:25 --> Final output sent to browser
+DEBUG - 2013-09-19 17:27:25 --> Total execution time: 1.3270
+DEBUG - 2013-09-19 17:27:38 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:38 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Output Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Security Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Input Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:27:38 --> Language Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:27:38 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:27:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:27:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:27:39 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:27:39 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:27:39 --> Final output sent to browser
+DEBUG - 2013-09-19 17:27:39 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Total execution time: 0.6478
+DEBUG - 2013-09-19 17:27:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:39 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Output Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Security Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Config Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Input Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:27:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:39 --> Language Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:27:39 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> URI Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Router Class Initialized
+DEBUG - 2013-09-19 17:27:39 --> Helper loaded: form_helper
+ERROR - 2013-09-19 17:27:39 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:27:39 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:27:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:27:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:27:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:27:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:27:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:27:40 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:27:40 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:27:40 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:27:40 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:27:40 --> Final output sent to browser
+DEBUG - 2013-09-19 17:27:40 --> Total execution time: 1.2291
+DEBUG - 2013-09-19 17:28:28 --> Config Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:28:28 --> URI Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Router Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Output Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Security Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Input Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:28:28 --> Language Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:28:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:28:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Config Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:28:28 --> URI Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Router Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Output Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Security Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Input Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:28:28 --> Language Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:28:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:28:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:28:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:28:29 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:28:29 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:28:29 --> Final output sent to browser
+DEBUG - 2013-09-19 17:28:29 --> Total execution time: 0.6597
+DEBUG - 2013-09-19 17:28:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:28:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Output Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Security Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Input Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:28:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:28:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:28:29 --> Language Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:28:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Router Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Router Class Initialized
+ERROR - 2013-09-19 17:28:30 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:28:30 --> Helper loaded: form_helper
+ERROR - 2013-09-19 17:28:30 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:28:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:28:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Model Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:28:30 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:28:30 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:28:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:28:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:28:30 --> Final output sent to browser
+DEBUG - 2013-09-19 17:28:30 --> Total execution time: 1.3198
+DEBUG - 2013-09-19 17:38:07 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:08 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Output Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Security Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Input Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:38:08 --> Language Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:38:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:38:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:38:08 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:38:08 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:38:08 --> Final output sent to browser
+DEBUG - 2013-09-19 17:38:08 --> Total execution time: 0.7340
+DEBUG - 2013-09-19 17:38:08 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:08 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:08 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Output Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Security Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Input Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:38:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Language Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:38:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:38:09 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:38:09 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:38:09 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:38:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:38:09 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:38:09 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+ERROR - 2013-09-19 17:38:09 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 221
+DEBUG - 2013-09-19 17:38:10 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:38:10 --> Final output sent to browser
+DEBUG - 2013-09-19 17:38:10 --> Total execution time: 1.2493
+DEBUG - 2013-09-19 17:38:10 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:10 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Output Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Security Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Input Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:38:10 --> Language Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:38:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:38:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:38:10 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:38:10 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:38:10 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:38:10 --> Final output sent to browser
+DEBUG - 2013-09-19 17:38:11 --> Total execution time: 0.6844
+DEBUG - 2013-09-19 17:38:11 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:11 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Output Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Security Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Input Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:38:11 --> Language Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:38:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:38:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Model Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Config Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Hooks Class Initialized
+ERROR - 2013-09-19 17:38:11 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:38:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:38:11 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> URI Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Router Class Initialized
+DEBUG - 2013-09-19 17:38:11 --> Router Class Initialized
+ERROR - 2013-09-19 17:38:11 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:38:12 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:45:13 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:14 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:14 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:14 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:14 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:15 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:15 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:45:15 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:45:15 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:45:15 --> Final output sent to browser
+DEBUG - 2013-09-19 17:45:15 --> Total execution time: 0.6887
+DEBUG - 2013-09-19 17:45:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:16 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:16 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:16 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Helper loaded: form_helper
+ERROR - 2013-09-19 17:45:16 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:45:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:16 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:45:16 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:45:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:16 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:45:16 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:45:16 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:45:17 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+DEBUG - 2013-09-19 17:45:17 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:45:17 --> Final output sent to browser
+DEBUG - 2013-09-19 17:45:17 --> Total execution time: 1.4266
+DEBUG - 2013-09-19 17:45:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:42 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:42 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:43 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:43 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:45:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:43 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:45:43 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:45:43 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:45:43 --> Final output sent to browser
+DEBUG - 2013-09-19 17:45:44 --> Total execution time: 0.6727
+DEBUG - 2013-09-19 17:45:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Output Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Security Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Config Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Input Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:45:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:45:44 --> Language Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:45:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Router Class Initialized
+ERROR - 2013-09-19 17:45:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:45:44 --> Helper loaded: url_helper
+ERROR - 2013-09-19 17:45:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:45:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:45:44 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:45:45 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:45:45 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:45:45 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+DEBUG - 2013-09-19 17:45:45 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:45:45 --> Final output sent to browser
+DEBUG - 2013-09-19 17:45:45 --> Total execution time: 1.3701
+DEBUG - 2013-09-19 17:47:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:43 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Output Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Security Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Input Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:47:43 --> Language Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:47:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:47:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:47:43 --> Final output sent to browser
+DEBUG - 2013-09-19 17:47:43 --> Total execution time: 0.5950
+DEBUG - 2013-09-19 17:47:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Output Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Security Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Input Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:47:44 --> Language Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:47:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:47:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:44 --> Model Class Initialized
+ERROR - 2013-09-19 17:47:44 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:47:53 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:53 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Output Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Security Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Input Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:47:53 --> Language Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:47:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:47:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:47:53 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:47:53 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:47:53 --> Final output sent to browser
+DEBUG - 2013-09-19 17:47:53 --> Total execution time: 0.7251
+DEBUG - 2013-09-19 17:47:53 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:53 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Output Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Security Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Input Class Initialized
+ERROR - 2013-09-19 17:47:54 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:47:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:47:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Language Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:47:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:47:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Helper loaded: url_helper
+ERROR - 2013-09-19 17:47:54 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:47:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Model Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:47:54 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:47:54 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:47:54 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:47:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:47:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:47:55 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:47:55 --> Final output sent to browser
+DEBUG - 2013-09-19 17:47:55 --> Total execution time: 1.3544
+DEBUG - 2013-09-19 17:48:17 --> Config Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:48:17 --> URI Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Router Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Output Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Security Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Input Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:48:17 --> Language Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:48:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:48:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Config Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:48:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:48:18 --> URI Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Router Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Output Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Security Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Input Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:48:18 --> Language Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:48:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:48:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:48:18 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:48:18 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:48:18 --> Final output sent to browser
+DEBUG - 2013-09-19 17:48:18 --> Total execution time: 0.6809
+DEBUG - 2013-09-19 17:48:18 --> Config Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:48:18 --> URI Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Router Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Output Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Security Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Config Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:48:18 --> Config Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Input Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:48:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Language Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:48:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:48:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:48:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Helper loaded: url_helper
+ERROR - 2013-09-19 17:48:19 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:48:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Controller Class Initialized
+ERROR - 2013-09-19 17:48:19 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:48:19 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Model Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:48:19 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:48:19 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:48:19 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:48:19 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:48:19 --> Final output sent to browser
+DEBUG - 2013-09-19 17:48:20 --> Total execution time: 1.3184
+DEBUG - 2013-09-19 17:49:07 --> Config Class Initialized
+DEBUG - 2013-09-19 17:49:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:49:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:49:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:49:08 --> URI Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Router Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Output Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Security Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Input Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:49:08 --> Language Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:49:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:49:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Config Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:49:08 --> URI Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Router Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Output Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Security Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Input Class Initialized
+DEBUG - 2013-09-19 17:49:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:49:08 --> Language Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:49:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:49:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:49:09 --> Final output sent to browser
+DEBUG - 2013-09-19 17:49:09 --> Total execution time: 0.6615
+DEBUG - 2013-09-19 17:49:09 --> Config Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:49:09 --> URI Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Router Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Output Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Security Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Input Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:49:09 --> Language Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:49:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:49:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> Model Class Initialized
+DEBUG - 2013-09-19 17:49:09 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:49:10 --> Final output sent to browser
+DEBUG - 2013-09-19 17:49:10 --> Total execution time: 0.6630
+DEBUG - 2013-09-19 17:51:14 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:14 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:14 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:15 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:15 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:15 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:15 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Total execution time: 0.6264
+DEBUG - 2013-09-19 17:51:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:15 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:15 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:16 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:16 --> Model Class Initialized
+ERROR - 2013-09-19 17:51:16 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:51:17 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:17 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:17 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:17 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:17 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:18 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:18 --> Total execution time: 0.5930
+DEBUG - 2013-09-19 17:51:18 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:18 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:18 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:18 --> Model Class Initialized
+ERROR - 2013-09-19 17:51:18 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:51:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:19 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:19 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:19 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:51:19 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:19 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:19 --> Total execution time: 0.7292
+DEBUG - 2013-09-19 17:51:19 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:20 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:20 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:20 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Router Class Initialized
+ERROR - 2013-09-19 17:51:20 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:51:20 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:51:20 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:20 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:20 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:20 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:20 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:20 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:21 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:51:21 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:51:21 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:21 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:21 --> Total execution time: 1.2527
+DEBUG - 2013-09-19 17:51:24 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:24 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:24 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:24 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:25 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:51:25 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:25 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:25 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:25 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:25 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Total execution time: 0.5940
+DEBUG - 2013-09-19 17:51:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:26 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:26 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:26 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:26 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:26 --> Total execution time: 0.6735
+DEBUG - 2013-09-19 17:51:28 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:28 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:28 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:28 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:28 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:51:28 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:28 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:29 --> Total execution time: 0.6804
+DEBUG - 2013-09-19 17:51:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:29 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:29 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Language Class Initialized
+ERROR - 2013-09-19 17:51:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:51:29 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Loader Class Initialized
+ERROR - 2013-09-19 17:51:29 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:51:29 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:29 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:29 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:51:29 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:29 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:29 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:29 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:29 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:30 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:51:30 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:51:30 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:30 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:30 --> Total execution time: 1.2211
+DEBUG - 2013-09-19 17:51:39 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:39 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:39 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:39 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:40 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:40 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:40 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:40 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:40 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:41 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:41 --> Total execution time: 0.6013
+DEBUG - 2013-09-19 17:51:41 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:41 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:41 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:41 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:41 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:41 --> Total execution time: 0.6768
+DEBUG - 2013-09-19 17:51:42 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:43 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:43 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:43 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:51:43 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:43 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:43 --> Total execution time: 0.7006
+DEBUG - 2013-09-19 17:51:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:43 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:44 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:44 --> Router Class Initialized
+ERROR - 2013-09-19 17:51:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:51:44 --> Language Class Initialized
+ERROR - 2013-09-19 17:51:44 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:51:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:44 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:44 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 215
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:51:44 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+DEBUG - 2013-09-19 17:51:44 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:51:44 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:45 --> Total execution time: 1.3151
+DEBUG - 2013-09-19 17:51:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:54 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:51:55 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:51:55 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:55 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:55 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:55 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:55 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:55 --> Total execution time: 0.6063
+DEBUG - 2013-09-19 17:51:56 --> Config Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:51:56 --> URI Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Router Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Output Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Security Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Input Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:51:56 --> Language Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:51:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:51:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> Model Class Initialized
+DEBUG - 2013-09-19 17:51:56 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:51:56 --> Final output sent to browser
+DEBUG - 2013-09-19 17:51:56 --> Total execution time: 0.6497
+DEBUG - 2013-09-19 17:54:32 --> Config Class Initialized
+DEBUG - 2013-09-19 17:54:32 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:54:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:54:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:54:32 --> URI Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Input Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:54:33 --> Language Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:54:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:54:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Model Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:54:33 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:54:33 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:54:33 --> Final output sent to browser
+DEBUG - 2013-09-19 17:54:33 --> Total execution time: 0.7130
+DEBUG - 2013-09-19 17:54:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:54:33 --> URI Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Router Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Output Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Config Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Security Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:54:33 --> Input Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:54:34 --> Language Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Config Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:54:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:54:34 --> Utf8 Class Initialized
+ERROR - 2013-09-19 17:54:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:54:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> URI Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Router Class Initialized
+DEBUG - 2013-09-19 17:54:34 --> Model Class Initialized
+ERROR - 2013-09-19 17:54:34 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:54:34 --> Model Class Initialized
+ERROR - 2013-09-19 17:54:34 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:54:59 --> Config Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:54:59 --> URI Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Router Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Output Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Security Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Input Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:54:59 --> Language Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:54:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:54:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Model Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> Model Class Initialized
+DEBUG - 2013-09-19 17:54:59 --> File loaded: application/views/admin/dashboard.php
+DEBUG - 2013-09-19 17:54:59 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:00 --> Total execution time: 0.6022
+DEBUG - 2013-09-19 17:55:00 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:00 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:00 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:00 --> Model Class Initialized
+ERROR - 2013-09-19 17:55:00 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:55:01 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:02 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:02 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:02 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:02 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:55:02 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:55:02 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:55:02 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:02 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Total execution time: 0.6971
+DEBUG - 2013-09-19 17:55:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:02 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:02 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:03 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:03 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Hooks Class Initialized
+ERROR - 2013-09-19 17:55:03 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:55:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:03 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:03 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:03 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Database Driver Class Initialized
+ERROR - 2013-09-19 17:55:03 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:55:03 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:03 --> Model Class Initialized
+ERROR - 2013-09-19 17:55:03 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:55:22 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:22 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:23 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:55:23 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:23 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Total execution time: 0.6065
+DEBUG - 2013-09-19 17:55:23 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:23 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:23 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:23 --> Model Class Initialized
+ERROR - 2013-09-19 17:55:24 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:55:36 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:36 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:36 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:37 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:55:37 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:55:37 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:55:37 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:37 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Total execution time: 0.7022
+DEBUG - 2013-09-19 17:55:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:37 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:37 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Global POST and COOKIE data sanitized
+ERROR - 2013-09-19 17:55:38 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:55:38 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:55:38 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:38 --> Model Class Initialized
+ERROR - 2013-09-19 17:55:38 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:55:51 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:51 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:51 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 17:55:52 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:52 --> Total execution time: 0.6367
+DEBUG - 2013-09-19 17:55:52 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:52 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:52 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:52 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:52 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:52 --> Model Class Initialized
+ERROR - 2013-09-19 17:55:52 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 17:55:53 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Input Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:54 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:55:54 --> You did not select a file to upload.
+DEBUG - 2013-09-19 17:55:54 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:55:54 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Total execution time: 0.7051
+DEBUG - 2013-09-19 17:55:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:54 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Config Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:55:54 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:55:55 --> Output Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> URI Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Security Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Router Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Input Class Initialized
+ERROR - 2013-09-19 17:55:55 --> 404 Page Not Found --> assets
+ERROR - 2013-09-19 17:55:55 --> 404 Page Not Found --> assets
+DEBUG - 2013-09-19 17:55:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:55:55 --> Language Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:55:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:55:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Model Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Upload Class Initialized
+DEBUG - 2013-09-19 17:55:55 --> Language file loaded: language/english/upload_lang.php
+ERROR - 2013-09-19 17:55:55 --> You did not select a file to upload.
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 216
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 217
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 218
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 219
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Undefined index:  0 C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of non-object C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\pages.php 220
+DEBUG - 2013-09-19 17:55:56 --> File loaded: application/views/admin/add_product.php
+DEBUG - 2013-09-19 17:55:56 --> Final output sent to browser
+DEBUG - 2013-09-19 17:55:56 --> Total execution time: 1.3597

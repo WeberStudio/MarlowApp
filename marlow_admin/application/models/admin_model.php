@@ -30,32 +30,17 @@ class Admin_model extends CI_Model {
     return $query->result();    
     }
     
-    
-    function save_product($data)
+
+    function save_record($data, $table)
     {
         if($data['id'] !="")
         {
             $this->db->where('id', $data['id']);
-            $this->db->update('products', $data);
+            $this->db->update($table, $data);
         }
         else
         {
-            $this->db->insert('products' , $data);
-        }
-        
-    }
-    
-    
-    function save_shop($data)
-    {
-        if($data['id'] !="")
-        {
-            $this->db->where('id', $data['id']);
-            $this->db->update('shops', $data);
-        }
-        else
-        {
-            $this->db->insert('shops' , $data);
+            $this->db->insert($table , $data);
         }
         
     }
@@ -71,6 +56,20 @@ class Admin_model extends CI_Model {
         $this->db->where('id', $id);
         $this->db->delete($table); 
     }
+    
+    /*function save_product($data)
+    {
+        if($data['id'] !="")
+        {
+            $this->db->where('id', $data['id']);
+            $this->db->update('products', $data);
+        }
+        else
+        {
+            $this->db->insert('products' , $data);
+        }
+        
+    }
     function add_user($data)
     {
          if($data['id'] !="")
@@ -82,6 +81,6 @@ class Admin_model extends CI_Model {
         {
             $this->db->insert('user_info' , $data);
         }
-    }
+    }*/
 }
 ?>
