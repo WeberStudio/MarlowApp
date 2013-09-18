@@ -1,5 +1,5 @@
 Ext.define('MarlowApp.view.Signup', {
-    extend: 'Ext.Container',
+    extend: 'Ext.Container',     
     xtype:'sigupView',
 	cls: 'custom-page-bg',	
     config: {
@@ -135,27 +135,27 @@ Ext.define('MarlowApp.view.Signup', {
                 var fname = Ext.getCmp("fnametxt").getValue();
                  if(fname == '')
                  {
-                    Ext.Msg.alert('', 'Please enter the First Name.');
+                    Ext.Msg.alert('Please enter the First Name.', 'Please enter the First Name.');
                     return false   
                  }
                  
                  
                 if(/[ ,*,?,/,-,_,=,#,$,%,^,&,*,@.:,<,>,+,!,~,(,),{,},[,]]/.test(fname))
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in First Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in First Name.', 'Empty spaces and  special characters are not allowed in First Name.');
                     return false;
                 } 
          
                 if(/[0-9]/.test(fname))
                     {
-                    Ext.Msg.alert('', 'Numbers are not allowed in First Name.');
+                    Ext.Msg.alert('Numbers are not allowed in First Name.', 'Numbers are not allowed in First Name.');
                     return false      
                 }
                var allowchracter = /^[a-zA-Z\_]+$/g;
               // console.log((allowchracter.test(lname)))
                if(!(allowchracter.test(fname))) 
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in First Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in First Name.', 'Empty spaces and  special characters are not allowed in First Name.');
                     return false;
                 }                   
               
@@ -163,27 +163,27 @@ Ext.define('MarlowApp.view.Signup', {
                 var lname = Ext.getCmp('lnametxt').getValue();                
                 if(lname == '')
                 {
-                    Ext.Msg.alert('', 'Please enter the Last Name.');
+                    Ext.Msg.alert('Please enter the Last Name.', 'Please enter the Last Name.');
                     return false   
                 }
                       
                 
                if(/[ ,*,?,/,-,_,=,#,$,%,^,&,*,@.:,<,>,+,!,~,(,),{,},[,]]/.test(lname))
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Last Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in Last Name.', 'Empty spaces and  special characters are not allowed in Last Name.');
                     return false;
                 } 
          
                 if(/[0-9]/.test(lname))
                     {
-                    Ext.Msg.alert('', 'Numbers are not allowed in Last Name.');
+                    Ext.Msg.alert('Numbers are not allowed in Last Name.', 'Numbers are not allowed in Last Name.');
                     return false      
                 }
                var allowchracter = /^[a-zA-Z\_]+$/g;
               // console.log((allowchracter.test(lname)))
                if(!(allowchracter.test(lname))) 
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Last Name.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in Last Name.', 'Empty spaces and  special characters are not allowed in Last Name.');
                     return false;
                 }                   
               
@@ -200,20 +200,20 @@ Ext.define('MarlowApp.view.Signup', {
                 confirmPassword  = Ext.getCmp('confirmPasswordtxt').getValue(); 
                 if(email == '')
                 {
-                    Ext.Msg.alert('', 'Please enter the Email.');
+                    Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
                     return false    
                 } 
                
                
                 if(/[ ]/.test(email))
                 {
-                    Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Email.');
+                    Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
                     return false;
                 }
               var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
               if(!(email_re.test(email))) 
                 {
-                    Ext.Msg.alert('', 'Please Enter Valid Email.');
+                    Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
                     return false;
                 }
                
@@ -221,38 +221,38 @@ Ext.define('MarlowApp.view.Signup', {
                                
                 if(newpassword == '')
                 {
-                    Ext.Msg.alert('', 'Please enter the Password.');
+                    Ext.Msg.alert('Please enter the Password.', 'Please enter the Password.');
                     return false    
                 } 
                 
                 if(getPasswordlength<7)
                 {
-                    Ext.Msg.alert('', 'Password cannot be less than 7 characters.');
+                    Ext.Msg.alert('Password cannot be less than 7 characters.', 'Password cannot be less than 7 characters.');
                     return false      
                 }
               
                  if(confirmPassword == '')
                 {
-                    Ext.Msg.alert('', 'Please enter the Confirm Password.');
+                    Ext.Msg.alert('Please enter the Confirm Password.', 'Please enter the Confirm Password.');
                     return false    
                 } 
                 
                 if(confirmPassword<7)
                 {
-                    Ext.Msg.alert('', ' Please insert a minimum of 7 characters for the Password.');
+                    Ext.Msg.alert('Please insert a minimum of 7 characters for the Password.', ' Please insert a minimum of 7 characters for the Password.');
                     return false      
                 }
                 
                 if(newpassword != confirmPassword)
                 {
-                    Ext.Msg.alert('', 'Confirm Password do not match.');
+                    Ext.Msg.alert('Confirm Password do not match.', 'Confirm Password do not match.');
                     return false;
                 }
                 
                 if(isParticipate)
                 {                      
                  
-                    //loadMask()            
+                    loadMask()            
                     Ext.Ajax.request({
                         url: serviceUrl+'register',
                         headers: {
@@ -275,12 +275,13 @@ Ext.define('MarlowApp.view.Signup', {
                         withCredentials: false,
                         useDefaultXhrHeader: false,
                         success: function(response) {      
-                            response = Ext.decode(response.responseText)
+                        response = Ext.decode(response.responseText)
                             /*console.log(response);*/
                               
                         if(response.success)
                              {
                                
+                                hideloadingMask();
                                 var url = 'dashboard'; 
                                 app.application.redirectTo(url);
                                 /*var userNameObj = document.getElementById('UserNameLandingpageID');
@@ -290,12 +291,14 @@ Ext.define('MarlowApp.view.Signup', {
                         else
                             {
                                 // Ext.Msg.alert('', 'ELSE');
+                                hideloadingMask();
                                 return false     
                             }     
                         },
                         failure: function(response) {
+                            hideloadingMask();
                             response = Ext.decode(response.responseText)
-                            Ext.Msg.alert('', 'Server is not responding please try again');     
+                            Ext.Msg.alert('Server is not responding please try again.', 'Server is not responding please try again.');     
                         }
                     });                  
                 }

@@ -61,7 +61,7 @@ Ext.define('MarlowApp.controller.LoginC', {
             return false;  
         }
         if (username != '' && password!='' ){
-            //loadMask() 
+            loadMask()
             Ext.Ajax.request({
                 url: serviceUrl+'login',
                 headers: {
@@ -89,20 +89,35 @@ Ext.define('MarlowApp.controller.LoginC', {
                     try{
                         
                         response = Ext.decode(response.responseText);
-                        Ext.getStore("SignupInfoStore").setData(response[0]);                        
+                        Ext.getStore("SignupInfoStore").setData(response[0]);
+                        //console.log(response[0].ERROR);                        
                         //console.log(Ext.getStore("SignupInfoStore"));
-                        app.application.redirectTo('dashboard');
-                       
-                      // Ext.Viewport.add(Ext.create('MarlowApp.view.Dashboard'));                               
+                      //  app.application.redirectTo('dashboard');
+                        if(response[0].ERROR == 'YOU ENTERED INVALID EMAIL OR PASSWORD')
+                        {
+                            
+                            hideloadingMask();
+                            Ext.Msg.alert('ENTERED INVALID RECORD');    
+                            app.application.redirectTo('login');
+                        }
+                        else
+                        {       
+                            hideloadingMask();
+                            Ext.getCmp('loginusername').reset();
+                            Ext.getCmp('loginpassword').reset();
+                            app.application.redirectTo('dashboard');                            
+                        }
+                                                    
                     }
                     catch(err)
                     {
-                        //console.log(err)
+                        hideloadingMask();      
                         Ext.Msg.alert('No internet connection available', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
+                    hideloadingMask();      
                     Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
                 },
                 callback:function(response)

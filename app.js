@@ -23,10 +23,11 @@ Ext.application({
     name: 'MarlowApp',
 
     requires: [
+       
         'Ext.MessageBox',
-        'Ext.form.FieldSet',
-        'Ext.field.Password'
-         
+        'Ext.form.*',               
+        'Ext.field.*',         
+        'MarlowApp.bootstrap' 
     ],
     
    
