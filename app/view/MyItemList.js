@@ -23,15 +23,27 @@ Ext.define('MarlowApp.view.MyItemList', {
                                 xtype: 'button',
                                 align: 'left',
                                 text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> </span> ',
-                                cls: 'custom-button'
+                                cls: 'custom-button',
+                                itemId: 'loginButton',
                             },
                             {    
                                 xtype: 'button',
                                 text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
                                 align: 'right',
-                                cls: 'custom-button'
-                            } 
-                        ]
+                                cls: 'custom-button',
+                                listeners: 
+                                        {
+                                        painted: function ( btn , e, eOpts ) {
+                                        btn.on('tap', function () {
+                                        app.application.redirectTo('deleteitems'); 
+                                        });
+                                        }}
+                            }
+                            
+                            
+                        ],
+
+                         
                 },
         
                  {
@@ -99,6 +111,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                             ]
                     }
         ]
-        }
+        },
+     
 
 });

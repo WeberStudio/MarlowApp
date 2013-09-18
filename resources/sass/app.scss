@@ -4,6 +4,8 @@
 
 $base-color: #17a4e6;
 $base-gradient: black;
+//$my_new_gradient:#3090C7;
+//$my_new_stunning_effect:#3090C7;
 
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
@@ -14,7 +16,16 @@ $base-gradient: black;
 @import 'page.scss';
 
 // Custom code goes here..
-
+ .tweet-wrapper {
+  h2 { font-weight: bold; padding-bottom: 3px; }
+  img { border-radius: 5px; float: left; }
+  .tweet {
+   // font-size: 70%;
+    margin-left: 135px;
+    min-height: 50px;
+  }
+  .posted { float: right; }
+}
 @include list-settings;
 @include button-style;
 @include toolbar-settings;

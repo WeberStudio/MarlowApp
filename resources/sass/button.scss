@@ -31,6 +31,30 @@
        top: -120px;
  
     }
+    .delete_btn
+    {
+       color               : #F75D59 !important;
+       background-color    : #fff !important;
+       border              : none !important;
+       border-radius       : 0px;
+       font-size           : 27px;  
+    }
+    .cancel_btn
+    {
+       color               : #3090C7 !important;
+       background-color    : #fff !important;
+       border              : none !important;
+       border-radius       : 0px;
+       font-size           : 27px;
+       font-weight         : normal;  
+    }
+    
+    .x-item-selected
+    {
+        background-color    : #fcd9db !important;
+        color               : black !important;
+    }
+    
 
 }
  
