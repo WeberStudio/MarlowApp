@@ -3,7 +3,7 @@ Ext.define('MarlowApp.view.Snap', {
     xtype:'snapView',     
     config: {
         
-        id:'snapId',
+        itemId:'snapId',
        
 		items : [
 			{
@@ -20,13 +20,21 @@ Ext.define('MarlowApp.view.Snap', {
 					xtype: 'button',
 					align: 'left',
 					text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
-					cls: 'custom-button'
+					cls: 'custom-button',
+                    handler:function()
+                    {
+                          app.application.redirectTo('dashboard')
+                    }
 				},
 				{	
 					xtype: 'button',
 					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
 					align: 'right',
-					cls: 'custom-button'
+					cls: 'custom-button',
+                    handler:function()
+                    {
+                          app.application.redirectTo('addnote')
+                    },
 				} 
 			]
 		},
@@ -72,14 +80,14 @@ Ext.define('MarlowApp.view.Snap', {
 			]
 		},
 		{
-		xtype: 'img',
-		id:'snapId',
-		html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; height: auto">',
-		//store :'allshopsStoreId',
-		//itemTpl: '<div class="contact">{name} </div>',
-		//indexBar: true,
+		    xtype: 'img',
+		    id:'snapId',
+		    html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; height: auto">',
+		    //store :'allshopsStoreId',
+		    //itemTpl: '<div class="contact">{name} </div>',
+		    //indexBar: true,
 	
-	},
+	    },
 	  ]
         
 	}
