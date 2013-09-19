@@ -62,8 +62,9 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl  = 'http://localhost/MarlowApp/marlow_admin/client/';
-        snapSrc     = '';
+        serviceUrl      = 'http://localhost/MarlowApp/marlow_admin/client/';
+        snapSrc         = '';
+        shopSelected    = '';  
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view

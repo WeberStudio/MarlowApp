@@ -32,7 +32,7 @@ Ext.define('MarlowApp.view.Shops', {
                     handler:function()
                     {
                           app.application.redirectTo('addnote')
-						  window.location.reload();
+						 
                     }
 				},
 				{	
@@ -43,7 +43,7 @@ Ext.define('MarlowApp.view.Shops', {
                     handler:function()
                     {
                           app.application.redirectTo('addtolist')
-						  window.location.reload();
+						 
                     }
                 
 				} 
@@ -69,7 +69,7 @@ Ext.define('MarlowApp.view.Shops', {
 					listeners: {
 						tap: function() {
 						app.application.redirectTo('snapit')
-						window.location.reload();
+						
 					},
 					},
 				},
@@ -82,7 +82,7 @@ Ext.define('MarlowApp.view.Shops', {
 					listeners: {
 						tap: function() {
 						app.application.redirectTo('shops')
-						window.location.reload();
+						
 					},
 					},
 				},
@@ -95,7 +95,7 @@ Ext.define('MarlowApp.view.Shops', {
 					listeners: {
 						tap: function() {
 						app.application.redirectTo('mylist')
-						window.location.reload();
+						
 					},
 					},
 				},
@@ -108,7 +108,7 @@ Ext.define('MarlowApp.view.Shops', {
 					listeners: {
 						tap: function() {
 						app.application.redirectTo('info')
-						window.location.reload();
+						
 					},
 					},
 				}
@@ -123,10 +123,16 @@ Ext.define('MarlowApp.view.Shops', {
 		store :'allshopsStoreId',
 		itemTpl: '<div class="contact">{name} </div>',
 		indexBar: true,
-	
-	},
-    
-
+	    listeners:
+                {
+                    itemtap: function(cmp, index, target, record, e, eOpts)
+                    {
+                        //console.log(record.data.id);
+                        shopSelected  = record.data.id;
+                        
+                    }
+	            },
+    }
 ]
 }   
 });

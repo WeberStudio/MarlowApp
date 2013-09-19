@@ -8,6 +8,7 @@ class client extends CI_Controller{
 
     //remove_ssl();
      $this->load->model('Client_model');
+      $this->load->model('Admin_model');    
      $this->load->helper(array('form'));
      $this->load->library('form_validation');
      $this->load->helper('url');
@@ -20,9 +21,11 @@ class client extends CI_Controller{
         $data = file_get_contents("php://input");
                  
         $decode         = json_decode($data, true);
+    
+        $get            = $this->Client_model->login($decode['email'] , md5($decode['password']));
+       // $get[0]->password = '';
         
-        $get            = $this->Client_model->login($decode['email'] , $decode['password']);
-        echo $count          = count($get);
+        $count          = count($get);
         if($count >=1)
         {   
             $get        = json_encode($get);
@@ -78,10 +81,11 @@ class client extends CI_Controller{
         else
         {
             $save = array();
+            $save['user_id']        = ''; 
             $save['fname']          = $firstName;
             $save['lname']          = $lastName; 
             $save['email']          = $email; 
-            $save['password']       = $password;
+            $save['password']       = md5($password);
             $save['gender']         = $gender;
             $save['join_date']      = $date;
             $save['status']         = '1';
@@ -110,7 +114,35 @@ class client extends CI_Controller{
       echo $product_encode;  
     }
     
-    
+     function add_product()
+     {
+            
+        $data                   = file_get_contents("php://input");
+        $decode                 = json_decode($data, true);       
+        $save                   = array();
+        $save['id']             = '';
+        $save['user_id']        = $decode['user_id'];
+        $save['brand_id']       = $decode['brand_id'];
+        $save['note']           = $decode['note'];   
+        $save['price']          = $decode['price'];          
+        $save['image']          = $decode['image'];          
+        $save['status']         = '1';
+        $insert                 = $this->Admin_model->save_record($save , 'products');
+          
+        if($insert)
+        {
+           $message             = array(array('MESSAGE'=>'YOU RERGISTERED SUCCESSFULLY'));
+           $message             = json_encode($message);
+           echo $message;            
+        }
+        else
+        {
+            $message             = array(array('MESSAGE'=>'YOU RERGISTRATION FAILED'));
+            $message             = json_encode($message);
+            echo $message;            
+            
+        }         
+    }
     
     
     

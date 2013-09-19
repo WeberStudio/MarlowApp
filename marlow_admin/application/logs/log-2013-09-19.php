@@ -20190,3 +20190,1875 @@ DEBUG - 2013-09-19 10:03:05 --> Model Class Initialized
 DEBUG - 2013-09-19 10:03:05 --> Form Validation Class Initialized
 DEBUG - 2013-09-19 10:03:05 --> Final output sent to browser
 DEBUG - 2013-09-19 10:03:05 --> Total execution time: 0.0884
+DEBUG - 2013-09-19 10:30:15 --> Config Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:30:15 --> URI Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Router Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Output Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Security Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Input Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:30:15 --> Language Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:30:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:30:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Model Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Model Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:30:15 --> Final output sent to browser
+DEBUG - 2013-09-19 10:30:15 --> Total execution time: 0.0909
+DEBUG - 2013-09-19 10:31:53 --> Config Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:31:53 --> URI Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Router Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Output Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Security Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Input Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:31:53 --> Language Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:31:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:31:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Model Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Model Class Initialized
+DEBUG - 2013-09-19 10:31:53 --> Form Validation Class Initialized
+ERROR - 2013-09-19 10:31:53 --> Severity: Notice  --> Undefined index:  id C:\AppServ\www\MarlowApp\marlow_admin\application\models\client_model.php 22
+DEBUG - 2013-09-19 10:31:53 --> Final output sent to browser
+DEBUG - 2013-09-19 10:31:53 --> Total execution time: 0.1519
+DEBUG - 2013-09-19 10:39:34 --> Config Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:39:34 --> URI Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Router Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Output Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Security Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Input Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:39:34 --> Language Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:39:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:39:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Model Class Initialized
+DEBUG - 2013-09-19 10:39:34 --> Model Class Initialized
+DEBUG - 2013-09-19 10:39:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:39:35 --> DB Transaction Failure
+ERROR - 2013-09-19 10:39:35 --> Query error: Unknown column 'id' in 'field list'
+DEBUG - 2013-09-19 10:39:35 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2013-09-19 10:41:47 --> Config Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:41:47 --> URI Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Router Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Output Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Security Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Input Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:41:47 --> Language Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:41:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:41:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Model Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Model Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:41:47 --> Final output sent to browser
+DEBUG - 2013-09-19 10:41:47 --> Total execution time: 0.0789
+DEBUG - 2013-09-19 10:44:45 --> Config Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:44:45 --> URI Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Router Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Output Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Security Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Input Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:44:45 --> Language Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:44:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:44:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Model Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Model Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:44:45 --> Final output sent to browser
+DEBUG - 2013-09-19 10:44:45 --> Total execution time: 0.0793
+DEBUG - 2013-09-19 10:45:17 --> Config Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:45:17 --> URI Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Router Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Output Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Security Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Input Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:45:17 --> Language Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:45:17 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:45:17 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Model Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Model Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:45:17 --> Final output sent to browser
+DEBUG - 2013-09-19 10:45:17 --> Total execution time: 0.0865
+DEBUG - 2013-09-19 10:52:39 --> Config Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:52:39 --> URI Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Router Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Output Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Security Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Input Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:52:39 --> Language Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:52:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:52:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Model Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Model Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:52:39 --> Final output sent to browser
+DEBUG - 2013-09-19 10:52:39 --> Total execution time: 0.1099
+DEBUG - 2013-09-19 10:54:09 --> Config Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:54:09 --> URI Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Router Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Output Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Security Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Input Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:54:09 --> Language Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:54:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:54:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Model Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Model Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:54:09 --> Final output sent to browser
+DEBUG - 2013-09-19 10:54:09 --> Total execution time: 0.0754
+DEBUG - 2013-09-19 10:57:37 --> Config Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:57:37 --> URI Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Router Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Output Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Security Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Input Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:57:37 --> Language Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:57:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:57:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:37 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:38 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:57:38 --> Final output sent to browser
+DEBUG - 2013-09-19 10:57:38 --> Total execution time: 0.0802
+DEBUG - 2013-09-19 10:57:44 --> Config Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:57:44 --> URI Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Router Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Output Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Security Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Input Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:57:44 --> Language Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:57:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:57:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:57:44 --> Final output sent to browser
+DEBUG - 2013-09-19 10:57:44 --> Total execution time: 0.0708
+DEBUG - 2013-09-19 10:57:45 --> Config Class Initialized
+DEBUG - 2013-09-19 10:57:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:57:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:57:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:57:45 --> URI Class Initialized
+DEBUG - 2013-09-19 10:57:45 --> Router Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Output Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Security Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Input Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:57:46 --> Language Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:57:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:57:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:57:46 --> Final output sent to browser
+DEBUG - 2013-09-19 10:57:46 --> Total execution time: 0.0945
+DEBUG - 2013-09-19 10:57:56 --> Config Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:57:56 --> URI Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Router Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Output Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Security Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Input Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:57:56 --> Language Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:57:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:57:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Model Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:57:56 --> Final output sent to browser
+DEBUG - 2013-09-19 10:57:56 --> Total execution time: 0.1010
+DEBUG - 2013-09-19 10:58:01 --> Config Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:58:01 --> URI Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Router Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Output Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Security Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Input Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:58:01 --> Language Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:58:01 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:58:01 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:58:01 --> Final output sent to browser
+DEBUG - 2013-09-19 10:58:01 --> Total execution time: 0.0878
+DEBUG - 2013-09-19 10:58:15 --> Config Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:58:15 --> URI Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Router Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Output Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Security Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Input Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:58:15 --> Language Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:58:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:58:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:58:15 --> Final output sent to browser
+DEBUG - 2013-09-19 10:58:15 --> Total execution time: 0.0865
+DEBUG - 2013-09-19 10:58:35 --> Config Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 10:58:35 --> URI Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Router Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Output Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Security Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Input Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 10:58:35 --> Language Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 10:58:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 10:58:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Model Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 10:58:35 --> Final output sent to browser
+DEBUG - 2013-09-19 10:58:35 --> Total execution time: 0.0668
+DEBUG - 2013-09-19 11:05:35 --> Config Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:05:35 --> URI Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Router Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Output Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Security Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Input Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:05:35 --> Language Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:05:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:05:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Model Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Model Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:05:35 --> Final output sent to browser
+DEBUG - 2013-09-19 11:05:35 --> Total execution time: 0.0964
+DEBUG - 2013-09-19 11:05:49 --> Config Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:05:49 --> URI Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Router Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Output Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Security Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Input Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:05:49 --> Language Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:05:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:05:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Model Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Model Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:05:49 --> Final output sent to browser
+DEBUG - 2013-09-19 11:05:49 --> Total execution time: 0.0939
+DEBUG - 2013-09-19 11:07:10 --> Config Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:07:10 --> URI Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Router Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Output Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Security Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Input Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:07:10 --> Language Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:07:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:07:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Model Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Model Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:07:10 --> Final output sent to browser
+DEBUG - 2013-09-19 11:07:10 --> Total execution time: 0.1254
+DEBUG - 2013-09-19 11:09:50 --> Config Class Initialized
+DEBUG - 2013-09-19 11:09:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:09:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:09:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:09:50 --> URI Class Initialized
+DEBUG - 2013-09-19 11:09:50 --> Router Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Output Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Security Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Input Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:09:51 --> Language Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:09:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:09:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Model Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Model Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:09:51 --> Final output sent to browser
+DEBUG - 2013-09-19 11:09:51 --> Total execution time: 0.1098
+DEBUG - 2013-09-19 11:10:48 --> Config Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:10:48 --> URI Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Router Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Output Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Security Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Input Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:10:48 --> Language Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:10:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:10:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Model Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Model Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:10:48 --> Final output sent to browser
+DEBUG - 2013-09-19 11:10:48 --> Total execution time: 0.1167
+DEBUG - 2013-09-19 11:12:36 --> Config Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:12:36 --> URI Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Router Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Output Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Security Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Input Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:12:36 --> Language Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:12:36 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:12:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:12:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:12:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:12:37 --> Model Class Initialized
+DEBUG - 2013-09-19 11:12:37 --> Model Class Initialized
+DEBUG - 2013-09-19 11:12:37 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:12:37 --> Final output sent to browser
+DEBUG - 2013-09-19 11:12:37 --> Total execution time: 0.1086
+DEBUG - 2013-09-19 11:15:42 --> Config Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:15:42 --> URI Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Router Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Output Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Security Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Input Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:15:42 --> Language Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:15:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:15:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:15:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:15:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:15:43 --> Model Class Initialized
+DEBUG - 2013-09-19 11:15:43 --> Model Class Initialized
+DEBUG - 2013-09-19 11:15:43 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:15:43 --> Final output sent to browser
+DEBUG - 2013-09-19 11:15:43 --> Total execution time: 0.1178
+DEBUG - 2013-09-19 11:17:16 --> Config Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:17:16 --> URI Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Router Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Output Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Security Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Input Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:17:16 --> Language Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:17:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:17:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Model Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Model Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:17:16 --> Final output sent to browser
+DEBUG - 2013-09-19 11:17:16 --> Total execution time: 0.1282
+DEBUG - 2013-09-19 11:28:35 --> Config Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:28:35 --> URI Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Router Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Output Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Security Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Input Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:28:35 --> Language Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:28:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:28:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Model Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Model Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:28:35 --> Final output sent to browser
+DEBUG - 2013-09-19 11:28:35 --> Total execution time: 0.1085
+DEBUG - 2013-09-19 11:30:00 --> Config Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:30:00 --> URI Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Router Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Output Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Security Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Input Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:30:00 --> Language Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:30:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:30:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Model Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Model Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:30:00 --> Final output sent to browser
+DEBUG - 2013-09-19 11:30:00 --> Total execution time: 0.1132
+DEBUG - 2013-09-19 11:30:27 --> Config Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:30:27 --> URI Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Router Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Output Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Security Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Input Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:30:27 --> Language Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:30:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:30:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Model Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Model Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:30:27 --> Final output sent to browser
+DEBUG - 2013-09-19 11:30:27 --> Total execution time: 0.0980
+DEBUG - 2013-09-19 11:38:34 --> Config Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:38:34 --> URI Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Router Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Output Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Security Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Input Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:38:34 --> Language Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:38:34 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:38:34 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Model Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Model Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:38:34 --> Final output sent to browser
+DEBUG - 2013-09-19 11:38:34 --> Total execution time: 0.1222
+DEBUG - 2013-09-19 11:48:53 --> Config Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:48:53 --> URI Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Router Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Output Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Security Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Input Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:48:53 --> Language Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:48:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:48:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Model Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Model Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:48:53 --> Final output sent to browser
+DEBUG - 2013-09-19 11:48:53 --> Total execution time: 0.1247
+DEBUG - 2013-09-19 11:54:50 --> Config Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:54:50 --> URI Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Router Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Output Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Security Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Input Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:54:50 --> Language Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:54:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:54:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Model Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Model Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:54:50 --> Final output sent to browser
+DEBUG - 2013-09-19 11:54:50 --> Total execution time: 0.0916
+DEBUG - 2013-09-19 11:55:58 --> Config Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:55:58 --> URI Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Router Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Output Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Security Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Input Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:55:58 --> Language Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:55:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:55:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Model Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Model Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:55:58 --> Final output sent to browser
+DEBUG - 2013-09-19 11:55:58 --> Total execution time: 0.1125
+DEBUG - 2013-09-19 11:56:11 --> Config Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:56:11 --> URI Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Router Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Output Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Security Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Input Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:56:11 --> Language Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:56:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:56:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Model Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Model Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:56:11 --> Final output sent to browser
+DEBUG - 2013-09-19 11:56:11 --> Total execution time: 0.0871
+DEBUG - 2013-09-19 11:56:54 --> Config Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:56:54 --> URI Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Router Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Output Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Security Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Input Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:56:54 --> Language Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:56:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:56:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Model Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Model Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:56:54 --> Final output sent to browser
+DEBUG - 2013-09-19 11:56:54 --> Total execution time: 0.1250
+DEBUG - 2013-09-19 11:58:09 --> Config Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:58:09 --> URI Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Router Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Output Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Security Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Input Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:58:09 --> Language Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:58:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:58:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Model Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Model Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:58:09 --> Final output sent to browser
+DEBUG - 2013-09-19 11:58:09 --> Total execution time: 0.1032
+DEBUG - 2013-09-19 11:59:13 --> Config Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:59:13 --> URI Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Router Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Output Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Security Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Input Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:59:13 --> Language Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:59:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:59:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Model Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Model Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:59:13 --> Final output sent to browser
+DEBUG - 2013-09-19 11:59:13 --> Total execution time: 0.0970
+DEBUG - 2013-09-19 11:59:46 --> Config Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 11:59:46 --> URI Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Router Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Output Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Security Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Input Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 11:59:46 --> Language Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 11:59:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 11:59:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Model Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Model Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 11:59:46 --> Final output sent to browser
+DEBUG - 2013-09-19 11:59:46 --> Total execution time: 0.1141
+DEBUG - 2013-09-19 12:06:29 --> Config Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:06:29 --> URI Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Router Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Output Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Security Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Input Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:06:29 --> Language Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:06:29 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:06:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:06:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:06:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:06:30 --> Model Class Initialized
+DEBUG - 2013-09-19 12:06:30 --> Model Class Initialized
+DEBUG - 2013-09-19 12:06:30 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:06:30 --> Final output sent to browser
+DEBUG - 2013-09-19 12:06:30 --> Total execution time: 0.1396
+DEBUG - 2013-09-19 12:07:47 --> Config Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:07:47 --> URI Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Router Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Output Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Security Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Input Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:07:47 --> Language Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:07:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:07:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Model Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:07:47 --> Final output sent to browser
+DEBUG - 2013-09-19 12:07:47 --> Total execution time: 0.1050
+DEBUG - 2013-09-19 12:08:53 --> Config Class Initialized
+DEBUG - 2013-09-19 12:08:53 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:08:54 --> URI Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Router Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Output Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Security Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Input Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:08:54 --> Language Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:08:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:08:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Model Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Model Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:08:54 --> Final output sent to browser
+DEBUG - 2013-09-19 12:08:54 --> Total execution time: 0.1287
+DEBUG - 2013-09-19 12:10:18 --> Config Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:10:18 --> URI Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Router Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Output Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Security Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Input Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:10:18 --> Language Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:10:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:10:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Model Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:10:18 --> Final output sent to browser
+DEBUG - 2013-09-19 12:10:18 --> Total execution time: 0.1238
+DEBUG - 2013-09-19 12:11:42 --> Config Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:11:42 --> URI Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Router Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Output Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Security Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Input Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:11:42 --> Language Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:11:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:11:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Model Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:11:42 --> Final output sent to browser
+DEBUG - 2013-09-19 12:11:42 --> Total execution time: 0.1012
+DEBUG - 2013-09-19 12:12:05 --> Config Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:12:05 --> URI Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Router Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Output Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Security Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Input Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:12:05 --> Language Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:12:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:12:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Model Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Model Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:12:05 --> Final output sent to browser
+DEBUG - 2013-09-19 12:12:05 --> Total execution time: 0.1016
+DEBUG - 2013-09-19 12:13:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:13:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:13:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:13:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:13:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:13:33 --> Final output sent to browser
+DEBUG - 2013-09-19 12:13:33 --> Total execution time: 0.0975
+DEBUG - 2013-09-19 12:14:45 --> Config Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:14:45 --> URI Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Router Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Output Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Security Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Input Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:14:45 --> Language Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:14:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:14:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Model Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:14:45 --> Final output sent to browser
+DEBUG - 2013-09-19 12:14:45 --> Total execution time: 0.0963
+DEBUG - 2013-09-19 12:32:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:32:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:32:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:32:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:32:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:32:33 --> Final output sent to browser
+DEBUG - 2013-09-19 12:32:33 --> Total execution time: 0.0884
+DEBUG - 2013-09-19 12:36:33 --> Config Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:36:33 --> URI Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Router Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Output Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Security Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Input Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:36:33 --> Language Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:36:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:36:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Model Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:36:33 --> Final output sent to browser
+DEBUG - 2013-09-19 12:36:33 --> Total execution time: 0.1409
+DEBUG - 2013-09-19 12:50:19 --> Config Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:50:19 --> URI Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Router Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Output Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Security Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Input Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:50:19 --> Language Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:50:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:50:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Model Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Model Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:50:19 --> Final output sent to browser
+DEBUG - 2013-09-19 12:50:19 --> Total execution time: 0.1204
+DEBUG - 2013-09-19 12:51:08 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:08 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Output Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Security Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Input Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:51:08 --> Language Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:51:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:51:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:51:08 --> Final output sent to browser
+DEBUG - 2013-09-19 12:51:08 --> Total execution time: 0.1173
+DEBUG - 2013-09-19 12:51:27 --> Config Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:51:27 --> URI Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Router Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Output Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Security Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Input Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:51:27 --> Language Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:51:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:51:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Model Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:51:27 --> Final output sent to browser
+DEBUG - 2013-09-19 12:51:27 --> Total execution time: 0.0876
+DEBUG - 2013-09-19 12:52:57 --> Config Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:52:57 --> URI Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Router Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Output Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Security Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Input Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:52:57 --> Language Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:52:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:52:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Model Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:52:57 --> Final output sent to browser
+DEBUG - 2013-09-19 12:52:57 --> Total execution time: 0.1017
+DEBUG - 2013-09-19 12:53:04 --> Config Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 12:53:04 --> URI Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Router Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Output Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Security Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Input Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 12:53:04 --> Language Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 12:53:04 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 12:53:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 12:53:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 12:53:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 12:53:05 --> Model Class Initialized
+DEBUG - 2013-09-19 12:53:05 --> Model Class Initialized
+DEBUG - 2013-09-19 12:53:05 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 12:53:05 --> Final output sent to browser
+DEBUG - 2013-09-19 12:53:05 --> Total execution time: 0.0627
+DEBUG - 2013-09-19 14:08:59 --> Config Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:08:59 --> URI Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Router Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Output Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Security Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Input Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:08:59 --> Language Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:08:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:08:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Model Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Model Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:08:59 --> Final output sent to browser
+DEBUG - 2013-09-19 14:08:59 --> Total execution time: 0.0699
+DEBUG - 2013-09-19 14:09:09 --> Config Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:09:09 --> URI Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Router Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Output Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Security Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Input Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:09:09 --> Language Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:09:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:09:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Model Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Model Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:09:09 --> Final output sent to browser
+DEBUG - 2013-09-19 14:09:09 --> Total execution time: 0.0986
+DEBUG - 2013-09-19 14:11:39 --> Config Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:11:39 --> URI Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Router Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Output Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Security Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Input Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:11:39 --> Language Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:11:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:11:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Model Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Model Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:11:39 --> Final output sent to browser
+DEBUG - 2013-09-19 14:11:39 --> Total execution time: 0.0820
+DEBUG - 2013-09-19 14:14:05 --> Config Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:14:05 --> URI Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Router Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Output Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Security Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Input Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:14:05 --> Language Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:14:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:14:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Model Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Model Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:14:05 --> Final output sent to browser
+DEBUG - 2013-09-19 14:14:05 --> Total execution time: 0.0746
+DEBUG - 2013-09-19 14:32:55 --> Config Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:32:55 --> URI Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Router Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Output Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Security Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Input Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:32:55 --> Language Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:32:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:32:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Model Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Model Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:32:55 --> Final output sent to browser
+DEBUG - 2013-09-19 14:32:55 --> Total execution time: 0.0729
+DEBUG - 2013-09-19 14:34:20 --> Config Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:34:20 --> URI Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Router Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Output Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Security Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Input Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:34:20 --> Language Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:34:20 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:34:20 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Model Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Model Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:34:20 --> Final output sent to browser
+DEBUG - 2013-09-19 14:34:20 --> Total execution time: 0.0818
+DEBUG - 2013-09-19 14:36:03 --> Config Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:36:03 --> URI Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Router Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Output Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Security Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Input Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:36:03 --> Language Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Model Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:36:03 --> Final output sent to browser
+DEBUG - 2013-09-19 14:36:03 --> Total execution time: 0.0770
+DEBUG - 2013-09-19 14:40:48 --> Config Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:40:48 --> URI Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Router Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Output Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Security Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Input Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:40:48 --> Language Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:40:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:40:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Model Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Model Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:40:48 --> Final output sent to browser
+DEBUG - 2013-09-19 14:40:48 --> Total execution time: 0.0729
+DEBUG - 2013-09-19 14:53:35 --> Config Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:53:35 --> URI Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Router Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Output Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Security Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Input Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:53:35 --> Language Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:53:35 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:53:35 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Model Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:53:35 --> Final output sent to browser
+DEBUG - 2013-09-19 14:53:35 --> Total execution time: 0.0759
+DEBUG - 2013-09-19 14:54:30 --> Config Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:54:30 --> URI Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Router Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Output Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Security Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Input Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:54:30 --> Language Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:54:30 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:54:30 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Model Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:54:30 --> Final output sent to browser
+DEBUG - 2013-09-19 14:54:30 --> Total execution time: 0.0749
+DEBUG - 2013-09-19 14:57:04 --> Config Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:57:04 --> URI Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Router Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Output Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Security Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Input Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:57:04 --> Language Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:57:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:57:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Model Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Model Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:57:04 --> Final output sent to browser
+DEBUG - 2013-09-19 14:57:04 --> Total execution time: 0.0768
+DEBUG - 2013-09-19 14:58:27 --> Config Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Hooks Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 14:58:27 --> URI Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Router Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Output Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Security Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Input Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 14:58:27 --> Language Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Loader Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 14:58:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 14:58:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Controller Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Model Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 14:58:27 --> Final output sent to browser
+DEBUG - 2013-09-19 14:58:27 --> Total execution time: 0.0698
+DEBUG - 2013-09-19 15:06:05 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:05 --> URI Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Output Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Security Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Input Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:06:05 --> Language Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:06:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:06:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:06:05 --> Final output sent to browser
+DEBUG - 2013-09-19 15:06:05 --> Total execution time: 0.0702
+DEBUG - 2013-09-19 15:06:46 --> Config Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:06:46 --> URI Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Router Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Output Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Security Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Input Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:06:46 --> Language Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:06:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:06:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Model Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:06:46 --> Final output sent to browser
+DEBUG - 2013-09-19 15:06:46 --> Total execution time: 0.0746
+DEBUG - 2013-09-19 15:07:44 --> Config Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:07:44 --> URI Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Router Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Output Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Security Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Input Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:07:44 --> Language Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:07:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:07:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Model Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Model Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:07:44 --> Final output sent to browser
+DEBUG - 2013-09-19 15:07:44 --> Total execution time: 0.0787
+DEBUG - 2013-09-19 15:51:19 --> Config Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:51:19 --> URI Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Router Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Output Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Security Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Input Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:51:19 --> Language Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:51:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:51:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Model Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Model Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:51:19 --> Final output sent to browser
+DEBUG - 2013-09-19 15:51:19 --> Total execution time: 0.0734
+DEBUG - 2013-09-19 15:57:04 --> Config Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Hooks Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 15:57:04 --> URI Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Router Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Output Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Security Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Input Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 15:57:04 --> Language Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Loader Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 15:57:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 15:57:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Controller Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Model Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Model Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 15:57:04 --> Final output sent to browser
+DEBUG - 2013-09-19 15:57:04 --> Total execution time: 0.0760
+DEBUG - 2013-09-19 16:26:28 --> Config Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:26:28 --> URI Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Router Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Output Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Security Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Input Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:26:28 --> Language Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:26:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:26:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Model Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Model Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:26:28 --> Final output sent to browser
+DEBUG - 2013-09-19 16:26:28 --> Total execution time: 0.0801
+DEBUG - 2013-09-19 16:28:13 --> Config Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:28:13 --> URI Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Router Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Output Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Security Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Input Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:28:13 --> Language Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:28:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:28:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Model Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Model Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:28:13 --> Final output sent to browser
+DEBUG - 2013-09-19 16:28:13 --> Total execution time: 0.0895
+DEBUG - 2013-09-19 16:28:59 --> Config Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:28:59 --> URI Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Router Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Output Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Security Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Input Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:28:59 --> Language Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:28:59 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:29:00 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:29:00 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:29:00 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:29:00 --> Model Class Initialized
+DEBUG - 2013-09-19 16:29:00 --> Model Class Initialized
+DEBUG - 2013-09-19 16:29:00 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:29:00 --> Final output sent to browser
+DEBUG - 2013-09-19 16:29:00 --> Total execution time: 0.0922
+DEBUG - 2013-09-19 16:30:21 --> Config Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:30:21 --> URI Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Router Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Output Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Security Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Input Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:30:21 --> Language Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:30:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:30:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Model Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Model Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:30:21 --> Final output sent to browser
+DEBUG - 2013-09-19 16:30:21 --> Total execution time: 0.0841
+DEBUG - 2013-09-19 16:36:09 --> Config Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:36:09 --> URI Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Router Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Output Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Security Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Input Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:36:09 --> Language Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:36:09 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:36:09 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Model Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Model Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:36:09 --> Final output sent to browser
+DEBUG - 2013-09-19 16:36:09 --> Total execution time: 0.0734
+DEBUG - 2013-09-19 16:43:44 --> Config Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:43:44 --> URI Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Router Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Output Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Security Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Input Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:43:44 --> Language Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:43:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:43:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Model Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Model Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:43:44 --> Final output sent to browser
+DEBUG - 2013-09-19 16:43:44 --> Total execution time: 0.0771
+DEBUG - 2013-09-19 16:45:26 --> Config Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:45:26 --> URI Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Router Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Output Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Security Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Input Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:45:26 --> Language Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:45:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:45:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Model Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:45:26 --> Final output sent to browser
+DEBUG - 2013-09-19 16:45:26 --> Total execution time: 0.0909
+DEBUG - 2013-09-19 16:47:42 --> Config Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:47:42 --> URI Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Router Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Output Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Security Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Input Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:47:42 --> Language Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:47:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:47:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Model Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:47:42 --> Final output sent to browser
+DEBUG - 2013-09-19 16:47:42 --> Total execution time: 0.0834
+DEBUG - 2013-09-19 16:49:39 --> Config Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Hooks Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 16:49:39 --> URI Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Router Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Output Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Security Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Input Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 16:49:39 --> Language Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Loader Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 16:49:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 16:49:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Controller Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Model Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 16:49:39 --> Final output sent to browser
+DEBUG - 2013-09-19 16:49:39 --> Total execution time: 0.0881
+DEBUG - 2013-09-19 17:16:57 --> Config Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:16:57 --> URI Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Router Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Output Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Security Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Input Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:16:57 --> Language Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:16:57 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:16:57 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Model Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 17:16:57 --> Final output sent to browser
+DEBUG - 2013-09-19 17:16:57 --> Total execution time: 0.0791
+DEBUG - 2013-09-19 17:17:10 --> Config Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:17:10 --> URI Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Router Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Output Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Security Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Input Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:17:10 --> Language Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:17:10 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:17:10 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Model Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Model Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 17:17:10 --> Final output sent to browser
+DEBUG - 2013-09-19 17:17:10 --> Total execution time: 0.1297
+DEBUG - 2013-09-19 17:20:07 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:07 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Output Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Security Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Input Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:20:07 --> Language Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:20:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:20:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 17:20:07 --> Final output sent to browser
+DEBUG - 2013-09-19 17:20:07 --> Total execution time: 0.0762
+DEBUG - 2013-09-19 17:20:37 --> Config Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Hooks Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 17:20:37 --> URI Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Router Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Output Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Security Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Input Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 17:20:37 --> Language Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Loader Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 17:20:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 17:20:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Controller Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Model Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 17:20:37 --> Final output sent to browser
+DEBUG - 2013-09-19 17:20:37 --> Total execution time: 0.0706
+DEBUG - 2013-09-19 18:01:18 --> Config Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:01:18 --> URI Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Router Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Output Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Security Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Input Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:01:18 --> Language Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:01:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:01:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:01:18 --> Final output sent to browser
+DEBUG - 2013-09-19 18:01:18 --> Total execution time: 0.0849
+DEBUG - 2013-09-19 18:01:25 --> Config Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:01:25 --> URI Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Router Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Output Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Security Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Input Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:01:25 --> Language Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:01:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:01:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:01:25 --> Final output sent to browser
+DEBUG - 2013-09-19 18:01:25 --> Total execution time: 0.0994
+DEBUG - 2013-09-19 18:01:32 --> Config Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:01:32 --> URI Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Router Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Output Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Security Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Input Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:01:32 --> Language Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:01:32 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:01:32 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Model Class Initialized
+DEBUG - 2013-09-19 18:01:32 --> Form Validation Class Initialized
+ERROR - 2013-09-19 18:01:32 --> Severity: Notice  --> Undefined property: client::$Admin_model C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\client.php 129
+DEBUG - 2013-09-19 18:04:07 --> Config Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:04:07 --> URI Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Router Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Output Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Security Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Input Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:04:07 --> Language Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:04:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:04:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:04:07 --> Final output sent to browser
+DEBUG - 2013-09-19 18:04:07 --> Total execution time: 0.0810
+DEBUG - 2013-09-19 18:04:28 --> Config Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:04:28 --> URI Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Router Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Output Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Security Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Input Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:04:28 --> Language Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:04:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:04:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:04:28 --> Final output sent to browser
+DEBUG - 2013-09-19 18:04:28 --> Total execution time: 0.0803
+DEBUG - 2013-09-19 18:04:42 --> Config Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:04:42 --> URI Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Router Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Output Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Security Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Input Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:04:42 --> Language Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:04:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:04:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Model Class Initialized
+DEBUG - 2013-09-19 18:04:42 --> Form Validation Class Initialized
+ERROR - 2013-09-19 18:04:42 --> Severity: Notice  --> Undefined property: client::$Admin_model C:\AppServ\www\MarlowApp\marlow_admin\application\controllers\client.php 129
+DEBUG - 2013-09-19 18:09:19 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:19 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:19 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:19 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:19 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:09:19 --> Final output sent to browser
+DEBUG - 2013-09-19 18:09:19 --> Total execution time: 0.1300
+DEBUG - 2013-09-19 18:09:33 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:33 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:33 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:09:33 --> Final output sent to browser
+DEBUG - 2013-09-19 18:09:33 --> Total execution time: 0.0985
+DEBUG - 2013-09-19 18:09:43 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:43 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:43 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Form Validation Class Initialized
+DEBUG - 2013-09-19 18:09:43 --> Final output sent to browser
+DEBUG - 2013-09-19 18:09:43 --> Total execution time: 0.0797

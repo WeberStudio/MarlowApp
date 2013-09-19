@@ -60,7 +60,7 @@ Ext.define('MarlowApp.view.AddToList', {
 				listeners: {
 					tap: function() {
 						app.application.redirectTo('shops')
-						window.location.reload();
+						
 					},
 					
 				},
@@ -75,7 +75,7 @@ Ext.define('MarlowApp.view.AddToList', {
 				listeners: {
 					tap: function() {
 					app.application.redirectTo('mylist')
-					window.location.reload();
+					
 					},
 				},
 			},
@@ -89,7 +89,7 @@ Ext.define('MarlowApp.view.AddToList', {
 				listeners: {
 					tap: function() {
 					app.application.redirectTo('info')
-					window.location.reload();
+					
 					},
 				},
 			}
@@ -114,7 +114,7 @@ Ext.define('MarlowApp.view.AddToList', {
 					handler:function()
 					{
 						app.application.redirectTo('snapit')
-						window.location.reload();
+						
 					}
 
 					
