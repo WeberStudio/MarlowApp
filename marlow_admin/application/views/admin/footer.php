@@ -1,5 +1,5 @@
             <div id="mws-footer">
-                Copyright Your Website 2012. All Rights Reserved.
+                Copyright The Marlow Winder Shoper.
             </div>
             
         </div>
@@ -18,7 +18,8 @@
     <script src="<?php echo(CSS.'jui/jquery-ui.custom.min.js'); ?>"></script>
     <script src="<?php echo(CSS.'jui/js/jquery.ui.touch-punch.min.js'); ?>"></script>
     <script src="<?php echo(CSS.'jui/js/globalize/globalize.js'); ?>"></script>
-    <script src="<?php echo(CSS.'jui/js/globalize/cultures/globalize.culture.en-US.js'); ?>"></script>  
+    <script src="<?php echo(CSS.'jui/js/globalize/cultures/globalize.culture.en-US.js'); ?>"></script>
+    <script src="<?php echo(CSS.'jui/js/timepicker/jquery-ui-timepicker.min.js'); ?>"></script>   
 
     <!-- Plugin Scripts -->
     <script src="<?php echo(CSS.'plugins/datatables/jquery.dataTables.min.js'); ?>"></script>
@@ -56,7 +57,8 @@
           <?php } ?>
     <!-- Demo Scripts (remove if not needed) -->
     <script src="<?php echo(CSS.'js/demo/demo.table.js'); ?>"></script>
-    <script src="<?php echo(CSS.'js/demo/demo.formelements.js'); ?>"></script> 
+    <script src="<?php echo(CSS.'js/demo/demo.formelements.js'); ?>"></script>
+    <script src="<?php echo(CSS.'js/demo/demo.widget.js'); ?>"></script>
 
 
 </body>

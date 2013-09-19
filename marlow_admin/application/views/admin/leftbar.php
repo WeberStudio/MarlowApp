@@ -18,12 +18,17 @@
             <!-- Main Navigation -->
             <div id="mws-navigation">
                 <ul>
-                    <li class="active"><a href="<?php echo URL.'index.php/pages/dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
-                    <li><a href="charts.html"><i class="icon-graph"></i> Charts</a></li>
+                    <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo URL.'index.php/pages/dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
+
+                    <li <?php if( $left_bar == "user" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_user';?>"><i class="icon-table"></i> Users</a></li>
+                    <li <?php if( $left_bar == "product" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_records';?>"><i class="icon-table"></i>Products</a></li>
+                    <li <?php if( $left_bar == "shop" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_shops';?>"><i class="icon-table"></i>Shop</a></li>
+                   <!-- 
+                     <li><a href="charts.html"><i class="icon-graph"></i> Charts</a></li>
                     <li><a href="calendar.html"><i class="icon-calendar"></i> Calendar</a></li>
                     <li><a href="files.html"><i class="icon-folder-closed"></i> File Manager</a></li>
-                    <li><a href="<?php echo URL.'index.php/pages/all_records';?>"><i class="icon-table"></i> Table</a></li>
-                   <!-- <li>
+                   
+                   <li>
                         <a href="#"><i class="icon-list"></i> Forms</a>
                         <ul>
                             <li><a href="form_layouts.html">Layouts</a></li>

@@ -53,7 +53,7 @@
                     <div class="mws-form-row">
                         
                         <input type="submit" value="Login" class="btn btn-success mws-login-button">
-                        <a href="<?php echo URL.'index.php/pages/register';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  In</a>
+                        <a href="<?php echo URL.'index.php/pages/register';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  Up</a>
                     </div>
                 </form>
             </div>
