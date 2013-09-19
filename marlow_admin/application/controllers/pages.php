@@ -143,11 +143,11 @@ class pages extends CI_Controller{
     {
         $data['title']              = 'Add User';
         $data['left_bar']           = 'user';
-        $data['shop']               = '';
+        $data['user']               = '';
         $data['name']               = '';
-        $data['address']            = '';
+        $data['password']            = '';
         $data['email']              = '';
-        $data['des']                = '';
+        $data['date_db']                = '';
         if($id!='')
         {
            $data['user']            = $this->Admin_model->get_records('user_info',$id); 
