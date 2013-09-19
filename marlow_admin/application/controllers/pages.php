@@ -102,7 +102,8 @@ class pages extends CI_Controller{
     
     function add_shop($id=false)
     {
-        $data['title']              = 'Add Shop';
+        if($id==''){$data['title']  = 'Add Shop';}
+        else{$data['title']         = 'Edit Shop';}
         $data['left_bar']           = 'shop';
         $data['shop']               = '';
         $data['name']               = '';
@@ -130,7 +131,7 @@ class pages extends CI_Controller{
             $save['email']          = $this->input->post('email');
             $save['des']            = $this->input->post('des');
             $save['status']         = '1';
-            $insert                 = $this->Admin_model->save_shop($save);
+            $insert                 = $this->Admin_model->save_record($save,'shops');
            redirect('index.php/pages/all_shops'); 
         }
         
@@ -141,13 +142,14 @@ class pages extends CI_Controller{
     
     function add_user($id=false)
     {
-        $data['title']              = 'Add User';
+        if($id==''){$data['title']  = 'Add User';}
+        else{$data['title']         = 'Edit User';}
         $data['left_bar']           = 'user';
         $data['user']               = '';
         $data['name']               = '';
-        $data['password']            = '';
+        $data['password']           = '';
         $data['email']              = '';
-        $data['date_db']                = '';
+        $data['date_db']            = '';
         if($id!='')
         {
            $data['user']            = $this->Admin_model->get_records('user_info',$id); 
@@ -171,7 +173,7 @@ class pages extends CI_Controller{
             $save['email']              = $this->input->post('email');
             $save['password']           = $this->input->post('password');
             $save['status']             = '1';
-            $insert                     = $this->Admin_model->add_user($save);
+            $insert                     = $this->Admin_model->save_record($save , 'user_info');
        //print_r( $save); exit;
            redirect('index.php/pages/all_user'); 
         }
@@ -183,22 +185,41 @@ class pages extends CI_Controller{
     
     function add_product($id=false)
     {
-        $data['title']              = 'Add Shop';
+        if($id==""){$data['title']  = 'Add Product'; }
+        else{$data['title']         = 'Edit Product'; }
         $data['left_bar']           = 'product';
-        $data['shop']               = '';
-        $data['name']               = '';
-        $data['address']            = '';
-        $data['email']              = '';
-        $data['des']                = '';
+        
+        $config['upload_path']      = './uploads/';
+        $config['allowed_types']    = 'gif|jpg|png';
+        $config['max_size']         = '100';
+        $config['max_width']        = '1024';
+        $config['max_height']       = '768';
+        $config['overwrite']        = false;
+        $config['encrypt_name']     = TRUE;
+        $this->load->library('upload', $config);
+        
+        $uploaded                   = $this->upload->do_upload('image');
+           
+        $p_image                    = $this->upload->data();
+        
+        $data['user_id']            = '';
+        $data['brand_id']           = '';
+        $data['note']               = '';
+        $data['price']              = ''; 
+        $data['image']              = '';
+       
+        $data['shop']               = $this->Admin_model->get_records('shops');
+        $data['user']               = $this->Admin_model->get_records('user_info');
         if($id!='')
         {
-           $data['shop']            = $this->Admin_model->get_records('shops',$id);
-           $data['name']            = $data['shop']['0']->name;
-           $data['address']         = $data['shop']['0']->address;
-           $data['email']           = $data['shop']['0']->email;
-           $data['des']             = $data['shop']['0']->des; 
+          $data['product']          = $this->Admin_model->get_records('products',$id);
+          $data['user_id']          = $data['product']['0']->user_id;
+          $data['brand_id']         = $data['product']['0']->brand_id;
+          $data['note']             = $data['product']['0']->note;
+          $data['price']            = $data['product']['0']->price; 
+          $data['image']            = $data['product']['0']->image;   
+
         }
-        
         $data['id']                 = $id;
         
                
@@ -206,13 +227,16 @@ class pages extends CI_Controller{
         {
             $save                   = array();
             $save['id']             = $id;
-            $save['name']           = $this->input->post('name');
-            $save['address']        = $this->input->post('address');
-            $save['email']          = $this->input->post('email');
-            $save['des']            = $this->input->post('des');
+            $save['user_id']        = $this->input->post('user');
+            $save['brand_id']       = $this->input->post('shop');
+            $save['note']           = $this->input->post('note'); 
+            $save['price']          = $this->input->post('price');
+            if($uploaded){
+            $save['image']          = $p_image['file_name'];
+            }
             $save['status']         = '1';
-            $insert                 = $this->Admin_model->save_shop($save);
-           redirect('index.php/pages/all_shops'); 
+            $insert                 = $this->Admin_model->save_record($save , 'products');
+           redirect('index.php/pages/all_records/'.$id); 
         }
         
         

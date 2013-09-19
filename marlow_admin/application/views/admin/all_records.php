@@ -42,7 +42,7 @@
                     <div class="mws-panel-toolbar">
                         <div class="btn-toolbar">
                             <div class="btn-group">
-                                <!--<a href="<?php echo URL.'index.php/pages/add_product'?>" class="btn"><i class="icol-accept"></i> Add New Product</a>-->
+                                <a href="<?php echo URL.'index.php/pages/add_product'?>" class="btn"><i class="icol-accept"></i> Add New Product</a>
                                 <!--<a href="#" class="btn"><i class="icol-cross"></i> Reject</a>
                                 <a href="#" class="btn"><i class="icol-printer"></i> Print</a>
                                 <a href="#" class="btn"><i class="icol-arrow-refresh"></i> Renew</a>
@@ -85,16 +85,21 @@
                                    ?>
                                 <tr>
                                     <td><?php echo $listing->id;?></td>
-                                    <td><?php echo $listing->user_id;?></td>
-                                    <td><?php echo $listing->brand_id;?></td>
+                                    <td><?php   $user_namee = $this->Admin_model->get_records('user_info',$listing->user_id) ;
+                                                if(!empty($user_namee)){ echo $user_namee['0']->fname; }
+                                                ?>
+                                    </td>
+                                    <td><?php   $shop_name = $this->Admin_model->get_records('shops',$listing->brand_id); 
+                                                if($shop_name){ echo $shop_name['0']->name ;}?>
+                                     </td>
                                     <td><?php echo substr($listing->note, 0, 20).'...';?></td>
                                     <td><?php echo $listing->price;?></td>
-                                    <td><img src="<?php echo (CSS.'example/'.$listing->image);?>" alt="image" align="center"style="width: 97px; height: 50px;"></td>
+                                    <td><img src="<?php echo (URL.'uploads/'.$listing->image);?>" alt="image" align="center"style="width: 97px; height: 50px;"></td>
                                     
                                     <!--<td><?php echo $listing->status;?></td>-->
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status.'/products';?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
-                                     <a href="<?php echo URL.'index.php/pages/add_shop/'.$listing->id;?>" class="btn btn-success btn-small">Edit</a>
+                                     <a href="<?php echo URL.'index.php/pages/add_product/'.$listing->id;?>" class="btn btn-success btn-small">Edit</a>
                                     <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/products";?>" class="btn btn-success btn-small">Delete</a>
                                     </td>
                                 </tr>

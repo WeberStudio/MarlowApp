@@ -61,14 +61,14 @@
                                 </span>
                                 </a>
                             </li>
-                            <!--<li>
-                            <a href="#">
+                            <li>
+                            <a href="<?php echo URL.'index.php/pages/add_product'?>">
                                 <span class="key"><i class="icon-shopping-cart"></i> Add Products view</span>
                                 <span class="val">
                                     <span class="text-nowrap"></span>  
                                 </span>
                                 </a>
-                            </li>-->
+                            </li>
                             <li>
                                 <a href="<?php echo URL.'index.php/pages/all_shops';?>"> 
                                 <span class="key"><i class="icon-install"></i> Shops view</span>

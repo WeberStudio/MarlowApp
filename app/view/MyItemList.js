@@ -96,7 +96,20 @@ Ext.define('MarlowApp.view.MyItemList', {
                     grouped: true,
                     ui:'white',
                     id:'list',
-                    itemTpl: [
+                    itemTpl: Ext.create(
+                        'Ext.XTemplate',
+                        '<div class="tweet-wrapper">',
+                        '   <img src="resources/icons/Icon@2x.png" />',
+                        '   <div class="tweet">',
+                        //'<span class="posted"><input type="radio"></span>',
+                        //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
+                        '       <p>{note}</p>',
+                        '       <b>{price}</b>',
+                        '   </div>',
+                        '</div>')
+                    
+                    
+                    /*[
                             '<tpl for=".">',
                             '<div class="tweet" style = "float: left;">',
                             '<div style = "float: left;">', 
@@ -108,7 +121,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                             '</div>',
                             '</div>',
                             '</tpl>'
-                            ]
+                            ] */
                     }
         ]
         },
