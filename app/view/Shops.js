@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.Shops', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('snapit')
+                          app.application.redirectTo('addtolist')
                     }
                 
 				} 
@@ -58,35 +58,55 @@ Ext.define('MarlowApp.view.Shops', {
                 type: 'hbox',
 			},
      		items: [
-                {
-                    xtype: 'img',
-                    iconAlign: 'center',
-                    html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
-                    iconMask: true,
-					title: 'Snap It'
-                },
-                {
-                    xtype: 'img',
-                    iconAlign: 'center',
-                    html: '<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">',
-                    iconMask: true,
-					title: 'Shops'
-                },
-                {
-                    xtype: 'img',
-                    iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
-                    iconMask: true,
-					title: 'My List'
-                },
 				{
-                    xtype: 'img',
-                    iconAlign: 'center',
+					xtype: 'img',
+					iconAlign: 'center',
+					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+					iconMask: true,
+					title: 'Snap It',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('snapit')
+					},
+					},
+				},
+				{
+					xtype: 'img',
+					iconAlign: 'center',
+					html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+					iconMask: true,
+					title: 'Shops',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('shops')
+					},
+					},
+				},
+				{
+					xtype: 'img',
+					iconAlign: 'center',
+					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+					iconMask: true,
+					title: 'My List',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('mylist')
+					},
+					},
+				},
+				{
+					xtype: 'img',
+					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
-                    iconMask: true,
-					title: 'Info'
-                }
-            ]
+					iconMask: true,
+					title: 'Info',
+					listeners: {
+						tap: function() {
+						app.application.redirectTo('info')
+					},
+					},
+				}
+			]
 	},
 	{
 		xtype: 'list',

@@ -31,13 +31,10 @@ Ext.define('MarlowApp.view.MyItemList', {
                                 text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
                                 align: 'right',
                                 cls: 'custom-button',
-                                listeners: 
-                                        {
-                                        painted: function ( btn , e, eOpts ) {
-                                        btn.on('tap', function () {
-                                        app.application.redirectTo('deleteitems'); 
-                                        });
-                                        }}
+								handler:function()
+								{
+									app.application.redirectTo('addnote')
+								}
                             }
                             
                             
@@ -56,36 +53,61 @@ Ext.define('MarlowApp.view.MyItemList', {
                         pack: 'center',
                         type: 'hbox',
                     },
-                     items: [
-                        {
-                            xtype: 'img',
-                            iconAlign: 'center',
-                            html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
-                            iconMask: true,
-                            title: 'Snap It'
-                        },
-                        {
-                            xtype: 'img',
-                            iconAlign: 'center',
-                            html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
-                            iconMask: true,
-                            title: 'Shops'
-                        },
-                        {
-                            xtype: 'img',
-                            iconAlign: 'center',
-                            html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">',
-                            iconMask: true,
-                            title: 'My List'
-                        },
-                        {
-                            xtype: 'img',
-                            iconAlign: 'center',
-                            html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
-                            iconMask: true,
-                            title: 'Info'
-                        }
-                    ]
+						items: [
+							{
+								xtype: 'img',
+								iconAlign: 'center',
+								html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+								iconMask: true,
+								title: 'Snap It',
+								listeners: {
+									tap: function() {
+									app.application.redirectTo('snapit')
+									window.location.reload();
+									},
+								},
+							},
+							{
+								xtype: 'img',
+								iconAlign: 'center',
+								html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								iconMask: true,
+								title: 'Shops',
+								listeners: {
+									tap: function() {
+										app.application.redirectTo('shops')
+										window.location.reload();
+									},
+									
+								},
+							},
+							{
+								xtype: 'img',
+								iconAlign: 'center',
+								html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								iconMask: true,
+								title: 'My List',
+								listeners: {
+									tap: function() {
+									app.application.redirectTo('mylist')
+									window.location.reload();
+									},
+								},
+							},
+							{
+								xtype: 'img',
+								iconAlign: 'center',
+								html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								iconMask: true,
+								title: 'Info',
+								listeners: {
+									tap: function() {
+									app.application.redirectTo('info')
+									window.location.reload();
+									},
+								},
+							}
+						]
             },
         
             {
@@ -96,19 +118,17 @@ Ext.define('MarlowApp.view.MyItemList', {
                     grouped: true,
                     ui:'white',
                     id:'list',
-                    itemTpl: [
-                            '<tpl for=".">',
-                            '<div class="tweet" style = "float: left;">',
-                            '<div style = "float: left;">', 
-                            '<div style = "float: left;"><img src="resources/icons/Icon@2x.png" alt = ""  /></div>',
-                            '<div style = "float: left;">',
-                            '<p style = "">{note}</p><br>',
-                            '<b>{price}</b>',
-                            '</div>',
-                            '</div>',
-                            '</div>',
-                            '</tpl>'
-                            ]
+                    itemTpl: Ext.create(
+                        'Ext.XTemplate',
+                        '<div class="tweet-wrapper">',
+                        '   <img src="resources/icons/Icon@2x.png" />',
+                        '   <div class="tweet">',
+                        //'<span class="posted"><input type="radio"></span>',
+                        //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
+                        '       <p>{note}</p>',
+                        '       <b>{price}</b>',
+                        '   </div>',
+                        '</div>')
                     }
         ]
         },

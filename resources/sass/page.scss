@@ -4,4 +4,48 @@
 	
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(-10%,#d3d3d3));
 	}
+	
+	.overlapped-brand {
+	
+		font-size: 200%;
+		color: white;
+		font-weight: bold;
+		position: absolute;
+		top: 0;
+		left: 0;
+		top: 40%;
+		left: 20%;
+		text-align: center;
+		magin: 0;
+		padding: 0;
+		
+	}
+	.overlapped-price {
+	
+		font-size: 200%;
+		color: white;
+		font-weight: bold;
+		position: absolute;
+		top: 45%;
+		left: 35%;
+		text-align: center;
+		magin: 0;
+		padding: 0;
+
+		
+	}
+	.overlapped-msg {
+	
+		font-size: 100%;
+		color: white;
+		font-weight: lighter;
+		position: absolute;
+		top: 50%;
+		left: 20%;
+		text-align: center;
+		magin: 0;
+		padding: 0;
+		
+	}
+
 }

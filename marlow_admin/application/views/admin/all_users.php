@@ -3,18 +3,18 @@
 
 <body>
 
-	<!-- Themer (Remove if not needed) -->  
-	
+    <!-- Themer (Remove if not needed) -->  
+    
     <!-- Themer End -->
 
-	<!-- Header -->
-	<?php include('header.php');?>      
+    <!-- Header -->
+    <?php include('header.php');?>      
     <!-- Start Main Wrapper -->
     <div id="mws-wrapper">
     
-    	<!-- Necessary markup, do not remove -->
-		<div id="mws-sidebar-stitch"></div>
-		<div id="mws-sidebar-bg"></div>
+        <!-- Necessary markup, do not remove -->
+        <div id="mws-sidebar-stitch"></div>
+        <div id="mws-sidebar-bg"></div>
         
         <!-- Sidebar Wrapper -->
          <?php include('leftbar.php');?> 
@@ -22,27 +22,24 @@
         <!-- Main Container Start -->
         <div id="mws-container" class="clearfix">
         
-        	<!-- Inner Container Start -->
+            <!-- Inner Container Start -->
             <div class="container">
             
-            	<!-- Statistics Button Container -->
-            	<div class="mws-stat-container clearfix">
+                <!-- Statistics Button Container -->
+                <div class="mws-stat-container clearfix">
 
                 </div>
                 
                 <!-- Panels Start -->
                 
-
-
-                
-            	<div class="mws-panel grid_8">
-                	<div class="mws-panel-header">
-                    	<span><i class="icon-table"></i>All Records</span>
+                <div class="mws-panel grid_8">
+                    <div class="mws-panel-header">
+                        <span><i class="icon-table"></i>All Users</span>
                     </div>
                     <div class="mws-panel-toolbar">
                         <div class="btn-toolbar">
                             <div class="btn-group">
-                                <a href="<?php echo URL.'index.php/pages/add_product'?>" class="btn"><i class="icol-accept"></i> Add New Product</a>
+                                <a href="<?php echo URL.'index.php/pages/add_user';?>" class="btn"><i class="icol-accept"></i>Add New User</a>
                                 <!--<a href="#" class="btn"><i class="icol-cross"></i> Reject</a>
                                 <a href="#" class="btn"><i class="icol-printer"></i> Print</a>
                                 <a href="#" class="btn"><i class="icol-arrow-refresh"></i> Renew</a>
@@ -65,15 +62,14 @@
                         <table class="mws-datatable-fn mws-table">
                             <thead>
                                 <tr>
-                                    <th>Product ID</th>
                                     <th>User ID</th>
-                                    <th>Brand ID</th>
-                                    <th>Note</th>
-                                    <th>Price</th>
-                                    <th>Image</th>
-                                    
-                                <!--<th>Status</th>-->
-                                    <th>Status</th>
+                                    <th>name</th>
+                                    <th>Email</th>
+                                    <th>Passowrd</th>
+                                    <!--<th>Image</th>-->
+                                    <th>Gender</th>
+                                    <!--<th>Status</th>-->
+                                    <th>Status/Action</th>
                                    
                                 </tr>
                             </thead>
@@ -85,22 +81,16 @@
                                    ?>
                                 <tr>
                                     <td><?php echo $listing->id;?></td>
-                                    <td><?php   $user_namee = $this->Admin_model->get_records('user_info',$listing->user_id) ;
-                                                if(!empty($user_namee)){ echo $user_namee['0']->fname; }
-                                                ?>
-                                    </td>
-                                    <td><?php   $shop_name = $this->Admin_model->get_records('shops',$listing->brand_id); 
-                                                if($shop_name){ echo $shop_name['0']->name ;}?>
-                                     </td>
-                                    <td><?php echo substr($listing->note, 0, 20).'...';?></td>
-                                    <td><?php echo $listing->price;?></td>
-                                    <td><img src="<?php echo (URL.'uploads/'.$listing->image);?>" alt="image" align="center"style="width: 97px; height: 50px;"></td>
-                                    
+                                    <td><?php echo $listing->fname;?></td>
+                                    <td><?php echo $listing->email;?></td>
+                                    <td><?php echo $listing->password;?></td>
+                                    <!--<td><img src="<?php echo (CSS.'example/'.$listing->image);?>" alt="image" align="center"style="width: 97px; height: 50px;"></td>-->
+                                    <td><?php echo $listing->gender;?></td>
                                     <!--<td><?php echo $listing->status;?></td>-->
                                     <td>
-                                    <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status.'/products';?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
-                                     <a href="<?php echo URL.'index.php/pages/add_product/'.$listing->id;?>" class="btn btn-success btn-small">Edit</a>
-                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/products";?>" class="btn btn-success btn-small">Delete</a>
+                                    <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status."/user_info";?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
+                                    <a href="<?php echo URL.'index.php/pages/add_user/'.$listing->id;?>" class="btn btn-success btn-small">Edit</a>
+                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/user_info";?>" class="btn btn-success btn-small">Delete</a>
                                     </td>
                                 </tr>
                                 <?php }}?>

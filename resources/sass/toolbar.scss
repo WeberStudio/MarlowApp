@@ -13,4 +13,24 @@
 		height: 75px !important; 
 		border-top: #C5C5C5 1px solid !important;
 	}
+	
+	.custom-share-toolbar  {
+	
+		height: 15%; 
+		border-bottom: #C0C0C0 solid 1px;
+		font-size: 20px;
+		font-weight: lighter;
+		background-image: linear-gradient(bottom, rgb(223,232,240) 8%, rgb(245,245,245) 100%);
+		background-image: -o-linear-gradient(bottom, rgb(223,232,240) 8%, rgb(245,245,245) 100%);
+		background-image: -moz-linear-gradient(bottom, rgb(223,232,240) 8%, rgb(245,245,245) 100%);
+		background-image: -webkit-linear-gradient(bottom, rgb(223,232,240) 8%, rgb(245,245,245) 100%);
+		background-image: -ms-linear-gradient(bottom, rgb(223,232,240) 8%, rgb(245,245,245) 100%);
+		background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.08, rgb(223,232,240)),
+		color-stop(1, rgb(245,245,245))
+		);
+	}
 }
