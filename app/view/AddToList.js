@@ -114,6 +114,7 @@ Ext.define('MarlowApp.view.AddToList', {
 					handler:function()
 					{
 						app.application.redirectTo('snapit')
+						window.location.reload();
 					}
 
 					

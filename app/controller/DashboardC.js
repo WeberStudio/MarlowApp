@@ -26,7 +26,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
-            //'addtolist'     : 'addtolistView',
+            'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
 			'mylist' 		: 'mylistView',
             

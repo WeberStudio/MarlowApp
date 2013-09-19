@@ -34,6 +34,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								handler:function()
 								{
 									app.application.redirectTo('addnote')
+									window.location.reload();
 								}
                             }
                             
