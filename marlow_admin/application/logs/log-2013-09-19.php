@@ -20106,3 +20106,83 @@ ERROR - 2013-09-19 17:55:55 --> Severity: Notice  --> Trying to get property of 
 DEBUG - 2013-09-19 17:55:56 --> File loaded: application/views/admin/add_product.php
 DEBUG - 2013-09-19 17:55:56 --> Final output sent to browser
 DEBUG - 2013-09-19 17:55:56 --> Total execution time: 1.3597
+DEBUG - 2013-09-19 18:09:14 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:14 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:14 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:14 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> File loaded: application/views/admin/all_records.php
+DEBUG - 2013-09-19 18:09:15 --> Final output sent to browser
+DEBUG - 2013-09-19 18:09:15 --> Total execution time: 0.6908
+DEBUG - 2013-09-19 18:09:15 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:15 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:15 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:15 --> Model Class Initialized
+ERROR - 2013-09-19 18:09:15 --> 404 Page Not Found --> pages/example
+DEBUG - 2013-09-19 18:09:22 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:22 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:22 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:22 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> File loaded: application/views/admin/all_shops.php
+DEBUG - 2013-09-19 18:09:22 --> Final output sent to browser
+DEBUG - 2013-09-19 18:09:22 --> Total execution time: 0.6371
+DEBUG - 2013-09-19 18:09:22 --> Config Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Hooks Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Utf8 Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> UTF-8 Support Enabled
+DEBUG - 2013-09-19 18:09:22 --> URI Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Router Class Initialized
+DEBUG - 2013-09-19 18:09:22 --> Output Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Security Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Input Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-19 18:09:23 --> Language Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Loader Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Helper loaded: form_helper
+DEBUG - 2013-09-19 18:09:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-19 18:09:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Controller Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Model Class Initialized
+DEBUG - 2013-09-19 18:09:23 --> Model Class Initialized
+ERROR - 2013-09-19 18:09:23 --> 404 Page Not Found --> pages/example
