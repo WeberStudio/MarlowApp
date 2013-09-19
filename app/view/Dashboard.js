@@ -13,20 +13,26 @@ Ext.define('MarlowApp.view.Dashboard', {
                         xtype: 'list',
                         inline: true,
                         itemId:'list',
-                        itemTpl: '<div class="contact"  style = "font-size: 36px; color: white; font-weight: bolder;" >{img}{title} </div>',
+                        itemTpl: '<div class="contact"  style = "font-size: 200%; color: white; font-weight: bolder;" >{img}{title} </div>',
                         style: "background-image:url('resources/images/marlow-back/home_night.gif'); background-size: 100% 100%;",
                         data   : [
                             { 
                                 title: 'SNAP IT',  
-                                img:  '<img src="resources/images/marlow/snap-it-icon.png" alt = "" style = "margin-left: 60px; margin-top: 270px; margin-bottom: -15px; padding-right: 30px; width: 25%;" />', 
+                                img:  '<img src="resources/images/marlow/snap-it-icon.png" alt = "" style = "margin-left: 25%; margin-top: 65%; margin-bottom: -15px; padding-right: 30px; width: 15%;" />', 
                             },
+							{
+								html: '<br/>'
+							},
                             { 
                                 title: 'SHOPS',
-                                img:  '<img src="resources/images/marlow/shops-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;" />' 
+                                img:  '<img src="resources/images/marlow/shops-icon.png" alt = "" style = "margin-left: 25%; width: 15%; margin-bottom: -15px; padding-right: 30px;" />' 
                             },
+							{
+								html: '<br/>'
+							},
                             { 
                                 title: 'MY LIST',
-                                img:  '<img src="resources/images/marlow/my-list-icon.png" alt = "" style = "margin-left: 60px; width: 25%; margin-bottom: -15px; padding-right: 30px;"/>' 
+                                img:  '<img src="resources/images/marlow/my-list-icon.png" alt = "" style = "margin-left: 25%; width: 15%; margin-bottom: -15px; padding-right: 30px;"/>' 
                             },
 							                            
                         ],

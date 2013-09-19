@@ -3,6 +3,7 @@ Ext.define('MarlowApp.view.ShareIndivisual',{
 	alias: 'widget.Home',  
 	xtype: 'popupindivisual',
 	config:{  
+
 		itemId: 'popupindivisual',  
 		floating: true,
 		centered: true,

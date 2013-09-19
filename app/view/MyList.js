@@ -1,44 +1,46 @@
-Ext.define('MarlowApp.view.Snap', {   
-    extend: 'Ext.List',
-    xtype:'snapView',     
+Ext.define('MarlowApp.view.MyList', {
+	//extend: 'Ext.Panel', 
+	extend: 'Ext.Panel', 
+    xtype:'mylistView', 
+    
     config: {
         
-        itemId:'snapId',
-       
+        id :'mylistid',
+		fullscreen                  : true, 
+		scrollable                  : true,
+
 		items : [
 			{
 				xtype: 'toolbar',
 				docked: 'top',
-				title: 'Photo Ok?',
+				title: 'My List',
 				cls: 'top-toolbar',
 				layout: {
 				pack: 'justify',
 				type: 'hbox'
 			}, 
-			items: [
-				{
-					xtype: 'button',
-					align: 'left',
-					text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
-					cls: 'custom-button',
-                    handler:function()
-                    {
-                          app.application.redirectTo('dashboard')
-						  window.location.reload();
-                    }
-				},
-				{	
-					xtype: 'button',
-					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
-					align: 'right',
-					cls: 'custom-button',
-                    handler:function()
-                    {
-                          app.application.redirectTo('addnote')
-						  window.location.reload();
-                    },
-				} 
-			]
+				items: [
+					{
+						xtype: 'button',
+						align: 'left',
+						text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
+						cls: 'custom-button',
+						handler:function()
+						{
+							app.application.redirectTo('dashboard')
+							window.location.reload();
+						}
+					},
+					{	
+						xtype: 'button',
+						text: '<span style = "font-size: 18px; font-weight: lighter;"> Delete  </span> ',
+						align: 'right',
+						action: 'deleteitem',
+						cls: 'custom-button',
+/*						
+*/					} 
+				]
+				
 		},
 		{
 			xtype: 'toolbar',
@@ -63,6 +65,7 @@ Ext.define('MarlowApp.view.Snap', {
 						window.location.reload();
 					},
 					},
+					
 				},
 				{
 					xtype: 'img',
@@ -105,6 +108,39 @@ Ext.define('MarlowApp.view.Snap', {
 				}
 			]
 		},
+
+		{
+			xtype: 'toolbar',
+			docked: 'bottom',
+			ui: "white",
+			cls: 'bottom-toolbar',
+			layout: {
+				pack: 'justify',
+				type: 'hbox'
+			}, 
+			items: [
+				{
+					xtype: 'button',
+					align: 'left',
+					text: 'Edit Notes',
+					cls: 'custom-white-button',
+					handler:function()
+					{
+						app.application.redirectTo('addnote')
+						window.location.reload();
+					}
+					
+				},
+				{
+					xtype: 'button',
+					align: 'right',
+					text: 'Share this item',
+					action: 'shareitem',
+					cls: 'custom-white-button'
+				}
+
+			]
+		},
 		{
 		    xtype: 'img',
 		    id:'snapId',
@@ -112,8 +148,23 @@ Ext.define('MarlowApp.view.Snap', {
 		    //store :'allshopsStoreId',
 		    //itemTpl: '<div class="contact">{name} </div>',
 		    //indexBar: true,
-	
-	    },
+	    },	
+		{
+			xtype: 'panel',
+			baseCls: 'overlapped-brand',		
+			html: '<span> Marks and Spencer </span>',
+		},
+		{
+			xtype: 'panel',	
+			baseCls: 'overlapped-price',	
+			html: '<span> £17.99 </span>',
+		},	
+		{
+			xtype: 'panel',	
+			baseCls: 'overlapped-msg',	
+			html: '<span> Saw this and thought Bob might like it? </span>',
+		},	
+
 	  ]
         
 	}

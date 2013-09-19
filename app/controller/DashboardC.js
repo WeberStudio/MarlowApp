@@ -1,11 +1,12 @@
 Ext.define('MarlowApp.controller.DashboardC', {
     extend: 'Ext.app.Controller',
+	require: ['Ext.Img'],
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
-            stores: ['all_products', 'Shops_Store', 'SearchTimelineStore'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel' , 'TwiterList'],     
+        stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList'],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -27,7 +28,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-            'twitter'       : 'twitterView'
+			'mylist' 		: 'mylistView',
             
         }                                    
     },
@@ -51,6 +52,24 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
+	mylistView:function(){ 
+		// console.log(Ext.Viewport.getCmp('sigupId'))
+		
+		if(Ext.Viewport.getComponent('mylistid') == undefined)
+		{  
+			Ext.Viewport.setActiveItem({
+			xtype: 'mylistView'
+		});
+		
+		}
+		else
+		{
+			Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
+		} 
+		//Ext.getCmp("ssntxt").blur(); 
+	},
+
+    
     snapView:function(){
             
         if(Ext.Viewport.getComponent('snapId') == undefined)
@@ -70,6 +89,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     shopsview:function(){ 
+		
+		/*if(Ext.Viewport.setActiveItem(Ext.getCmp('shopsView'))) {
+			
+			if(Ext.Viewport.getCmp('shops-id') == undefined) {
+				
+				this.getComponent('shops-id').setSrc('abc.png');
+				
+			}
+		}*/
         // console.log(Ext.Viewport.getComponent('shopid'))
 
         if(Ext.Viewport.getComponent('shopid') == undefined)
@@ -95,9 +123,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
-                            //console.log(store);
+                            
                              hideloadingMask();   
                             store.setData(response);
+							console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
@@ -215,20 +244,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
         } 
     },
-    
-    twitterView:function(){
-        if(Ext.Viewport.getComponent('twiterviewid') == undefined)
-            {    
-            Ext.Viewport.setActiveItem({
-                xtype: 'twiterView'                 
-            }); 
-        }
-        else
-            {
-            Ext.Viewport.setActiveItem(Ext.getCmp('twiterviewid'));     
-        } 
-    },
-    
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {

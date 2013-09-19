@@ -5,6 +5,16 @@
 		border              : none !important;
 		background-color    : inherit !important;
 	}
+	
+	.custom-white-button  {
+		
+		font-weight: lighter !important;
+		border: none !important;
+		color: #258dc8 !important;
+		background-color: inherit !important;
+		font-size: 23px;
+	}
+
     .share_button
     {  
         border              : none !important;
@@ -49,12 +59,12 @@
        font-weight         : normal;  
     }
     
-    .x-item-selected
+/*    .x-item-selected
     {
         background-color    : #fcd9db !important;
         color               : black !important;
     }
-    
+*/    
 
 }
  

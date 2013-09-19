@@ -39,12 +39,19 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 align       :'left',
                                 baseCls     :null,
                                 cls         :'delete_btn',
+
                             },
                             {
                                 xtype       :'button',
                                 text        :'Cancel',
                                 align       :'right',
                                 cls         :'cancel_btn',
+								handler:function()
+								{
+									app.application.redirectTo('myitemlist')
+									window.location.reload();
+								}
+
                             }
                             ]
             }, 

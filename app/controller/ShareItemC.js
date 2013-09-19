@@ -4,8 +4,8 @@ Ext.define('MarlowApp.controller.ShareItemC',{
 		refs:  
 		{  
 			popup: {  
-			selector: 'formpanel #popbox',  
-			xtype: 'popupbox',  
+			selector: 'formpanel #shareitem',  
+			xtype: 'shareitem',  
 			autoCreate: true,  
 			}  
 		}  

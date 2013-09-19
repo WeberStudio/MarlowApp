@@ -69,7 +69,7 @@ class Client_model extends CI_Model {
         $this->db->join('shops AS s', 's.id = p.brand_id');
         $query = $this->db->get(); 
         return $query->result();
-    }
+    }  
     
 }
 ?>
