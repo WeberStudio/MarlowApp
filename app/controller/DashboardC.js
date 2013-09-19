@@ -4,8 +4,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
-        stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel'],     
+            stores: ['all_products', 'Shops_Store', 'SearchTimelineStore'],         
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel' , 'TwiterList'],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -27,6 +27,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
+            'twitter'       : 'twitterView'
             
         }                                    
     },
@@ -214,6 +215,20 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
         } 
     },
+    
+    twitterView:function(){
+        if(Ext.Viewport.getComponent('twiterviewid') == undefined)
+            {    
+            Ext.Viewport.setActiveItem({
+                xtype: 'twiterView'                 
+            }); 
+        }
+        else
+            {
+            Ext.Viewport.setActiveItem(Ext.getCmp('twiterviewid'));     
+        } 
+    },
+    
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
