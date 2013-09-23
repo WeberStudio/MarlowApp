@@ -39,6 +39,7 @@ Ext.define('MarlowApp.view.AddNote', {
                     handler:function()
                     {
                           app.application.redirectTo('snapit')
+						  //window.location.reload();
                     }
 				},
 				{	
@@ -49,6 +50,7 @@ Ext.define('MarlowApp.view.AddNote', {
                     handler:function()
                     {
                           app.application.redirectTo('shops')
+						  //window.location.reload();
                     },
 				} 
             ]

@@ -70,15 +70,18 @@ Ext.define('MarlowApp.view.Dashboard', {
                                         }); */                                     
                                         //window.location = 'SnapIt' ;
                                         snapSrc = 'snap-it-active.png' ;
-                                        app.application.redirectTo('snapit');   
+                                        app.application.redirectTo('snapit'); 
+										//window.location.reload();  
                                     }
                                     else if(record.data.title == 'SHOPS')
                                     { 
-                                        app.application.redirectTo('shops')    
+                                        app.application.redirectTo('shops')  
+										//window.location.reload();  
                                     }
                                     else if(record.data.title == 'MY LIST')
                                     {
                                         app.application.redirectTo('myitemlist')    
+										//window.location.reload();
                                     }
                             }
                         }
