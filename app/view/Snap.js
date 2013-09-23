@@ -23,7 +23,16 @@ Ext.define('MarlowApp.view.Snap', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('dashboard')
+                       
+                        var snapViewId = Ext.getCmp("snapViewId");
+                        if(!snapViewId){
+                            snapViewId = Ext.create('snapViewId');
+                        }
+                        else
+                        {                             
+                            snapViewId.destroy();
+                        }
+                        app.application.redirectTo('dashboard')
 						 
                     }
 				},
@@ -34,7 +43,9 @@ Ext.define('MarlowApp.view.Snap', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('addnote')
+                         
+                        
+                        app.application.redirectTo('addnote')
 						  
                     },
 				} 
@@ -59,6 +70,24 @@ Ext.define('MarlowApp.view.Snap', {
 					title: 'Snap It',
 					listeners: {
 						tap: function() {
+                                       var shopid              = Ext.getCmp("shopid");
+                        var snapViewId          = Ext.getCmp("snapViewId");
+                        var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                         var addtolistid         = Ext.getCmp("addtolistid");   
+                        
+                        if(addtolistid){
+                        addtolistid.destroy();
+                        }                                 
+                        if(myitemlistviewId){
+                        myitemlistviewId.destroy();
+                        }                       
+                        
+                        if(shopid){
+                        shopid.destroy();
+                        }
+                        if(snapViewId){
+                        snapViewId.destroy();
+                        }          
 						app.application.redirectTo('snapit')
 						
 					},
@@ -72,6 +101,25 @@ Ext.define('MarlowApp.view.Snap', {
 					title: 'Shops',
 					listeners: {
 						tap: function() {
+                            
+                        var shopid              = Ext.getCmp("shopid");
+                        var snapViewId          = Ext.getCmp("snapViewId");
+                        var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                        var addtolistid         = Ext.getCmp("addtolistid");   
+                        
+                        if(addtolistid){
+                        addtolistid.destroy();
+                        }                                 
+                        if(myitemlistviewId){
+                        myitemlistviewId.destroy();
+                        }                       
+                        
+                        if(shopid){
+                        shopid.destroy();
+                        }
+                        if(snapViewId){
+                        snapViewId.destroy();
+                        }          
 						app.application.redirectTo('shops')
 						
 					},
@@ -85,7 +133,25 @@ Ext.define('MarlowApp.view.Snap', {
 					title: 'My List',
 					listeners: {
 						tap: function() {
-						app.application.redirectTo('mylist')
+                        var shopid              = Ext.getCmp("shopid");
+                        var snapViewId          = Ext.getCmp("snapViewId");
+                        var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                        var addtolistid         = Ext.getCmp("addtolistid");   
+                        
+                        if(addtolistid){
+                        addtolistid.destroy();
+                        }                                 
+                        if(myitemlistviewId){
+                        myitemlistviewId.destroy();
+                        }                       
+                                               
+                        if(shopid){
+                        shopid.destroy();
+                        }
+                        if(snapViewId){
+                        snapViewId.destroy();
+                        }          
+						app.application.redirectTo('myitemlist');
 						
 					},
 					},
@@ -98,7 +164,7 @@ Ext.define('MarlowApp.view.Snap', {
 					title: 'Info',
 					listeners: {
 						tap: function() {
-						app.application.redirectTo('info')
+						app.application.redirectTo('info');
 						
 					},
 					},

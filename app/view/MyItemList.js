@@ -5,6 +5,7 @@ Ext.define('MarlowApp.view.MyItemList', {
     requires: [ 'Ext.dataview.List' ],
     
     config: {
+    id:'myitemlistviewId', 
     navigationBar: {hidden: true},
      fullscreen: true,
          
@@ -34,7 +35,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								handler:function()
 								{
 									app.application.redirectTo('addnote')
-									window.location.reload();
+									
 								}
                             }
                             
@@ -63,8 +64,22 @@ Ext.define('MarlowApp.view.MyItemList', {
 								title: 'Snap It',
 								listeners: {
 									tap: function() {
+                                    var shopid              = Ext.getCmp("shopid");
+                                    var snapViewId          = Ext.getCmp("snapViewId");
+                                    var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    if(myitemlistviewId){
+                                    myitemlistviewId.destroy();
+                                    }                       
+                                   
+                                    if(shopid){
+                                    shopid.destroy();
+                                    }
+                                    if(snapViewId){
+                                    snapViewId.destroy();
+                                    }          
 									app.application.redirectTo('snapit')
-									window.location.reload();
+									
 									},
 								},
 							},
@@ -76,8 +91,22 @@ Ext.define('MarlowApp.view.MyItemList', {
 								title: 'Shops',
 								listeners: {
 									tap: function() {
-										app.application.redirectTo('shops')
-										window.location.reload();
+                                    var shopid              = Ext.getCmp("shopid");
+                                    var snapViewId          = Ext.getCmp("snapViewId");
+                                    var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    if(myitemlistviewId){
+                                    myitemlistviewId.destroy();
+                                    }                       
+                                    
+                                    if(shopid){
+                                    shopid.destroy();
+                                    }
+                                    if(snapViewId){
+                                    snapViewId.destroy();
+                                    }          
+									app.application.redirectTo('shops')
+										
 									},
 									
 								},
@@ -90,8 +119,22 @@ Ext.define('MarlowApp.view.MyItemList', {
 								title: 'My List',
 								listeners: {
 									tap: function() {
+                                    var shopid              = Ext.getCmp("shopid");
+                                    var snapViewId          = Ext.getCmp("snapViewId");
+                                    var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    if(myitemlistviewId){
+                                    myitemlistviewId.destroy();
+                                    }                       
+                                                           
+                                    if(shopid){
+                                    shopid.destroy();
+                                    }
+                                    if(snapViewId){
+                                    snapViewId.destroy();
+                                    }          
 									app.application.redirectTo('mylist')
-									window.location.reload();
+									
 									},
 								},
 							},
@@ -104,7 +147,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								listeners: {
 									tap: function() {
 									app.application.redirectTo('info')
-									window.location.reload();
+									
 									},
 								},
 							}

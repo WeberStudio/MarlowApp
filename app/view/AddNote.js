@@ -41,7 +41,23 @@ Ext.define('MarlowApp.view.AddNote', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('snapit')
+                        var loginView   = Ext.getCmp("addnoteid");
+                        var snapViewId  = Ext.getCmp("snapViewId");
+                        var shopid      = Ext.getCmp("shopid");                         
+                        
+                        if(loginView){
+                            loginView.destroy();    
+                        }                       
+                       
+                        if(shopid){
+                            shopid.destroy();
+                        }
+                        if(snapViewId){
+                            snapViewId.destroy();
+                        }        
+                        
+                       
+                        app.application.redirectTo('snapit');
 						 
                     }
 				},
@@ -52,7 +68,8 @@ Ext.define('MarlowApp.view.AddNote', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('shops')
+                       
+                        app.application.redirectTo('shops');
 						 
                     },
 				} 
