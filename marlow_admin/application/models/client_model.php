@@ -19,9 +19,9 @@ class Client_model extends CI_Model {
     
     function register($data)
     {
-        if($data['id'] !="")
+        if($data['user_id'] !="")
         {
-            $this->db->where('id', $id);
+            $this->db->where('user_id', $id);
             $this->db->update('user_info', $data);
         }
         else

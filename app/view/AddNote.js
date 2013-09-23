@@ -7,6 +7,7 @@ Ext.define('MarlowApp.view.AddNote', {
         items : [
 			{                 
 				xtype: 'textareafield',
+                id:'useritemnote',  
 				maxRows: 10,
 				name: 'note',
 				placeHolder: 'Enter notes...',
@@ -15,6 +16,7 @@ Ext.define('MarlowApp.view.AddNote', {
 			},
 			{                 
 				xtype: 'textareafield',
+                id:'itemprice',   
 				label: 'Price: ',
 				maxRows: 10,
 				name: 'price',
@@ -23,6 +25,7 @@ Ext.define('MarlowApp.view.AddNote', {
 			},
 			{
             xtype: 'toolbar',
+            id:'useritemprice',   
             docked: 'top',
 			title: 'Notes',
 			cls: 'top-toolbar',
@@ -39,7 +42,7 @@ Ext.define('MarlowApp.view.AddNote', {
                     handler:function()
                     {
                           app.application.redirectTo('snapit')
-						  //window.location.reload();
+						 
                     }
 				},
 				{	
@@ -50,7 +53,7 @@ Ext.define('MarlowApp.view.AddNote', {
                     handler:function()
                     {
                           app.application.redirectTo('shops')
-						  //window.location.reload();
+						 
                     },
 				} 
             ]

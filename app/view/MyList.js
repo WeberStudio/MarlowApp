@@ -135,8 +135,7 @@ Ext.define('MarlowApp.view.MyList', {
 					xtype: 'button',
 					align: 'right',
 					text: 'Share this item',
-					//action: 'shareindivisual',
-					action: 'shareindivisual',
+					action: 'shareitem',
 					cls: 'custom-white-button'
 				}
 
