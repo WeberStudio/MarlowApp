@@ -6166,6 +6166,15 @@ final_img {
   font-weight: normal;
 }
 
+.custom-gradient-button {
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+}
+
 /*    .x-item-selected
     {
         background-color    : #fcd9db !important;
@@ -6184,16 +6193,27 @@ final_img {
 }
 
 .custom-share-toolbar {
-  height: 15%;
+  height: 20%;
   border-bottom: #C0C0C0 solid 1px;
-  font-size: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-family: "Calibri";
   font-weight: lighter;
-  background-image: linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -o-linear-gradient(bottom, #dfe8f0 8%, whitesmoke 100%);
-  background-image: -moz-linear-gradient(bottom, #dfe8f0 8%, whitesmoke 100%);
-  background-image: -webkit-linear-gradient(bottom, #dfe8f0 8%, whitesmoke 100%);
-  background-image: -ms-linear-gradient(bottom, #dfe8f0 8%, whitesmoke 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.08, #dfe8f0), color-stop(1, whitesmoke));
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+}
+
+.custom-share-indivisual-toolbar {
+  height: 20%;
+  border-bottom: #C0C0C0 solid 1px;
+  text-align: right;
+  font-size: 18px;
+  font-family: "Calibri";
+  font-weight: lighter;
 }
 
 .custom-form-labels .x-form-field {
@@ -6221,13 +6241,25 @@ final_img {
   margin-top: 16px;
 }
 
-.custom-form-alert {
-  background-image: linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -o-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -moz-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -webkit-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -ms-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.29, #dceff2), color-stop(0.65, #e3e3e3));
+.custom-popup-label .x-form-label {
+  font-size: 22px;
+}
+
+.text-area-custom {
+  background-color: linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -o-linear-gradient(bottom, whitesmoke 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -moz-linear-gradient(bottom, whitesmoke 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -webkit-linear-gradient(bottom, whitesmoke 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -ms-linear-gradient(bottom, whitesmoke 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, whitesmoke), color-stop(0.55, #bfd1d6), color-stop(0.78, #ebebeb));
+}
+.text-area-custom .emailformclassic {
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
 }
 
 .custom-page-bg {

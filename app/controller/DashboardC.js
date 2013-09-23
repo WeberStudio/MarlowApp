@@ -6,7 +6,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList'],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost'  ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -53,11 +53,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
 	mylistView:function(){ 
-		// console.log(Ext.Viewport.getCmp('sigupId'))
 		
 		if(Ext.Viewport.getComponent('mylistid') == undefined)
-		{  
-			Ext.Viewport.setActiveItem({
+		{  			   
+            Ext.Viewport.setActiveItem({
 			xtype: 'mylistView'
 		});
 		
@@ -71,9 +70,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
 
     
     snapView:function(){
-            
-        if(Ext.Viewport.getComponent('snapId') == undefined)
-        {            
+                    
+        if(Ext.Viewport.getComponent('snapViewId') == undefined)
+        {       
                 Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
                 //console.log(Ext.getStore("SaveInfoStoreId"));     
                 Ext.Viewport.setActiveItem
@@ -99,11 +98,32 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			}
 		}*/
         // console.log(Ext.Viewport.getComponent('shopid'))
-
+        var itemnote = '';
+        var itemprice = '';
+        if (Ext.getCmp('useritemnote')) 
+        {
+            itemnote  = Ext.getCmp('useritemnote').getValue();
+        }
+        if (Ext.getCmp('itemprice')) 
+        {
+            itemprice = Ext.getCmp('itemprice').getValue();
+        }
+        if( itemnote !='' || itemprice != '' ) 
+        {
+            detstoredata = Ext.getStore('SaveInfoStoreId');            
+            //console.log(detstoredata.getAt(0).getData().image);
+            detstoredata.getAt(0).getData().note   = itemnote;
+            detstoredata.getAt(0).getData().price  = itemprice;
+            //Ext.getStore("SaveInfoStoreId").add({ note: itemnote, price: itemprice});
+            //console.log(detstoredata.getAt(0).getData());        
+        }
+        
+        
         if(Ext.Viewport.getComponent('shopid') == undefined)
             {    
-              /* Get All Shops Listing */   
-                loadMask()
+                  
+                /* Get All Shops Listing */   
+                loadMask() 
                 Ext.Ajax.request({
                    
                     url: serviceUrl+'get_product'+'/shops',
@@ -126,7 +146,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                              hideloadingMask();   
                             store.setData(response);
-							console.log(store.setData(response));
+							//console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
@@ -234,15 +254,71 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     addtolistView:function(){
         if(Ext.Viewport.getComponent('addtolistid') == undefined)
-            {    
-            Ext.Viewport.setActiveItem({
-                xtype: 'addtolistView'                 
-            }); 
-        }
-        else
-            {
-            Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
-        } 
+            {            
+                if(shopSelected) 
+                {                     
+                    selectionInfo = Ext.getStore('SaveInfoStoreId'); 
+                    selectionInfo.getAt(0).getData().brand_id  = shopSelected;                   
+                    SignupInfoStore = Ext.getStore('SignupInfoStore');                 
+                    selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id;                
+                    //console.log(selectionInfo.getAt(0).getData());
+                    loadMask() 
+                    Ext.Ajax.request({
+                   
+                    url: serviceUrl+'add_product',
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Accept': 'application/json',                    
+                        "cache-control": "no-cache"
+                    },
+                    callbackKey: 'callback', 
+                    timeout : 6000,
+                    method: 'POST',               
+                     jsonData: {
+                            "user_id":      selectionInfo.getAt(0).getData().user_id ,
+                            "brand_id":     selectionInfo.getAt(0).getData().brand_id,
+                            "note":         selectionInfo.getAt(0).getData().note,
+                            'price':        selectionInfo.getAt(0).getData().price,
+                            'image':        selectionInfo.getAt(0).getData().image                            
+                        }, 
+                    withCredentials: false,
+                    useDefaultXhrHeader: false,
+                    success: function(response) {      
+                        try{
+                            
+                            response = Ext.decode(response.responseText) 
+                            var store = Ext.getStore('allshopsStoreId');
+                            
+                             hideloadingMask();
+                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')      
+                            //store.setData(response);
+                            //console.log(store.setData(response));
+                        }catch(err){
+                            hideloadingMask();   
+                            // console.log(err)
+                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        }
+                    },                     
+                    failure: function(response) {
+                        //response = Ext.decode(response.responseText)
+                        Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    },
+                    callback:function(response)
+                    {
+                        //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    }
+                });
+                    
+                           
+                }   
+                Ext.Viewport.setActiveItem({
+                    xtype: 'addtolistView'                 
+                }); 
+            }
+            else
+                {
+                Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
+            } 
     },
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)

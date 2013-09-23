@@ -7,6 +7,7 @@ Ext.define('MarlowApp.view.AddNote', {
         items : [
 			{                 
 				xtype: 'textareafield',
+                id:'useritemnote',  
 				maxRows: 10,
 				name: 'note',
 				placeHolder: 'Enter notes...',
@@ -15,6 +16,7 @@ Ext.define('MarlowApp.view.AddNote', {
 			},
 			{                 
 				xtype: 'textareafield',
+                id:'itemprice',   
 				label: 'Price: ',
 				maxRows: 10,
 				name: 'price',
@@ -23,6 +25,7 @@ Ext.define('MarlowApp.view.AddNote', {
 			},
 			{
             xtype: 'toolbar',
+            id:'useritemprice',   
             docked: 'top',
 			title: 'Notes',
 			cls: 'top-toolbar',
@@ -38,8 +41,24 @@ Ext.define('MarlowApp.view.AddNote', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('snapit')
-						  window.location.reload();
+                        var loginView   = Ext.getCmp("addnoteid");
+                        var snapViewId  = Ext.getCmp("snapViewId");
+                        var shopid      = Ext.getCmp("shopid");                         
+                        
+                        if(loginView){
+                            loginView.destroy();    
+                        }                       
+                       
+                        if(shopid){
+                            shopid.destroy();
+                        }
+                        if(snapViewId){
+                            snapViewId.destroy();
+                        }        
+                        
+                       
+                        app.application.redirectTo('snapit');
+						 
                     }
 				},
 				{	
@@ -49,8 +68,9 @@ Ext.define('MarlowApp.view.AddNote', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                          app.application.redirectTo('shops')
-						  window.location.reload();
+                       
+                        app.application.redirectTo('shops');
+						 
                     },
 				} 
             ]

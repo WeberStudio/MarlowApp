@@ -6,9 +6,8 @@ Ext.define('MarlowApp.model.Save_User_SelectionM', {
             {name: "user_id",   type: "int"},
             {name: "note",      type: "text"},
             {name: "price",     type: "text"},
-            {name: "image",     type: "text"} ,
-            {name: "brand_id",  type: "int"},
-            {name: "status",    type: "1"}            
+            {name: "image",     type: "text"},
+            {name: "brand_id",  type: "int"},           
            ]
     }
 });
