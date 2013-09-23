@@ -49,7 +49,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
 								handler:function()
 								{
 									app.application.redirectTo('myitemlist')
-									window.location.reload();
+									//window.location.reload();
 								}
 
                             }
