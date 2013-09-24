@@ -62,6 +62,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
 								iconMask: true,
 								title: 'Snap It',
+								id: 'snap-it-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
@@ -88,6 +89,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'Shops',
+								id: 'shops-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
@@ -116,6 +118,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'My List',
+								id: 'my-list-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
@@ -143,6 +146,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'Info',
+								id: 'info-image',
 								listeners: {
 									tap: function() {
 									app.application.redirectTo('info')

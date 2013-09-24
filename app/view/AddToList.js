@@ -40,9 +40,10 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;">',
 						iconMask: true,
+						id: 'snap-it-image',
 						listeners: {
 							tap: function() {
-							
+								
 								var shopid              = Ext.getCmp("shopid");
 								var snapViewId          = Ext.getCmp("snapViewId");
 								var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
@@ -73,6 +74,7 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
 						iconMask: true,
+						id: 'shops-image',
 						listeners: {
 							tap: function() {
 								
@@ -106,6 +108,7 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
 						iconMask: true,
+						id: 'my-list-image',
 						listeners: {
 							tap: function() {
 								var shopid              = Ext.getCmp("shopid");
@@ -139,6 +142,7 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
 						iconMask: true,
+						id: 'info-image',
 						listeners: {
 							tap: function() {
 								app.application.redirectTo('info')

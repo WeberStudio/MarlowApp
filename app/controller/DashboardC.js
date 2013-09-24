@@ -10,12 +10,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
         refs: {
            
             saveNoteId:    '#saveNoteId',
-           
+          	
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
-            }
+				
+            },
+			
+			
         },
         routes : {
             'dashboard'     : 'dashboardView',
@@ -106,6 +109,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 ({
                     xtype: 'snapView'                 
                 }); 
+				if(Ext.getCmp('snap-it-image')) {
+					
+					Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				}
         }
         else
         {
@@ -119,6 +129,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
         var itemnote = '';
         var itemprice = '';
+		
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -184,8 +195,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
             Ext.Viewport.setActiveItem({
                 xtype: 'shopsview'                 
-            }); 
-                
+            });
+			   if(Ext.getCmp('shops-image')) { 
+				   
+				   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   }
         }
         else
             {
@@ -243,6 +260,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem({
                 xtype: 'myitemlistview'                 
             }); 
+			
+			if(Ext.getCmp('my-list-image')) {
+			   
+			   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			}
         }
         else
             {
@@ -349,7 +374,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
                 });
-                
+				
             Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
             Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
             Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');  
@@ -420,6 +445,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //SaveInfoStoreId.add({ note: note, price: price }); 
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
+	
+	
     
    
 });
