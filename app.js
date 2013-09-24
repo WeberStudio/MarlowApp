@@ -33,7 +33,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost'  ],
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost', 'DashboardDay'  ],
     
     controllers: [
         'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'ShareIndivisualC', 'EmailPostC' ], 

@@ -2728,3 +2728,25 @@ DEBUG - 2013-09-23 14:41:37 --> Form Validation Class Initialized
 DEBUG - 2013-09-23 14:41:38 --> Final output sent to browser
 DEBUG - 2013-09-23 14:41:38 --> Total execution time: 1.5744
 >>>>>>> 621a663875726ce8f9ad209348de7c74b3779545
+DEBUG - 2013-09-23 16:31:07 --> Config Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Hooks Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-23 16:31:07 --> URI Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Router Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Output Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Security Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Input Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-23 16:31:07 --> Language Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Loader Class Initialized
+DEBUG - 2013-09-23 16:31:07 --> Helper loaded: form_helper
+DEBUG - 2013-09-23 16:31:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-23 16:31:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Controller Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Model Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Model Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Model Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Form Validation Class Initialized
+DEBUG - 2013-09-23 16:31:08 --> Final output sent to browser
+DEBUG - 2013-09-23 16:31:08 --> Total execution time: 0.7438

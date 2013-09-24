@@ -6,7 +6,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost'  ],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay'  ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -22,6 +22,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         },
         routes : {
             'dashboard'     : 'dashboardView',
+			'dashboardd'	: 'dashboarddayView',
             'snapit'        : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
@@ -40,6 +41,25 @@ Ext.define('MarlowApp.controller.DashboardC', {
             {  
             Ext.Viewport.setActiveItem({
                 xtype: 'dashboardView'
+            });
+            
+        }
+        else
+            {
+                
+            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
+                  
+        } 
+        //Ext.getCmp("ssntxt").blur(); 
+    },
+	
+	dashboarddayView:function(){ 
+        // console.log(Ext.Viewport.getCmp('sigupId'))
+
+        if(Ext.Viewport.getComponent('dashboardId') == undefined)
+            {  
+            Ext.Viewport.setActiveItem({
+                xtype: 'dashboarddayView'
             });
             
         }
@@ -253,7 +273,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     addtolistView:function(){
-        if(Ext.Viewport.getComponent('addtolistid') == undefined)
+		
+		if(Ext.Viewport.getComponent('snapid') == undefined) {
+			
+			var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+			var height = (window.innerHeight > 0) ? window.innerHeight : screen.height;
+			//alert('Height: ' + height + ' and Width is: ' + width );
+			
+		}
+        
+		if(Ext.Viewport.getComponent('addtolistid') == undefined)
             {            
                 if(shopSelected) 
                 {                     

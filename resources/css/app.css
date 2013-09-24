@@ -1,3 +1,8 @@
+@font-face {
+  font-family: LeagueGothicRegular;
+  src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
+}
+
 /**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
@@ -6267,39 +6272,25 @@ final_img {
 }
 
 .overlapped-brand {
-  font-size: 200%;
+  font-size: 52px;
   color: white;
   font-weight: bold;
-  position: absolute;
-  top: 0;
-  left: 0;
-  top: 40%;
-  left: 20%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }
 
 .overlapped-price {
-  font-size: 200%;
+  font-size: 52px;
   color: white;
   font-weight: bold;
-  position: absolute;
-  top: 45%;
-  left: 35%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }
 
 .overlapped-msg {
-  font-size: 100%;
+  font-size: 34px;
   color: white;
   font-weight: lighter;
-  position: absolute;
-  top: 50%;
-  left: 20%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }

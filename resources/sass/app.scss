@@ -2,6 +2,11 @@
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
 
+@font-face {
+	font-family: LeagueGothicRegular;
+	src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
+}
+
 $base-color: #17a4e6;
 $base-gradient: black;
 

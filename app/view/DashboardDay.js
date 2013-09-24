@@ -1,8 +1,8 @@
-Ext.define('MarlowApp.view.Dashboard', {
+Ext.define('MarlowApp.view.DashboardDay', {
     extend: 'Ext.Container', 
 	requires: ['Ext.Img', 'Ext.dataview.List'],
-    xtype:'dashboardView',
-	style: 'background-image: url("resources/images/marlow-back/marlow-night.gif")',
+    xtype:'dashboarddayView',
+	style: 'background-image: url("resources/images/marlow-back/marlow-day.png")',
     config: {
 		
 		fullscreen: true,
@@ -14,7 +14,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 					{
 						xtype: 'image',
 						layout: 'fit',
-						html: '<img src = "resources/images/marlow-back/marlow.png">',
+						html: '<img src = "resources/images/marlow-back/day-logo-layers.png">',
 						flex: 1,
 					},
 					{
@@ -30,7 +30,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 					
 					{
 						xtype: 'image',
-						html: '<img src = "resources/images/marlow/aa.png" >',
+						html: '<img src = "resources/images/marlow/camera-blue-icon.png">',
 						align: 'middle',
 						style: 'padding-right: 280px;',
 						flex: 1,
@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
 						flex: 1,
 						handler:function()
 						{
@@ -61,7 +61,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 					
 					{
 						xtype: 'image',
-						html: '<img src = "resources/images/marlow/bb.png">',
+						html: '<img src = "resources/images/marlow/shops-blue-icon.png">',
 						align: 'middle',
 						style: 'padding-right: 280px;',
 						flex: 1,
@@ -72,7 +72,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 40px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 40px;',
 						flex: 1,
 						handler:function()
 						{
@@ -92,7 +92,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 					
 					{
 						xtype: 'image',
-						html: '<img src = "resources/images/marlow/cc.png">',
+						html: '<img src = "resources/images/marlow/my-list-blue-icon.png">',
 						align: 'middle',
 						style: 'padding-right: 280px;',
 						flex: 1,
@@ -103,7 +103,7 @@ Ext.define('MarlowApp.view.Dashboard', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
 						flex: 1,
 						handler:function()
 						{
