@@ -3,11 +3,12 @@ Ext.define('MarlowApp.model.Save_User_SelectionM', {
     config: {
            fields: 
            [
-            {name: "user_id",   type: "int"},
-            {name: "note",      type: "text"},
-            {name: "price",     type: "text"},
-            {name: "image",     type: "text"},
-            {name: "brand_id",  type: "int"},           
+            {name: "product_id",    type: "int"},
+            {name: "user_id",       type: "int"},
+            {name: "note",          type: "text"},
+            {name: "price",         type: "text"},
+            {name: "image",         type: "text"},
+            {name: "brand_id",      type: "int"},           
            ]
     }
 });

@@ -135,7 +135,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
-					app.application.redirectTo('mylist')
+					app.application.redirectTo('myitemlist')
 					
 					},
 				},
@@ -194,22 +194,23 @@ Ext.define('MarlowApp.view.AddToList', {
 		    xtype: 'img',
 		    id:'snapId',
 		    html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
-		    //store :'allshopsStoreId',
-		    //itemTpl: '<div class="contact">{name} </div>',
-		    //indexBar: true,
+		    
 	    },	
 		{
 			xtype: 'panel',
+            id:    'productViewBrand',
 			baseCls: 'overlapped-brand',		
 			html: '<span> Marks and Spencer </span>',
 		},
 		{
-			xtype: 'panel',	
+			xtype: 'panel',
+            id:    'productViewPrice',	
 			baseCls: 'overlapped-price',	
 			html: '<span> £17.99 </span>',
 		},	
 		{
-			xtype: 'panel',	
+			xtype: 'panel',
+            id:    'productViewNote',     
 			baseCls: 'overlapped-msg',	
 			html: '<span> Saw this and thought Bob might like it? </span>',
 		},	

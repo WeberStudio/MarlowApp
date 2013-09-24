@@ -33,10 +33,12 @@ Ext.define('MarlowApp.view.MyList', {
 					},
 					{	
 						xtype: 'button',
-						text: '<span style = "font-size: 18px; font-weight: lighter;"> Delete  </span> ',
+						text: '<span style = "font-size: 18px; font-weight: lighter;"> Delete</span> ',
 						align: 'right',
 						action: 'deleteitem',
 						cls: 'custom-button',
+                       
+                        
 /*						
 */					} 
 				]
@@ -88,7 +90,7 @@ Ext.define('MarlowApp.view.MyList', {
 					title: 'My List',
 					listeners: {
 						tap: function() {
-						app.application.redirectTo('mylist')
+						app.application.redirectTo('myitemlist')
 						//window.location.reload();
 					},
 					},
@@ -143,7 +145,7 @@ Ext.define('MarlowApp.view.MyList', {
 		},
 		{
 		    xtype: 'img',
-		    id:'snapId',
+		    id:'productViewImage',
 		    html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
 		    //store :'allshopsStoreId',
 		    //itemTpl: '<div class="contact">{name} </div>',
@@ -151,16 +153,19 @@ Ext.define('MarlowApp.view.MyList', {
 	    },	
 		{
 			xtype: 'panel',
+            id:     'productViewBrand',
 			baseCls: 'overlapped-brand',		
 			html: '<span> Marks and Spencer </span>',
 		},
 		{
-			xtype: 'panel',	
+			xtype: 'panel',
+            id:     'productViewPrice',	
 			baseCls: 'overlapped-price',	
 			html: '<span> £17.99 </span>',
 		},	
 		{
-			xtype: 'panel',	
+			xtype: 'panel',
+            id:     'productViewNote',	
 			baseCls: 'overlapped-msg',	
 			html: '<span> Saw this and thought Bob might like it? </span>',
 		},	

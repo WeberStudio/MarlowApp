@@ -10,15 +10,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
         refs: {
            
             saveNoteId:    '#saveNoteId',
-            saveShopId:    '#list',         
+           
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
-            },
-             saveShopId: {
-                tap: 'onListTapShop',
-            },
+            }
         },
         routes : {
             'dashboard'     : 'dashboardView',
@@ -28,8 +25,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-			'mylist' 		: 'mylistView',
-            
+			'mylist' 		: 'mylistView',            
         }                                    
     },
     
@@ -56,10 +52,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
 		if(Ext.Viewport.getComponent('mylistid') == undefined)
 		{  			   
+           
+            all_productsid_store            = Ext.getStore('all_productsid');
+            var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
+            deleteProductId                 = productViewBrand.product_id;
+            //console.log(all_productsid_store.getAt(editProductIndex).getData());
             Ext.Viewport.setActiveItem({
 			xtype: 'mylistView'
+            
 		});
-		
+		    Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>'); 
+            Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
+            //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
+            
 		}
 		else
 		{
@@ -89,15 +96,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     shopsview:function(){ 
 		
-		/*if(Ext.Viewport.setActiveItem(Ext.getCmp('shopsView'))) {
-			
-			if(Ext.Viewport.getCmp('shops-id') == undefined) {
-				
-				this.getComponent('shops-id').setSrc('abc.png');
-				
-			}
-		}*/
-        // console.log(Ext.Viewport.getComponent('shopid'))
+		
         var itemnote = '';
         var itemprice = '';
         if (Ext.getCmp('useritemnote')) 
@@ -175,11 +174,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-    onListTapShop: function(){
-        
-        alert('sdfsfs');
-        
-    },
+   
     
     myitemlistview:function(){ 
         // console.log(Ext.Viewport.getComponent('shopid'))
@@ -240,10 +235,26 @@ Ext.define('MarlowApp.controller.DashboardC', {
         // console.log(Ext.Viewport.getCmp('sigupId'))
 
         if(Ext.Viewport.getComponent('addnoteid') == undefined)
-            {    
+        {    
+            if(Ext.getCmp('productViewNote'))
+            {
+                var note  =  Ext.getCmp('productViewNote').getHtml();  
+                var price =  Ext.getCmp('productViewPrice').getHtml();                    
+            }      
+            
             Ext.Viewport.setActiveItem({
                 xtype: 'addnoteview'                 
-            }); 
+            });
+            
+           if(Ext.getCmp('productViewNote'))
+           {
+               note = note.replace('<span>','');
+               note = note.replace('</span>','');
+               price = price.replace('<span>','');
+               price = price.replace('</span>','');    
+               Ext.getCmp('useritemnote').setValue(note);
+               Ext.getCmp('itemprice').setValue(price);
+           }
         }
         else
             {
@@ -253,15 +264,17 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     addtolistView:function(){
+        
+      
         if(Ext.Viewport.getComponent('addtolistid') == undefined)
             {            
-                if(shopSelected) 
+                if(shopSelectedId) 
                 {                     
                     selectionInfo = Ext.getStore('SaveInfoStoreId'); 
-                    selectionInfo.getAt(0).getData().brand_id  = shopSelected;                   
+                    selectionInfo.getAt(0).getData().brand_id  = shopSelectedId;                   
                     SignupInfoStore = Ext.getStore('SignupInfoStore');                 
                     selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id;                
-                    //console.log(selectionInfo.getAt(0).getData());
+                   // console.log(selectionInfo.getAt(0).getData());
                     loadMask() 
                     Ext.Ajax.request({
                    
@@ -275,6 +288,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     timeout : 6000,
                     method: 'POST',               
                      jsonData: {
+                            "product_id":   selectionInfo.getAt(0).getData().product_id ,
                             "user_id":      selectionInfo.getAt(0).getData().user_id ,
                             "brand_id":     selectionInfo.getAt(0).getData().brand_id,
                             "note":         selectionInfo.getAt(0).getData().note,
@@ -290,7 +304,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             var store = Ext.getStore('allshopsStoreId');
                             
                              hideloadingMask();
-                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')      
+                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')
+                             
                             //store.setData(response);
                             //console.log(store.setData(response));
                         }catch(err){
@@ -313,13 +328,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 }   
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
-                }); 
+                });
+                
+            Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');  
             }
             else
                 {
                 Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
             } 
     },
+    
+    
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {

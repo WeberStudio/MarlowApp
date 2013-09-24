@@ -30,7 +30,7 @@ Ext.define('MarlowApp.view.ConfirmDel',{
 			{  
 				xtype: 'button',
 				baseCls: 'null',  
-				//action: 'hide',  
+				action: 'confdelete',  
 				text: 'Delete',  
 				//ui: 'confirm',  
 				docked: 'bottom',
@@ -38,17 +38,7 @@ Ext.define('MarlowApp.view.ConfirmDel',{
 				border: 1,
 				style: 'border-top: solid #C5C5C5;  width: 50%; height: auto; padding: 15px; color: #4CA5D7; position: absolute; left: 145px;',
 			},
-			/*{  
-				xtype: 'button',
-				baseCls: 'null',  
-				//action: 'hide',  
-				text: 'Delete',  
-				//ui: 'confirm',  
-				docked: 'bottom',
-				border: 1,
-				//right: 25,
-				style: 'border: solid #C5C5C5; width: 50%; height: auto;',
-			},*/
+			
 		]  
 	}  
 });  
