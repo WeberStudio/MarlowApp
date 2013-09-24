@@ -176,16 +176,17 @@ Ext.define('MarlowApp.view.Shops', {
 		inline: true,
 		grouped: true,
 		cls: 'shops-list',  
-		id:'list',
+		id:'shop_list',
 		store :'allshopsStoreId',
-		itemTpl: '<div class="contact">{name} </div>',
+		itemTpl: '<div class="contact">{name}</div>',
 		indexBar: true,
 	    listeners:
                 {
                     itemtap: function(cmp, index, target, record, e, eOpts)
                     {
-                        //console.log(record.data.id);
-                        shopSelected  = record.data.id;
+                        //console.log(record.data);
+                        shopSelectedId      = record.data.id;
+                        shopSelectedName    = record.data.name;
                         
                     }
 	            },

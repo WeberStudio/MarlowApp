@@ -20,8 +20,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 pack        : 'justify',
                                 type        : 'hbox'
                             },
-                },
-        
+                },        
                  {
                     xtype                   : 'toolbar',
                     docked                  : 'bottom',
@@ -49,7 +48,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
 								handler:function()
 								{
 									app.application.redirectTo('myitemlist')
-									//window.location.reload();
+									
 								}
 
                             }
@@ -79,7 +78,6 @@ Ext.define('MarlowApp.view.DeleteItem', {
                         '</div>',
                         
                         '<img src="resources/images/c1.png" style="float: right; position: relative; top:-40px;">'
-
                         ),
                         listeners:
                         {

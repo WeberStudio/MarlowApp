@@ -34,7 +34,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                                 cls: 'custom-button',
 								handler:function()
 								{
-									app.application.redirectTo('addnote')
+									app.application.redirectTo('deleteitems')
 									
 								}
                             }
@@ -67,7 +67,6 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                                    
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -133,7 +132,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     if(snapViewId){
                                     snapViewId.destroy();
                                     }          
-									app.application.redirectTo('mylist')
+									app.application.redirectTo('myitemlist')
 									
 									},
 								},
@@ -172,9 +171,26 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '       <p>{note}</p>',
                         '       <b>{price}</b>',
                         '   </div>',
-                        '</div>')
-                    }
+                        '</div>'),
+                        
+                         fullscreen: true,
+                        listeners:
+                        {
+                            itemtap: function(cmp, index, target, record, e, eOpts)
+                            {
+                               //console.log(record.data);
+                               //console.log(index);
+                               editProductIndex = index;
+                               app.application.redirectTo('mylist');
+                               
+                            }
+                   
+                        }    
+                        } 
+                        
         ]
+       
+        
         },
      
 

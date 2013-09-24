@@ -73,7 +73,7 @@ class client extends CI_Controller{
         
        if($find_email >0)
         {
-            $error              = array(array('MESSAGE'=>'THIS EMAIL IS ALREADY EXIST'));
+            $error              = array(array('MESSAGE'=>''));
             $error              = json_encode($error);
             echo $error;
             
@@ -91,7 +91,7 @@ class client extends CI_Controller{
             $save['status']         = '1';
             
             $this->Client_model->register($save);
-            $message                = array(array('MESSAGE'=>'YOU RERGISTERED SUCCESSFULLY'));
+            $message                = array(array('MESSAGE'=>'1'));
             $message                = json_encode($message);
             echo $message;
             
@@ -120,13 +120,18 @@ class client extends CI_Controller{
         $data                   = file_get_contents("php://input");
         $decode                 = json_decode($data, true);       
         $save                   = array();
-        $save['id']             = '';
+        $save['id']             = '';        
         $save['user_id']        = $decode['user_id'];
         $save['brand_id']       = $decode['brand_id'];
         $save['note']           = $decode['note'];   
         $save['price']          = $decode['price'];          
         $save['image']          = $decode['image'];          
         $save['status']         = '1';
+        if(!empty($decode['product_id']))
+        {
+            $save['id']             = $decode['product_id'];
+        }        
+        
         $insert                 = $this->Admin_model->save_record($save , 'products');
           
         if($insert)
@@ -144,7 +149,14 @@ class client extends CI_Controller{
         }         
     }
     
+    function delete_list_item($id)
+    {
+        $this->Admin_model->delete($id , 'products');
+        $error      = array(array('MESSAGE'=>'Record has been deleted successfully!'));
+        $error      = json_encode($error);
+        echo $error;                               
     
+    }
     
 }
   
