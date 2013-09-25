@@ -33,7 +33,6 @@ Ext.define('MarlowApp.view.Snap', {
                             snapViewId.destroy();
                         }
                         app.application.redirectTo('dashboard')
-						 
                     }
 				},
 				{	
@@ -43,10 +42,7 @@ Ext.define('MarlowApp.view.Snap', {
 					cls: 'custom-button',
                     handler:function()
                     {
-                         
-                        
                         app.application.redirectTo('addnote')
-						  
                     },
 				} 
 			]
@@ -71,11 +67,12 @@ Ext.define('MarlowApp.view.Snap', {
 					id: 'snap-it-image',
 					listeners: {
 						tap: function() {
-                                       var shopid              = Ext.getCmp("shopid");
+                        var shopid              = Ext.getCmp("shopid");
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                         var addtolistid         = Ext.getCmp("addtolistid");   
-                        
+                        var addtolistid        = Ext.getCmp("addtolistid");
+                        Ext.getCmp('shops-image').destroy();
+                       
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
@@ -108,7 +105,8 @@ Ext.define('MarlowApp.view.Snap', {
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                         var addtolistid         = Ext.getCmp("addtolistid");   
-                        
+                        Ext.getCmp('shops-image').destroy();
+                      
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
@@ -122,7 +120,9 @@ Ext.define('MarlowApp.view.Snap', {
                         if(snapViewId){
                         snapViewId.destroy();
                         }          
-						app.application.redirectTo('shops')
+						app.application.redirectTo('shops');
+                        Ext.getCmp("shopViewBackButton").hide();
+                        Ext.getCmp("shopViewConfirmButton").hide();
 						
 					},
 					},
@@ -140,7 +140,9 @@ Ext.define('MarlowApp.view.Snap', {
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                         var addtolistid         = Ext.getCmp("addtolistid");   
-                        
+                       
+                        Ext.getCmp('my-list-image').destroy();
+                       
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 

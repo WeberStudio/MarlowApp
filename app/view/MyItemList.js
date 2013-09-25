@@ -107,7 +107,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     snapViewId.destroy();
                                     }          
 									app.application.redirectTo('shops')
-										
+									Ext.getCmp("shopViewBackButton").hide();
+                                    Ext.getCmp("shopViewConfirmButton").hide();	
 									},
 									
 								},

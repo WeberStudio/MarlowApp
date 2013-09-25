@@ -27,12 +27,7 @@ Ext.define('MarlowApp.view.Main', {
 			pack: 'center'
 			},
 			items: [
-			{
-				xtype: 'image',
-				width:218,
-				height:150,
-				src:'resources/images/marlow-back/marlow.gif'
-			}
+			
 			]
 			
 		},
