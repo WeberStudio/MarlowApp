@@ -10,11 +10,14 @@ Ext.define('MarlowApp.view.Shops', {
         hidden: true
     	},
 		
+        
+        
+        
 	items : [
 	{
             xtype: 'toolbar',
             docked: 'top',
-			title: 'Choose shop',
+			title: 'Choose Shop',
 			cls: 'top-toolbar',
 			layout: {
 				pack: 'justify',
@@ -24,7 +27,8 @@ Ext.define('MarlowApp.view.Shops', {
 				{
 					xtype: 'button',
 					align: 'left',
-                    text: '< Back ',
+                    id:     'shopViewBackButton',
+                    text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
 					cls: 'custom-button',
                     handler:function()
                     {
@@ -36,13 +40,13 @@ Ext.define('MarlowApp.view.Shops', {
 				},
 				{	
 					xtype: 'button',
-					text: 'Confirm ',
+                    id:    'shopViewConfirmButton',
+					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
 					align: 'right',
 					cls: 'custom-button',
                     handler:function()
-                    {
-                        
-                        app.application.redirectTo('addtolist')
+                    {                         
+                        app.application.redirectTo('addtolist');                       
 						 
                     }
                 
@@ -69,7 +73,12 @@ Ext.define('MarlowApp.view.Shops', {
 					id: 'snap-it-image',
 					listeners: {
 						tap: function() {
-						app.application.redirectTo('snapit')
+                            
+                         Ext.getCmp('snap-it-image').destroy();
+                         Ext.getCmp('shops-image').destroy();
+                         Ext.getCmp('my-list-image').destroy(); 
+                         Ext.getCmp('info-image').destroy();
+						 app.application.redirectTo('snapit')
 						
 					},
 					},
@@ -86,8 +95,10 @@ Ext.define('MarlowApp.view.Shops', {
                         var shopid              = Ext.getCmp("shopid");
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                        var addtolistid         = Ext.getCmp("addtolistid");   
-                        
+                        var addtolistid         = Ext.getCmp("addtolistid");
+                        //var loginId        = Ext.getCmp("loginId");
+                                       
+                        Ext.getCmp('shops-image').destroy();                        
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
@@ -102,7 +113,9 @@ Ext.define('MarlowApp.view.Shops', {
                         snapViewId.destroy();
                         }          
 						app.application.redirectTo('shops')
-						
+						Ext.getCmp("shopViewBackButton").hide();
+                        Ext.getCmp("shopViewConfirmButton").hide();
+                        
 					},
 					},
 				},
@@ -115,10 +128,14 @@ Ext.define('MarlowApp.view.Shops', {
 					id: 'my-list-image',
 					listeners: {
 						tap: function() {
-                         var shopid              = Ext.getCmp("shopid");
+                        
+                       var shopid              = Ext.getCmp("shopid");
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                         var addtolistid         = Ext.getCmp("addtolistid");   
+                        var addtolistid         = Ext.getCmp("addtolistid");   
+                       
+                       
+                        Ext.getCmp('my-list-image').destroy();
                         
                         if(addtolistid){
                         addtolistid.destroy();
@@ -151,7 +168,8 @@ Ext.define('MarlowApp.view.Shops', {
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                         var addtolistid         = Ext.getCmp("addtolistid");   
-                        
+                       
+                        Ext.getCmp('info-image').destroy();
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
@@ -179,7 +197,7 @@ Ext.define('MarlowApp.view.Shops', {
 		cls: 'shops-list',  
 		id:'shop_list',
 		store :'allshopsStoreId',
-		itemTpl: '<div class="contact" style = "font-family: HelveticaLight;">{name}</div>',
+		itemTpl: '<div class="contact">{name}</div>',
 		indexBar: true,
 	    listeners:
                 {

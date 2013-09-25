@@ -144,25 +144,25 @@ Ext.define('MarlowApp.view.MyList', {
 						html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
 					},
 					{
-						xtype: 'panel',
-                        id:     'productViewBrand',
-						baseCls: 'overlapped-msg',	
-						centered: true,
-						html: '<span> Saw this and thought Bob might like it? </span>',
-												
-						items: [
-							{
-								baseCls: 'overlapped-brand',
-                                id:     'productViewPrice',
-								html: '<span> Marks and Spencer </span>',
-							},
-							{
-								baseCls: 'overlapped-price',
-                                id:     'productViewNote',	
-								html: '<span> £17.99 </span>',	
-							}
-						]
-					},
+					    xtype: 'panel',
+                        id:    'productViewNote',
+                        baseCls: 'overlapped-msg',    
+                        centered: true,
+                        html: '<span> Saw this and thought Bob might like it? </span>',
+                                                
+                        items: [
+                            {
+                                baseCls: 'overlapped-brand',
+                                id:    'productViewBrand',
+                                html: '<span> Marks and Spencer </span>',
+                            },
+                            {
+                                baseCls: 'overlapped-price',
+                                id:    'productViewPrice',      
+                                html: '<span> $17.99 </sapn>',    
+                            },
+                        ]
+                    },
 					
 				]	
 			}

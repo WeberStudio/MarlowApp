@@ -10,12 +10,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
         refs: {
            
             saveNoteId:    '#saveNoteId',
-           
+          	
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
-            }
+				
+            },
+			
+			
         },
         routes : {
             'dashboard'     : 'dashboardView',
@@ -72,7 +75,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
 		if(Ext.Viewport.getComponent('mylistid') == undefined)
 		{  			   
-           
+          
             all_productsid_store            = Ext.getStore('all_productsid');
             var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
             deleteProductId                 = productViewBrand.product_id;
@@ -81,16 +84,17 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			xtype: 'mylistView'
             
 		});
-		    Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
-            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
-            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>'); 
+		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
+            Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
 		}
 		else
-		{
-			Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
+		{       
+             
+            Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
 		} 
 		//Ext.getCmp("ssntxt").blur(); 
 	},
@@ -126,6 +130,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
         var itemnote = '';
         var itemprice = '';
+		
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -149,56 +154,75 @@ Ext.define('MarlowApp.controller.DashboardC', {
             {    
                   
                 /* Get All Shops Listing */   
-                loadMask() 
-                Ext.Ajax.request({
-                   
+                loadMask()
+                var store = Ext.getStore('allshopsStoreId');
+                if(store.getCount()== 0)
+                {
+                    Ext.Ajax.request({
+
                     url: serviceUrl+'get_product'+'/shops',
                     headers: {
-                        "Content-Type": "application/json",
-                        'Accept': 'application/json',                    
-                        "cache-control": "no-cache"
+                    "Content-Type": "application/json",
+                    'Accept': 'application/json',                    
+                    "cache-control": "no-cache"
                     },
                     callbackKey: 'callback', 
                     timeout : 6000,
                     method: 'GET',                
-                  
+
                     withCredentials: false,
                     useDefaultXhrHeader: false,
                     success: function(response) {      
-                        try{
-                            
-                            response = Ext.decode(response.responseText) 
-                            var store = Ext.getStore('allshopsStoreId');
-                            
-                             hideloadingMask();   
-                            store.setData(response);
-							//console.log(store.setData(response));
-                        }catch(err){
-                            hideloadingMask();   
-                            // console.log(err)
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
-                        }
+                    try{
+                        
+                         response = Ext.decode(response.responseText);                                                    
+                         hideloadingMask();   
+                         store.setData(response);
+                         Ext.Viewport.setActiveItem({
+                            xtype: 'shopsview'                 
+                        });
+                         
+                         if(Ext.getCmp('shops-image')) { 
+
+                               Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                           }
+                        //console.log(store.setData(response));
+                    }catch(err){
+                        hideloadingMask();   
+                        // console.log(err)
+                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                    }
                     },                     
                     failure: function(response) {
-                        //response = Ext.decode(response.responseText)
-                        Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    //response = Ext.decode(response.responseText)
+                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
                     },
                     callback:function(response)
                     {
-                        //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
-                });
-            
-            Ext.Viewport.setActiveItem({
-                xtype: 'shopsview'                 
-            });
-			 if(Ext.getCmp('shops-image')) { 
-				   
-				   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">')
-				   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
-				   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
-				   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
-			   } 
+                    });
+                }
+                else
+                {
+                    
+                    hideloadingMask();    
+                    Ext.Viewport.setActiveItem({
+                            xtype: 'shopsview'                 
+                        });
+                      
+                    if(Ext.getCmp('shops-image')) { 
+
+                       Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">')
+                       Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                       Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                       Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                    }                    
+                }
+                
                 
         }
         else
@@ -216,8 +240,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('myitemlistid') == undefined)
             {
             
-             loadMask()       
-            Ext.Ajax.request({
+             loadMask()
+            var store   = Ext.getStore('all_productsid');
+            if(store.getCount()== 0)
+            {
+                    
+                    Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
                     "Content-Type": "application/json",
@@ -232,11 +260,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 useDefaultXhrHeader: false,
                 success: function(response) {      
                     try{
-                        response    = Ext.decode(response.responseText)
-                        var store   = Ext.getStore('all_productsid');
+                        response    = Ext.decode(response.responseText);                       
                         store.setData(response);
                         //console.log(response);
-                        hideloadingMask();                          
+                        hideloadingMask(); 
+                         Ext.Viewport.setActiveItem({
+                            xtype: 'myitemlistview'                 
+                        });
+                        if(Ext.getCmp('my-list-image')) {
+               
+                               Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">')
+                               Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                            }
+                                                  
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
@@ -252,18 +290,23 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //Ext.Msg.alert('', 'Server is not responding please try again'); 
                 }
             });
-            
-            
-            Ext.Viewport.setActiveItem({
+            }
+            else
+            {
+                hideloadingMask(); 
+                Ext.Viewport.setActiveItem({
                 xtype: 'myitemlistview'                 
-            }); 
-			if(Ext.getCmp('my-list-image')) {
-			   
-			   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
-			   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
-			   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">')
-			   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
-			}
+                });
+                if(Ext.getCmp('my-list-image')) {
+
+                   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">')
+                   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+                }                
+            }
+            
+                  
         }
         else
             {
@@ -280,7 +323,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             if(Ext.getCmp('productViewNote'))
             {
                 var note  =  Ext.getCmp('productViewNote').getHtml();  
-                var price =  Ext.getCmp('productViewPrice').getHtml();                    
+                var price =  Ext.getCmp('productViewPrice').getHtml();
+                                    
             }      
             
             Ext.Viewport.setActiveItem({
@@ -292,7 +336,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                note = note.replace('<span>','');
                note = note.replace('</span>','');
                price = price.replace('<span>','');
-               price = price.replace('</span>','');    
+               price = price.replace('</span>','');
+               Ext.getCmp('useritemnote').setValue(' ');
+               Ext.getCmp('itemprice').setValue(' ');        
                Ext.getCmp('useritemnote').setValue(note);
                Ext.getCmp('itemprice').setValue(price);
            }
@@ -366,14 +412,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 });
                     
                            
-                }   
+                } 
+                //console.log(selectionInfo.getAt(0).getData()); return false;
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
                 });
-			
-            Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-            Ext.getCmp('productViewPrice').setHtml('<span>'+ selectionInfo.getAt(0).getData().price + '</span>');
-            Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');  
+                
+				
+                Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
+                Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
                 {
@@ -385,7 +433,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
-            
+              
              loadMask()       
             Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
@@ -425,6 +473,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
             
             Ext.Viewport.setActiveItem({
+                
                 xtype: 'deleteitemView'                 
             }); 
         }         else
@@ -441,6 +490,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //SaveInfoStoreId.add({ note: note, price: price }); 
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
+	
+	
     
    
 });

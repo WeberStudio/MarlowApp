@@ -58,7 +58,7 @@
                                 <div class="mws-form-row">
                                     <label class="mws-form-label">Description</label>
                                     <div class="mws-form-item">
-                                        <input type="text" name="des" value="<?php echo $des;?>" class="required large">
+                                        <input type="text" name="des" value="<?php echo $des;?>" class=" large">
                                     </div>
                                 </div>
                                 

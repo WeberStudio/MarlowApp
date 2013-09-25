@@ -8,6 +8,7 @@ Ext.define('MarlowApp.view.MyItemList', {
     id:'myitemlistviewId', 
     navigationBar: {hidden: true},
      fullscreen: true,
+style: 'background-color:black;',
          
         items : [
                 {
@@ -21,13 +22,15 @@ Ext.define('MarlowApp.view.MyItemList', {
                         }, 
                          items: [
                             {
-                               html: '',
-							   align: 'left',
-							   cls: 'custom-button',
+                                xtype: 'button',
+                                align: 'left',
+                                text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> </span> ',
+                                cls: 'custom-button',
+                                itemId: 'loginButton',
                             },
                             {    
                                 xtype: 'button',
-                                text: 'Edit',
+                                text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
                                 align: 'right',
                                 cls: 'custom-button',
 								handler:function()
@@ -57,7 +60,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+								html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
 								iconMask: true,
 								title: 'Snap It',
 								id: 'snap-it-image',
@@ -66,6 +69,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -105,7 +110,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     snapViewId.destroy();
                                     }          
 									app.application.redirectTo('shops')
-										
+									Ext.getCmp("shopViewBackButton").hide();
+                                    Ext.getCmp("shopViewConfirmButton").hide();	
 									},
 									
 								},
@@ -113,7 +119,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'My List',
 								id: 'my-list-image',
@@ -123,6 +129,13 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                                     
+                                    if(Ext.getCmp("mylistid"))
+                                    {
+                                        var mylistid    = Ext.getCmp("mylistid");
+                                        mylistid.destroy();    
+                                        
+                                    }
+                                                                        
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -156,13 +169,15 @@ Ext.define('MarlowApp.view.MyItemList', {
             },
         
             {
-                    inline: true,
-                    pinHeaders : true,
-                    store :'all_productsid', 
-                    xtype: 'list',
-                    grouped: true,
-                    ui:'white',
-                    id:'list',
+                
+                    inline                  : true,
+                    pinHeaders              : true,
+                    store                   : 'all_productsid', 
+                    xtype                   : 'list',
+                    grouped                 : true,
+                    ui                      : '#FFFFFF',
+                    id                      : 'list',
+                    cls                     : 'item-list',
                     itemTpl: Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
@@ -170,17 +185,17 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                        '       <p style = "font-family: HelveticaLight;">{note}</p>',
-                        '       <b style = "font-family: HelveticaBold;">{price}</b>',
+                        '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;height:55px;">{note}</p>',
+                        '       <b>{price}</b>',
                         '   </div>',
                         '</div>'),
                         
-                         fullscreen: true,
+                        fullscreen: true,
                         listeners:
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               //console.log(record.data);
+                               //console.log(index);
                                //console.log(index);
                                editProductIndex = index;
                                app.application.redirectTo('mylist');

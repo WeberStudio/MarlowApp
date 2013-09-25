@@ -1,9 +1,8 @@
 Ext.define('MarlowApp.view.AddToList', {
-	extend: 'Ext.Panel', 
+    require: ['Ext.Img'],
+    extend: 'Ext.Panel', 
     xtype:'addtolistView', 
-    //constructor: function() {
-        //alert(this.self.getName()); // alerts 'My.cool.Class'
-    //},
+   
     
     config: {
         
@@ -11,7 +10,7 @@ Ext.define('MarlowApp.view.AddToList', {
         fullscreen: true,
         scrollable: true,
         
-        items: [
+        items: [ 
             {
                 xtype: 'toolbar',
                 docked: 'top',
@@ -47,8 +46,9 @@ Ext.define('MarlowApp.view.AddToList', {
 								var snapViewId          = Ext.getCmp("snapViewId");
 								var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
 								var addtolistid         = Ext.getCmp("addtolistid");
-								
-								
+								var loginId             = Ext.getCmp("loginId");  
+                                Ext.getCmp('snap-it-image').destroy();
+                                
 								if(myitemlistviewId){
 									myitemlistviewId.destroy();
 								}                       
@@ -81,7 +81,8 @@ Ext.define('MarlowApp.view.AddToList', {
 								var snapViewId          = Ext.getCmp("snapViewId");
 								var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
 								var addtolistid         = Ext.getCmp("addtolistid");
-								
+								Ext.getCmp('shops-image').destroy();
+                               
 								if(myitemlistviewId){
 									myitemlistviewId.destroy();
 								}                       
@@ -96,7 +97,8 @@ Ext.define('MarlowApp.view.AddToList', {
 								if(addtolistid){
 									addtolistid.destroy();
 								}                                  
-								app.application.redirectTo('shops')
+								app.application.redirectTo('shops');
+                                
 							
 							},
 						
@@ -115,6 +117,8 @@ Ext.define('MarlowApp.view.AddToList', {
 								var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
 								var addtolistid         = Ext.getCmp("addtolistid");
 								
+                                Ext.getCmp('my-list-image').destroy();
+                                
 								
 								if(myitemlistviewId){
 								myitemlistviewId.destroy();
@@ -147,7 +151,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         
                             },
                         },
-                    }
+                    } 
                 ]
             },
             {
@@ -176,10 +180,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         align: 'left',
                         text: 'Share this item',
                         cls: 'custom-white-button',
-                        //action: 'shareitem',
-						//action: 'deleteitem',
-						action: 'shareindivisual'
-						//action: 'shareemail'
+                        action: 'shareitem',
                     }
                 ]
             },
@@ -192,11 +193,11 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'image',
                         id:'productViewImage',
                         id:'snapId',
-                        html: '<img src = "resources/images/marlow-back/sample.jpg" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                        html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
                     },
                     {
                         xtype: 'panel',
-                        id:    'productViewNote',
+                        id:    'productViewBrand',
                         baseCls: 'overlapped-msg',    
                         centered: true,
                         html: '<span> Saw this and thought Bob might like it? </span>',
@@ -204,16 +205,16 @@ Ext.define('MarlowApp.view.AddToList', {
                         items: [
                             {
                                 baseCls: 'overlapped-brand',
-                                id:    'productViewBrand',
+                                id:    'productViewPrice',
                                 html: '<span> Marks and Spencer </span>',
                             },
                             {
                                 baseCls: 'overlapped-price',
-                                id:    'productViewPrice',      
-                                html: '<span> $17.99 </sapn>',    
-                            },
+                                id:    'productViewNote',      
+                                html: '<span> £17.99 </span>',    
+                            }
                         ]
-                    },
+                    }
                     
                 ]    
             }

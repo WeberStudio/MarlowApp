@@ -5,27 +5,19 @@ class pages extends CI_Controller{
     function __construct()
     {        
     parent::__construct();
-
+    
+     if($this->session->userdata('auth-info')=="")
+     {
+        redirect('index.php/Auth/login');  
+     }
     //remove_ssl();
      $this->load->model('Admin_model');
     }
-
-
-	function login()
-	{
-	    $data['title']          = 'Login Page'; // Capitalize the first letter
-        $email                  = $this->input->post('username');
-        $password               = $this->input->post('password');
-        $get_result             = $this->Admin_model->admin_login($email, $password);
-        $count                  = count($get_result) ;
-         
-       if($count>0)
-       {
-          redirect('index.php/pages/dashboard');
-       }
-	   $this->load->view('admin/index', $data);
-	
-	}
+    function logout()
+    {
+        $this->session->unset_userdata('auth-info');
+        redirect('index.php/Auth/login'); 
+    }
     
     
     function dashboard()
@@ -146,13 +138,15 @@ class pages extends CI_Controller{
         else{$data['title']         = 'Edit User';}
         $data['left_bar']           = 'user';
         $data['user']               = '';
+        $data['gender']             = '';
         $data['name']               = '';
         $data['password']           = '';
         $data['email']              = '';
         $data['date_db']            = '';
         if($id!='')
         {
-           $data['user']            = $this->Admin_model->get_records('user_info',$id); 
+           $data['user']            = $this->Admin_model->get_records('user_info',$id);
+           $data['gender']          = $data['user']['0']->gender;
            $data['name']            = $data['user']['0']->fname;
            $data['date_db']         = $data['user']['0']->join_date;
            $data['email']           = $data['user']['0']->email; 
@@ -191,7 +185,7 @@ class pages extends CI_Controller{
         
         $config['upload_path']      = './uploads/';
         $config['allowed_types']    = 'gif|jpg|png';
-        $config['max_size']         = '100';
+        $config['max_size']         = '500';
         $config['max_width']        = '1024';
         $config['max_height']       = '768';
         $config['overwrite']        = false;
