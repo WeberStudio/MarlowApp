@@ -65,6 +65,7 @@ Ext.application({
         serviceUrl      = 'http://localhost/MarlowApp/marlow_admin/client/';
         snapSrc         = '';
         shopSelected    = '';  
+        addIndex        = [];
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view

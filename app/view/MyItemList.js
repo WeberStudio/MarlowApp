@@ -59,7 +59,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+								html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
 								iconMask: true,
 								title: 'Snap It',
 								listeners: {
@@ -114,7 +114,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'My List',
 								listeners: {
@@ -155,13 +155,15 @@ Ext.define('MarlowApp.view.MyItemList', {
             },
         
             {
-                    inline: true,
-                    pinHeaders : true,
-                    store :'all_productsid', 
-                    xtype: 'list',
-                    grouped: true,
-                    ui:'white',
-                    id:'list',
+                
+                    inline                  : true,
+                    pinHeaders              : true,
+                    store                   : 'all_productsid', 
+                    xtype                   : 'list',
+                    grouped                 : true,
+                    ui                      : 'white',
+                    id                      : 'list',
+                    cls                     : 'items-list2',
                     itemTpl: Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
@@ -169,7 +171,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                        '       <p>{note}</p>',
+                        '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;height:55px;">{note}</p>',
                         '       <b>{price}</b>',
                         '   </div>',
                         '</div>')

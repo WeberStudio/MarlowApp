@@ -1,4 +1,14 @@
-/*e8dadc1f760c22890211320ac998346737e34eee*//**
+/*0e8e298c2c9c62a9df2e2d95d23048c771d1e380*/@font-face {
+  font-family: HelveticaBold;
+  src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: HelveticaLight;
+  src: url("../fonts/Helvetica-Light.otf") format("opentype");
+}
+
+/**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
  */
@@ -6016,6 +6026,28 @@ body.x-desktop {
   color: #0079FF;
 }
 
+.items-list .x-list-header {
+  background-color: #F0F0F0;
+  color: black;
+  font-family: HelveticaBold;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+}
+
+.items-list2 .x-list-header {
+  background-color: #F0F0F0;
+  color: black;
+  font-family: HelveticaBold;
+  font-weight: bolder;
+  font-size: 24px;
+  border: none;
+}
+
+.items-list2 .x-list-header .x-innerhtml {
+  margin-left: 15px;
+}
+
 .custom-button {
   border: none !important;
   background-color: inherit !important;
@@ -6056,29 +6088,40 @@ final_img {
 
 .delete_btn {
   color: #F75D59 !important;
-  background-color: #fff !important;
+  background-color: #F0F0F0   !important;
   border: none !important;
   border-radius: 0px;
+  font-family: HelveticaBold;
   font-size: 27px;
 }
 
 .cancel_btn {
   color: #3090C7 !important;
-  background-color: #fff !important;
+  background-color: #F0F0F0  !important;
   border: none !important;
   border-radius: 0px;
+  font-family: HelveticaLight;
   font-size: 27px;
   font-weight: normal;
 }
 
-/*    .x-item-selected
-    {
-        background-color    : #fcd9db !important;
-        color               : black !important;
-    }
-*/
+.custom-gradient-button {
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+}
+
+.items-list .x-item-selected {
+  background-color: #fcd9db !important;
+  color: black !important;
+  background-image: url(images/c2.png);
+}
+
 .top-toolbar .x-innerhtml {
-  font-family: Calibri;
+  font-family: HelveticaLight;
   font-weight: lighter;
   font-size: 23px;
 }
@@ -6089,16 +6132,27 @@ final_img {
 }
 
 .custom-share-toolbar {
-  height: 15%;
+  height: 20%;
   border-bottom: #C0C0C0 solid 1px;
-  font-size: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-family: "Calibri";
   font-weight: lighter;
-  background-image: linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -o-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -moz-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -webkit-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -ms-linear-gradient(bottom, #dfe8f0 8%, #f5f5f5 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.08, #dfe8f0), color-stop(1, #f5f5f5));
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+}
+
+.custom-share-indivisual-toolbar {
+  height: 20%;
+  border-bottom: #C0C0C0 solid 1px;
+  text-align: right;
+  font-size: 18px;
+  font-family: "Calibri";
+  font-weight: lighter;
 }
 
 .custom-form-labels .x-form-field {
@@ -6126,13 +6180,25 @@ final_img {
   margin-top: 16px;
 }
 
-.custom-form-alert {
-  background-image: linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -o-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -moz-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -webkit-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -ms-linear-gradient(bottom, #dceff2 29%, #e3e3e3 65%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.29, #dceff2), color-stop(0.65, #e3e3e3));
+.custom-popup-label .x-form-label {
+  font-size: 22px;
+}
+
+.text-area-custom {
+  background-color: linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -o-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -moz-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -webkit-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -ms-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
+  background-color: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #f5f5f5), color-stop(0.55, #bfd1d6), color-stop(0.78, #ebebeb));
+}
+.text-area-custom .emailformclassic {
+  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
 }
 
 .custom-page-bg {

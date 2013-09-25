@@ -1,90 +1,120 @@
 Ext.define('MarlowApp.view.Dashboard', {
-    extend: 'Ext.navigation.View',      
+    extend: 'Ext.Container', 
+	requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboardView',
-    inline: true,
-    requires: [ 'Ext.dataview.List' ],
+	style: 'background-image: url("resources/images/marlow-back/marlow-night.gif")',
     config: {
+		
 		fullscreen: true,
-		navigationBar: {
-		hidden: true
-		},
-              tabBarPosition: 'bottom',
-        items : [{
-                        xtype: 'list',
-                        inline: true,
-                        itemId:'list',
-                        itemTpl: '<div class="contact"  style = "font-size: 200%; color: white; font-weight: bolder;" >{img}{title} </div>',
-                        style: "background-image:url('resources/images/marlow-back/home_night.gif'); background-size: 100% 100%;",
-                        data   : [
-                            { 
-                                title: 'SNAP IT',  
-                                img:  '<img src="resources/images/marlow/snap-it-icon.png" alt = "" style = "margin-left: 25%; margin-top: 65%; margin-bottom: -15px; padding-right: 30px; width: 15%;" />', 
-                            },
-							{
-								html: '<br/>'
-							},
-                            { 
-                                title: 'SHOPS',
-                                img:  '<img src="resources/images/marlow/shops-icon.png" alt = "" style = "margin-left: 25%; width: 15%; margin-bottom: -15px; padding-right: 30px;" />' 
-                            },
-							{
-								html: '<br/>'
-							},
-                            { 
-                                title: 'MY LIST',
-                                img:  '<img src="resources/images/marlow/my-list-icon.png" alt = "" style = "margin-left: 25%; width: 15%; margin-bottom: -15px; padding-right: 30px;"/>' 
-                            },
-							                            
-                        ],
-                        fullscreen: true,
-                        listeners:
-                        {
-                            itemtap: function(cmp, index, target, record, e, eOpts)
-                            {
-                                   // alert('Tapped on index: '+record.data.title);
-                                   // console.log(record.data);
-                                    /*console.log(target);
-                                    console.log(e);
-                                    console.log(eOpts);
-                                    console.log(cmp);
-                                    console.log(target);*/
-                                    if(record.data.title == 'SNAP IT')
-                                    {  
-                                        //alert('Tapped on index: '+record.data.title); 
-                                        /*Ext.device.Camera.capture
-                                        ({
-                                            source: 'camera',
-                                            destination: 'data',
-                                            success: function(imagedata) 
-                                            {
-                                                //console.log(imagedata)
-                                                var img = Ext.getCmp('theimage');
-                                                img.setSrc('data:image/jpeg;base64,' +imagedata);
-                                                app.application.redirectTo('snapit');   
-                                            },
-                                            failure: function() {
-                                                Ext.Msg.alert('Error', 'There was an error when acquiring the picture.');
-                                                app.application.redirectTo('dashboard');
-                                            },
-                                            scope: this
-                                        }); */                                     
-                                        //window.location = 'SnapIt' ;
-                                        snapSrc = 'snap-it-active.png' ;
-                                        app.application.redirectTo('snapit'); 
-										//window.location.reload();  
-                                    }
-                                    else if(record.data.title == 'SHOPS')
-                                    { 
-                                        app.application.redirectTo('shops')  
-										//window.location.reload();  
-                                    }
-                                    else if(record.data.title == 'MY LIST')
-                                    {
-                                        app.application.redirectTo('myitemlist')    
-										//window.location.reload();
-                                    }
-                            }
-                        }
-                }]
-        }
+		items: [
+			{
+				xtype: 'container',
+				layout: 'auto',
+				items: [
+					{
+						xtype: 'image',
+						layout: 'fit',
+						html: '<img src = "resources/images/marlow-back/marlow.png">',
+						flex: 1,
+					},
+					{
+						html: '<br><br>',	
+					}	
+				]	
+			},
+			{
+				xtype: 'container',
+				layout: 'fit',
+				
+				items: [
+					
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/marlow/snap-it-icon.png">',
+						align: 'middle',
+						style: 'padding-right: 280px;',
+						flex: 1,
+					},
+					{
+						xtype: 'button',
+						text: 'SNAP IT',
+						centered: true,
+						//align: 'right',
+						docked: 'right',
+						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						flex: 1,
+						handler:function()
+						{
+							app.application.redirectTo('snapit'); 
+						}
+					},	
+					{
+						html: '<br><br>',	
+					}
+				]
+			},
+			{
+				xtype: 'container',
+				layout: 'fit',
+				
+				items: [
+					
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/marlow/snap-it-icon.png">',
+						align: 'middle',
+						style: 'padding-right: 280px;',
+						flex: 1,
+					},
+					{
+						xtype: 'button',
+						text: 'SHOPS',
+						centered: true,
+						//align: 'right',
+						docked: 'right',
+						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 40px;',
+						flex: 1,
+						handler:function()
+						{
+							app.application.redirectTo('shops')  
+						}
+					},
+					{
+						html: '<br><br>',	
+					}	
+				]
+			},
+			{
+				xtype: 'container',
+				layout: 'fit',
+				
+				items: [
+					
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/marlow/snap-it-icon.png">',
+						align: 'middle',
+						style: 'padding-right: 280px;',
+						flex: 1,
+					},
+					{
+						xtype: 'button',
+						text: 'MY LIST',
+						centered: true,
+						//align: 'right',
+						docked: 'right',
+						style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						flex: 1,
+						handler:function()
+						{
+							 app.application.redirectTo('myitemlist')    
+						}
+					},
+					{
+						html: '<br><br>',	
+					}	
+				]
+			},
+		]
+	}
 });

@@ -54,7 +54,8 @@ Ext.define('MarlowApp.view.ShareItem',{
 					style: 'background: url("resources/images/template/twitter1.png"); height: 53px; border-radius: 0px; margin-top: 8px',
 					handler:function()
 					{
-						alert('Twitter');
+                        alert('Twitter');
+						//window.location='https://twitter.com/share/'
 					}
 
 				},

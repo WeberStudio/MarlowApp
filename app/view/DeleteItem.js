@@ -2,12 +2,14 @@ Ext.define('MarlowApp.view.DeleteItem', {
     extend: 'Ext.navigation.View', 
     xtype:'deleteitemView',
     //inline: true,
-    requires: [ 'Ext.dataview.List' ],
+    requires: [ 'Ext.dataview.List', 'Ext.mixin.Selectable' ],
     
      config: {
     navigationBar: {hidden: true},
      fullscreen: true,
      id:'deleteitemid',
+
+      
          
         items : [
                 {
@@ -35,9 +37,10 @@ Ext.define('MarlowApp.view.DeleteItem', {
                      items: [
                             {
                                 xtype       :'button',
-                                text        :'Delete selected( )',
+                                text        :'Delete selected()',
                                 align       :'left',
                                 baseCls     :null,
+                                id          : 'count',
                                 cls         :'delete_btn',
 
                             },
@@ -54,7 +57,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
 
                             }
                             ]
-            }, 
+            },  
         
             {
                     inline                  : true,
@@ -62,10 +65,11 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     store                   :'all_productsid', 
                     xtype                   : 'list',
                     grouped                 : true,
-                    ui                      :'white',
-                    id                      :'list',
+                    //ui                      :'#ffffff',
+                    id                      :'delete_item_list',
+                    cls                     :'items-list',
                     //allowMultiple: true,
-                      mode: 'MULTI',
+                    mode: 'MULTI',
                     itemTpl:Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
@@ -77,22 +81,62 @@ Ext.define('MarlowApp.view.DeleteItem', {
                         '       <b>{price}</b>',
                         '   </div>',
                         '</div>',
+                        '<img class="logo0" id="{product_id}" src="resources/images/c1.png" style="float: right; position: relative; top:-40px;">'
+                         ),
+                         
+                         
+                          listeners:
+                            
+                            
+                            
+                            {
+                               // getSelectionCount:function( ){}, 
+                                itemtap: function(cmp, index, target, record, e, eOpts)
+                                {
+                                    find = addIndex.indexOf(index);
+                                    if(find > -1)
+                                    {
+                                        addIndex.splice(find, 1);
+                                        console.log(addIndex);
+                                        count =  addIndex.length;
+                                    }
+                                    else if(find == '-1')
+                                    {
+                                      addIndex.push(index);
+                                      count =  addIndex.length;
+                                      console.log(addIndex); 
+                                    }
+                                    Ext.getCmp('count').setText('Delete selected('+count+')');
+                                    if(e.target.src == 'http://localhost/MarlowApp/resources/images/c2.png' )
+                                       {
+                                          e.target.src = 'resources/images/c1.png'; 
+                                       }
+                                       else if(e.target.src == 'http://localhost/MarlowApp/resources/images/c1.png')
+                                       {
+                                           e.target.src = 'resources/images/c2.png';
+                                       }
+                                    }
+                            }
                         
-                        '<img src="resources/images/c1.png" style="float: right; position: relative; top:-40px;">'
-
-                        ),
-                        listeners:
-                        {
+                       /* listeners:
+                            {
+                                getSelectionCount:function()
+                                {
+                                   console.log(number);  
+                                }
                             selectionchange:function(list, records){
+                                
                                 var names = [];
                                 Ext.Array.each(records, function(item){
-                                    names.push('<li>' + item.data.name + '</li>');
-                                  //console.log(records.length);
+                                    names.push('<li>' + item.data.product_id + '</li>');
+                                  console.log(names);
                                 });
-                                 //Ext.Msg.alert('You selected ' + records.length + ' item(s)', '<ul>' + names.join('') + '</ul>');
+                                 Ext.Msg.alert('You selected ' + records.length + ' item(s)', '<ul>' + names.join('') + '</ul>');
                             }
+                         
                            
-                        }
+                        }*/ 
+                        
                         
                     },
                     
