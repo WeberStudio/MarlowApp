@@ -42,18 +42,8 @@
                             <input type="password" name="password" class="mws-login-password required" placeholder="password">
                         </div>
                     </div>
-                    <div id="mws-login-remember" class="mws-form-row mws-inset">
-                        <ul class="mws-form-list inline">
-                            <li>
-                                <input id="remember" type="checkbox"> 
-                                <label for="remember">Remember me</label>
-                            </li>
-                        </ul>
-                    </div>
                     <div class="mws-form-row">
-                        
                         <input type="submit" value="Login" class="btn btn-success mws-login-button">
-                        <a href="<?php echo URL.'index.php/pages/register';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  Up</a>
                     </div>
                 </form>
             </div>

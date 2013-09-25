@@ -88,8 +88,8 @@
                                     <!--<td><?php echo $listing->status;?></td>-->
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status."/shops"?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
-                                    <a href="<?php echo URL.'index.php/pages/add_shop/'.$listing->id;?>" class="btn btn-success btn-small">Edit</a>
-                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/shops";?>" class="btn btn-success btn-small">Delete</a>
+                                    <a href="<?php echo URL.'index.php/pages/add_shop/'.$listing->id;?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
+                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/shops";?>" class="btn btn-danger btn-small"> <i class="icon-fire"></i>Delete</a>
                                     </td>
                                 </tr>
                                 <?php }}?>
