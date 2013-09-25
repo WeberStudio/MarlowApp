@@ -69,6 +69,8 @@ style: 'background-color:black;',
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -127,6 +129,13 @@ style: 'background-color:black;',
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                                     
+                                    if(Ext.getCmp("mylistid"))
+                                    {
+                                        var mylistid    = Ext.getCmp("mylistid");
+                                        mylistid.destroy();    
+                                        
+                                    }
+                                                                        
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -181,12 +190,12 @@ style: 'background-color:black;',
                         '   </div>',
                         '</div>'),
                         
-                         fullscreen: true,
+                        fullscreen: true,
                         listeners:
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               //console.log(record.data);
+                               //console.log(index);
                                //console.log(index);
                                editProductIndex = index;
                                app.application.redirectTo('mylist');

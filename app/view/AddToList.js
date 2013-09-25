@@ -1,8 +1,8 @@
 Ext.define('MarlowApp.view.AddToList', {
+    require: ['Ext.Img'],
+    extend: 'Ext.Panel', 
     xtype:'addtolistView', 
-    //constructor: function() {
-        //alert(this.self.getName()); // alerts 'My.cool.Class'
-    //},
+   
     
     config: {
         
@@ -10,7 +10,7 @@ Ext.define('MarlowApp.view.AddToList', {
         fullscreen: true,
         scrollable: true,
         
-        items: [
+        items: [ 
             {
                 xtype: 'toolbar',
                 docked: 'top',
@@ -48,8 +48,7 @@ Ext.define('MarlowApp.view.AddToList', {
 								var addtolistid         = Ext.getCmp("addtolistid");
 								var loginId             = Ext.getCmp("loginId");  
                                 Ext.getCmp('snap-it-image').destroy();
-                               
-								
+                                
 								if(myitemlistviewId){
 									myitemlistviewId.destroy();
 								}                       
@@ -152,7 +151,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         
                             },
                         },
-                    }
+                    } 
                 ]
             },
             {
@@ -215,7 +214,7 @@ Ext.define('MarlowApp.view.AddToList', {
                                 html: '<span> £17.99 </span>',    
                             }
                         ]
-                    },
+                    }
                     
                 ]    
             }
