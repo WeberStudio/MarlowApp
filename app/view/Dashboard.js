@@ -45,6 +45,27 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         {
+                            
+                            //alert('Tapped on index: '+record.data.title); 
+                            /*Ext.device.Camera.capture
+                            ({
+                                source: 'camera',
+                                destination: 'data',
+                                success: function(imagedata) 
+                                {
+                                    //console.log(imagedata)
+                                    var img = Ext.getCmp('theimage');
+                                    img.setSrc('data:image/jpeg;base64,' +imagedata);
+                                    app.application.redirectTo('snapit');   
+                                },
+                                failure: function() {
+                                    Ext.Msg.alert('Error', 'There was an error when acquiring the picture.');
+                                    app.application.redirectTo('dashboard');
+                                },
+                                scope: this
+                            }); */                                     
+                            //window.location = 'SnapIt' ;
+                            snapSrc = 'snap-it-active.png' ; 
                             app.application.redirectTo('snapit'); 
                         }
                     },    
@@ -76,7 +97,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         {
-                            app.application.redirectTo('shops')  
+                            app.application.redirectTo('shops');                           
                         }
                     },
                     {

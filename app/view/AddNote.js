@@ -20,6 +20,7 @@ Ext.define('MarlowApp.view.AddNote', {
 				label: 'Price: ',
 				maxRows: 10,
 				name: 'price',
+                placeHolder: '\u00A3 ',               
 				style: 'border: 1px solid #C5C5C5;',
 				cls: 'custom-form-labels'
 			},

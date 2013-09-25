@@ -75,7 +75,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
 		if(Ext.Viewport.getComponent('mylistid') == undefined)
 		{  			   
-           
+          
             all_productsid_store            = Ext.getStore('all_productsid');
             var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
             deleteProductId                 = productViewBrand.product_id;
@@ -84,16 +84,17 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			xtype: 'mylistView'
             
 		});
-		    Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
-            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
-            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>'); 
+		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
+            Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
 		}
 		else
-		{
-			Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
+		{       
+             
+            Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
 		} 
 		//Ext.getCmp("ssntxt").blur(); 
 	},
@@ -222,9 +223,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }                    
                 }
                 
-            
-           
-			   
+                
         }
         else
             {
@@ -324,7 +323,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             if(Ext.getCmp('productViewNote'))
             {
                 var note  =  Ext.getCmp('productViewNote').getHtml();  
-                var price =  Ext.getCmp('productViewPrice').getHtml();                    
+                var price =  Ext.getCmp('productViewPrice').getHtml();
+                                    
             }      
             
             Ext.Viewport.setActiveItem({
@@ -336,7 +336,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                note = note.replace('<span>','');
                note = note.replace('</span>','');
                price = price.replace('<span>','');
-               price = price.replace('</span>','');    
+               price = price.replace('</span>','');
+               Ext.getCmp('useritemnote').setValue(' ');
+               Ext.getCmp('itemprice').setValue(' ');        
                Ext.getCmp('useritemnote').setValue(note);
                Ext.getCmp('itemprice').setValue(price);
            }
@@ -410,14 +412,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 });
                     
                            
-                }   
+                } 
+                //console.log(selectionInfo.getAt(0).getData()); return false;
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
                 });
+                
 				
-            Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-            Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
-            Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');  
+                Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
+                Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
                 {

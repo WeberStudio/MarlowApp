@@ -45,9 +45,8 @@ Ext.define('MarlowApp.view.Shops', {
 					align: 'right',
 					cls: 'custom-button',
                     handler:function()
-                    {
-                        
-                        app.application.redirectTo('addtolist')
+                    {                         
+                        app.application.redirectTo('addtolist');                       
 						 
                     }
                 

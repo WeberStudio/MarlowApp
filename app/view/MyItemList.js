@@ -68,6 +68,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    
+                                    
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -126,6 +128,13 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                                     
+                                    if(Ext.getCmp("mylistid"))
+                                    {
+                                        var mylistid    = Ext.getCmp("mylistid");
+                                        mylistid.destroy();    
+                                        
+                                    }
+                                                                        
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -180,12 +189,12 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '   </div>',
                         '</div>'),
                         
-                         fullscreen: true,
+                        fullscreen: true,
                         listeners:
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               //console.log(record.data);
+                               //console.log(index);
                                //console.log(index);
                                editProductIndex = index;
                                app.application.redirectTo('mylist');
