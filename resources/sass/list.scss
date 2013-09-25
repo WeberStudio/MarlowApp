@@ -1,5 +1,9 @@
 @mixin list-settings {
 
+
+    .x-list {
+        background-color: white !important;
+    }
 	.shops-list .x-list-header  {
 		
 		background-color: white;
@@ -27,13 +31,29 @@
     
     .delete-item .x-list-header  {
         
-        background-color: #F0F0F0 ;
+        background-color: #F8F8F8  ;
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
         font-size: 18px;
         border: none;
         
+    }
+    .delete-item .x-list-header .x-innerhtml 
+    {
+    font-size: 23px; 
+    font-family: HelveticaBold; 
+    }
+    
+    .delete-item .tweet p 
+    {
+    font-size: 20px;
+    font-family: HelveticaLight; 
+    }
+    
+    .delete-item .tweet b 
+    {
+    font-family: HelveticaBold; 
     }
     .delete-item  .x-item-selected
     {
@@ -41,9 +61,11 @@
         color               : black !important;
         background-image: url(images/c2.png);
     }
+    
+    
     .item-list .x-list-header  {
         
-        background-color: #F0F0F0 ;
+        background-color: #F8F8F8 ;
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
@@ -51,6 +73,16 @@
         border: none;
         
     }
+    
+    .item-list .x-list-header .x-innerhtml
+    {
+        font-size: 23px;
+        margin-left: 18px;
+    }
+    .item-list .x-list-footer-wrap
+    {
+        margin-bottom: 10px;
+    } 
     
 
 

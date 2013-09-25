@@ -15,7 +15,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 {
                         xtype               : 'toolbar',
                         docked              : 'top',
-                        title               : 'Select item to delete',
+                        title               : 'Select items to delete',
                         cls                 : 'top-toolbar',
                         layout:
                             {

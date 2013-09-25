@@ -1,4 +1,4 @@
-/*443916f0f72bf445e611e98c153a97099416ef35*/@font-face {
+/*dce65c45e5e4f75f2b8eba4440177ba7ed955c97*/@font-face {
   font-family: LeagueGothicRegular;
   src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
 }
@@ -6038,6 +6038,19 @@ body.x-desktop {
   font-weight: bolder;
   font-size: 18px;
   border: none;
+}
+
+.delete-item .x-list-header .x-innerhtml {
+  font-family: HelveticaBold;
+}
+
+.delete-item .tweet p {
+  font-size: 20px;
+  font-family: HelveticaLight;
+}
+
+.delete-item .tweet b {
+  font-family: HelveticaBold;
 }
 
 .delete-item .x-item-selected {
