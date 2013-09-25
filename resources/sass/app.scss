@@ -10,6 +10,15 @@
 $base-color: #17a4e6;
 $base-gradient: black;
 
+
+@font-face {
+ font-family: HelveticaBold;
+ src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
+}
+@font-face {
+ font-family: HelveticaLight;
+ src: url("../fonts/Helvetica-Light.otf") format("opentype");
+}
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 @import 'list.scss';

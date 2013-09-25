@@ -44,17 +44,19 @@
     .delete_btn
     {
        color               : #F75D59 !important;
-       background-color    : #fff !important;
+       background-color    : #F0F0F0   !important;
        border              : none !important;
        border-radius       : 0px;
+       font-family         : HelveticaBold;
        font-size           : 27px;  
     }
     .cancel_btn
     {
        color               : #3090C7 !important;
-       background-color    : #fff !important;
+       background-color    : #F0F0F0  !important;
        border              : none !important;
        border-radius       : 0px;
+       font-family         : HelveticaLight;
        font-size           : 27px;
        font-weight         : normal;  
     }
@@ -69,12 +71,13 @@
 		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
 	}
     
-/*    .x-item-selected
+  .items-list  .x-item-selected
     {
         background-color    : #fcd9db !important;
         color               : black !important;
+        background-image: url(images/c2.png);
     }
-*/    
+    
 
 }
  

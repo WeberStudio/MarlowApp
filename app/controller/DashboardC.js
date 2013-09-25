@@ -429,7 +429,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
-            
+              
              loadMask()       
             Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
@@ -469,6 +469,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
             
             Ext.Viewport.setActiveItem({
+                
                 xtype: 'deleteitemView'                 
             }); 
         }         else

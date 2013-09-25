@@ -24,4 +24,28 @@
 		color: #0079FF;
 	
 	}
+    .items-list .x-list-header  {
+        
+        background-color: #F0F0F0 ;
+        color: black;
+        font-family: HelveticaBold;
+        font-weight: bolder;
+        font-size: 18px;
+        border: none;
+        
+    }
+    .items-list2 .x-list-header
+    {
+        background-color: #F0F0F0 ;
+        color: black;
+        font-family: HelveticaBold;
+        font-weight: bolder;
+        font-size: 24px;
+        border: none;
+    }
+    .items-list2 .x-list-header .x-innerhtml 
+    {
+        margin-left: 15px;
+    }
+    
 }
