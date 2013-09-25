@@ -31,7 +31,7 @@
             <h1>Login <?php //echo URL;?></h1>
             <div class="mws-login-lock"><i class="icon-lock"></i></div>
             <div id="mws-login-form">
-                <form class="mws-form" action="<?php echo URL.'index.php/pages/login';?>" method="post">
+                <form class="mws-form" action="<?php echo URL.'index.php/Auth/login';?>" method="post">
                     <div class="mws-form-row">
                         <div class="mws-form-item">
                             <input type="text" name="username" class="mws-login-username required" placeholder="username">

@@ -28,7 +28,7 @@
                     <ul>
                         <li><a href="#">Profile</a></li>
                         <li><a href="#">Change Password</a></li>
-                        <li><a href="#">Logout</a></li>
+                        <li><a href="<?php echo URL.'index.php/pages/logout';?>">Logout</a></li>
                     </ul>
                 </div>
             </div>
