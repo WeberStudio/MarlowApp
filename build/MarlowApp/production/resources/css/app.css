@@ -1,4 +1,9 @@
-/*0e8e298c2c9c62a9df2e2d95d23048c771d1e380*/@font-face {
+/*443916f0f72bf445e611e98c153a97099416ef35*/@font-face {
+  font-family: LeagueGothicRegular;
+  src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
   font-family: HelveticaBold;
   src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
 }
@@ -6026,7 +6031,7 @@ body.x-desktop {
   color: #0079FF;
 }
 
-.items-list .x-list-header {
+.delete-item .x-list-header {
   background-color: #F0F0F0;
   color: black;
   font-family: HelveticaBold;
@@ -6035,17 +6040,19 @@ body.x-desktop {
   border: none;
 }
 
-.items-list2 .x-list-header {
+.delete-item .x-item-selected {
+  background-color: #fcd9db !important;
+  color: black !important;
+  background-image: url(images/c2.png);
+}
+
+.item-list .x-list-header {
   background-color: #F0F0F0;
   color: black;
   font-family: HelveticaBold;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 18px;
   border: none;
-}
-
-.items-list2 .x-list-header .x-innerhtml {
-  margin-left: 15px;
 }
 
 .custom-button {
@@ -6112,12 +6119,6 @@ final_img {
   background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
-}
-
-.items-list .x-item-selected {
-  background-color: #fcd9db !important;
-  color: black !important;
-  background-image: url(images/c2.png);
 }
 
 .top-toolbar .x-innerhtml {
@@ -6206,39 +6207,25 @@ final_img {
 }
 
 .overlapped-brand {
-  font-size: 200%;
+  font-size: 52px;
   color: white;
   font-weight: bold;
-  position: absolute;
-  top: 0;
-  left: 0;
-  top: 40%;
-  left: 20%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }
 
 .overlapped-price {
-  font-size: 200%;
+  font-size: 52px;
   color: white;
   font-weight: bold;
-  position: absolute;
-  top: 45%;
-  left: 35%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }
 
 .overlapped-msg {
-  font-size: 100%;
+  font-size: 34px;
   color: white;
   font-weight: lighter;
-  position: absolute;
-  top: 50%;
-  left: 20%;
   text-align: center;
-  magin: 0;
-  padding: 0;
+  word-wrap: break-word;
 }

@@ -24,7 +24,8 @@
 		color: #0079FF;
 	
 	}
-    .items-list .x-list-header  {
+    
+    .delete-item .x-list-header  {
         
         background-color: #F0F0F0 ;
         color: black;
@@ -34,18 +35,25 @@
         border: none;
         
     }
-    .items-list2 .x-list-header
+    .delete-item  .x-item-selected
     {
+        background-color    : #fcd9db !important;
+        color               : black !important;
+        background-image: url(images/c2.png);
+    }
+    .item-list .x-list-header  {
+        
         background-color: #F0F0F0 ;
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
-        font-size: 24px;
+        font-size: 18px;
         border: none;
+        
     }
-    .items-list2 .x-list-header .x-innerhtml 
-    {
-        margin-left: 15px;
-    }
+    
+
+
+
     
 }

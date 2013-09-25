@@ -49,11 +49,11 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 text        :'Cancel',
                                 align       :'right',
                                 cls         :'cancel_btn',
-								handler:function()
-								{
-									app.application.redirectTo('myitemlist')
-									//window.location.reload();
-								}
+                                handler:function()
+                                {
+                                    app.application.redirectTo('myitemlist')
+                                    //window.location.reload();
+                                }
 
                             }
                             ]
@@ -67,7 +67,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     grouped                 : true,
                     //ui                      :'#ffffff',
                     id                      :'delete_item_list',
-                    cls                     :'items-list',
+                    cls                     :'delete-item',
                     //allowMultiple: true,
                     mode: 'MULTI',
                     itemTpl:Ext.create(
@@ -97,14 +97,12 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                     if(find > -1)
                                     {
                                         addIndex.splice(find, 1);
-                                        console.log(addIndex);
                                         count =  addIndex.length;
                                     }
                                     else if(find == '-1')
                                     {
                                       addIndex.push(index);
                                       count =  addIndex.length;
-                                      console.log(addIndex); 
                                     }
                                     Ext.getCmp('count').setText('Delete selected('+count+')');
                                     if(e.target.src == 'http://localhost/MarlowApp/resources/images/c2.png' )
