@@ -274,16 +274,17 @@ Ext.define('MarlowApp.view.Signup', {
                         }, 
                         withCredentials: false,
                         useDefaultXhrHeader: false,
-                        success: function(response) {      
+                        success: function(response) { 
+                             
                         response = Ext.decode(response.responseText)
-                            /*console.log(response);*/
-                              
-                        if(response.success)
+                        //console.log(response[0].MESSAGE);
+                       
+                        if(response[0].MESSAGE)
                              {
                                
                                 hideloadingMask();
-                                var url = 'dashboard'; 
-                                app.application.redirectTo(url);
+                                Ext.Msg.alert('You have registered successfully!', 'You have registered successfully!');
+                                app.application.redirectTo('dashboard');
                                 /*var userNameObj = document.getElementById('UserNameLandingpageID');
                                 userNameObj.innerHTML = '';
                                 userNameObj.innerHTML = newuserName;*/  
@@ -292,6 +293,7 @@ Ext.define('MarlowApp.view.Signup', {
                             {
                                 // Ext.Msg.alert('', 'ELSE');
                                 hideloadingMask();
+                                Ext.Msg.alert('The email id already exists!', 'The email id already exists!');       
                                 return false     
                             }     
                         },

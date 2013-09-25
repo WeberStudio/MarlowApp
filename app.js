@@ -33,7 +33,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost'  ],
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost', 'DashboardDay'  ],
     
     controllers: [
         'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'ShareIndivisualC', 'EmailPostC' ], 
@@ -62,9 +62,12 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl      = 'http://localhost/MarlowApp/marlow_admin/client/';
-        snapSrc         = '';
-        shopSelected    = '';  
+        serviceUrl          = 'http://localhost/MarlowApp/marlow_admin/client/';
+        snapSrc             = '';
+        shopSelectedId      = '';
+        shopSelectedName    = ''; 
+        editProductIndex    = '';
+        deleteProductId     = '';
         addIndex        = [];
         Ext.fly('appLoadingIndicator').destroy();
 

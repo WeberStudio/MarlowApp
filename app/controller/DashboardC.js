@@ -6,30 +6,30 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost'  ],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'ShareIndivisual', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay'  ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
-            saveShopId:    '#list',         
+          	
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
+				
             },
-             saveShopId: {
-                tap: 'onListTapShop',
-            },
+			
+			
         },
         routes : {
             'dashboard'     : 'dashboardView',
+			'dashboardd'	: 'dashboarddayView',
             'snapit'        : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-			'mylist' 		: 'mylistView',
-            
+			'mylist' 		: 'mylistView',            
         }                                    
     },
     
@@ -51,15 +51,45 @@ Ext.define('MarlowApp.controller.DashboardC', {
         } 
         //Ext.getCmp("ssntxt").blur(); 
     },
+	
+	dashboarddayView:function(){ 
+        // console.log(Ext.Viewport.getCmp('sigupId'))
+
+        if(Ext.Viewport.getComponent('dashboardId') == undefined)
+            {  
+            Ext.Viewport.setActiveItem({
+                xtype: 'dashboarddayView'
+            });
+            
+        }
+        else
+            {
+                
+            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
+                  
+        } 
+        //Ext.getCmp("ssntxt").blur(); 
+    },
     
 	mylistView:function(){ 
 		
 		if(Ext.Viewport.getComponent('mylistid') == undefined)
 		{  			   
+           
+            all_productsid_store            = Ext.getStore('all_productsid');
+            var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
+            deleteProductId                 = productViewBrand.product_id;
+            //console.log(all_productsid_store.getAt(editProductIndex).getData());
             Ext.Viewport.setActiveItem({
 			xtype: 'mylistView'
+            
 		});
-		
+		    Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>'); 
+            Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
+            //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
+            
 		}
 		else
 		{
@@ -79,6 +109,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 ({
                     xtype: 'snapView'                 
                 }); 
+				if(Ext.getCmp('snap-it-image')) {
+					
+					Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				}
         }
         else
         {
@@ -89,17 +126,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     shopsview:function(){ 
 		
-		/*if(Ext.Viewport.setActiveItem(Ext.getCmp('shopsView'))) {
-			
-			if(Ext.Viewport.getCmp('shops-id') == undefined) {
-				
-				this.getComponent('shops-id').setSrc('abc.png');
-				
-			}
-		}*/
-        // console.log(Ext.Viewport.getComponent('shopid'))
+		
         var itemnote = '';
         var itemprice = '';
+		
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -165,8 +195,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
             Ext.Viewport.setActiveItem({
                 xtype: 'shopsview'                 
-            }); 
-                
+            });
+			   if(Ext.getCmp('shops-image')) { 
+				   
+				   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
+				   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   }
         }
         else
             {
@@ -175,11 +211,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-    onListTapShop: function(){
-        
-        alert('sdfsfs');
-        
-    },
+   
     
     myitemlistview:function(){ 
         // console.log(Ext.Viewport.getComponent('shopid'))
@@ -228,6 +260,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem({
                 xtype: 'myitemlistview'                 
             }); 
+			
+			if(Ext.getCmp('my-list-image')) {
+			   
+			   Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">')
+			   Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
+			}
         }
         else
             {
@@ -240,10 +280,26 @@ Ext.define('MarlowApp.controller.DashboardC', {
         // console.log(Ext.Viewport.getCmp('sigupId'))
 
         if(Ext.Viewport.getComponent('addnoteid') == undefined)
-            {    
+        {    
+            if(Ext.getCmp('productViewNote'))
+            {
+                var note  =  Ext.getCmp('productViewNote').getHtml();  
+                var price =  Ext.getCmp('productViewPrice').getHtml();                    
+            }      
+            
             Ext.Viewport.setActiveItem({
                 xtype: 'addnoteview'                 
-            }); 
+            });
+            
+           if(Ext.getCmp('productViewNote'))
+           {
+               note = note.replace('<span>','');
+               note = note.replace('</span>','');
+               price = price.replace('<span>','');
+               price = price.replace('</span>','');    
+               Ext.getCmp('useritemnote').setValue(note);
+               Ext.getCmp('itemprice').setValue(price);
+           }
         }
         else
             {
@@ -253,15 +309,17 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     addtolistView:function(){
+        
+      
         if(Ext.Viewport.getComponent('addtolistid') == undefined)
             {            
-                if(shopSelected) 
+                if(shopSelectedId) 
                 {                     
                     selectionInfo = Ext.getStore('SaveInfoStoreId'); 
-                    selectionInfo.getAt(0).getData().brand_id  = shopSelected;                   
+                    selectionInfo.getAt(0).getData().brand_id  = shopSelectedId;                   
                     SignupInfoStore = Ext.getStore('SignupInfoStore');                 
                     selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id;                
-                    //console.log(selectionInfo.getAt(0).getData());
+                   // console.log(selectionInfo.getAt(0).getData());
                     loadMask() 
                     Ext.Ajax.request({
                    
@@ -275,6 +333,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     timeout : 6000,
                     method: 'POST',               
                      jsonData: {
+                            "product_id":   selectionInfo.getAt(0).getData().product_id ,
                             "user_id":      selectionInfo.getAt(0).getData().user_id ,
                             "brand_id":     selectionInfo.getAt(0).getData().brand_id,
                             "note":         selectionInfo.getAt(0).getData().note,
@@ -290,7 +349,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             var store = Ext.getStore('allshopsStoreId');
                             
                              hideloadingMask();
-                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')      
+                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')
+                             
                             //store.setData(response);
                             //console.log(store.setData(response));
                         }catch(err){
@@ -313,13 +373,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 }   
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
-                }); 
+                });
+				
+            Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');  
             }
             else
                 {
                 Ext.Viewport.setActiveItem(Ext.getCmp('addtolistid'));     
             } 
     },
+    
+    
     deleteitemView:function(){
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
@@ -380,6 +446,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //SaveInfoStoreId.add({ note: note, price: price }); 
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
+	
+	
     
    
 });

@@ -34,7 +34,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                                 cls: 'custom-button',
 								handler:function()
 								{
-									app.application.redirectTo('addnote')
+									app.application.redirectTo('deleteitems')
 									
 								}
                             }
@@ -62,12 +62,12 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
 								iconMask: true,
 								title: 'Snap It',
+								id: 'snap-it-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                                    
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
                                     }                       
@@ -89,6 +89,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'Shops',
+								id: 'shops-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
@@ -117,6 +118,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'My List',
+								id: 'my-list-image',
 								listeners: {
 									tap: function() {
                                     var shopid              = Ext.getCmp("shopid");
@@ -133,7 +135,7 @@ Ext.define('MarlowApp.view.MyItemList', {
                                     if(snapViewId){
                                     snapViewId.destroy();
                                     }          
-									app.application.redirectTo('mylist')
+									app.application.redirectTo('myitemlist')
 									
 									},
 								},
@@ -144,6 +146,7 @@ Ext.define('MarlowApp.view.MyItemList', {
 								html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
 								iconMask: true,
 								title: 'Info',
+								id: 'info-image',
 								listeners: {
 									tap: function() {
 									app.application.redirectTo('info')
@@ -174,9 +177,26 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;height:55px;">{note}</p>',
                         '       <b>{price}</b>',
                         '   </div>',
-                        '</div>')
-                    }
+                        '</div>'),
+                        
+                         fullscreen: true,
+                        listeners:
+                        {
+                            itemtap: function(cmp, index, target, record, e, eOpts)
+                            {
+                               //console.log(record.data);
+                               //console.log(index);
+                               editProductIndex = index;
+                               app.application.redirectTo('mylist');
+                               
+                            }
+                   
+                        }    
+                        } 
+                        
         ]
+       
+        
         },
      
 
