@@ -10,14 +10,11 @@ Ext.define('MarlowApp.view.Shops', {
         hidden: true
     	},
 		
-        
-        
-        
 	items : [
 	{
             xtype: 'toolbar',
             docked: 'top',
-			title: 'Choose Shop',
+			title: 'Choose shop',
 			cls: 'top-toolbar',
 			layout: {
 				pack: 'justify',
@@ -27,7 +24,7 @@ Ext.define('MarlowApp.view.Shops', {
 				{
 					xtype: 'button',
 					align: 'left',
-                    text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
+                    text: '< Back ',
 					cls: 'custom-button',
                     handler:function()
                     {
@@ -39,7 +36,7 @@ Ext.define('MarlowApp.view.Shops', {
 				},
 				{	
 					xtype: 'button',
-					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
+					text: 'Confirm ',
 					align: 'right',
 					cls: 'custom-button',
                     handler:function()
@@ -182,7 +179,7 @@ Ext.define('MarlowApp.view.Shops', {
 		cls: 'shops-list',  
 		id:'shop_list',
 		store :'allshopsStoreId',
-		itemTpl: '<div class="contact">{name}</div>',
+		itemTpl: '<div class="contact" style = "font-family: HelveticaLight;">{name}</div>',
 		indexBar: true,
 	    listeners:
                 {

@@ -1,58 +1,57 @@
 @mixin form-settings {
 
 	.custom-form-labels   {
-	
+		
 		.x-form-field {
 		
 			color: #1283B8;
-			font-family: 'Calibri';
-			font-size: 22px;
+			font-family: HelveticaLight;
+			font-size: 18px;
 			font-weight: lighter;
-			height: 100px;
 		}
-		
+	
 		.x-form-label {
-			
-			color: black;
-			font-family: 'Calibri' !important;
-			font-size: 22px !important;
+		
+			font-family: HelveticaLight !important;
+			font-size: 18px !important;
 			font-weight: lighter !important;
-			height: 100px;
-			
 		}
 	}
-	
+	.custom-textfield-settings   {
+
+		.x-form-field {
+		
+			color: #1283B8;
+			font-family: HelveticaLight;
+			font-size: 18px;
+			font-weight: lighter;
+			-webkit-text-fill-color: #2679af;
+		}
+
+		.x-form-label {
+		
+			font-family: HelveticaLight !important;
+			font-size: 18px !important;
+			font-weight: lighter !important;
+		}
+	}
+
 	.custom-share-indivisual-inner-text .x-form-label {
-	
-		font-family: 'Calibri' !important;
+
+		font-family: HelveticaLight !important;
 		font-weight: lighter !important;
 		font-size: 24px !important;
-		
 	}
-	
+
 	.custom-share-indivisual-inner-text .x-input-text {
-	
+
 		margin-top: 16px;
 	}	
 	.custom-popup-label .x-form-label {
-	
+
 		font-size: 22px;
 	}
-	.email-form-popup {
-	
-		
-	}
-	
-	.text-area-custom {
-		
-		background-color: linear-gradient(bottom, rgb(245,245,245) 9%, rgb(191,209,214) 55%, rgb(235,235,235) 78%);
-		background-color: -o-linear-gradient(bottom, rgb(245,245,245) 9%, rgb(191,209,214) 55%, rgb(235,235,235) 78%);
-		background-color: -moz-linear-gradient(bottom, rgb(245,245,245) 9%, rgb(191,209,214) 55%, rgb(235,235,235) 78%);
-		background-color: -webkit-linear-gradient(bottom, rgb(245,245,245) 9%, rgb(191,209,214) 55%, rgb(235,235,235) 78%);
-		background-color: -ms-linear-gradient(bottom, rgb(245,245,245) 9%, rgb(191,209,214) 55%, rgb(235,235,235) 78%);
-		background-color: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(245,245,245)),color-stop(0.55, rgb(191,209,214)),color-stop(0.78, rgb(235,235,235))
-	);
-	
+
 	.emailformclassic {
 	
 		background-image: linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
@@ -63,5 +62,24 @@
 		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
 	}
 	
+	.custom-delete-alert-box {
+		
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4)); 
+		border-radius: 10px;
+	}
+	
+	.custom-social-alert-box {
+		
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#edf0f7), color-stop(2%,#dee8e7), color-stop(29%,#d5dcf2), color-stop(100%,#e5f0ff));
+		border-radius: 10px;
+	}
+	
+	.custom-text-field .x-field .x-field-input, .x-field .x-input-el  {
+		
+		/*background-color: orange;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4)); */
+		/*background-image: url("../images/marlow-back/textfieldbackground.png");*/
+		//background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#edf0f7), color-stop(3%,#dee8e7), color-stop(32%,#d0d9ea), color-stop(100%,#d5e0ed));
+		border-radius: 10px;
 	}
 }

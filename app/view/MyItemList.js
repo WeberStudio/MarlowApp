@@ -21,15 +21,13 @@ Ext.define('MarlowApp.view.MyItemList', {
                         }, 
                          items: [
                             {
-                                xtype: 'button',
-                                align: 'left',
-                                text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> </span> ',
-                                cls: 'custom-button',
-                                itemId: 'loginButton',
+                               html: '',
+							   align: 'left',
+							   cls: 'custom-button',
                             },
                             {    
                                 xtype: 'button',
-                                text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
+                                text: 'Edit',
                                 align: 'right',
                                 cls: 'custom-button',
 								handler:function()
@@ -172,8 +170,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                        '       <p>{note}</p>',
-                        '       <b>{price}</b>',
+                        '       <p style = "font-family: HelveticaLight;">{note}</p>',
+                        '       <b style = "font-family: HelveticaBold;">{price}</b>',
                         '   </div>',
                         '</div>'),
                         

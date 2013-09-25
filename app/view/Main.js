@@ -16,7 +16,7 @@ Ext.define('MarlowApp.view.Main', {
 			
      		xtype: 'toolbar',
             docked: 'top',
-            title: '<div class="toolbarLogo" style = "font-family: Calibri; font-weight: lighter">Marlow Window Shopper</div>',
+            title: '<div class="toolbarLogo">Marlow Window Shopper</div>',
         }, 
 		{		
 			xtype: 'container',
@@ -25,16 +25,7 @@ Ext.define('MarlowApp.view.Main', {
 			type: 'vbox',
 			align: 'center',
 			pack: 'center'
-			},
-			items: [
-			{
-				xtype: 'image',
-				width:218,
-				height:150,
-				src:'resources/images/marlow-back/marlow.gif'
-			}
-			]
-			
+			},			
 		},
         {
             xtype: 'fieldset', 

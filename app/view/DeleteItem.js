@@ -13,7 +13,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 {
                         xtype               : 'toolbar',
                         docked              : 'top',
-                        title               : 'Select item to delete',
+                        title               : 'Select items to delete',
                         cls                 : 'top-toolbar',
                         layout:
                             {
@@ -36,8 +36,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 xtype       :'button',
                                 text        :'Delete selected( )',
                                 align       :'left',
-                                baseCls     :null,
-                                cls         :'delete_btn',
+                                cls         :'',
 
                             },
                             {

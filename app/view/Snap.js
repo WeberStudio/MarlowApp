@@ -9,7 +9,7 @@ Ext.define('MarlowApp.view.Snap', {
 			{
 				xtype: 'toolbar',
 				docked: 'top',
-				title: 'Photo Ok?',
+				title: 'Photo OK?',
 				cls: 'top-toolbar',
 				layout: {
 				pack: 'justify',
@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'button',
 					align: 'left',
-					text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back  </span> ',
+					text: '<span style = "font-size: 22px; font-family: HelveticaLight; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-family: HelveticaLight; font-size: 18px; font-weight: lighter;">Back  </span> ',
 					cls: 'custom-button',
                     handler:function()
                     {
@@ -38,7 +38,7 @@ Ext.define('MarlowApp.view.Snap', {
 				},
 				{	
 					xtype: 'button',
-					text: '<span style = "font-size: 18px; font-weight: lighter;">Confirm  </span> ',
+					text: '<span style = "font-size: 18px; font-family: HelveticaLight; font-weight: lighter;">Confirm  </span> ',
 					align: 'right',
 					cls: 'custom-button',
                     handler:function()

@@ -1,4 +1,5 @@
 Ext.define('MarlowApp.view.AddToList', {
+	extend: 'Ext.Panel', 
     xtype:'addtolistView', 
     //constructor: function() {
         //alert(this.self.getName()); // alerts 'My.cool.Class'
@@ -175,7 +176,10 @@ Ext.define('MarlowApp.view.AddToList', {
                         align: 'left',
                         text: 'Share this item',
                         cls: 'custom-white-button',
-                        action: 'shareitem',
+                        //action: 'shareitem',
+						//action: 'deleteitem',
+						action: 'shareindivisual'
+						//action: 'shareemail'
                     }
                 ]
             },
@@ -188,11 +192,11 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'image',
                         id:'productViewImage',
                         id:'snapId',
-                        html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                        html: '<img src = "resources/images/marlow-back/sample.jpg" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
                     },
                     {
                         xtype: 'panel',
-                        id:    'productViewBrand',
+                        id:    'productViewNote',
                         baseCls: 'overlapped-msg',    
                         centered: true,
                         html: '<span> Saw this and thought Bob might like it? </span>',
@@ -200,14 +204,14 @@ Ext.define('MarlowApp.view.AddToList', {
                         items: [
                             {
                                 baseCls: 'overlapped-brand',
-                                id:    'productViewPrice',
+                                id:    'productViewBrand',
                                 html: '<span> Marks and Spencer </span>',
                             },
                             {
                                 baseCls: 'overlapped-price',
-                                id:    'productViewNote',      
-                                html: '<span> £17.99 </span>',    
-                            }
+                                id:    'productViewPrice',      
+                                html: '<span> $17.99 </sapn>',    
+                            },
                         ]
                     },
                     

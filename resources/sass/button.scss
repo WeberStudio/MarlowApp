@@ -2,63 +2,87 @@
 
 	.custom-button  {
 	
-		border              : none !important;
-		background-color    : inherit !important;
+		border: none !important;
+		background-color: inherit !important;
+		
+		.x-button-label {
+		
+			font-family: HelveticaLight; 
+			font-weight: lighter;
+			font-size: 20px !important;
+		}
 	}
 	
 	.custom-white-button  {
-		
+	
 		font-weight: lighter !important;
 		border: none !important;
 		color: #258dc8 !important;
 		background-color: inherit !important;
 		font-size: 23px;
+	
+		.x-button-label {
+		
+			font-family: HelveticaLight; 
+			font-weight: lighter;
+			font-size: 18px !important;
+		}
 	}
 
-    .share_button
-    {  
-        border              : none !important;
-        background-color    : #fff !important;
-        width               :50% !important;
-        color               : #1569C7 !important;
-        font-weight         : normal;
-        float               : left;
-        border-radius       : 0px;
-        top                 : -40px;   
-    }
-    .share_button span.x-button-label
-    {
-        font-weight: lighter;    
-    } 
-    final_img
-    {
-        width               : 100%;
-        height              : 10%;
-    }
-    .overlap_text
-    {
-       position: relative;
-       top: -120px;
- 
-    }
-    .delete_btn
-    {
-       color               : #F75D59 !important;
-       background-color    : #fff !important;
-       border              : none !important;
-       border-radius       : 0px;
-       font-size           : 27px;  
-    }
-    .cancel_btn
-    {
-       color               : #3090C7 !important;
-       background-color    : #fff !important;
-       border              : none !important;
-       border-radius       : 0px;
-       font-size           : 27px;
-       font-weight         : normal;  
-    }
+	.share_button { 
+	 
+		border: none !important;
+		background-color: #fff !important;
+		width:50% !important;
+		color: #1569C7 !important;
+		font-weight: normal;
+		float: left;
+		border-radius: 0px;
+		top: -40px;   
+	}
+
+	.share_button span.x-button-label {
+
+		font-weight: lighter;    
+	}
+
+	final_img {
+
+		width: 100%;
+		height: 10%;
+	}
 	
+	.overlap_text {
+
+		position: relative;
+		top: -120px;
+	}
+	
+	.delete_btn {
+		
+		color: #F75D59 !important;
+		background-color: #fff !important;
+		border: none !important;
+		border-radius: 0px;
+
+		.x-button-label {
+		
+			font-family: HelveticaLight; 
+			font-weight: lighter;
+			font-size: 18px !important;
+		}
+	}
+	
+	.cancel_btn {
+	
+		color: #3090C7 !important;
+		background-color: #fff !important;
+		border: none !important;
+		border-radius: 0px;
+		font-size: 27px;
+		font-weight: normal;  
+	}
+
 	.custom-gradient-button {
 	
 		background-image: linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
@@ -68,13 +92,38 @@
 		background-image: -ms-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
 		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
 	}
-    
+	
+	.alert-cancel-btn {
+		
+		padding: 15px;
+		border: 1px solid #C5C5C5;
+		border-left: none;
+		border-bottom: none;
+		border-right: #A0A0A0 1px solid;
+		font-family: HelveticaLight;
+		font-size: 22px;
+		font-weight: lighter;
+		color: #258dc8 !important;
+	}
+	
+	.alert-delete-btn {
+		
+		padding: 15px;
+		border: 1px solid #C5C5C5;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+		font-family: HelveticaLight;
+		font-size: 22px;
+		font-weight: lighter;
+		color: #258dc8 !important;
+	}
+
 /*    .x-item-selected
-    {
-        background-color    : #fcd9db !important;
-        color               : black !important;
-    }
+{
+background-color    : #fcd9db !important;
+color               : black !important;
+}
 */    
 
 }
- 
