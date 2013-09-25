@@ -3,6 +3,16 @@
   src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: HelveticaBold;
+  src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: HelveticaLight;
+  src: url("../fonts/Helvetica-Light.otf") format("opentype");
+}
+
 /**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
@@ -6094,6 +6104,10 @@ body.x-desktop {
   float: right;
 }
 
+.x-list {
+  background-color: white !important;
+}
+
 .shops-list .x-list-header {
   background-color: white;
   color: black;
@@ -6114,6 +6128,53 @@ body.x-desktop {
 .custom-share-inner-text .x-innerhtml {
   border-bottom: #CFCFCF 1px solid;
   color: #0079FF;
+}
+
+.delete-item .x-list-header {
+  background-color: #f8f8f8;
+  color: black;
+  font-family: HelveticaBold;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+}
+
+.delete-item .x-list-header .x-innerhtml {
+  font-size: 23px;
+  font-family: HelveticaBold;
+}
+
+.delete-item .tweet p {
+  font-size: 20px;
+  font-family: HelveticaLight;
+}
+
+.delete-item .tweet b {
+  font-family: HelveticaBold;
+}
+
+.delete-item .x-item-selected {
+  background-color: #fcd9db !important;
+  color: black !important;
+  background-image: url(images/c2.png);
+}
+
+.item-list .x-list-header {
+  background-color: #f8f8f8;
+  color: black;
+  font-family: HelveticaBold;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+}
+
+.item-list .x-list-header .x-innerhtml {
+  font-size: 23px;
+  margin-left: 18px;
+}
+
+.item-list .x-list-footer-wrap {
+  margin-bottom: 10px;
 }
 
 .custom-button {
@@ -6156,17 +6217,19 @@ final_img {
 
 .delete_btn {
   color: #F75D59 !important;
-  background-color: #fff !important;
+  background-color: #F0F0F0   !important;
   border: none !important;
   border-radius: 0px;
+  font-family: HelveticaBold;
   font-size: 27px;
 }
 
 .cancel_btn {
   color: #3090C7 !important;
-  background-color: #fff !important;
+  background-color: #F0F0F0  !important;
   border: none !important;
   border-radius: 0px;
+  font-family: HelveticaLight;
   font-size: 27px;
   font-weight: normal;
 }
@@ -6180,14 +6243,8 @@ final_img {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
 }
 
-/*    .x-item-selected
-    {
-        background-color    : #fcd9db !important;
-        color               : black !important;
-    }
-*/
 .top-toolbar .x-innerhtml {
-  font-family: Calibri;
+  font-family: HelveticaLight;
   font-weight: lighter;
   font-size: 23px;
 }

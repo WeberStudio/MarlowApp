@@ -8,6 +8,7 @@ Ext.define('MarlowApp.view.MyItemList', {
     id:'myitemlistviewId', 
     navigationBar: {hidden: true},
      fullscreen: true,
+style: 'background-color:black;',
          
         items : [
                 {
@@ -174,9 +175,9 @@ Ext.define('MarlowApp.view.MyItemList', {
                     store                   : 'all_productsid', 
                     xtype                   : 'list',
                     grouped                 : true,
-                    ui                      : 'white',
+                    ui                      : '#FFFFFF',
                     id                      : 'list',
-                    cls                     : 'items-list2',
+                    cls                     : 'item-list',
                     itemTpl: Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
