@@ -33,7 +33,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost', 'DashboardDay'  ],
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'ShareIndivisual', 'MyList', 'EmailPost', 'DashboardDay','ConfirmDltItem'  ],
     
     controllers: [
         'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'ShareIndivisualC', 'EmailPostC' ], 
@@ -68,7 +68,9 @@ Ext.application({
         shopSelectedName    = ''; 
         editProductIndex    = '';
         deleteProductId     = '';
-        addIndex        = [];
+        addIndex            = [];
+        deleteBulkIds       = [];
+        deleteUserId        = '';
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
