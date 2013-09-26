@@ -11,6 +11,7 @@ Ext.define('MarlowApp.view.MyList', {
 		id :'mylistid',
 		fullscreen: true,
 		scrollable: true,
+        autoDestroy: true,
 		xtype: 'panel',
 		
 		items: [
@@ -31,7 +32,10 @@ Ext.define('MarlowApp.view.MyList', {
 						cls: 'custom-button',
 						handler:function()
 						{
-							app.application.redirectTo('dashboard')
+							if(Ext.getCmp("myitemlistviewId")){
+                             Ext.getCmp("myitemlistviewId").destroy();
+                            }                       
+                            app.application.redirectTo('myitemlist');
 						}
 					},
 					{	

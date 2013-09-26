@@ -102,7 +102,7 @@
                                 
                             </div>
                             <div class="mws-button-row">
-                                <input type="submit" name="submit" class="btn btn-danger">
+                                <input type="submit" name="submit" <?php if($id == ''){echo 'value="Save"';}else{echo 'value="Edit"';}?> class="btn btn-danger">
                             </div>
                         </form>
                     </div>        

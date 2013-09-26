@@ -39,7 +39,7 @@
                         <ul class="mws-summary clearfix">
                             <li>
                                 <a href="<?php echo URL.'index.php/pages/all_user';?>">
-                                <span class="key"><i class="icon-certificate"></i> User View</span>
+                                <span class="key"><i class="icon-users"></i> User View</span>
                                 <span class="val">
                                     <span class="text-nowrap"></span> 
                                 </span>
@@ -47,7 +47,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo URL.'index.php/pages/add_user';?>">
-                                <span class="key"><i class="icon-certificate"></i> Add User View</span>
+                                <span class="key"><i class="icon-users"></i> Add User View</span>
                                 <span class="val">
                                     <span class="text-nowrap"></span> 
                                 </span>
@@ -71,7 +71,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo URL.'index.php/pages/all_shops';?>"> 
-                                <span class="key"><i class="icon-install"></i> Shops view</span>
+                                <span class="key"><i class="icon-network"></i> Shops view</span>
                                 <span class="val">
                                     <span class="text-nowrap"></span>
                                 </span>
@@ -79,7 +79,7 @@
                             </li>
                              <li>
                                 <a href="<?php echo URL.'index.php/pages/add_shop';?>"> 
-                                <span class="key"><i class="icon-install"></i> Add Shops view</span>
+                                <span class="key"><i class="icon-network"></i> Add Shops view</span>
                                 <span class="val">
                                     <span class="text-nowrap"></span>
                                 </span>

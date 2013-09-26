@@ -148,7 +148,13 @@ style: 'background-color:black;',
                                     }
                                     if(snapViewId){
                                     snapViewId.destroy();
-                                    }          
+                                    } 
+                                          
+                                    if(Ext.getCmp("loginId")){                                   
+                                    var loginId              = Ext.getCmp("loginId");  
+                                    loginId.destroy();
+                                    }
+                                             
 									app.application.redirectTo('myitemlist')
 									
 									},
@@ -198,10 +204,12 @@ style: 'background-color:black;',
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               //console.log(index);
-                               //console.log(index);
+                               
+                                //console.log(index);
+                               //console.log(index);                                
                                editProductIndex = index;
                                app.application.redirectTo('mylist');
+                               
                                
                             }
                    

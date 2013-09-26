@@ -97,7 +97,8 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         {
-                            app.application.redirectTo('shops');                           
+                            app.application.redirectTo('shops');
+                             
                         }
                     },
                     {
