@@ -11,6 +11,7 @@ Ext.define('MarlowApp.view.MyList', {
 		id :'mylistid',
 		fullscreen: true,
 		scrollable: true,
+        autoDestroy: true,
 		xtype: 'panel',
 		
 		items: [

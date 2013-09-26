@@ -50,7 +50,17 @@ Ext.define('MarlowApp.view.AddNote', {
 						cls: 'custom-button',
 						handler:function()
 						{
-							app.application.redirectTo('shops');
+						    price = Ext.getCmp('itemprice').getValue();  
+                            if(/[0-9]/.test(price))
+                            {
+                                 
+                            }
+                            else
+                            {
+                                Ext.Msg.alert('Only Numbers Allowed!', 'Name');
+                                return false;                               
+                            }
+                            app.application.redirectTo('shops');
 						}	
 					}
 				]

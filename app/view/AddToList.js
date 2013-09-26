@@ -9,7 +9,6 @@ Ext.define('MarlowApp.view.AddToList', {
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
-        
         items: [ 
             {
                 xtype: 'toolbar',
@@ -172,6 +171,32 @@ Ext.define('MarlowApp.view.AddToList', {
                         cls: 'custom-white-button',
                         handler:function()
                         {
+                            
+                                  
+                                if( Ext.getCmp('my-list-image')){
+                                    
+                                      Ext.getCmp('my-list-image').destroy();
+                                }                       
+                                
+                                if(Ext.getCmp("myitemlistviewId")){
+                                    var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
+                                    myitemlistviewId.destroy();
+                                }                       
+                                                       
+                                if(Ext.getCmp("shopid")){
+                                    var shopid              = Ext.getCmp("shopid");  
+                                    shopid.destroy();
+                                }
+                                
+                                if(Ext.getCmp("snapViewId")){
+                                    var snapViewId          = Ext.getCmp("snapViewId");   
+                                    snapViewId.destroy();
+                                }
+                                
+                                if(Ext.getCmp("addtolistid")){
+                                    var addtolistid         = Ext.getCmp("addtolistid");
+                                    addtolistid.destroy();
+                                }                                 
                             app.application.redirectTo('snapit');
                         }    
                     },
