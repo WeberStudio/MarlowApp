@@ -35,7 +35,10 @@ style: 'background-color:black;',
                                 cls: 'custom-button',
 								handler:function()
 								{
-									app.application.redirectTo('deleteitems')
+                                     
+                                    var myItemListViewId              = Ext.getCmp("myitemlistviewId");
+                                    myItemListViewId.destroy();
+									app.application.redirectTo('deleteitems');
 									
 								}
                             }

@@ -86,7 +86,11 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                      hideloadingMask();
                      response = Ext.decode(response.responseText);   
                      Ext.Msg.alert(response.MESSAGE);
-                     app.application.redirectTo('deleteitems');           
+                     var deleteItemId              = Ext.getCmp("deleteitemid");
+                     deleteItemId.destroy();
+                     //
+                     app.application.redirectTo('deleteitems');
+                      var addIndex = array();            
                     //console.log(response);
                 }catch(err){
                     hideloadingMask();   
