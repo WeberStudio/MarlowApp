@@ -41,7 +41,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem({
                 xtype: 'dashboardView'
             });
-            
+           
         }
         else
             {
@@ -245,7 +245,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             if(store.getCount()== 0)
             {
                     
-                    Ext.Ajax.request({
+            Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
                     "Content-Type": "application/json",
@@ -409,7 +409,30 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
                 });
-                    
+                    var store   = Ext.getStore('all_productsid');
+                    Ext.Ajax.request({
+                    url: serviceUrl+'get_mylist_record',
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Accept': 'application/json',                    
+                        "cache-control": "no-cache"
+                    },
+                    callbackKey: 'callback', 
+                    timeout : 6000,
+                    method: 'POST',                
+                  
+                    withCredentials: false,
+                    useDefaultXhrHeader: false,
+                    success: function(response) {      
+                        try{
+                            response    = Ext.decode(response.responseText);                       
+                            store.setData(response);
+                        }
+                        catch(err){                           
+                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        }
+                    }
+                });
                            
                 } 
                 //console.log(selectionInfo.getAt(0).getData()); return false;

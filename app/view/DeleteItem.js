@@ -52,6 +52,8 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 cls         :'cancel_btn',
                                 handler:function()
                                 {
+                                    var deleteItemId              = Ext.getCmp("deleteitemid");
+                                    deleteItemId.destroy(); 
                                     app.application.redirectTo('myitemlist')
                                     //window.location.reload();
                                 }

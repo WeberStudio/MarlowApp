@@ -86,7 +86,12 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                      hideloadingMask();
                      response = Ext.decode(response.responseText);   
                      Ext.Msg.alert(response.MESSAGE);
-                     app.application.redirectTo('deleteitems');           
+                     var deleteItemId              = Ext.getCmp("deleteitemid");
+                     deleteItemId.destroy();
+                     addIndex            = [];
+                     //
+                     app.application.redirectTo('deleteitems');
+                      var addIndex = array();            
                     //console.log(response);
                 }catch(err){
                     hideloadingMask();   
@@ -156,7 +161,30 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 //Ext.Msg.alert('', 'Server is not responding please try again'); 
             }
         });
-        
+        var store   = Ext.getStore('all_productsid');
+        Ext.Ajax.request({
+                    url: serviceUrl+'get_mylist_record',
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Accept': 'application/json',                    
+                        "cache-control": "no-cache"
+                    },
+                    callbackKey: 'callback', 
+                    timeout : 6000,
+                    method: 'POST',                
+                  
+                    withCredentials: false,
+                    useDefaultXhrHeader: false,
+                    success: function(response) {      
+                        try{
+                            response    = Ext.decode(response.responseText);                       
+                            store.setData(response);
+                        }
+                        catch(err){                           
+                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        }
+                    }
+                });
         var popup = this.getPopup();  
         popup.hide({type: 'slideOut', direction: 'right'});
     }    

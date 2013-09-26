@@ -68,7 +68,7 @@ Ext.application({
         shopSelectedName    = ''; 
         editProductIndex    = '';
         deleteProductId     = '';
-        addIndex        = [];
+        addIndex            = [];
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view

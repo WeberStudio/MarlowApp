@@ -18,9 +18,8 @@ Ext.define('MarlowApp.view.FacebookV',{
 			{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
-				style: 'background-color: white;',
 				docked: 'top',
-				title: '<img src = "resources/images/social/3-gray.png"> Facebook',
+				title: 'Facebook',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -34,6 +33,11 @@ Ext.define('MarlowApp.view.FacebookV',{
 						action: 'hide',
 						cls: 'custom-button',
 						style: 'color: #258dc8; margin-left: -20px;',
+					},
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/social/3-gray.png" style = "margin-left: -155px; margin-top: 4px;">',
+						
 					},
 					{
 						xtype: 'button',
@@ -56,7 +60,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 					{
 						xtype: 'textareafield',
 						docked: 'left',
-						cls: 'custom-text-field',
+						cls: 'custom-text-fieldarea',
 						width: 250,
 						height: 120,
 					},
