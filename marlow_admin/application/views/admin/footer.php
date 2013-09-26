@@ -1,5 +1,5 @@
             <div id="mws-footer">
-                Copyright The Marlow Winder Shoper.
+                &copy; Copyright - All rights reserved.
             </div>
             
         </div>

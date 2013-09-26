@@ -8,12 +8,9 @@
             </div>
             
             <!-- Searchbox -->
-            <div id="mws-searchbox" class="mws-inset">
-                <form action="">
-                    <input type="text" class="mws-search-input" placeholder="Search...">
-                    <button type="submit" class="mws-search-submit"><i class="icon-search"></i></button>
-                </form>
-            </div>
+            <!--<div id="mws-searchbox" class="mws-inset">
+                
+            </div>-->
             
             <!-- Main Navigation -->
             <div id="mws-navigation">
@@ -21,7 +18,7 @@
                     <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo URL.'index.php/pages/dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
 
                     <li <?php if( $left_bar == "user" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_user';?>"><i class="icon-users"></i> Users</a></li>
-                    <li <?php if( $left_bar == "product" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_records';?>"><i class="icon-install"></i>Products</a></li>
+                    <li <?php if( $left_bar == "product" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_records';?>"><i class="icon-shopping-cart"></i>Products</a></li>
                     <li <?php if( $left_bar == "shop" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_shops';?>"><i class="icon-network"></i>Shop</a></li>
                    <!-- 
                      <li><a href="charts.html"><i class="icon-graph"></i> Charts</a></li>

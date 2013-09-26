@@ -37,7 +37,7 @@
                 
             	<div class="mws-panel grid_8">
                 	<div class="mws-panel-header">
-                    	<span><i class="icon-table"></i>All Records</span>
+                    	<span><i class="icon-shopping-cart"></i>All Records</span>
                     </div>
                     <div class="mws-panel-toolbar">
                         <div class="btn-toolbar">
@@ -66,8 +66,8 @@
                             <thead>
                                 <tr>
                                     <th>Product ID</th>
-                                    <th>User ID</th>
-                                    <th>Brand ID</th>
+                                    <th>User Name</th>
+                                    <th>Brand Name</th>
                                     <th>Note</th>
                                     <th>Price</th>
                                     <th>Image</th>
@@ -100,7 +100,7 @@
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status.'/products';?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
                                      <a href="<?php echo URL.'index.php/pages/add_product/'.$listing->id;?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
-                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/products";?>" class="btn btn-danger btn-small"> <i class="icon-fire"></i> Delete</a>
+                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/products";?>" class="btn btn-danger btn-small" onclick="return confirm('Are you sure want to delete');"> <i class="icon-fire"></i> Delete</a>
                                     </td>
                                 </tr>
                                 <?php }}?>

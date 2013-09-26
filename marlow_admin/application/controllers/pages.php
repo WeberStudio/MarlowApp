@@ -10,6 +10,8 @@ class pages extends CI_Controller{
      {
         redirect('index.php/Auth/login');  
      }
+     $data = array('title'=>'MarlowApp');
+     $this->session->set_userdata($data);
     //remove_ssl();
      $this->load->model('Admin_model');
     }
@@ -22,18 +24,13 @@ class pages extends CI_Controller{
     
     function dashboard()
     {
-        $data['title']              = "Dashboard";
         $data['left_bar']           = 'dashboard';
-       
-       $this->load->view('admin/dashboard', $data);
-         
+        $this->load->view('admin/dashboard', $data);
     }
     
     
     function all_records()
     {
-        
-        $data['title']              = "Products";
         $data['left_bar']           = 'product';
         $data['listings']           = $this->Admin_model->get_records('products');
         $this->load->view('admin/all_records', $data);
@@ -42,20 +39,17 @@ class pages extends CI_Controller{
     
     function all_user()
     {
-        $data['title']              = "Users";
         $data['left_bar']           = 'user';
         $data['listings']           = $this->Admin_model->get_records('user_info');
         $this->load->view('admin/all_users', $data); 
     }
-        function all_shops()
+    
+    function all_shops()
     {
-        $data['title']              = "Shops";
         $data['left_bar']           = 'shop';
         $data['listings']           = $this->Admin_model->get_records('shops');
         $this->load->view('admin/all_shops', $data); 
     }
-    
-    
     
     function status_up($id=false , $status = false , $table =false)
     {
@@ -94,8 +88,6 @@ class pages extends CI_Controller{
     
     function add_shop($id=false)
     {
-        if($id==''){$data['title']  = 'Add Shop';}
-        else{$data['title']         = 'Edit Shop';}
         $data['left_bar']           = 'shop';
         $data['shop']               = '';
         $data['name']               = '';
@@ -134,8 +126,6 @@ class pages extends CI_Controller{
     
     function add_user($id=false)
     {
-        if($id==''){$data['title']  = 'Add User';}
-        else{$data['title']         = 'Edit User';}
         $data['left_bar']           = 'user';
         $data['user']               = '';
         $data['gender']             = '';
@@ -179,10 +169,8 @@ class pages extends CI_Controller{
     
     function add_product($id=false)
     {
-        if($id==""){$data['title']  = 'Add Product'; }
-        else{$data['title']         = 'Edit Product'; }
         $data['left_bar']           = 'product';
-        
+        // image uploade code
         $config['upload_path']      = './uploads/';
         $config['allowed_types']    = 'gif|jpg|png';
         $config['max_size']         = '500';
