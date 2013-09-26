@@ -2,9 +2,8 @@ Ext.define('MarlowApp.view.Dashboard', {
     extend: 'Ext.Container', 
     requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboardView',
-    style: 'background-image: url("resources/images/marlow-back/marlow-night.gif")',
     config: {
-        
+    style: 'background: url("resources/images/marlow-back/marlow-night.gif") 100% 100%;',   
         fullscreen: true,
         items: [
             {
@@ -15,6 +14,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         xtype: 'image',
                         layout: 'fit',
                         html: '<img src = "resources/images/marlow-back/marlow.png">',
+						
                         flex: 1,
                     },
                     {
@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 150px;',
                         flex: 1,
                         handler:function()
                         {
@@ -93,7 +93,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 40px;',
+                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {
@@ -124,7 +124,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 160px;',
                         flex: 1,
                         handler:function()
                         {
@@ -136,6 +136,10 @@ Ext.define('MarlowApp.view.Dashboard', {
                     }    
                 ]
             },
+			//{
+//				xtype: 'image',
+//				html: '<img src = "resources/images/marlow-back/marlow-night.gif" style = "background-size: 100% 100%;">',	
+//			}
         ]
     }
 });

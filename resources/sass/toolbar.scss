@@ -1,11 +1,16 @@
 @mixin toolbar-settings {
-
-	.top-toolbar .x-innerhtml  {
 	
+	.toolbarLogo {
+		
+		font-family: HelveticaLight; 
+		font-weight: lighter;
+		font-size: 18px;
+	}
+	.top-toolbar .x-innerhtml  {
+		
 		font-family: HelveticaLight;
 		font-weight: lighter;
-		font-size: 23px;
-		
+		font-size: 18px;
 	}
 	
 	.bottom-toolbar {
@@ -20,26 +25,39 @@
 		border-bottom: #C0C0C0 solid 1px;
 		text-align: right;
 		font-size: 18px;
-		font-family: "Calibri";
+		font-family: HelveticaLight;
 		font-weight: lighter;
-		background-image: linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -o-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -moz-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -ms-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4));
 
 	}
 	
+	.delete-prompt-box  {
+		
+		border-bottom: #C0C0C0 solid 1px;
+		font-size: 18px;
+		font-family: HelveticaLight;
+		font-weight: lighter;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4));
+
+	}	
 	.custom-share-indivisual-toolbar {
 		
 		height: 20%; 
 		border-bottom: #C0C0C0 solid 1px;
 		text-align: right;
 		font-size: 18px;
-		font-family: "Calibri";
+		font-family: HelveticaLight;
 		font-weight: lighter;
-		
-
+	}
+	
+	.custom-social-toolbar 
+	{
+		height: 10%; 
+		padding: 27px;
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4));*/
+		border-radius: 10px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-bottom: #C0C0C0 solid 1px;
 	}
 }

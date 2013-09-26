@@ -2,15 +2,13 @@ Ext.define('MarlowApp.view.ShareItem',{
 	requires: ['Ext.List', 'Ext.Button', 'Ext.Img'],
 	extend: 'Ext.dataview.List',  
 	xtype: 'shareitem',
-	height: 260,
-	width: 320,
 	config:{  
 		itemId: 'shareitem',  
 		floating: true,  
 		centered: true,  
 		modal: true,  
-		height: 200,  
-		width: 300,  
+		height: 260,  
+		width: 320,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,  
 		style: 'border-radius: 10px;',
@@ -21,6 +19,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 			title: 'Share this item',
 			baseCls: 'custom-share-toolbar',
 			align: 'right',
+			style: 'margin-right: -30px;',
 			layout: {
 				pack: 'justify',
 				type: 'hbox'
@@ -29,7 +28,8 @@ Ext.define('MarlowApp.view.ShareItem',{
 				{
 					xtype: 'button',
 					align: 'left',
-                    text: '<span style = "font-size: 20px; font-weight: lighter; color: #0079FF"> Cancel  </span> ',
+                    text: 'Cancel',
+					style: 'color: #258dc8;',
 					action: 'hide',
 					cls: 'custom-button',
 				},
@@ -81,35 +81,6 @@ Ext.define('MarlowApp.view.ShareItem',{
 			]
 			
 		},	
-
-			/*{				
-				xtype: 'list',
-				inline: true,
-				itemId:'email',
-				itemTpl: '{img} {title}',
-				listeners: {
-					itemtap: function(view, index, item, e) {
-    					console.log(view);
-					}
-				},
-				cls: 'custom-share-inner-text', 			
-				data: [
-					{img: '<img src = "resources/images/social/1.png">', title: 'Email'},
-					{img: '<img src = "resources/images/social/2.png">',  title: 'Twitter'},
-					{img: '<img src = "resources/images/social/3.png">', title: 'Facebook'},
-					{img: '<img src = "resources/images/social/4.png">', title: 'Pinterest'},
-				],
-				listeners  : {
-					element : 'element',
-					itemtap : function(list, index, target, record, e, eOpts) {
-						console.log(list);
-						alert('item tapped!')
-					  radioButtonChange('radioButtonID_'+index,record.data.checkDt, record.data.netPay)
-					}
-				}
-				  
-			},*/
 		],
-		
 	}
 });  
