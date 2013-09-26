@@ -1,44 +1,62 @@
 Ext.define('MarlowApp.view.ConfirmDel',{
 	  
-	extend: 'Ext.form.Panel',  
+	extend: 'Ext.Container',  
 	xtype: 'deletebox',
-
-	config:{  
+	
+	config:{
+		
 		itemId: 'deletebox',  
 		floating: true,  
 		centered: true,  
 		modal: true,  
-		height: 200,  
-		width: 300,  
+		height: 150,  
+		width: 350,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
-		styleHtmlContent: true,  
-		html: 'Are you sure you want to delete this item from your shopping list?',
-		style: 'background-color: white; border-radius: 10px; font-family: Calibri; font-size: 22px; color: black;',
-  
-		items:[  
-			{  
-				xtype: 'button',
-				baseCls: 'null',
-				action: 'hide',  
-				text: 'Cancel',  
-				//ui: 'confirm',  
-				docked: 'bottom',
-				//right: 25,
-				border: 1,
-				style: 'border-top: solid #C5C5C5; border-right: solid #C5C5C5; width: 50%; height: auto; padding: 15px; color: #4CA5D7',
+		styleHtmlContent: true,
+		baseCls: 'custom-delete-alert-box',
+		
+		items: [
+			{
+				xtype: 'container',
+				layout: 'fit',
+				items: [
+					{
+						html: 'Are you sure you want to delete this item from your shopping list?',
+						flex: 1,
+						style: 'text-align: center; font-famiy: HelveticaLight; font-size: 18px; color: black;',
+					}
+				]
 			},
-			{  
-				xtype: 'button',
-				baseCls: 'null',  
-				action: 'confdelete',  
-				text: 'Delete',  
-				//ui: 'confirm',  
+			{
+				xtype: 'container',
+				layout: {
+					type: 'vbox',
+					align: 'justify',
+					pack: 'center',	
+				},
 				docked: 'bottom',
-				//right: 25,
-				border: 1,
-				style: 'border-top: solid #C5C5C5;  width: 50%; height: auto; padding: 15px; color: #4CA5D7; position: absolute; left: 145px;',
-			},
-			
-		]  
+				items: [
+					{
+						xtype: 'button',
+						text: 'Cancel',
+						width: '50%',
+						baseCls: 'alert-cancel-btn',
+						action: 'hide', 
+						docked: 'left',
+						flex: 1,
+					},
+					{
+						xtype: 'button',
+						text: 'Delete',
+						width: '50%',
+						baseCls: 'alert-delete-btn',
+						action: 'confdelete',
+						docked: 'right',
+						flex: 1,
+					}
+					
+				]	
+			}
+		]
 	}  
 });  

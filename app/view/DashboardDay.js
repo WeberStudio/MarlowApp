@@ -2,9 +2,10 @@ Ext.define('MarlowApp.view.DashboardDay', {
     extend: 'Ext.Container', 
 	requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboarddayView',
-	style: 'background-image: url("resources/images/marlow-back/marlow-day.png")',
+	
     config: {
 		
+		style: 'background: url("resources/images/marlow-back/marlow-day.png") 100% 100%;',
 		fullscreen: true,
 		items: [
 			{
@@ -41,7 +42,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 150px;',
 						flex: 1,
 						handler:function()
 						{
@@ -72,7 +73,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 40px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
 						flex: 1,
 						handler:function()
 						{
@@ -103,7 +104,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
 						centered: true,
 						//align: 'right',
 						docked: 'right',
-						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 70px;',
+						style: 'background-image: url("resources/images/marlow-back/btn-back-day.png"); font-family: LeagueGothicRegular; color: #004a80; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 160px;',
 						flex: 1,
 						handler:function()
 						{

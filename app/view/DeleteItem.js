@@ -36,10 +36,11 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     },
                      items: [
                             {
-                                xtype       :'button',
-                                text        :'Delete selected()',
-                                align       :'left',
-                                baseCls     :null,
+                                xtype       : 'button',
+                                text        : 'Delete selected()',
+                                align       : 'left',
+                                baseCls     : null,
+                                action      : 'deleteBulk',
                                 id          : 'count',
                                 cls         :'delete_btn',
 
@@ -93,6 +94,35 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                // getSelectionCount:function( ){}, 
                                 itemtap: function(cmp, index, target, record, e, eOpts)
                                 {
+                                    
+                                     console.log(target._tpl.html);
+                                     /*var expnew = target._tpl.html.split("src");
+                                       console.log(expnew[2]);
+                                         var modi = expnew[2].split("/");
+                                         console.log(modi[2]);
+                                         var popoo =  modi[2].split('"');
+                                         console.log(popoo[0]);
+                                         if(popoo[0] == 'c1.png')
+                                         {
+                                           //Ext.getCmp('delete_item_list').setHtml('<div class="tweet-wrapper"> <img src="resources/icons/Icon@2x.png" /><div class="tweet"><p>{note}</p> <b>{price}</b></div></div><img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; position: relative; top:-40px;">');  
+                                         }*/
+                                    //this is the user id for delete items
+                                    deleteUserId = record.data.user_id;
+                                    //this is for  set the deleteids
+                                    deleteIdIndex = deleteBulkIds.indexOf(record.data.product_id);
+                                    if(deleteIdIndex > -1)
+                                    {
+                                        deleteBulkIds.splice(deleteIdIndex, 1);
+                                        //console.log(deleteBulkIds);
+                                        
+                                    }
+                                    else if(deleteIdIndex == '-1')
+                                    {
+                                      deleteBulkIds.push(record.data.product_id);
+                                      //console.log(deleteBulkIds);
+                                      
+                                    }
+                                    // this is for counter
                                     find = addIndex.indexOf(index);
                                     if(find > -1)
                                     {
@@ -105,37 +135,19 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                       count =  addIndex.length;
                                     }
                                     Ext.getCmp('count').setText('Delete selected('+count+')');
-                                    if(e.target.src == 'http://localhost/MarlowApp/resources/images/c2.png' )
+                                    if(e.target.src){
+                                    var exp = e.target.src.split("/");
+                                    if(exp[6] == 'c2.png' )
                                        {
                                           e.target.src = 'resources/images/c1.png'; 
                                        }
-                                       else if(e.target.src == 'http://localhost/MarlowApp/resources/images/c1.png')
+                                       else if(exp[6] == 'c1.png')
                                        {
                                            e.target.src = 'resources/images/c2.png';
                                        }
                                     }
+                                    }
                             }
-                        
-                       /* listeners:
-                            {
-                                getSelectionCount:function()
-                                {
-                                   console.log(number);  
-                                }
-                            selectionchange:function(list, records){
-                                
-                                var names = [];
-                                Ext.Array.each(records, function(item){
-                                    names.push('<li>' + item.data.product_id + '</li>');
-                                  console.log(names);
-                                });
-                                 Ext.Msg.alert('You selected ' + records.length + ' item(s)', '<ul>' + names.join('') + '</ul>');
-                            }
-                         
-                           
-                        }*/ 
-                        
-                        
                     },
                     
                     

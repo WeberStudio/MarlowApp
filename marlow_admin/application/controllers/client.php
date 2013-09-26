@@ -157,6 +157,21 @@ class client extends CI_Controller{
         echo $error;                               
     
     }
+    function delete_bulk_item($ids , $user_id)
+    {
+        if (strpos($ids,'.') !== false) {
+        $str = str_replace(".",",",$ids);
+        $str = substr($str, 0, -1);
+        $arrayid = explode(",",$str);
+        }
+        else{
+           $arrayid  = $ids; 
+        }
+        $get                = $this->Client_model->delete_bulk_items($arrayid , $user_id);
+        $return_msg         = array('MESSAGE'=>'Successfully deleted!');
+        $return_msg         = json_encode($return_msg); 
+        echo $return_msg;
+    }
     
 }
   

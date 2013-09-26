@@ -1,9 +1,4 @@
-/*dce65c45e5e4f75f2b8eba4440177ba7ed955c97*/@font-face {
-  font-family: LeagueGothicRegular;
-  src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
-}
-
-@font-face {
+/*039416a792f0bbe97a8a2691128525bab8819962*/@font-face {
   font-family: HelveticaBold;
   src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
 }
@@ -11,6 +6,11 @@
 @font-face {
   font-family: HelveticaLight;
   src: url("../fonts/Helvetica-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: LeagueGothicRegular;
+  src: url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype");
 }
 
 /**
@@ -6009,10 +6009,14 @@ body.x-desktop {
   float: right;
 }
 
+.x-list {
+  background-color: white !important;
+}
+
 .shops-list .x-list-header {
   background-color: white;
+  font-family: HelveticaBold;
   color: black;
-  font-weight: bolder;
   font-size: 18px;
   border-top: none;
   border-bottom: #C5C5C5 solid 1px;
@@ -6032,7 +6036,7 @@ body.x-desktop {
 }
 
 .delete-item .x-list-header {
-  background-color: #F0F0F0;
+  background-color: #F8F8F8;
   color: black;
   font-family: HelveticaBold;
   font-weight: bolder;
@@ -6041,6 +6045,7 @@ body.x-desktop {
 }
 
 .delete-item .x-list-header .x-innerhtml {
+  font-size: 23px;
   font-family: HelveticaBold;
 }
 
@@ -6060,7 +6065,7 @@ body.x-desktop {
 }
 
 .item-list .x-list-header {
-  background-color: #F0F0F0;
+  background-color: #F8F8F8;
   color: black;
   font-family: HelveticaBold;
   font-weight: bolder;
@@ -6068,9 +6073,23 @@ body.x-desktop {
   border: none;
 }
 
+.item-list .x-list-header .x-innerhtml {
+  font-size: 23px;
+  margin-left: 18px;
+}
+
+.item-list .x-list-footer-wrap {
+  margin-bottom: 10px;
+}
+
 .custom-button {
   border: none !important;
   background-color: inherit !important;
+}
+.custom-button .x-button-label, .custom-button .x-badge, .custom-button .x-hasbadge .x-badge, .x-hasbadge .custom-button .x-badge {
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  font-size: 20px !important;
 }
 
 .custom-white-button {
@@ -6079,6 +6098,11 @@ body.x-desktop {
   color: #258dc8 !important;
   background-color: inherit !important;
   font-size: 23px;
+}
+.custom-white-button .x-button-label, .custom-white-button .x-badge, .custom-white-button .x-hasbadge .x-badge, .x-hasbadge .custom-white-button .x-badge {
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  font-size: 18px !important;
 }
 
 .share_button {
@@ -6108,19 +6132,21 @@ final_img {
 
 .delete_btn {
   color: #F75D59 !important;
-  background-color: #F0F0F0   !important;
+  background-color: #fff !important;
   border: none !important;
   border-radius: 0px;
-  font-family: HelveticaBold;
-  font-size: 27px;
+}
+.delete_btn .x-button-label, .delete_btn .x-badge, .delete_btn .x-hasbadge .x-badge, .x-hasbadge .delete_btn .x-badge {
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  font-size: 18px !important;
 }
 
 .cancel_btn {
   color: #3090C7 !important;
-  background-color: #F0F0F0  !important;
+  background-color: #fff !important;
   border: none !important;
   border-radius: 0px;
-  font-family: HelveticaLight;
   font-size: 27px;
   font-weight: normal;
 }
@@ -6134,10 +6160,46 @@ final_img {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
 }
 
+.alert-cancel-btn {
+  padding: 15px;
+  border: 1px solid #C5C5C5;
+  border-left: none;
+  border-bottom: none;
+  border-right: #A0A0A0 1px solid;
+  font-family: HelveticaLight;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #258dc8 !important;
+}
+
+.alert-delete-btn {
+  padding: 15px;
+  border: 1px solid #C5C5C5;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  font-family: HelveticaLight;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #258dc8 !important;
+}
+
+/*    .x-item-selected
+{
+background-color    : #fcd9db !important;
+color               : black !important;
+}
+*/
+.toolbarLogo {
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
 .top-toolbar .x-innerhtml {
   font-family: HelveticaLight;
   font-weight: lighter;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .bottom-toolbar {
@@ -6150,14 +6212,17 @@ final_img {
   border-bottom: #C0C0C0 solid 1px;
   text-align: right;
   font-size: 18px;
-  font-family: "Calibri";
+  font-family: HelveticaLight;
   font-weight: lighter;
-  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #f2f6f8), color-stop(13%, #daddf2), color-stop(51%, #e6ebf4), color-stop(100%, #d7def4));
+}
+
+.delete-prompt-box {
+  border-bottom: #C0C0C0 solid 1px;
+  font-size: 18px;
+  font-family: HelveticaLight;
+  font-weight: lighter;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #f2f6f8), color-stop(13%, #daddf2), color-stop(51%, #e6ebf4), color-stop(100%, #d7def4));
 }
 
 .custom-share-indivisual-toolbar {
@@ -6165,27 +6230,47 @@ final_img {
   border-bottom: #C0C0C0 solid 1px;
   text-align: right;
   font-size: 18px;
-  font-family: "Calibri";
+  font-family: HelveticaLight;
   font-weight: lighter;
+}
+
+.custom-social-toolbar {
+  height: 10%;
+  padding: 27px;
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4));*/
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: #C0C0C0 solid 1px;
 }
 
 .custom-form-labels .x-form-field {
   color: #1283B8;
-  font-family: 'Calibri';
-  font-size: 22px;
+  font-family: HelveticaLight;
+  font-size: 18px;
   font-weight: lighter;
-  height: 100px;
 }
 .custom-form-labels .x-form-label {
-  color: black;
-  font-family: 'Calibri' !important;
-  font-size: 22px !important;
+  font-family: HelveticaLight !important;
+  font-size: 18px !important;
   font-weight: lighter !important;
-  height: 100px;
+}
+
+.custom-textfield-settings .x-form-field {
+  color: #1283B8;
+  font-family: HelveticaLight;
+  font-size: 18px;
+  font-weight: lighter;
+  -webkit-text-fill-color: #2679af;
+}
+.custom-textfield-settings .x-form-label {
+  font-family: HelveticaLight !important;
+  font-size: 18px !important;
+  font-weight: lighter !important;
 }
 
 .custom-share-indivisual-inner-text .x-form-label {
-  font-family: 'Calibri' !important;
+  font-family: HelveticaLight !important;
   font-weight: lighter !important;
   font-size: 24px !important;
 }
@@ -6198,21 +6283,28 @@ final_img {
   font-size: 22px;
 }
 
-.text-area-custom {
-  background-color: linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
-  background-color: -o-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
-  background-color: -moz-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
-  background-color: -webkit-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
-  background-color: -ms-linear-gradient(bottom, #f5f5f5 9%, #bfd1d6 55%, #ebebeb 78%);
-  background-color: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #f5f5f5), color-stop(0.55, #bfd1d6), color-stop(0.78, #ebebeb));
-}
-.text-area-custom .emailformclassic {
+.emailformclassic {
   background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
+}
+
+.custom-delete-alert-box {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #f2f6f8), color-stop(13%, #daddf2), color-stop(51%, #e6ebf4), color-stop(100%, #d7def4));
+  border-radius: 10px;
+}
+
+.custom-social-alert-box {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #edf0f7), color-stop(2%, #dee8e7), color-stop(29%, #d5dcf2), color-stop(100%, #e5f0ff));
+  border-radius: 10px;
+}
+
+.custom-text-field .x-field .x-field-input, .x-field .x-input-el {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9dddc), color-stop(3%, #d9f7f6), color-stop(50%, #d8e1e7), color-stop(53%, #d9f7f6), color-stop(100%, #dce6f4));
+  border-radius: 10px;
 }
 
 .custom-page-bg {
@@ -6222,7 +6314,7 @@ final_img {
 .overlapped-brand {
   font-size: 52px;
   color: white;
-  font-weight: bold;
+  font-family: HelveticaBold;
   text-align: center;
   word-wrap: break-word;
 }
@@ -6230,7 +6322,7 @@ final_img {
 .overlapped-price {
   font-size: 52px;
   color: white;
-  font-weight: bold;
+  font-family: HelveticaBold;
   text-align: center;
   word-wrap: break-word;
 }

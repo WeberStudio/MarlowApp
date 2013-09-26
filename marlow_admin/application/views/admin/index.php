@@ -31,7 +31,7 @@
             <h1>Login <?php //echo URL;?></h1>
             <div class="mws-login-lock"><i class="icon-lock"></i></div>
             <div id="mws-login-form">
-                <form class="mws-form" action="<?php echo URL.'index.php/pages/login';?>" method="post">
+                <form class="mws-form" action="<?php echo URL.'index.php/Auth/login';?>" method="post">
                     <div class="mws-form-row">
                         <div class="mws-form-item">
                             <input type="text" name="username" class="mws-login-username required" placeholder="username">
@@ -42,18 +42,8 @@
                             <input type="password" name="password" class="mws-login-password required" placeholder="password">
                         </div>
                     </div>
-                    <div id="mws-login-remember" class="mws-form-row mws-inset">
-                        <ul class="mws-form-list inline">
-                            <li>
-                                <input id="remember" type="checkbox"> 
-                                <label for="remember">Remember me</label>
-                            </li>
-                        </ul>
-                    </div>
                     <div class="mws-form-row">
-                        
                         <input type="submit" value="Login" class="btn btn-success mws-login-button">
-                        <a href="<?php echo URL.'index.php/pages/register';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  Up</a>
                     </div>
                 </form>
             </div>

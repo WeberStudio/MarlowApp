@@ -1,6 +1,6 @@
 Ext.define('MarlowApp.view.MyList', {
-	require: ['Ext.Img', 'Ext.Toolbar'],
 	extend: 'Ext.Panel', 
+	require: ['Ext.Img', 'Ext.Toolbar'],
     xtype:'mylistView', 
 	//constructor: function() {
 		//alert(this.self.getName()); // alerts 'My.cool.Class'
@@ -11,6 +11,7 @@ Ext.define('MarlowApp.view.MyList', {
 		id :'mylistid',
 		fullscreen: true,
 		scrollable: true,
+		xtype: 'panel',
 		
 		items: [
 			{
@@ -26,7 +27,7 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'button',
 						align: 'left',
-						text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-size: 18px; font-weight: lighter;">Back</span> ',
+						text: '< Back',
 						cls: 'custom-button',
 						handler:function()
 						{
@@ -35,7 +36,7 @@ Ext.define('MarlowApp.view.MyList', {
 					},
 					{	
 						xtype: 'button',
-						text: '<span style = "font-size: 18px; font-weight: lighter;"> Delete  </span> ',
+						text: 'Delete ',
 						align: 'right',
 						action: 'deleteitem',
 						cls: 'custom-button',

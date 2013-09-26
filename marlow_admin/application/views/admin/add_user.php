@@ -48,8 +48,8 @@
                                     <label class="mws-form-label">Gender</label>
                                     <div class="mws-form-item">
                                         <ul class="mws-form-list">
-                                            <li><input id="gender_male" type="radio" name="gender" class="required" value="male"> <label for="gender_male">Male</label></li>
-                                            <li><input id="gender_female" type="radio" name="gender" value="female"> <label for="gender_female">Female</label></li>
+                                            <li><input id="gender_male" type="radio" name="gender" class="required" value="Male" <?php if($gender == 'Male'){echo 'checked=checked';}?>> <label for="gender_male">Male</label></li>
+                                            <li><input id="gender_female" type="radio" name="gender" value="Female" <?php if($gender == 'Female'){echo 'checked=checked';}?>> <label for="gender_female">Female</label></li>
                                         </ul>
                                         <label for="gender" class="error plain" generated="true" style="display:none"></label>
                                     </div>

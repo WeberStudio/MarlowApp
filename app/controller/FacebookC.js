@@ -1,19 +1,19 @@
-Ext.define('MarlowApp.controller.ShareIndivisualC',{  
+Ext.define('MarlowApp.controller.FacebookC',{  
 	extend: 'Ext.app.Controller',  
 	config:{  
 		refs:  
 		{  
 		
 			popup: {  
-			selector: 'formpanel #popupindivisual',  
-			xtype: 'popupindivisual',  
+			selector: 'formpanel #facebookpopup',  
+			xtype: 'facebookpopup',  
 			autoCreate: true,  
 			}  
 		}  
 	},
 	init: function() {  
 		this.control({  
-			'button[action=shareindivisual]': {  
+			'button[action=showfacebook]': {  
 				tap: 'showPopup'  
 			},  
 			'button[action=hide]':{  
