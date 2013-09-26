@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
 				docked: 'top',
-				title: '<img src = "resources/images/social/2-gray.png"> Twitter',
+				title: 'Twitter',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -33,6 +33,11 @@ Ext.define('MarlowApp.view.TwitterV',{
 						action: 'hide',
 						cls: 'custom-button',
 						style: 'color: #258dc8; margin-left: -20px;',
+					},
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/social/2-gray.png" style = "margin-left: -130px; margin-top: 8px;">',
+						
 					},
 					{
 						xtype: 'button',

@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
 				docked: 'top',
-				title: '<img src = "resources/images/social/4-gray.png"> Pinterest',
+				title: 'Pinterest',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -33,6 +33,11 @@ Ext.define('MarlowApp.view.PinterestV',{
 						action: 'hide',
 						cls: 'custom-button',
 						style: 'color: #258dc8; margin-left: -20px;',
+					},
+					{
+						xtype: 'image',
+						html: '<img src = "resources/images/social/4-gray.png" style = "margin-left: -140px; margin-top: 8px;">',
+						
 					},
 					{
 						xtype: 'button',
