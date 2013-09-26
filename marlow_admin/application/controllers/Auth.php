@@ -5,7 +5,10 @@ class Auth extends CI_Controller{
     function __construct()
     {        
     parent::__construct();
-
+     if($this->session->userdata('auth-info')!="")
+     {
+        redirect('index.php/pages/dashboard');  
+     }
     //remove_ssl();
      $this->load->model('Admin_model');
      $this->load->library('form_validation');
