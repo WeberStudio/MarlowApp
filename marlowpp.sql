@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Sep 23, 2013 at 04:10 PM
+-- Generation Time: Sep 26, 2013 at 03:39 PM
 -- Server version: 5.0.51
 -- PHP Version: 5.2.6
 
@@ -32,7 +32,7 @@ CREATE TABLE `admin_login` (
 -- Dumping data for table `admin_login`
 -- 
 
-INSERT INTO `admin_login` VALUES (1, 'admin', 'admin', '123456', '1');
+INSERT INTO `admin_login` VALUES (1, 'admin', 'admin@yahoo.com', '123456', '1');
 
 -- --------------------------------------------------------
 
@@ -241,7 +241,7 @@ INSERT INTO `shops` VALUES (150, 'Tinc', '18b Spittal Street, Marlow, SL7 1DB', 
 -- 
 
 CREATE TABLE `user_info` (
-  `user_id` int(128) NOT NULL auto_increment,
+  `id` int(128) NOT NULL auto_increment,
   `fname` varchar(255) NOT NULL,
   `lname` varchar(255) default NULL,
   `email` varchar(255) NOT NULL,
@@ -249,7 +249,7 @@ CREATE TABLE `user_info` (
   `gender` varchar(255) NOT NULL,
   `join_date` varchar(255) NOT NULL,
   `status` enum('0','1') NOT NULL,
-  PRIMARY KEY  (`user_id`)
+  PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 -- 

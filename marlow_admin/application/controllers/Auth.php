@@ -29,6 +29,7 @@ class Auth extends CI_Controller{
         else{
        if($count>0)
        {
+           
             if($get_result['0']->status == '1') {$status = 'Active'; }
             $info_array          = array('email'=> $email, 'password'=>$password, 'name'=>$get_result['0']->name, 'status'=>$status);
             $auth_array          = array('auth-info'=>$info_array);
