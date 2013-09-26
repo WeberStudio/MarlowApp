@@ -11,7 +11,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 		width: 320,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,  
-		style: 'border-radius: 10px;',
+		style: 'border-radius: 10px; ',
 		items:[
 		{
             xtype: 'toolbar',
@@ -42,7 +42,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 				
 				{
 					xtype: 'button',
-					style: 'margin-bottom: -10px; background: url("resources/images/template/email1.png"); height: 53px; border-radius: 0px;',
+					style: 'margin-bottom: -10px; background: url("resources/images/template/email1.png"); height: 54px; border-radius: 0px;',
 					action: 'shareemail',
 /*					handler:function()
 					{
@@ -51,18 +51,18 @@ Ext.define('MarlowApp.view.ShareItem',{
 */				},
 				{
 					xtype: 'button',
-					style: 'background: url("resources/images/template/twitter1.png"); height: 53px; border-radius: 0px; margin-top: 8px',
+					style: 'background: url("resources/images/template/twitter1.png"); height: 54px; border-radius: 0px; margin-top: 8px',
 					action: 'showtwitter', 
 
 				},
 				{
 					xtype: 'button',
-					style: 'background: url("resources/images/template/facebook1.png"); height: 53px; border-radius: 0px; margin-top: -3px',
+					style: 'background: url("resources/images/template/facebook1.png"); height: 54px; border-radius: 0px; margin-top: -3px',
 					action: 'showfacebook',
 				},
 				{
 					xtype: 'button',
-					style: 'background: url("resources/images/template/pinterest1.png"); height: 50px; border-radius: 0px; border-bottom: 0px; margin-top: -2px',
+					style: 'background: url("resources/images/template/pinterest1.png"); height: 54px; border-radius: 10px;  border-top-right-radius: 0px; border-top-left-radius: 0px; border-bottom: 0px; margin-top: -2px',
 					action: 'showpinterest',
 
 				},

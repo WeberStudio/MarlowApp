@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.ConfirmDltItem',{
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                              addIndex            = [];      
+                              //addIndex            = [];      
                             }
                    
                         }    

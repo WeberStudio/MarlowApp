@@ -88,6 +88,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                      Ext.Msg.alert(response.MESSAGE);
                      var deleteItemId              = Ext.getCmp("deleteitemid");
                      deleteItemId.destroy();
+                     addIndex            = [];
                      //
                      app.application.redirectTo('deleteitems');
                       var addIndex = array();            

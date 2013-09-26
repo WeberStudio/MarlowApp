@@ -18,7 +18,6 @@ Ext.define('MarlowApp.view.PinterestV',{
 			{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
-				style: 'background-color: white;',
 				docked: 'top',
 				title: '<img src = "resources/images/social/4-gray.png"> Pinterest',
 				layout: {
@@ -56,7 +55,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 					{
 						xtype: 'textareafield',
 						docked: 'left',
-						cls: 'custom-text-field',
+						cls: 'custom-text-fieldarea',
 						width: 250,
 						height: 120,
 					},

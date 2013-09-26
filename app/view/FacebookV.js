@@ -18,7 +18,6 @@ Ext.define('MarlowApp.view.FacebookV',{
 			{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
-				style: 'background-color: white;',
 				docked: 'top',
 				title: '<img src = "resources/images/social/3-gray.png"> Facebook',
 				layout: {
@@ -56,7 +55,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 					{
 						xtype: 'textareafield',
 						docked: 'left',
-						cls: 'custom-text-field',
+						cls: 'custom-text-fieldarea',
 						width: 250,
 						height: 120,
 					},
