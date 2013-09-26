@@ -3,7 +3,7 @@ Ext.define('MarlowApp.view.Dashboard', {
     requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboardView',
     config: {
-    style: 'background: url("resources/images/marlow-back/marlow-night.gif") 100% 100%;',   
+    style: 'background: url("resources/images/marlow-back/marlow-night.gif")',   
         fullscreen: true,
         items: [
             {
@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 150px;',
+                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 150px;',
                         flex: 1,
                         handler:function()
                         {
@@ -93,7 +93,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
+                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {
@@ -124,7 +124,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         centered: true,
                         //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/btn-back.png"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 160px;',
+                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 160px;',
                         flex: 1,
                         handler:function()
                         {
