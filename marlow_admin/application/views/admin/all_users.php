@@ -77,7 +77,7 @@
                                    ?>
                                 <tr>
                                     <td><?php echo $listing->id;?></td>
-                                    <td><?php echo $listing->fname;?></td>
+                                    <td><?php echo ucfirst($listing->fname.' '.$listing->lname);?></td>
                                     <td><?php echo $listing->email;?></td>
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status."/user_info";?>" class="btn btn-success btn-small"> <?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
