@@ -69,6 +69,12 @@ class Client_model extends CI_Model {
         $this->db->join('shops AS s', 's.id = p.brand_id');
         $query = $this->db->get(); 
         return $query->result();
+    }
+    function delete_bulk_items($ids, $user_id)
+    {
+         $this->db->where_in('id',$ids);
+         $this->db->where('user_id',$user_id);
+         $this->db->delete('products');
     }  
     
 }
