@@ -85,7 +85,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
 		});
 		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
-            Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
@@ -330,15 +330,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem({
                 xtype: 'addnoteview'                 
             });
-            
+          Ext.getCmp('useritemnote').setValue(' ');
+          Ext.getCmp('itemprice').setValue(' ');          
            if(Ext.getCmp('productViewNote'))
            {
                note = note.replace('<span>','');
                note = note.replace('</span>','');
                price = price.replace('<span>','');
-               price = price.replace('</span>','');
-               Ext.getCmp('useritemnote').setValue(' ');
-               Ext.getCmp('itemprice').setValue(' ');        
+               price = price.replace('</span>','');                
                Ext.getCmp('useritemnote').setValue(note);
                Ext.getCmp('itemprice').setValue(price);
            }
@@ -420,7 +419,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
 				
                 Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
