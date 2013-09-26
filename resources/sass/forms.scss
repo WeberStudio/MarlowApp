@@ -51,16 +51,6 @@
 
 		font-size: 22px;
 	}
-
-	.emailformclassic {
-	
-		background-image: linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -o-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -moz-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -ms-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
-	}
 	
 	.custom-delete-alert-box {
 		
@@ -70,13 +60,35 @@
 	
 	.custom-social-alert-box {
 		
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#edf0f7), color-stop(2%,#dee8e7), color-stop(29%,#d5dcf2), color-stop(100%,#e5f0ff));
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#edf0f7), color-stop(2%,#dee8e7), color-stop(29%,#d5dcf2), color-stop(100%,#e5f0ff));
+		border-radius: 10px;*/
+		
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a8dcff), color-stop(78%,#f4faff));*/
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe));
 		border-radius: 10px;
 	}
 	
-	.custom-text-field .x-input-el  {
+	.custom-text-fieldarea .x-input-el  {
 		
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4));
-		border-radius: 10px;
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));
+		
+	}
+	
+	.custom-text-field-dark .x-input-el  {
+		
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#e5e5e5), color-stop(100%,#ededed), color-stop(100%,#fefefe));
+		
+	}
+	.custom-text-field-light .x-input-el  {
+		
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(51%,#f9f9f9), color-stop(98%,#f4f4f4), color-stop(100%,#fefefe));
+		
 	} 
+	
 }
