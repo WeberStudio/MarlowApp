@@ -43,7 +43,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 				{
 					xtype: 'button',
 					style: 'margin-bottom: -10px; background: url("resources/images/template/email1.png"); height: 53px; border-radius: 0px;',
-					action: 'shareindivisual',
+					action: 'shareemail',
 /*					handler:function()
 					{
 						alert('Email');
@@ -52,28 +52,18 @@ Ext.define('MarlowApp.view.ShareItem',{
 				{
 					xtype: 'button',
 					style: 'background: url("resources/images/template/twitter1.png"); height: 53px; border-radius: 0px; margin-top: 8px',
-					handler:function()
-					{
-                        alert('Twitter');
-						//window.location='https://twitter.com/share/'
-					}
+					action: 'showtwitter', 
 
 				},
 				{
 					xtype: 'button',
 					style: 'background: url("resources/images/template/facebook1.png"); height: 53px; border-radius: 0px; margin-top: -3px',
-					handler:function()
-					{
-						alert('Facebook');
-					}
+					action: 'showfacebook',
 				},
 				{
 					xtype: 'button',
 					style: 'background: url("resources/images/template/pinterest1.png"); height: 50px; border-radius: 0px; border-bottom: 0px; margin-top: -2px',
-					handler:function()
-					{
-						alert('Pinterest');
-					}
+					action: 'showpinterest',
 
 				},
 

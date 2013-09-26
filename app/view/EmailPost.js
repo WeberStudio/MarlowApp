@@ -1,128 +1,140 @@
 Ext.define('MarlowApp.view.EmailPost',{
-	extend: 'Ext.Container',  
-	requires: ['Ext.List', 'Ext.Button', 'Ext.Img', 'Ext.form.Panel', 'Ext.field.TextArea', 'Ext.field.Text'],
-	xtype: 'emailindivisual',
-	config:{  
-		itemId: 'emailindivisual',  
-		floating: true,  
-		centered: true,
-		modal: true,  
-		height: 350,
-		width: 440,
-		showAnimation: { type: 'slide', direction: 'bottom'},  
-		styleHtmlContent: true,  
-		style: 'border-radius: 10px; background: url("resources/images/marlow-back/gradient-background.png")',
-		items:[
-			{
-				xtype: 'toolbar',
-				docked: 'top',
-				title: '<img src = "resources/images/social/email_.png"> Email',
-				baseCls: 'custom-share-indivisual-toolbar',
-				align: 'right',
-				style: 'border: none; border-radius: 10px; border-bottom: 1px solid #c5c5c5; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;',
-				layout: {
-					pack: 'justify',
-					type: 'hbox'
-				}, 
-				items: [
-					{
-						xtype: 'button',
-						align: 'left',
-						text: '<span style = "font-size: 20px; font-weight: lighter; color: #0079FF"> Cancel  </span> ',
-						action: 'hide',
-						cls: 'custom-button',
-					},
-					{
-						xtype: 'button',
-						align: 'right',
-						text: '<span style = "font-size: 20px; font-weight: lighter; color: #0079FF"> Post  </span> ',
-						action: 'hide',
-						cls: 'custom-button',
-					},
-				]
-			},
-			{
-				xtype: 'container',
-				layout: 'fit',
-				items: [
-					{
-						xtype: 'textareafield',
-						name : 'Name',
-						width: 300,
-						height: 120,
-						docked: 'left',
-						style: 'background-color: black;',
-						flex: 1,
-					},
-					{
-						xtype: 'image',
-						html: '<img src = "resources/images/marlow-back/home_night.gif" style = "width: 80px; height: 120px;">',
-						flex: 2,
-						docked: 'right',
-					}
-				]
-			},
-			{
-				xtype: 'container',
-				layout: 'fit',
-				items: [
-					{
-						html: '118',
-						flex: 1,
-						style: 'color: #808080; font-size: 14px;',
-					}
-				]
-			},
-					
-			{
-				xtype: 'container',
-				layout: 'auto',
-				items: [
-					{	
-						html: 'To',
-						width: 80,
-						flex: 1,
-						docked: 'left',
-						style: 'font-size: 22px; font-weight: lighter; font-family: calibri; color: black; padding-right: 20px;'
-					},
-					{	
-						xtype: 'textfield',
-						flex: 2,
-						width: 300,
-						docked: 'left',
-						border: 1,
-						style: 'border-radius: 20px;',
-					},
-					
-				]
-				
-			},
-			{
-				html: '<br>',	
-			},
-			{
-				xtype: 'container',
-				layout: 'auto',
-				items: [
-					{	
-						html: 'Subject',
-						width: 80,
-						flex: 1,
-						docked: 'left',
-						border: 1,
-						style: 'font-size: 22px; font-weight: lighter; font-family: calibri; color: black; padding-right: 20px;'
-					},
-					{	
-						xtype: 'textfield',
-						flex: 2,
-						width: 300,
-						docked: 'left',
-						style: 'border-radius: 20px;',
-					},
-					
-				]
-				
-			},
-		],
-	}
+    extend: 'Ext.Container',  
+    requires: ['Ext.List', 'Ext.Button', 'Ext.Img', 'Ext.form.Panel', 'Ext.field.TextArea'],
+    xtype: 'emailindivisual',
+    
+    config:{
+        
+        itemId: 'emailindivisual',  
+        floating: true,  
+        centered: true,
+        modal: true,  
+        showAnimation: { type: 'slide', direction: 'bottom'},  
+        styleHtmlContent: true,
+        height: 340,
+        width: 370,
+        baseCls: 'custom-social-alert-box',
+        items: [
+            {
+                xtype: 'toolbar',
+                baseCls: 'custom-social-toolbar',
+                style: 'background-color: white;',
+                docked: 'top',
+                title: '<img src = "resources/images/social/1-gray.png"> Email',
+                layout: {
+                    pack: 'justify',
+                    type: 'hbox'
+                },
+                
+                items: [
+                    {
+                        xtype: 'button',
+                        align: 'left',
+                        text: 'Cancel',
+                        action: 'hide',
+                        cls: 'custom-button',
+                        style: 'color: #258dc8; margin-left: -20px;',
+                    },
+                    {
+                        xtype: 'button',
+                        align: 'right',
+                        text: 'Send',
+                        //action: 'hide',
+                        cls: 'custom-button',
+                        style: 'color: #258dc8; margin-right: -20px;',
+                    }
+                ]
+            },
+            {
+                xtype: 'container',
+                layout: {
+                    pack: 'justify',
+                    type: 'hbox'
+                },
+                
+                items: [
+                    {
+                        xtype: 'textareafield',
+                        docked: 'left',
+                        cls: 'custom-text-field',
+                        width: 250,
+                        height: 120,
+                    },
+                    {
+                        xtype: 'image',
+                        html: '<img src = "resources/images/guy-dummy.png" style = "height: 120px; width: 80px;">',    
+                        docked: 'right',
+                    }
+                ]
+                    
+            },
+            {
+                xtype: 'container',
+                layout: 'fit',
+                
+                items: [
+                    {
+                        html: '<span>118<span>',
+                        style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',        
+                    },
+                ]    
+            },
+            {
+                xtype: 'container',
+                layout: 'fit',
+                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                items: [
+                    {
+                        html: 'To',
+                        docked: 'left',
+                        flex: 1,
+                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
+                    },
+                    {
+                       xtype: 'textfield',
+                        docked: 'left',
+                        width: '100%' ,
+                        flex: 2,
+                        cls: 'custom-text-field',
+                        
+                    },
+                    {
+                        xtype: 'image',
+                        docked: 'right',
+                        flex: 1,
+                        html: '<img src = "resources/images/marlow/arrow copy.png">',
+                        style: 'margin-top: -6px;',
+                    }
+                ]
+            },
+            {
+                xtype: 'container',
+                layout: 'hbox',
+                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                items: [
+                    {
+                        html: 'Subject',
+                        docked: 'left',
+                        flex: 1,
+                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
+                    },
+                    {
+                       xtype: 'textfield',
+                        docked: 'left',
+                        width: '100%' ,
+                        flex: 2,
+                        cls: 'custom-text-field',
+                        
+                    },
+                    {
+                        xtype: 'image',
+                        docked: 'right',
+                        flex: 1,
+                        html: '<img src = "resources/images/marlow/arrow copy.png">',
+                        style: 'margin-top: -6px;',
+                    }
+                ]
+            }
+        ]
+    }
 });  
