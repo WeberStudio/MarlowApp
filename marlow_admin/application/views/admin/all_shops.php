@@ -33,7 +33,7 @@
                 <!-- Panels Start -->
                 <div class="mws-panel grid_8">
                     <div class="mws-panel-header">
-                        <span><i class="icon-table"></i>All Shops</span>
+                        <span><i class="icon-network"></i>All Shops</span>
                     </div>
                     <div class="mws-panel-toolbar">
                         <div class="btn-toolbar">
@@ -89,7 +89,7 @@
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status."/shops"?>" class="btn btn-success btn-small"><?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
                                     <a href="<?php echo URL.'index.php/pages/add_shop/'.$listing->id;?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
-                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/shops";?>" class="btn btn-danger btn-small"> <i class="icon-fire"></i>Delete</a>
+                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/shops";?>" class="btn btn-danger btn-small" onclick="return confirm('Are you sure want to delete');"> <i class="icon-fire"></i>Delete</a>
                                     </td>
                                 </tr>
                                 <?php }}?>

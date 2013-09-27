@@ -39,9 +39,15 @@
                             <div id="mws-validate-error" class="mws-form-message error" style="display:none;"></div>
                             <div class="mws-form-inline">
                                 <div class="mws-form-row">
-                                    <label class="mws-form-label">Name</label>
+                                    <label class="mws-form-label">First Name</label>
                                     <div class="mws-form-item">
-                                        <input type="text" name="name" value="<?php echo $name;?>" class="required large">
+                                        <input type="text" name="f_name" value="<?php echo $firstname;?>" class="required large">
+                                    </div>
+                                </div>
+                                <div class="mws-form-row">
+                                    <label class="mws-form-label">Last Name</label>
+                                    <div class="mws-form-item">
+                                        <input type="text" name="l_name" value="<?php echo $lastname;?>" class="required large">
                                     </div>
                                 </div>
                                 <div class="mws-form-row">
@@ -53,12 +59,7 @@
                                         </ul>
                                         <label for="gender" class="error plain" generated="true" style="display:none"></label>
                                     </div>
-                                </div>                                <div class="mws-form-row">
-                                    <label class="mws-form-label">Join Date</label>
-                                    <div class="mws-form-item">
-                                        <input name="date" value="<?php echo $date_db?>" type="text" class="mws-datepicker large" readonly="readonly">
-                                    </div>
-                                </div>
+                                </div>                                
                                 <div class="mws-form-row">
                                     <label class="mws-form-label">Email </label>
                                     <div class="mws-form-item">
@@ -75,7 +76,7 @@
                                 
                             </div>
                             <div class="mws-button-row">
-                                <input type="submit" name="submit" class="btn btn-danger">
+                                <input type="submit" name="submit"<?php if($id == ''){echo 'value="Save"';}else{echo 'value="Edit"';}?> class="btn btn-danger">
                             </div>
                         </form>
                     </div>        

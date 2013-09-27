@@ -24,7 +24,7 @@ Ext.define('MarlowApp.view.Signup', {
 				xtype: 'image',
 				width:218,
 				height:150,
-				src:'resources/images/marlow-back/marlow.gif'
+				src:'resources/images/marlow-back/marlow.png'
 			}
 			]
 			

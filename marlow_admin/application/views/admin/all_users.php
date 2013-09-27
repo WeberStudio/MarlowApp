@@ -34,7 +34,7 @@
                 
                 <div class="mws-panel grid_8">
                     <div class="mws-panel-header">
-                        <span><i class="icon-table"></i>All Users</span>
+                        <span><i class="icon-users"></i>All Users</span>
                     </div>
                     <div class="mws-panel-toolbar">
                         <div class="btn-toolbar">
@@ -65,10 +65,6 @@
                                     <th>User ID</th>
                                     <th>name</th>
                                     <th>Email</th>
-                                    <th>Passowrd</th>
-                                    <!--<th>Image</th>-->
-                                    <th>Gender</th>
-                                    <!--<th>Status</th>-->
                                     <th>Status/Action</th>
                                    
                                 </tr>
@@ -81,16 +77,12 @@
                                    ?>
                                 <tr>
                                     <td><?php echo $listing->id;?></td>
-                                    <td><?php echo $listing->fname;?></td>
+                                    <td><?php echo ucfirst($listing->fname.' '.$listing->lname);?></td>
                                     <td><?php echo $listing->email;?></td>
-                                    <td><?php echo $listing->password;?></td>
-                                    <!--<td><img src="<?php echo (CSS.'example/'.$listing->image);?>" alt="image" align="center"style="width: 97px; height: 50px;"></td>-->
-                                    <td><?php echo $listing->gender;?></td>
-                                    <!--<td><?php echo $listing->status;?></td>-->
                                     <td>
                                     <a href="<?php echo URL.'index.php/pages/status_up/'.$listing->id."/".$listing->status."/user_info";?>" class="btn btn-success btn-small"> <?php if($listing->status=='1'){echo 'Active';}else{echo 'Inactive';}?></a>
                                     <a href="<?php echo URL.'index.php/pages/add_user/'.$listing->id;?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
-                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/user_info";?>" class="btn btn-danger btn-small"> <i class="icon-fire"></i> Delete</a>
+                                    <a href="<?php echo URL.'index.php/pages/delete/'.$listing->id."/user_info";?>" class="btn btn-danger btn-small" onclick="return confirm('Are you sure want to delete');"> <i class="icon-fire"></i> Delete</a>
                                     </td>
                                 </tr>
                                 <?php }}?>

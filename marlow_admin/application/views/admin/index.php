@@ -25,16 +25,33 @@
 </head>
 
 <body>
+<script >
+function emptyFieldError()
+{
+    var userName = document.getElementById("user_name").value;
+    if(userName == '')
+    {
+      document.getElementById('errorDiv').innerText='Enter The Email First';  
+      document.getElementById('errorDiv').style.display = "block"; 
+    }
+    return false;
+    
+}
+</script>
 
     <div id="mws-login-wrapper">
         <div id="mws-login">
+          <?php if( validation_errors() != ''){?>
+              <div class="mws-form-message error" id="errorDiv"  style=""> <?php echo validation_errors(); ?> </div>   
+          <?php }?>
+
             <h1>Login <?php //echo URL;?></h1>
             <div class="mws-login-lock"><i class="icon-lock"></i></div>
             <div id="mws-login-form">
                 <form class="mws-form" action="<?php echo URL.'index.php/Auth/login';?>" method="post">
                     <div class="mws-form-row">
                         <div class="mws-form-item">
-                            <input type="text" name="username" class="mws-login-username required" placeholder="username">
+                            <input type="text" name="email" id='user_name' class="mws-login-username required" placeholder="username">
                         </div>
                     </div>
                     <div class="mws-form-row">

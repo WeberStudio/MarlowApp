@@ -41,6 +41,6 @@
 <link rel="stylesheet" type="text/css" href="<?php echo(CSS.'css/mws-theme.css'); ?>" media="screen">
 <link rel="stylesheet" type="text/css" href="<?php echo(CSS.'css/themer.css'); ?>" media="screen">
 
-<title><?php echo $title;?></title>
+<title><?php echo $this->session->userdata('title');?></title>
 
 </head>
