@@ -11,6 +11,7 @@ Ext.define('MarlowApp.controller.EmailPostC',{
 			}  
 		}  
 	},
+       
 	init: function() {  
 		this.control({  
 			'button[action=shareemail]': {  
@@ -21,10 +22,14 @@ Ext.define('MarlowApp.controller.EmailPostC',{
 			}  
 		});  
 	},  
-	showPopup: function(){  
+	showPopup: function(){        
+        //Ext.getCmp('emailSubject').gsetValue() = 
+        //Ext.getCmp('finalImage').gsetValue() = finalImage;
+           
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
-		popup.show();  
+		popup.show();
+        //Ext.getCmp('emailMessage').setValue() =  finalNote;  
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

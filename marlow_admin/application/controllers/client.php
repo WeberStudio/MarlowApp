@@ -173,6 +173,38 @@ class client extends CI_Controller{
         echo $return_msg;
     }
     
+    function send_share_email()
+    {
+        
+        $data     = file_get_contents("php://input");
+        $decode   = json_decode($data, true);   
+        $this->load->library('email');
+        $config['protocol'] = 'sendmail';
+        $config['mailtype'] = 'html';
+        $config['mailpath'] = '/usr/sbin/sendmail';
+        $config['charset'] = 'iso-8859-1';
+        $config['wordwrap'] = TRUE;
+        $this->email->initialize($config);
+        
+        $this->email->from($decode['finalEmailFrom'], 'Your Name');
+        $this->email->to($decode['emailTo']); 
+        $this->email->subject($decode['emailSubject']);
+        $this->email->message($decode['emailMessage']."<br/><br/>".'<img src="data:image/png;base64,'.$decode['finalImage'].'" alt="embedded folder icon">');
+        $send = $this->email->send();
+        
+        if($send)
+        {
+            echo 'Email sent seccessfully!';
+            
+        }
+        else
+        {
+            echo 'Email sent fail!';            
+        }
+        
+        
+    }
+    
 }
   
 ?>

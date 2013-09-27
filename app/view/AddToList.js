@@ -111,34 +111,43 @@ Ext.define('MarlowApp.view.AddToList', {
 						id: 'my-list-image',
 						listeners: {
 							tap: function() {
-								var shopid              = Ext.getCmp("shopid");
-								var snapViewId          = Ext.getCmp("snapViewId");
-								var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-								var addtolistid         = Ext.getCmp("addtolistid");
 								
-                                Ext.getCmp('my-list-image').destroy();
+								
+								if(Ext.getCmp("my-list-image")){                                 
+                                    Ext.getCmp('my-list-image').destroy();                                
+                                }
+								if(Ext.getCmp("myitemlistviewId")){
+								    Ext.getCmp("myitemlistviewId").destroy();
+								}					   
+								if(Ext.getCmp("shopid")){
+								    Ext.getCmp("shopid").destroy();
+								}
+								if(Ext.getCmp("snapViewId")){
+								    Ext.getCmp("snapViewId").destroy();
+								}
+								if( Ext.getCmp("addtolistid")){
+								    Ext.getCmp("addtolistid").destroy();
+								}
                                 
-								
-								if(myitemlistviewId){
-								myitemlistviewId.destroy();
-								}                       
-													   
-								if(shopid){
-								shopid.destroy();
-								}
-								if(snapViewId){
-								snapViewId.destroy();
-								}
-								
-								if(addtolistid){
-								addtolistid.destroy();
-								}                                 
-							app.application.redirectTo('mylist')
+                                if(Ext.getCmp("shops-image")){
+                                    Ext.getCmp("shops-image").destroy();
+                                }                               
+                                                                
+							    if(Ext.getCmp("snap-it-image")){
+                                    Ext.getCmp("snap-it-image").destroy();
+                                }                                
+                                if(Ext.getCmp("my-list-image")){
+                                    Ext.getCmp("my-list-image").destroy();
+                                }                                
+                                if(Ext.getCmp("info-image")){
+                                    Ext.getCmp("info-image").destroy();
+                                }                                    
+                    
+                                app.application.redirectTo('myitemlist')
 							
 							},
-				},
+				        },
 					},
-
                     {
                         xtype: 'image',
                         iconAlign: 'center',
@@ -222,7 +231,7 @@ Ext.define('MarlowApp.view.AddToList', {
                     },
                     {
                         xtype: 'panel',
-                        id:    'productViewBrand',
+                        id:    'productViewNote',
                         baseCls: 'overlapped-msg',    
                         centered: true,
                         html: '<span> Saw this and thought Bob might like it? </span>',
@@ -230,12 +239,12 @@ Ext.define('MarlowApp.view.AddToList', {
                         items: [
                             {
                                 baseCls: 'overlapped-brand',
-                                id:    'productViewPrice',
+                                id:    'productViewBrand',
                                 html: '<span> Marks and Spencer </span>',
                             },
                             {
                                 baseCls: 'overlapped-price',
-                                id:    'productViewNote',      
+                                id:    'productViewPrice',      
                                 html: '<span> £17.99 </span>',    
                             }
                         ]

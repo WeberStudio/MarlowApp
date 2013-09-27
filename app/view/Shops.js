@@ -46,6 +46,20 @@ Ext.define('MarlowApp.view.Shops', {
 					cls: 'custom-button',
                     handler:function()
                     {                         
+                        if(Ext.getCmp("shops-image")){
+                            Ext.getCmp("shops-image").destroy();
+                        }                               
+                                                        
+                        if(Ext.getCmp("snap-it-image")){
+                            Ext.getCmp("snap-it-image").destroy();
+                        }                                
+                        if(Ext.getCmp("my-list-image")){
+                            Ext.getCmp("my-list-image").destroy();
+                        }                                
+                        if(Ext.getCmp("info-image")){
+                            Ext.getCmp("info-image").destroy();
+                        }                                
+                        
                         app.application.redirectTo('addtolist');                       
 						 
                     }

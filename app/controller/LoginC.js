@@ -61,8 +61,9 @@ Ext.define('MarlowApp.controller.LoginC', {
             return false;  
         }
         if (username != '' && password!='' ){
-            loadMask()
-            Ext.Ajax.request({
+            finalEmailFrom   = username;
+            loadMask();
+            Ext.Ajax.request({ 
                 url: serviceUrl+'login',
                 headers: {
                     "Content-Type": "application/json",
@@ -90,6 +91,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                         
                         response = Ext.decode(response.responseText);
                         Ext.getStore("SignupInfoStore").setData(response[0]);
+                        
                         //console.log(response[0].ERROR);                        
                         //console.log(Ext.getStore("SignupInfoStore"));
                       //  app.application.redirectTo('dashboard');
@@ -199,42 +201,6 @@ Ext.define('MarlowApp.controller.LoginC', {
         var weight        = Ext.getCmp('weighttxt').getValue();     
         //////// set calories 
         var  caloriesval  =   Ext.getCmp("slidervalue").getValue()
-        // alert()
-        /*   loadMask()            
-        Ext.Ajax.request({
-        url: signonServiceUrl+'SignUp',
-        headers: {
-        "Content-Type": "application/json",
-        'Accept': 'application/json',
-        "cache-control": "no-cache"
-        },
-        callbackKey: 'callback',
-        timeout : 60000,
-        method: 'POST',
-        jsonData: {"userId": setusername ,"password": setpassword,"firstName":fname,'lastName':setlname,'emailId':email,'gender':gender,'lastFourSSNDigits':ssnNumber,'birthDate':birthday,'participatedInScreeningProcess':isParticipate,'companyCode':companyCode,'weight':weight,'height':height,'isDeleted':true}, 
-        withCredentials: false,
-        useDefaultXhrHeader: false,
-        success: function(response) {      
-        response = Ext.decode(response.responseText)
-        //  console.log(response)
-        //if(response.errorMessage =='Successfully login' && response.errorCode == 0)
-        //  {
-        /*  var url = 'landing/MainTabPanel'; 
-        app.application.redirectTo(url) 
-        var userNameObj = document.getElementById('UserNameLandingpageID')
-        userNameObj.innerHTML = ''
-        userNameObj.innerHTML = setusername      
-        // }
-        else
-        {
-        Ext.Msg.alert('', response.errorMessage);
-        return false     
-        }     
-        },
-        failure: function(response) {
-        response = Ext.decode(response.responseText)
-        Ext.Msg.alert('', 'Server is not responding please try again');     
-        }
-        });   */                     
+       
     }
 });

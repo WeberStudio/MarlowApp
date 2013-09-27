@@ -108,7 +108,9 @@ Ext.define('MarlowApp.view.Main', {
                     Ext.Viewport.remove(Ext.getCmp('setsignupbtn'))
                     Ext.Viewport.remove(Ext.getCmp('cancelbtn'))
                     Ext.Viewport.remove(Ext.getCmp('signupbtns'))
-                    var url = 'signup'; 
+                    var url = 'signup';                    
+                    Ext.getCmp('loginpassword').setValue('');
+                    Ext.getCmp('loginusername').setValue('');
                     app.application.redirectTo(url);
                     
                 }
