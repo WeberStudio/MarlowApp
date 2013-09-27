@@ -3,7 +3,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 	extend: 'Ext.dataview.List',  
 	xtype: 'shareitem',
 	config:{  
-		itemId: 'shareitem',  
+		id: 'shareitem',  
 		floating: true,  
 		centered: true,  
 		modal: true,  

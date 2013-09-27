@@ -68,6 +68,15 @@ Ext.application({
         shopSelectedName    = ''; 
         editProductIndex    = '';
         deleteProductId     = '';
+        
+       // After Save Product Global Varibale Will Set 
+        finalProductId      = ''; 
+        finalUserId         = ''; 
+        finalBrandId        = ''; 
+        finalNote           = ''; 
+        finalPrice          = ''; 
+        finalImage          = ''; 
+        finalEmailFrom      = '';
         addIndex            = [];
         Ext.fly('appLoadingIndicator').destroy();
 

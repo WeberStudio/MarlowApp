@@ -5,7 +5,7 @@ Ext.define('MarlowApp.view.EmailPost',{
     
     config:{
         
-        itemId: 'emailindivisual',  
+        id: 'emailindivisual',  
         floating: true,  
         centered: true,
         modal: true,  
@@ -44,9 +44,14 @@ Ext.define('MarlowApp.view.EmailPost',{
                         xtype: 'button',
                         align: 'right',
                         text: 'Send',
+                        id: 'sendEmail',
                         //action: 'hide',
                         cls: 'custom-button',
                         style: 'color: #258dc8; margin-right: -20px;',
+                        /*handler:function()
+                        {
+                            alert(Ext.getCmp('emailTo').getValue());                        
+                        }*/
                     }
                 ]
             },
@@ -60,6 +65,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                 items: [
                     {
                         xtype: 'textareafield',
+                         id:    'emailMessage',   
                         docked: 'left',
                         cls: 'custom-text-fieldarea',
                         width: 250,
@@ -97,6 +103,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                     },
                     {
                        xtype: 'textfield',
+                        id: 'emailTo',   
                         docked: 'left',
                         width: '100%' ,
                         flex: 2,
@@ -118,13 +125,13 @@ Ext.define('MarlowApp.view.EmailPost',{
                 style: 'padding-top: 10px;',
                 items: [
                     {
-                        html: 'Subject',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
                     },
                     {
                        xtype: 'textfield',
+                        id: 'emailSubject',                        
                         docked: 'left',
                         width: '100%' ,
                         flex: 2,

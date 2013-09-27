@@ -41,8 +41,10 @@ function emptyFieldError()
 
     <div id="mws-login-wrapper">
         <div id="mws-login">
-        
-        <div class="mws-form-message error" id="errorDiv"  style=" display: none;"> </div>
+          <?php if( validation_errors() != ''){?>
+              <div class="mws-form-message error" id="errorDiv"  style=""> <?php echo validation_errors(); ?> </div>   
+          <?php }?>
+
             <h1>Login <?php //echo URL;?></h1>
             <div class="mws-login-lock"><i class="icon-lock"></i></div>
             <div id="mws-login-form">

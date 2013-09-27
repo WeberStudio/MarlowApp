@@ -129,7 +129,8 @@ class pages extends CI_Controller{
         $data['left_bar']           = 'user';
         $data['user']               = '';
         $data['gender']             = '';
-        $data['name']               = '';
+        $data['firstname']          = '';
+        $data['lastname']           = '';
         $data['password']           = '';
         $data['email']              = '';
         $data['date_db']            = '';
@@ -137,7 +138,8 @@ class pages extends CI_Controller{
         {
            $data['user']            = $this->Admin_model->get_records('user_info',$id);
            $data['gender']          = $data['user']['0']->gender;
-           $data['name']            = $data['user']['0']->fname;
+           $data['firstname']       = $data['user']['0']->fname;
+           $data['lastname']        = $data['user']['0']->lname; 
            $data['date_db']         = $data['user']['0']->join_date;
            $data['email']           = $data['user']['0']->email; 
            $data['password']        = $data['user']['0']->password; 
@@ -151,11 +153,14 @@ class pages extends CI_Controller{
         {
             $save                       = array();
             $save['id']                 = $id;
-            $save['fname']              = $this->input->post('name');
+            $save['fname']              = $this->input->post('f_name');
+            $save['lname']              = $this->input->post('l_name');
             $save['gender']             = $this->input->post('gender');
-            $save['join_date']          = $this->input->post('date'); 
+            if($id ==''){
+            $save['join_date']          = date("Y-m-d");
+            $save['password']           = md5($this->input->post('password'));
+            } 
             $save['email']              = $this->input->post('email');
-            $save['password']           = $this->input->post('password');
             $save['status']             = '1';
             $insert                     = $this->Admin_model->save_record($save , 'user_info');
        //print_r( $save); exit;
@@ -173,7 +178,7 @@ class pages extends CI_Controller{
         // image uploade code
         $config['upload_path']      = './uploads/';
         $config['allowed_types']    = 'gif|jpg|png';
-        $config['max_size']         = '500';
+        $config['max_size']         = '1500';
         $config['max_width']        = '1024';
         $config['max_height']       = '768';
         $config['overwrite']        = false;

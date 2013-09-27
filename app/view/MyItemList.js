@@ -204,13 +204,8 @@ style: 'background-color:black;',
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               
-                                //console.log(index);
-                               //console.log(index);                                
                                editProductIndex = index;
-                               app.application.redirectTo('mylist');
-                               
-                               
+                               app.application.redirectTo('mylist'); 
                             }
                    
                         }    

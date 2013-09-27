@@ -70,7 +70,7 @@ Ext.define('MarlowApp.view.Snap', {
                         var shopid              = Ext.getCmp("shopid");
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                        var addtolistid        = Ext.getCmp("addtolistid");
+                        var addtolistid         = Ext.getCmp("addtolistid");
                         Ext.getCmp('shops-image').destroy();
                        
                         if(addtolistid){

@@ -56,6 +56,7 @@ class Client_model extends CI_Model {
         {
             $this->db->where('id',$id);
         }
+        $this->db->where('status', '1');
         
     $query = $this->db->get($table);
     return $query->result();    

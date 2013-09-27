@@ -27,10 +27,16 @@ Ext.define('MarlowApp.view.Main', {
 			pack: 'center'
 			},
 			items: [
-			
+				{
+					xtype: 'image',
+					width:218,
+					height:150,
+					src:'resources/images/marlow-back/marlow.png'
+				},
 			]
 			
 		},
+		
         {
             xtype: 'fieldset', 
 			                
@@ -108,7 +114,9 @@ Ext.define('MarlowApp.view.Main', {
                     Ext.Viewport.remove(Ext.getCmp('setsignupbtn'))
                     Ext.Viewport.remove(Ext.getCmp('cancelbtn'))
                     Ext.Viewport.remove(Ext.getCmp('signupbtns'))
-                    var url = 'signup'; 
+                    var url = 'signup';                    
+                    Ext.getCmp('loginpassword').setValue('');
+                    Ext.getCmp('loginusername').setValue('');
                     app.application.redirectTo(url);
                     
                 }

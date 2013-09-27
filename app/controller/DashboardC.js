@@ -6,10 +6,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay'  ],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay', 'EmailPost'  ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
+            sendEmailId:     '#sendEmail',
           	
         },
         control: {
@@ -17,6 +18,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 tap: 'onButtonTapNote',
 				
             },
+            
+            sendEmailId: {
+                tap: 'onButtonTapSendEMail',
+            }
 			
 			
         },
@@ -85,7 +90,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
 		});
 		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
-            Ext.getCmp('productViewPrice').setHtml('<span>' + productViewBrand.price + '</span>');
+            Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
@@ -336,7 +341,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
            {
                note = note.replace('<span>','');
                note = note.replace('</span>','');
-               price = price.replace('<span>','');
+               price = price.replace('<span>\u00A3','');
                price = price.replace('</span>','');                
                Ext.getCmp('useritemnote').setValue(note);
                Ext.getCmp('itemprice').setValue(price);
@@ -359,7 +364,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     selectionInfo = Ext.getStore('SaveInfoStoreId'); 
                     selectionInfo.getAt(0).getData().brand_id  = shopSelectedId;                   
                     SignupInfoStore = Ext.getStore('SignupInfoStore');                 
-                    selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id;                
+                    selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id; 
+                    finalProductId = selectionInfo.getAt(0).getData().product_id; 
+                    finalUserId    = selectionInfo.getAt(0).getData().user_id;
+                    finalBrandId   = selectionInfo.getAt(0).getData().brand_id; 
+                    finalNote      = selectionInfo.getAt(0).getData().note;
+                    finalPrice     = selectionInfo.getAt(0).getData().price; 
+                    finalImage     = selectionInfo.getAt(0).getData().image;                  
                    // console.log(selectionInfo.getAt(0).getData());
                     loadMask() 
                     Ext.Ajax.request({
@@ -373,14 +384,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     callbackKey: 'callback', 
                     timeout : 6000,
                     method: 'POST',               
-                     jsonData: {
-                            "product_id":   selectionInfo.getAt(0).getData().product_id ,
-                            "user_id":      selectionInfo.getAt(0).getData().user_id ,
-                            "brand_id":     selectionInfo.getAt(0).getData().brand_id,
-                            "note":         selectionInfo.getAt(0).getData().note,
-                            'price':        selectionInfo.getAt(0).getData().price,
-                            'image':        selectionInfo.getAt(0).getData().image                            
-                        }, 
+                    jsonData: {
+                        "product_id":   selectionInfo.getAt(0).getData().product_id ,
+                        "user_id":      selectionInfo.getAt(0).getData().user_id ,
+                        "brand_id":     selectionInfo.getAt(0).getData().brand_id,
+                        "note":         selectionInfo.getAt(0).getData().note,
+                        'price':        selectionInfo.getAt(0).getData().price,
+                        'image':        selectionInfo.getAt(0).getData().image                           
+                    },
+                     
                     withCredentials: false,
                     useDefaultXhrHeader: false,
                     success: function(response) {      
@@ -409,6 +421,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
                 });
+                    
+                   
                     var store   = Ext.getStore('all_productsid');
                     Ext.Ajax.request({
                     url: serviceUrl+'get_mylist_record',
@@ -442,7 +456,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
 				
                 Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-                Ext.getCmp('productViewPrice').setHtml('<span>' + selectionInfo.getAt(0).getData().price + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
@@ -456,7 +470,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
               
-             loadMask()       
+            loadMask()       
             Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
@@ -513,7 +527,48 @@ Ext.define('MarlowApp.controller.DashboardC', {
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
 	
-	
-    
+	onButtonTapSendEMail:function()
+    {
+        emailMessage    = Ext.getCmp('emailMessage').getValue();
+        emailTo         = Ext.getCmp('emailTo').getValue();
+        emailSubject    = Ext.getCmp('emailSubject').getValue();
+        loadMask()       
+        Ext.Ajax.request({
+            url: serviceUrl+'send_share_email',
+            headers: {
+                "Content-Type": "application/json",
+                'Accept': 'application/json',                    
+                "cache-control": "no-cache"
+            },
+            callbackKey: 'callback', 
+            timeout : 6000,
+            method: 'POST',                
+            jsonData: {
+                        "emailMessage":     emailMessage ,
+                        "emailTo":          emailTo ,
+                        "finalEmailFrom":   finalEmailFrom ,
+                        "emailSubject":     emailSubject,
+                        "finalProductId":   finalProductId,
+                        'finalImage':       finalImage
+                    },
+            withCredentials: false,
+            useDefaultXhrHeader: false,
+            success: function(response) {      
+                try{
+                    response    = Ext.decode(response.responseText);
+                    var popup = this.getPopup();  
+                    popup.hide({type: 'slideOut', direction: 'right'});                     
+                    hideloadingMask();                          
+                }catch(err){
+                    // console.log(err)
+                    hideloadingMask();
+                    var popup = Ext.getCmp('emailindivisual'); 
+                    popup.hide({type: 'slideOut', direction: 'right'}); 
+                    Ext.getCmp('shareitem').hide({type: 'slideOut', direction: 'right'});                     
+                    Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                }
+            }
+        }); 
+    }    
    
 });

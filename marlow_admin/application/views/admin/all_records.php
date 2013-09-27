@@ -86,7 +86,7 @@
                                 <tr>
                                     <td><?php echo $listing->id;?></td>
                                     <td><?php   $user_namee = $this->Admin_model->get_records('user_info',$listing->user_id) ;
-                                                if(!empty($user_namee)){ echo $user_namee['0']->fname; }
+                                                if(!empty($user_namee)){ echo $user_namee['0']->fname.' '.$user_namee['0']->lname; }
                                                 ?>
                                     </td>
                                     <td><?php   $shop_name = $this->Admin_model->get_records('shops',$listing->brand_id); 
