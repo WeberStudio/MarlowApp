@@ -1,0 +1,10 @@
+@mixin auto-resizer {
+
+    .navigation-icons {
+        
+        display: block;
+        max-height:80px;
+        height:auto; 
+        margin-right: 5px;
+    }
+}

@@ -18,7 +18,7 @@ Ext.define('MarlowApp.view.EmailPost',{
             {
                 xtype: 'toolbar',
                 baseCls: 'custom-social-toolbar',
-                //style: 'background-color: white;',
+                style: 'padding-top: 5px;',
                 docked: 'top',
                 title: 'Email',
                 layout: {
@@ -35,11 +35,11 @@ Ext.define('MarlowApp.view.EmailPost',{
                         cls: 'custom-button',
                         style: 'color: #258dc8; margin-left: -20px;',
                     },
-					{
-						xtype: 'image',
-						html: '<img src = "resources/images/social/1-gray.png" style = "margin-left: -120px; margin-top: 8px;">',
-						
-					},
+                    {
+                        xtype: 'image',
+                        html: '<img src = "resources/images/social/1-gray.png" style = "margin-left: -100px; margin-bottom: -17px;">',
+                        
+                    },
                     {
                         xtype: 'button',
                         align: 'right',
@@ -100,7 +100,6 @@ Ext.define('MarlowApp.view.EmailPost',{
                         docked: 'left',
                         width: '100%' ,
                         flex: 2,
-						style: 'padding: 0px; margin: 0px; height: 20px; border-radius: 10px;',
                         cls: 'custom-text-field-dark',
                         
                     },
@@ -116,7 +115,7 @@ Ext.define('MarlowApp.view.EmailPost',{
             {
                 xtype: 'container',
                 layout: 'hbox',
-                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                style: 'padding-top: 10px;',
                 items: [
                     {
                         html: 'Subject',
@@ -125,12 +124,11 @@ Ext.define('MarlowApp.view.EmailPost',{
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
                     },
                     {
-                       	xtype: 'textfield',
+                       xtype: 'textfield',
                         docked: 'left',
-                        style: 'padding: 0px; margin: 0px; height: 20px; border-radius: 10px;',
-                        cls: 'custom-text-field-light',
+                        width: '100%' ,
                         flex: 2,
-                        
+                        cls: 'custom-text-field-light',
                         
                     },
                     {

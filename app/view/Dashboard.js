@@ -3,7 +3,7 @@ Ext.define('MarlowApp.view.Dashboard', {
     requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboardView',
     config: {
-    style: 'background: url("resources/images/marlow-back/marlow-night.gif")',   
+    style: 'background: url("resources/images/marlow-back/home-night.gif"); min-height: 426px; min-width: 320px; height: auto; width: auto',   
         fullscreen: true,
         items: [
             {
@@ -13,7 +13,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                     {
                         xtype: 'image',
                         layout: 'fit',
-                        html: '<img src = "resources/images/marlow-back/marlow.png">',
+                        html: '<img src = "resources/images/marlow-back/marlow-night.png" style = "width: 300px; height: 200px;">',
 						
                         flex: 1,
                     },
@@ -30,18 +30,18 @@ Ext.define('MarlowApp.view.Dashboard', {
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/aa.png" >',
+                        html: '<img src = "resources/images/marlow/camera-white-icon.png" style = "width: 50px; height: 50px;">',
                         align: 'middle',
-                        style: 'padding-right: 280px;',
+                        style: 'padding-right: 150px;',
                         flex: 1,
                     },
                     {
                         xtype: 'button',
                         text: 'SNAP IT',
+                        baseCls: 'null',
                         centered: true,
-                        //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 150px;',
+                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {
@@ -82,18 +82,18 @@ Ext.define('MarlowApp.view.Dashboard', {
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/bb.png">',
+                        html: '<img src = "resources/images/marlow/my-list-white-icon.png" style = "width: 50px; height: 50px;">',
                         align: 'middle',
-                        style: 'padding-right: 280px;',
+                        style: 'padding-right: 150px;',  
                         flex: 1,
                     },
                     {
                         xtype: 'button',
                         text: 'SHOPS',
+                        baseCls: 'null', 
                         centered: true,
-                        //align: 'right',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
+                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 100px;',
                         flex: 1,
                         handler:function()
                         {
@@ -114,18 +114,18 @@ Ext.define('MarlowApp.view.Dashboard', {
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/cc.png">',
+                        html: '<img src = "resources/images/marlow/shops-white-icon.png" style = "width: 50px; height: 50px;">',
                         align: 'middle',
-                        style: 'padding-right: 280px;',
+                        style: 'padding-right: 150px;',  
                         flex: 1,
                     },
                     {
                         xtype: 'button',
                         text: 'MY LIST',
                         centered: true,
-                        //align: 'right',
+                        baseCls: 'null',
                         docked: 'right',
-                        style: 'background-image: url("resources/images/marlow-back/marlow-night.gif"); font-family: LeagueGothicRegular; color: white; font-size: 60px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 160px;',
+                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {

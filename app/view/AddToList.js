@@ -35,7 +35,8 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;">',
+                        cls: 'navigation-icons',
+						html: '<img src = "resources/images/marlow-icons/snap-it-active.png">',
 						iconMask: true,
 						id: 'snap-it-image',
 						listeners: {
@@ -66,12 +67,13 @@ Ext.define('MarlowApp.view.AddToList', {
 							
 							},
 							},
-					},
+					},                                                
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+						html: '<img src = "resources/images/marlow-icons/shops-disabled.png">',
 						iconMask: true,
+                        cls: 'navigation-icons',
 						id: 'shops-image',
 						listeners: {
 							tap: function() {
@@ -106,8 +108,9 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png">',
 						iconMask: true,
+                        cls: 'navigation-icons',
 						id: 'my-list-image',
 						listeners: {
 							tap: function() {
@@ -142,7 +145,8 @@ Ext.define('MarlowApp.view.AddToList', {
                     {
                         xtype: 'image',
                         iconAlign: 'center',
-                        html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
+                        cls: 'navigation-icons',
+                        html: '<img src = "resources/images/marlow-icons/info-disabled.png" >',
                         iconMask: true,
                         listeners: {
                             tap: function() {
@@ -218,7 +222,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'image',
                         id:'productViewImage',
                         id:'snapId',
-                        html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                        html: '<img src = "resources/images/sample.jpg" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
                     },
                     {
                         xtype: 'panel',

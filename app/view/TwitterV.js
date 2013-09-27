@@ -20,6 +20,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 				baseCls: 'custom-social-toolbar',
 				docked: 'top',
 				title: 'Twitter',
+                style: 'padding-top: 5px;',     
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -36,7 +37,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 					},
 					{
 						xtype: 'image',
-						html: '<img src = "resources/images/social/2-gray.png" style = "margin-left: -130px; margin-top: 8px;">',
+						html: '<img src = "resources/images/social/2-gray.png" style = "margin-left: -120px; margin-bottom: -17px;">',
 						
 					},
 					{
@@ -114,7 +115,7 @@ Ext.define('MarlowApp.view.TwitterV',{
             {
                 xtype: 'container',
                 layout: 'hbox',
-                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                style: 'padding-top: 10px;',
                 items: [
                     {
                         html: 'Location',

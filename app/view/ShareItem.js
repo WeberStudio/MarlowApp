@@ -8,9 +8,10 @@ Ext.define('MarlowApp.view.ShareItem',{
 		centered: true,  
 		modal: true,  
 		height: 260,  
-		width: 320,  
+		width: 300,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,  
+        scroller: 'verticle',
 		style: 'border-radius: 10px; ',
 		items:[
 		{
@@ -19,7 +20,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 			title: 'Share this item',
 			baseCls: 'custom-share-toolbar',
 			align: 'right',
-			style: 'margin-right: -30px;',
+			style: 'background: url("resources/images/template/share-toolbar.png") repeat; height: 260; widht: 350; border-radius: 10px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;' ,
 			layout: {
 				pack: 'justify',
 				type: 'hbox'
