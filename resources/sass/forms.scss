@@ -73,7 +73,7 @@
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));
-		
+		border-radius: 0px;
 	}
 	
 	.custom-text-field-dark .x-input-el  {
@@ -81,14 +81,14 @@
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#e5e5e5), color-stop(100%,#ededed), color-stop(100%,#fefefe));
-		
+		border-radius: 0px;
 	}
 	.custom-text-field-light .x-input-el  {
 		
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
 		/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(51%,#f9f9f9), color-stop(98%,#f4f4f4), color-stop(100%,#fefefe));
-		
+		border-radius: 0px;
 	} 
 	
 }

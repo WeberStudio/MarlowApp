@@ -18,9 +18,9 @@ Ext.define('MarlowApp.view.EmailPost',{
             {
                 xtype: 'toolbar',
                 baseCls: 'custom-social-toolbar',
-                style: 'padding-top: 5px;',
                 docked: 'top',
                 title: 'Email',
+                style: 'padding-top: 5px;',   
                 layout: {
                     pack: 'justify',
                     type: 'hbox'
@@ -92,7 +92,7 @@ Ext.define('MarlowApp.view.EmailPost',{
             },
             {
                 xtype: 'container',
-                layout: 'fit',
+                layout: 'hbox',
                 style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
                 items: [
                     {
@@ -103,11 +103,12 @@ Ext.define('MarlowApp.view.EmailPost',{
                     },
                     {
                        xtype: 'textfield',
-                        id: 'emailTo',   
-                        docked: 'left',
-                        width: '100%' ,
-                        flex: 2,
-                        cls: 'custom-text-field-dark',
+                       id: 'emailTo',   
+                       docked: 'left',
+                       height: 20, 
+                       width: '80%',                      
+                       flex: 2,
+                       cls: 'custom-text-field-dark',
                         
                     },
                     {
@@ -115,7 +116,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px;',
+                        style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
             },
@@ -125,17 +126,19 @@ Ext.define('MarlowApp.view.EmailPost',{
                 style: 'padding-top: 10px;',
                 items: [
                     {
+                        html: 'Subject',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
                     },
                     {
-                       xtype: 'textfield',
+                        xtype: 'textfield',
                         id: 'emailSubject',                        
                         docked: 'left',
-                        width: '100%' ,
+                        height: 20,
+                        width: '60%' ,
                         flex: 2,
-                        cls: 'custom-text-field-light',
+                        cls: 'custom-text-field-dark',
                         
                     },
                     {
@@ -143,7 +146,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px;',
+                        style: 'margin-top: -6px; height: 40px; width: 40px;',          
                     }
                 ]
             }
