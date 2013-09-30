@@ -48,10 +48,30 @@ Ext.define('MarlowApp.view.EmailPost',{
                         //action: 'hide',
                         cls: 'custom-button',
                         style: 'color: #258dc8; margin-right: -20px;',
-                        /*handler:function()
+                       /* handler:function()
                         {
-                            alert(Ext.getCmp('emailTo').getValue());                        
-                        }*/
+                            email   = Ext.getCmp('emailTo').getValue();  
+                                 
+                            if(email.length == 0)
+                            {
+                                     alert(email.length);
+                                Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
+                                return false    
+                            } 
+                             return flase;   
+                           
+                            if(/[ ]/.test(email))
+                            {
+                                Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
+                                return false;
+                            }
+                          var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                          if(!(email_re.test(email))) 
+                            {
+                                Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
+                                return false;
+                            } 
+                        }  */
                     }
                 ]
             },

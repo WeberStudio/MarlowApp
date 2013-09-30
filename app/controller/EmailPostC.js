@@ -29,6 +29,9 @@ Ext.define('MarlowApp.controller.EmailPostC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
 		popup.show();
+        
+        Ext.getCmp('emailMessage').setValue(finalNote);
+       
         //Ext.getCmp('emailMessage').setValue() =  finalNote;  
 	},  
 	hide: function(){           

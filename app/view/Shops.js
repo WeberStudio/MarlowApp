@@ -143,7 +143,7 @@ Ext.define('MarlowApp.view.Shops', {
 					listeners: {
 						tap: function() {
                         
-                       var shopid              = Ext.getCmp("shopid");
+                       var shopid               = Ext.getCmp("shopid");
                         var snapViewId          = Ext.getCmp("snapViewId");
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                         var addtolistid         = Ext.getCmp("addtolistid");   

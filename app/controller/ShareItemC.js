@@ -23,7 +23,8 @@ Ext.define('MarlowApp.controller.ShareItemC',{
 	showPopup: function(){  
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
-		popup.show();  
+		popup.show();        
+      
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  
