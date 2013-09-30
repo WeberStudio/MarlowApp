@@ -223,7 +223,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                                Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">')
                                Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">')
                            }
-                        //console.log(store.setData(response));
+                       
                     }catch(err){
                         hideloadingMask();   
                         // console.log(err)
@@ -233,7 +233,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     failure: function(response) {
                     //response = Ext.decode(response.responseText)
                     Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
-                    },
+                    },  
                     callback:function(response)
                     {
                     //Ext.Msg.alert('', 'Server is not responding please try again'); 
@@ -561,6 +561,26 @@ Ext.define('MarlowApp.controller.DashboardC', {
         emailMessage    = Ext.getCmp('emailMessage').getValue();
         emailTo         = Ext.getCmp('emailTo').getValue();
         emailSubject    = Ext.getCmp('emailSubject').getValue();
+        
+                                 
+        if(emailTo.length == 0)
+        {
+               
+            Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
+            return false;    
+        }
+        if(/[ ]/.test(emailTo))
+        {
+            Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
+            return false;
+        }
+        var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!(email_re.test(emailTo))) 
+        {
+            Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
+            return false;
+        }  
+        
         loadMask()       
         Ext.Ajax.request({
             url: serviceUrl+'send_share_email',
@@ -586,13 +606,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 try{
                     response    = Ext.decode(response.responseText);
                     var popup = this.getPopup();  
-                    popup.hide({type: 'slideOut', direction: 'right'});                     
+                    popup.hide({type: 'slideOut', direction: 'right'}); 
+                    Ext.getCmp('emailMessage').setValue() = '';
+                    Ext.getCmp('emailTo').setValue() = '';
+                    Ext.getCmp('emailSubject').setValue() = '';                    
                     hideloadingMask();                          
                 }catch(err){
                     // console.log(err)
                     hideloadingMask();
+                    
                     var popup = Ext.getCmp('emailindivisual'); 
-                    popup.hide({type: 'slideOut', direction: 'right'}); 
+                    popup.hide({type: 'slideOut', direction: 'right'});
+                   
+                    
                     Ext.getCmp('shareitem').hide({type: 'slideOut', direction: 'right'});                     
                     Ext.Msg.alert('No internet connection available', 'No internet connection available')
                 }
