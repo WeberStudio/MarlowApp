@@ -24,19 +24,19 @@ style: 'background-color:black;',
                             {
                                 xtype: 'button',
                                 align: 'left',
-                                text: '<span style = "font-size: 22px; font-family: courier new; font-weight: bolder; padding-right: 2px;"> </span> ',
+                                text: '',
                                 cls: 'custom-button',
                                 itemId: 'loginButton',
                             },
                             {    
                                 xtype: 'button',
-                                text: '<span style = "font-size: 18px; font-weight: lighter;">Edit</span> ',
+                                text: 'Edit ',
                                 align: 'right',
                                 cls: 'custom-button',
 								handler:function()
 								{
                                      
-                                    var myItemListViewId              = Ext.getCmp("myitemlistviewId");
+                                    var myItemListViewId = Ext.getCmp("myitemlistviewId");
                                     myItemListViewId.destroy();
 									app.application.redirectTo('deleteitems');
 									

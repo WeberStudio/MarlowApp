@@ -18,7 +18,7 @@ Ext.define('MarlowApp.controller.PinterestC',{
 			},  
 			'button[action=hide]':{  
 				tap: 'hide'  
-			}  
+			},
 		});  
 	},  
 	showPopup: function(){  
@@ -29,5 +29,7 @@ Ext.define('MarlowApp.controller.PinterestC',{
 	hide: function(){           
 		var popup = this.getPopup();  
 		popup.hide({type: 'slideOut', direction: 'right'});  
-	}  
+	}
+    
+   
 });  

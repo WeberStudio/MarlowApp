@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>MarlowApp</title>
-   <!-- <style type="text/css">
+   <!--  <style type="text/css">
          /**
          * Example of an initial loading indicator.
          * It is recommended to keep this as minimal as possible to provide instant feedback
@@ -48,9 +48,18 @@
                 opacity: 0.8
             }
         }
-    </style> -->
+    </style>  -->   
     <!-- The line below must be kept intact for Sencha Command to build your application -->
     <script id="microloader" type="text/javascript" src="touch/microloader/development.js"></script>
+    <script type="text/javascript">
+        (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+        }(document));
+    </script>
     </head>
 <body>
  <div id="fb-root"></div> 
