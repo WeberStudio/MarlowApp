@@ -85,7 +85,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                 items: [
                     {
                         xtype: 'textareafield',
-                         id:    'emailMessage',   
+                        id:    'emailMessage',   
                         docked: 'left',
                         cls: 'custom-text-fieldarea',
                         width: 250,
@@ -118,6 +118,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                     {
                         html: 'To',
                         docked: 'left',
+                        id: 'email-to',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
                     },
@@ -148,6 +149,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                     {
                         html: 'Subject',
                         docked: 'left',
+                        id: 'email-subject',   
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
                     },

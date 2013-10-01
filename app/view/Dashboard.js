@@ -156,10 +156,6 @@ Ext.define('MarlowApp.view.Dashboard', {
                     }    
                 ]
             },
-			//{
-//				xtype: 'image',
-//				html: '<img src = "resources/images/marlow-back/marlow-night.gif" style = "background-size: 100% 100%;">',	
-//			}
         ]
     }
 });

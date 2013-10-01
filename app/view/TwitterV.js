@@ -4,8 +4,8 @@ Ext.define('MarlowApp.view.TwitterV',{
 	xtype: 'twitterpopup',
 	
 	config:{
-		
-		itemId: 'twitterpopup',  
+		  
+        id: 'twitterpopup',
 		floating: true,  
 		centered: true,
 		modal: true,  
@@ -60,6 +60,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 				items: [
 					{
 						xtype: 'textareafield',
+                        id:    'twitterdesc',
 						docked: 'left',
 						cls: 'custom-text-fieldarea',
 						width: 250,
@@ -91,12 +92,14 @@ Ext.define('MarlowApp.view.TwitterV',{
                 items: [
                     {
                         html: 'Account',
+                        id: 'account-to',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
                     },
                     {
                         html: 'example@example.com',
+                        id: 'account-info',
                         width: 200,
                         docked: 'left',
                         flex: 1,
@@ -119,6 +122,7 @@ Ext.define('MarlowApp.view.TwitterV',{
                 items: [
                     {
                         html: 'Location',
+                        id: 'location-to',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
@@ -126,6 +130,7 @@ Ext.define('MarlowApp.view.TwitterV',{
                     {
                         html: 'example@exaasdadasdsadmple.com',
                         width: 200,
+                        id: 'location-info',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',

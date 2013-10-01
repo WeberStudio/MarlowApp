@@ -9,6 +9,7 @@ Ext.define('MarlowApp.view.AddToList', {
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
+        style: 'background-color: black;',
         items: [ 
             {
                 xtype: 'toolbar',
@@ -35,7 +36,6 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-                        cls: 'navigation-icons',
 						html: '<img src = "resources/images/marlow-icons/snap-it-active.png">',
 						iconMask: true,
 						id: 'snap-it-image',
@@ -73,7 +73,6 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/shops-disabled.png">',
 						iconMask: true,
-                        cls: 'navigation-icons',
 						id: 'shops-image',
 						listeners: {
 							tap: function() {
@@ -110,7 +109,6 @@ Ext.define('MarlowApp.view.AddToList', {
 						iconAlign: 'center',
 						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png">',
 						iconMask: true,
-                        cls: 'navigation-icons',
 						id: 'my-list-image',
 						listeners: {
 							tap: function() {
@@ -154,7 +152,6 @@ Ext.define('MarlowApp.view.AddToList', {
                     {
                         xtype: 'image',
                         iconAlign: 'center',
-                        cls: 'navigation-icons',
                         html: '<img src = "resources/images/marlow-icons/info-disabled.png" >',
                         iconMask: true,
                         listeners: {
@@ -170,7 +167,7 @@ Ext.define('MarlowApp.view.AddToList', {
                 xtype: 'toolbar',
                 docked: 'bottom',
                 ui: 'white',
-                cls: 'bottom-toolbar',                
+                cls: 'bottom-up-toolbar',                
                 layout: {
                     pack: 'justify',
                     type: 'hbox'
@@ -181,6 +178,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Scan another item',
+                        id: 'share-left-button',
                         cls: 'custom-white-button',
                         handler:function()
                         {
@@ -217,8 +215,9 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Share this item',
+                        id: 'share-right-button',       
                         cls: 'custom-white-button',
-                        action: 'shareitem',
+                        action: 'showpinterest',
                     }
                 ]
             },
@@ -236,7 +235,7 @@ Ext.define('MarlowApp.view.AddToList', {
                     {
                         xtype: 'panel',
                         id:    'productViewNote',
-                        baseCls: 'overlapped-msg',    
+                        baseCls: 'overlapped-msg', 
                         centered: true,
                         html: '<span> Saw this and thought Bob might like it? </span>',
                                                 

@@ -5,7 +5,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 	
 	config:{
 		
-		itemId: 'pinterestpopup',  
+		id: 'pinterestpopup',  
 		floating: true,  
 		centered: true,
 		modal: true,  
@@ -70,9 +70,9 @@ Ext.define('MarlowApp.view.PinterestV',{
 					{
 						xtype: 'textareafield',
 						docked: 'left',
+                        id: 'pinterestdesc',
 						cls: 'custom-text-fieldarea',
 						width: 250,
-                        id: 'postDesc',
 						height: 120,
 					},
 					{
@@ -104,6 +104,7 @@ Ext.define('MarlowApp.view.PinterestV',{
                     {
                         html: 'Account',
                         docked: 'left',
+                        id: 'account-to',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
                     },
@@ -111,6 +112,7 @@ Ext.define('MarlowApp.view.PinterestV',{
                         html: 'example@example.com',
                         width: 200,
                         docked: 'left',
+                        id: 'account-info', 
                         flex: 1,
                         style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
                     },
@@ -131,6 +133,7 @@ Ext.define('MarlowApp.view.PinterestV',{
                     {
                         html: 'Location',
                         docked: 'left',
+                        id: 'location-to', 
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
                     },
@@ -138,6 +141,7 @@ Ext.define('MarlowApp.view.PinterestV',{
                         html: 'example@exaasdadasdsadmple.com',
                         width: 200,
                         docked: 'left',
+                        id: 'location-info', 
                         flex: 1,
                         style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
                     },

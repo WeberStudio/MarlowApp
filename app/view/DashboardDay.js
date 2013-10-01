@@ -2,46 +2,57 @@ Ext.define('MarlowApp.view.DashboardDay', {
     extend: 'Ext.Container', 
     requires: ['Ext.Img', 'Ext.dataview.List'],
     xtype:'dashboarddayView',
+    id: 'dashboard-day',
     config: {
-    style: 'background: url("resources/images/marlow-back/home-day.gif") 100% 100% repeat;',   
+    style: 'background: url("resources/images/marlow-back/home-day") 100% 100%',
+     
         fullscreen: true,
         items: [
             {
                 xtype: 'container',
-                layout: 'auto',
+                layout:  'fit',
+                
                 items: [
                     {
                         xtype: 'image',
-                        layout: 'fit',
-                        html: '<img src = "resources/images/marlow-back/marlow-day.png" style = "width: 300px; height: 200px;">',
-                        
+                        layout: 'auto',
+                        centered: true, 
+                        src: 'resources/images/marlow-back/marlow-day.png',
+                        id: 'dashboard-logo-day',       
+                        height: 200,
+                        width: 300,
                         flex: 1,
                     },
                     {
-                        html: '<br><br>',    
+                        html: '<br><br><br>',    
                     }    
                 ]    
             },
             {
                 xtype: 'container',
                 layout: 'fit',
-                
+                id: 'after-logo-container-day',
+                style: 'margin-top: 150px;',     
                 items: [
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/camera-blue-icon.png" style = "width: 50px; height: 50px;">',
-                        align: 'middle',
-                        style: 'padding-right: 150px;',
+                        id: 'dashboard-snapit-icon-day',
+                        src: 'resources/images/marlow/camera-blue-icon.png',
+                        height: 50,
+                        centered: true,
+                        width: 50,
                         flex: 1,
+                        style: 'margin-right: 120px;',
                     },
                     {
                         xtype: 'button',
                         text: 'SNAP IT',
+                        id: 'dashboard-snapit-button-day',
                         baseCls: 'null',
                         centered: true,
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
+                        style: 'font-family: LeagueGothicRegular; font-size: 40px; color: #004a80; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {
@@ -82,18 +93,22 @@ Ext.define('MarlowApp.view.DashboardDay', {
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/shops-blue-icon.png" style = "width: 50px; height: 50px;">',
-                        align: 'middle',
-                        style: 'padding-right: 150px;',  
+                        id: 'dashboard-shops-icon-day',        
+                        src: 'resources/images/marlow/my-list-blue-icon.png',
+                        height: 50,
+                        centered: true,
+                        width: 50,
                         flex: 1,
+                        style: 'margin-right: 120px;',
                     },
                     {
                         xtype: 'button',
                         text: 'SHOPS',
+                        id: 'dashboard-shops-button-day',  
                         baseCls: 'null', 
                         centered: true,
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 100px;',
+                        style: 'font-family: LeagueGothicRegular;font-size: 40px; color: #004a80; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {
@@ -102,7 +117,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         }
                     },
                     {
-                        html: '<br><br>',    
+                        html: '<br><br><br><br><br>',      
                     }    
                 ]
             },
@@ -114,18 +129,22 @@ Ext.define('MarlowApp.view.DashboardDay', {
                     
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/marlow/my-list-blue-icon.png" style = "width: 50px; height: 50px;">',
-                        align: 'middle',
-                        style: 'padding-right: 150px;',  
+                        id: 'dashboard-my-list-icon-day',        
+                        src: 'resources/images/marlow/shops-blue-icon.png',
+                        height: 50,
+                        centered: true,
+                        width: 50,
                         flex: 1,
+                        style: 'margin-right: 120px;',
                     },
                     {
                         xtype: 'button',
                         text: 'MY LIST',
+                        id: 'dashboard-my-list-button-day',  
                         centered: true,
                         baseCls: 'null',
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -40px; margin-left: 120px;',
+                        style: 'font-family: LeagueGothicRegular; color: #004a80; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
                         flex: 1,
                         handler:function()
                         {

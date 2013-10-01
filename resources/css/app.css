@@ -6192,7 +6192,7 @@ body.x-desktop {
   border: none !important;
   color: #258dc8 !important;
   background-color: inherit !important;
-  font-size: 23px;
+  font-size: 20px;
 }
 .custom-white-button .x-button-label, .custom-white-button .x-badge {
   font-family: HelveticaLight;
@@ -6302,6 +6302,11 @@ color               : black !important;
   border-top: #C5C5C5 1px solid !important;
 }
 
+.bottom-up-toolbar {
+  height: 20px !important;
+  border-top: #C5C5C5 1px solid !important;
+}
+
 .custom-share-toolbar {
   height: 20%;
   text-align: right;
@@ -6398,6 +6403,7 @@ color               : black !important;
   /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9dddc), color-stop(3%,#d9f7f6), color-stop(50%,#d8e1e7), color-stop(53%,#d9f7f6), color-stop(100%,#dce6f4)) no-repeat;*/
   /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));*/
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(51%, #f9f9f9), color-stop(98%, #f4f4f4), color-stop(100%, #fefefe));
+  border-radius: 0px;
 }
 
 .custom-page-bg {
@@ -6405,7 +6411,7 @@ color               : black !important;
 }
 
 .overlapped-brand {
-  font-size: 52px;
+  font-size: 26px;
   color: white;
   font-family: HelveticaBold;
   text-align: center;
@@ -6413,7 +6419,7 @@ color               : black !important;
 }
 
 .overlapped-price {
-  font-size: 52px;
+  font-size: 26px;
   color: white;
   font-family: HelveticaBold;
   text-align: center;
@@ -6421,7 +6427,7 @@ color               : black !important;
 }
 
 .overlapped-msg {
-  font-size: 34px;
+  font-size: 16px;
   color: white;
   font-weight: lighter;
   text-align: center;

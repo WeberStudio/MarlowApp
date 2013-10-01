@@ -27,7 +27,26 @@ Ext.define('MarlowApp.controller.EmailPostC',{
         //Ext.getCmp('finalImage').gsetValue() = finalImage;
            
 		var popup = this.getPopup();  
-		Ext.Viewport.add(popup);  
+		Ext.Viewport.add(popup);
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight; 
+        //alert('w: ' + screenWidth + ' h: ' +  screenHeight);
+        if (Ext.os.is.Android) {            
+
+            alert('w: ' + screenWidth + ' h:' + screenHeight);
+            Ext.getCmp('emailindivisual').setStyle('width:  ' + ((screenWidth / 1.0 ) * 0.9) + 'px;');     
+            Ext.getCmp('emailMessage').setStyle('width:  ' + (screenWidth / 3.07 ) + 'px;');          
+            Ext.getCmp('email-to').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 50) + 'px;');     
+            Ext.getCmp('email-subject').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 50) + 'px;');     
+        }
+        else if(Ext.os.is.iOS) {
+            
+             alert('w: ' + screenWidth + ' h:' + screenHeight);
+            Ext.getCmp('emailindivisual').setStyle('width:  ' + ((screenWidth / 1.0 ) * 0.9) + 'px;');     
+            Ext.getCmp('emailMessage').setStyle('width:  ' + (screenWidth / 3.07 ) + 'px;');          
+            Ext.getCmp('email-to').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 50) + 'px;');     
+            Ext.getCmp('email-subject').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 50) + 'px;');     
+        }  
 		popup.show();
         
         Ext.getCmp('emailMessage').setValue(finalNote);
