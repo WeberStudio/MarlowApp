@@ -17,10 +17,11 @@ Ext.define('MarlowApp.view.ShareItem',{
 		{
             xtype: 'toolbar',
             docked: 'top',
-			title: 'Share this item',
+            id: 'share-toolbar',
+			title: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Share this item',
 			baseCls: 'custom-share-toolbar',
 			align: 'right',
-			style: 'background: url("resources/images/template/share-toolbar.png") repeat; height: 260; widht: 350; border-radius: 10px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;' ,
+			style: 'background: url("resources/images/template/share-toolbar.png") repeat; height: 260; widht: 500; border-radius: 10px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;' ,
 			layout: {
 				pack: 'justify',
 				type: 'hbox'
@@ -29,6 +30,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 				{
 					xtype: 'button',
 					align: 'left',
+                    id: 'cancel-button',
                     text: 'Cancel',
 					style: 'color: #258dc8;',
 					action: 'hide',

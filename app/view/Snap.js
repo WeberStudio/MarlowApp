@@ -180,7 +180,7 @@ Ext.define('MarlowApp.view.Snap', {
 		{
 		    xtype: 'img',
 		    id:'snapId',
-		    html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+		    html: '<img src = "resources/images/bean.jpg" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
 		    //store :'allshopsStoreId',
 		    //itemTpl: '<div class="contact">{name} </div>',
 		    //indexBar: true,

@@ -5,7 +5,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 	
 	config:{
 		
-		itemId: 'facebookpopup',  
+		id: 'facebookpopup',  
 		floating: true,  
 		centered: true,
 		modal: true,  
@@ -67,6 +67,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 						xtype: 'textareafield',
                         id: 'facebookNote',
 						docked: 'left',
+                        id: 'facebookdesc',
 						cls: 'custom-text-fieldarea',
 						width: 250,
 						height: 120,
@@ -98,6 +99,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                 items: [
                     {
                         html: 'Account',
+                        id: 'account-to',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
@@ -105,17 +107,17 @@ Ext.define('MarlowApp.view.FacebookV',{
                     {
                         html: 'example@example.com',
                         width: 200,
+                        id: 'account-info',   
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
-                        //style: 'font-size: 24px; font-family: HelveticaLight; color: #A0A0A0; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;'
                     },
                     {
                         xtype: 'image',
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px;',
+                        style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
             },
@@ -127,23 +129,24 @@ Ext.define('MarlowApp.view.FacebookV',{
                     {
                         html: 'Location',
                         docked: 'left',
+                        id: 'location-to',
                         flex: 1,
                         style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
                     },
                     {
                         html: 'example@exaasdadasdsadmple.com',
                         width: 200,
+                        id: 'location-info',
                         docked: 'left',
                         flex: 1,
                         style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
-                        //style: 'font-size: 24px; font-family: HelveticaLight; color: #A0A0A0; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;'
                     },
                     {
                         xtype: 'image',
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px;',
+                        style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
             }
