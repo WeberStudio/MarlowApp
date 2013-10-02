@@ -24,7 +24,9 @@ Ext.define('MarlowApp.controller.FacebookC',{
 	showPopup: function(){  
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
-		popup.show();  
+		popup.show();
+        Ext.getCmp('facebookNote').setValue(finalNote);
+        Ext.getCmp('facebookPrice').setHtml(finalPrice);      
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

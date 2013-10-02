@@ -370,8 +370,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalBrandId   = selectionInfo.getAt(0).getData().brand_id; 
                     finalNote      = selectionInfo.getAt(0).getData().note;
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
-                    finalImage     = selectionInfo.getAt(0).getData().image;                  
-                   // console.log(selectionInfo.getAt(0).getData());
+                    finalImage     = selectionInfo.getAt(0).getData().image; 
+                    finalBrandName = shopSelectedName;
+                   //console.log(selectionInfo.getAt(0).getData());
                     loadMask() 
                     Ext.Ajax.request({
                    
