@@ -11,24 +11,6 @@ Ext.define('MarlowApp.view.Signup', {
             docked: 'top',            
             title: '<div class="toolbarLogo">Sign Up Now!</div>'
         },
-		{		
-			xtype: 'container',
-			docked: 'top',
-			layout: {
-			type: 'vbox',
-			align: 'center',
-			pack: 'center'
-			},
-			items: [
-			{
-				xtype: 'image',
-				width:218,
-				height:150,
-				src:'resources/images/marlow-back/marlow.png'
-			}
-			]
-			
-		},
         {
             xtype: 'fieldset',           
             defaults : {

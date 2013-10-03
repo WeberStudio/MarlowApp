@@ -1,58 +1,49 @@
 Ext.define('MarlowApp.view.Dashboard', {
     extend: 'Ext.Container', 
-    requires: ['Ext.Img', 'Ext.dataview.List'],
+    requires: ['Ext.Img'],
     xtype:'dashboardView',
     id: 'dashboard-night',
     config: {
     style: 'background: url("resources/images/marlow-back/home-night.gif") 100% 100%',
+    width: '100%',
+    height: '100%',
      
         fullscreen: true,
         items: [
-            {
+             {
                 xtype: 'container',
-                layout:  'fit',
-                
+                width: '110%',
+                height: '40%',
                 items: [
                     {
                         xtype: 'image',
-                        layout: 'auto',
                         centered: true, 
-                        src: 'resources/images/marlow-back/marlow-night.png',
-                        id: 'dashboard-logo-night',       
-                        height: 200,
-                        width: 300,
-                        flex: 1,
+                        html: '<img src = "resources/images/marlow-back/marlow-night.png" >',
                     },
-                    {
-                        html: '<br><br><br>',    
-                    }    
                 ]    
             },
             {
                 xtype: 'container',
-                layout: 'fit',
-                id: 'after-logo-container',
-                style: 'margin-top: 150px;',     
+                width: '100%',
+                height: '20%',
                 items: [
                     
                     {
                         xtype: 'image',
-                        id: 'dashboard-snapit-icon',
                         src: 'resources/images/marlow/camera-white-icon.png',
-                        height: 50,
+                        height: '40%',
                         centered: true,
-                        width: 50,
+                        width: '40%',      
                         flex: 1,
-                        style: 'margin-right: 120px;',
+                        style: 'margin-right: 40%;',
                     },
                     {
                         xtype: 'button',
                         text: 'SNAP IT',
-                        id: 'dashboard-snapit-button',
-                        baseCls: 'null',
+                        baseCls: 'null', 
                         centered: true,
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
+                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
                         flex: 1,
                         handler:function()
                         {
@@ -80,80 +71,67 @@ Ext.define('MarlowApp.view.Dashboard', {
                             app.application.redirectTo('snapit'); 
                         }
                     },    
-                    {
-                        html: '<br><br>',    
-                    }
                 ]
             },
             {
                 xtype: 'container',
-                layout: 'fit',
-                
+                width: '100%',
+                height: '20%',
                 items: [
                     
-                    {
+                     {
                         xtype: 'image',
-                        id: 'dashboard-shops-icon',        
                         src: 'resources/images/marlow/my-list-white-icon.png',
-                        height: 50,
-                        centered: true,
-                        width: 50,
+                        centered: true,   
+                        height: '40%',      
+                        width: '40%',      
                         flex: 1,
-                        style: 'margin-right: 120px;',
+                        style: 'margin-right: 40%;',
                     },
                     {
                         xtype: 'button',
                         text: 'SHOPS',
-                        id: 'dashboard-shops-button',  
-                        baseCls: 'null', 
+                        baseCls: 'null',
                         centered: true,
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
+                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
                         flex: 1,
-                        handler:function()
+                         handler:function()
                         {
-                            app.application.redirectTo('shops');
-                             
+                             app.application.redirectTo('shops')    
                         }
-                    },
-                    {
-                        html: '<br><br><br><br><br>',      
-                    }    
+                    },    
                 ]
             },
             {
                 xtype: 'container',
-                layout: 'fit',
-                
+                width: '100%',
+                height: '20%',
                 items: [
                     
                     {
                         xtype: 'image',
-                        id: 'dashboard-my-list-icon',        
                         src: 'resources/images/marlow/shops-white-icon.png',
-                        height: 50,
+                        height: '40%',      
                         centered: true,
-                        width: 50,
+                        width: '40%',      
                         flex: 1,
-                        style: 'margin-right: 120px;',
+                        style: 'margin-right: 40%;', 
                     },
                     {
                         xtype: 'button',
                         text: 'MY LIST',
-                        id: 'dashboard-my-list-button',  
                         centered: true,
                         baseCls: 'null',
                         docked: 'right',
-                        style: 'color: white; font-family: LeagueGothicRegular; color: white; font-size: 40px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -4px; margin-left: 120px;',
+                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
                         flex: 1,
+                        
                         handler:function()
                         {
                              app.application.redirectTo('myitemlist')    
                         }
                     },
-                    {
-                        html: '<br><br>',    
-                    }    
                 ]
             },
         ]

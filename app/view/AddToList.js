@@ -217,7 +217,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         text: 'Share this item',
                         id: 'share-right-button',       
                         cls: 'custom-white-button',
-                        action: 'showpinterest',
+                        action: 'shareitem',
                     }
                 ]
             },
