@@ -84,12 +84,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
             else {
 
                 app.application.redirectTo('dashboard');
-            }
+            }*/
         
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            /*if(screenWidth == 320 && screenHeight == 426) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
@@ -104,13 +104,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
             if(screenWidth == 720 && screenHeight == 960) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-            }
+            } */
             if(screenWidth == 320 && screenHeight == 456) {
                 
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/320x456.jpg") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/320x426-night.gif") 100% 100%'); 
             }
         }
-        else if(Ext.os.is.iOS) {
+        /*else if(Ext.os.is.iOS) {
             
             //iphone 5
             if(screenWidth == 640 && screenHeight == 1136) {
@@ -123,7 +123,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
-        } */
+        }  */
        
         //console.log() 
         //Ext.getCmp("ssntxt").blur(); 
@@ -157,7 +157,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
         
-        /*setInterval(function(){
+           /*setInterval(function(){
             if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
 
                 app.application.redirectTo('dashboardd'); 
@@ -165,47 +165,56 @@ Ext.define('MarlowApp.controller.DashboardC', {
             else {
 
                 app.application.redirectTo('dashboard');
-            } 
-        },10000);
-            
+            }
+        },10000);*/
+        
+        /*if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+
+                app.application.redirectTo('dashboardd'); 
+            }
+            else {
+
+                app.application.redirectTo('dashboard');
+            }*/
+        
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            /*if(screenWidth == 320 && screenHeight == 426) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
             if(screenWidth == 320 && screenHeight == 470) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
             if(screenWidth == 480 && screenHeight == 640) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
             if(screenWidth == 720 && screenHeight == 960) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-            }
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+            } */
             if(screenWidth == 320 && screenHeight == 456) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/320x456.jpg") 100% 100%');            
+               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/320x426-day.gif") 100% 100%');           
             }
         }
-        else if(Ext.os.is.iOS) {
+        /*else if(Ext.os.is.iOS) {
             
             //iphone 5
             if(screenWidth == 640 && screenHeight == 1136) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
             
             //iphone 4
             if(screenWidth == 640 && screenHeight == 960) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
-        }*/
+        }  */
         //Ext.getCmp("ssntxt").blur(); 
     },
     

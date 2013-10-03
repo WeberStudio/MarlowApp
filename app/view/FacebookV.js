@@ -94,7 +94,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 					},
 				]	
 			},
-            {
+            /*{
                 xtype: 'container',
                 layout: 'hbox',
                 style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',        
@@ -120,8 +120,8 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-top: -1%; height: 40px; width: 40px;', 
                     }
                 ]
-            },
-            {
+            },*/
+            /*{
                 xtype: 'container',
                 layout: 'hbox',
                 style: 'padding-top: 10px;',
@@ -147,7 +147,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            }*/
 		]
 	}
 });  

@@ -46,21 +46,21 @@ Ext.define('MarlowApp.view.ShareItem',{
 				{
 					xtype: 'button',
                     //text: 'Email',
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; margin-top: -0.3%; background: url("resources/images/template/email1.png"); height: 28%; border-radius: 0px;',
+					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; margin-top: -0.3%; background: url("resources/images/template/email1.png"); height: 30%; border-radius: 0px;',
 					action: 'shareemail',
 
 				},
 				{
 					xtype: 'button',
                     //text: 'Twitter',   
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/twitter1.png"); height: 28%; border-radius: 0px; margin-top: -4%',
+					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/twitter1.png"); height: 30%; border-radius: 0px; margin-top: -4%',
 					action: 'showtwitter', 
 
 				},
 				{
 					xtype: 'button',
                     //text: 'Facebook',   
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/facebook1.png"); height: 28%; border-radius: 0px; margin-top: -4%',
+					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/facebook1.png"); height: 30%; border-radius: 0px; margin-top: -4%',
 					action: 'showfacebook',
 				},
 				{

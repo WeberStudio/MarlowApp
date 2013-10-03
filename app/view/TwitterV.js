@@ -73,7 +73,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 						docked: 'left',
 						cls: 'custom-text-fieldarea',
 						width: '80%',
-                        height: '20%',
+                        height: '40%',
                         style: 'background-color: inherit;',
 					},
 					{
@@ -96,7 +96,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 					},
 				]	
 			},
-            {
+            /*{
                 xtype: 'container',
                 layout: 'hbox',
                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',
@@ -149,7 +149,7 @@ Ext.define('MarlowApp.view.TwitterV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            }*/
 		]
 	}
 });  
