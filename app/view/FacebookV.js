@@ -49,6 +49,12 @@ Ext.define('MarlowApp.view.FacebookV',{
 						//action: 'hide',
 						cls: 'custom-button',
 						style: 'color: #258dc8; margin-right: -20px;',
+                        handler:function() 
+                        {
+                            url =  'https://www.facebook.com/sharer/sharer.php?s=100&p[title]='+finalBrandName+'&p[url]=http://talabeaman.org/&p[summary]='+finalNote+' Price:'+finalPrice+'&p[images][0]=http://talabeaman.org/wp-content/uploads/2013/09/tbm.png';                            
+                            window.open(url,'Facebook Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
+                            return false ;
+                        },
 					}
 				]
 			},

@@ -23,8 +23,10 @@ Ext.define('MarlowApp.controller.TwitterC',{
 	},  
 	showPopup: function(){  
 		var popup = this.getPopup();  
-		Ext.Viewport.add(popup);   
-		popup.show();  
+		Ext.Viewport.add(popup); 
+		popup.show();
+        Ext.getCmp('twitterdesc').setValue(finalNote);
+        Ext.getCmp('twitterPrice').setHtml('<span>\u00A3'+finalPrice+'</span>');  
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

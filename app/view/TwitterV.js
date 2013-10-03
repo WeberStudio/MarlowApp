@@ -49,6 +49,13 @@ Ext.define('MarlowApp.view.TwitterV',{
 						//action: 'hide',
 						cls: 'custom-button',
 						style: 'color: #258dc8; margin-right: -20px;',
+                        handler:function() 
+                        {
+                            //url =  'http://twitter.com/intent/tweet?text= Brand%22'+finalBrandName+'%22 Note:'+finalNote+' Price'+finalPrice;
+                            url =  'http://twitter.com/intent/tweet?text=&lt;h1&gt;finalBrandName&lt;/h1&gt;&lt;br/&gt;finalNote&lt;br/&gt;finalPrice&lt;br/&gt;&lt;img data-role=&quot;user-avatar&quot; src=&quot;http://talabeaman.org/wp-content/uploads/2013/09/tbm.png&quot;&gt;';
+                            window.open(url,'Twitter Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
+                            return false ;
+                        },
 					}
 				]
 			},
@@ -85,6 +92,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 					{
 						html: '<span>118<span>',
 						style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',
+                        id: 'twitterPrice',		
 					},
 				]	
 			},
