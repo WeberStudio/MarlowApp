@@ -62,7 +62,8 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         app = this;
-        serviceUrl          = 'http://localhost/MarlowApp/marlow_admin/client/';
+        //serviceUrl          = 'http://localhost/MarlowApp/marlow_admin/client/';
+        serviceUrl          = 'http://geordie.testbench.co.uk/index.php/client/';        
         snapSrc             = '';
         shopSelectedId      = '';
         shopSelectedName    = ''; 

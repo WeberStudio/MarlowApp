@@ -88,7 +88,8 @@ Ext.define('MarlowApp.view.TwitterV',{
 				items: [
 					{
 						html: '<span>118<span>',
-						style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',		
+						style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',
+                        id: 'twitterPrice',		
 					},
 				]	
 			},

@@ -106,6 +106,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                 items: [
                     {
                         html: '<span>118<span>',
+                        id: 'emailPrice',                        
                         style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',        
                     },
                 ]    

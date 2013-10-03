@@ -163,6 +163,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
+            
+            finalNote           = productViewBrand.note; 
+            finalPrice          = productViewBrand.price;
+            finalBrandName      = productViewBrand.name;  
+            
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
 		}
@@ -413,8 +418,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                note = note.replace('</span>','');
                price = price.replace('<span>\u00A3','');
                price = price.replace('</span>','');                
-               Ext.getCmp('useritemnote').setValue(note);
-               Ext.getCmp('itemprice').setValue(price);
+               Ext.getCmp('useritemnote').setValue(finalNote);
+               Ext.getCmp('itemprice').setValue(finalPrice);
            }
         }
         else
@@ -443,18 +448,20 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalImage     = selectionInfo.getAt(0).getData().image; 
                     finalBrandName = shopSelectedName;
                    //console.log(selectionInfo.getAt(0).getData());
-                    loadMask() 
+                    loadMask();
                     Ext.Ajax.request({
                    
                     url: serviceUrl+'add_product',
                     headers: {
                         "Content-Type": "application/json",
                         'Accept': 'application/json',                    
-                        "cache-control": "no-cache"
+                        "cache-control": "no-cache",                         
                     },
+                     withCredentials: false,
+                     useDefaultXhrHeader: false,
                     callbackKey: 'callback', 
                     timeout : 6000,
-                    method: 'POST',               
+                    method: 'GET',               
                     jsonData: {
                         "product_id":   selectionInfo.getAt(0).getData().product_id ,
                         "user_id":      selectionInfo.getAt(0).getData().user_id ,

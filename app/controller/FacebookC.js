@@ -50,8 +50,8 @@ Ext.define('MarlowApp.controller.FacebookC',{
             Ext.getCmp('location-info').setStyle('width: ' + (screenWidth / 2.2) + 'px; font-size: ' + ((screenWidth +  screenHeight) / 60) + 'px; padding-top: ' + screenHeight / 152  + 'px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;');      
         } 
 		popup.show();
-        Ext.getCmp('facebookNote').setValue(finalNote);
-        Ext.getCmp('facebookPrice').setHtml(finalPrice);      
+        Ext.getCmp('facebookdesc').setValue(finalNote);
+        Ext.getCmp('facebookPrice').setHtml('<span>\u00A3'+finalPrice+'</span>');
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

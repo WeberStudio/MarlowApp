@@ -50,8 +50,9 @@ Ext.define('MarlowApp.controller.EmailPostC',{
 		popup.show();
         
         Ext.getCmp('emailMessage').setValue(finalNote);
-       
-        //Ext.getCmp('emailMessage').setValue() =  finalNote;  
+        Ext.getCmp('emailSubject').setValue(finalBrandName);
+        Ext.getCmp('emailPrice').setHtml('<span>\u00A3'+finalPrice+'</span>'); 
+        
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

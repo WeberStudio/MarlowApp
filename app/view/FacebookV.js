@@ -65,7 +65,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 				items: [
 					{
 						xtype: 'textareafield',
-                        id: 'facebookNote',
+                        
 						docked: 'left',
                         id: 'facebookdesc',
 						cls: 'custom-text-fieldarea',
