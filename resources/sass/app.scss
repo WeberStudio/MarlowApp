@@ -24,7 +24,6 @@ $base-gradient: black;
 @import 'toolbar.scss';
 @import 'forms.scss';
 @import 'page.scss';
-@import 'auto_resizer.scss';
 
 // Custom code goes here..
 
@@ -51,7 +50,6 @@ $base-gradient: black;
 @include toolbar-settings;
 @include form-settings;
 @include page-settings;
-@include auto-resizer;
 
 // Examples of using the icon mixin:
 // @include icon('user');

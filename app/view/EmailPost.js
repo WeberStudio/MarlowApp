@@ -11,8 +11,10 @@ Ext.define('MarlowApp.view.EmailPost',{
         modal: true,  
         showAnimation: { type: 'slide', direction: 'bottom'},  
         styleHtmlContent: true,
-        height: 340,
-        width: 370,
+        height: '70%',
+        width: '92%',
+        maxWidth: 420,
+        maxHeight: 360,
         baseCls: 'custom-social-alert-box',
         items: [
             {
@@ -20,7 +22,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                 baseCls: 'custom-social-toolbar',
                 docked: 'top',
                 title: 'Email',
-                style: 'padding-top: 5px;',   
+                style: 'padding-top: 1%; font-size: 90%; ',   
                 layout: {
                     pack: 'justify',
                     type: 'hbox'
@@ -33,11 +35,11 @@ Ext.define('MarlowApp.view.EmailPost',{
                         text: 'Cancel',
                         action: 'hide',
                         cls: 'custom-button',
-                        style: 'color: #258dc8; margin-left: -20px;',
+                        style: 'color: #258dc8; margin-left: -5%;',
                     },
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/social/1-gray.png" style = "margin-left: -100px; margin-bottom: -17px;">',
+                        html: '<img src = "resources/images/social/1-gray.png" style = "margin-left: -0.2%; margin-bottom: -1%px;">',
                         
                     },
                     {
@@ -88,12 +90,13 @@ Ext.define('MarlowApp.view.EmailPost',{
                         id:    'emailMessage',   
                         docked: 'left',
                         cls: 'custom-text-fieldarea',
-                        width: 250,
-                        height: 120,
+                        width: '80%',
+                        height: '20%',
+                        style: 'background-color: inherit;',
                     },
                     {
                         xtype: 'image',
-                        html: '<img src = "resources/images/guy-dummy.png" style = "height: 120px; width: 80px;">',    
+                        html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',    
                         docked: 'right',
                     }
                 ]
@@ -114,20 +117,19 @@ Ext.define('MarlowApp.view.EmailPost',{
             {
                 xtype: 'container',
                 layout: 'hbox',
-                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',
                 items: [
                     {
                         html: 'To',
                         docked: 'left',
-                        id: 'email-to',
                         flex: 1,
-                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;'
                     },
                     {
                        xtype: 'textfield',
                        id: 'emailTo',   
                        docked: 'left',
-                       height: 20, 
+                       height: '30%', 
                        width: '80%',                      
                        flex: 2,
                        cls: 'custom-text-field-dark',
@@ -138,7 +140,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px; height: 40px; width: 40px;',
+                         style: 'margin-top: -1%;  height: 40px; width: 40px;',
                     }
                 ]
             },
@@ -152,14 +154,14 @@ Ext.define('MarlowApp.view.EmailPost',{
                         docked: 'left',
                         id: 'email-subject',   
                         flex: 1,
-                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 25px;'
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;'
                     },
                     {
                         xtype: 'textfield',
                         id: 'emailSubject',                        
                         docked: 'left',
-                        height: 20,
-                        width: '60%' ,
+                        height: '30%', 
+                        width: '65%',
                         flex: 2,
                         cls: 'custom-text-field-dark',
                         

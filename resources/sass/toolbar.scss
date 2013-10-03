@@ -28,9 +28,10 @@
 		
 		height: 20%; 
 		text-align: right;
-		font-size: 18px;
+		font-size: 80%;
 		font-family: HelveticaLight;
 		font-weight: lighter;
+        border-bottom: #C0C0C0 solid 1px;   
 	}
 	
 	.delete-prompt-box  {
@@ -46,10 +47,12 @@
 	.custom-social-toolbar 
 	{
         height: 15%;
-        padding: 27px; 
+        padding: 6%; 
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));
-		border-radius: 10px;
+		border-radius: 10%;
 		border-bottom-left-radius: 0px;
+        font-family: HelveticaLight;
+        font-weight: lighter;
 		border-bottom-right-radius: 0px;
 		border-bottom: #C0C0C0 solid 1px;
         

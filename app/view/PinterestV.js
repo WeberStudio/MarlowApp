@@ -11,8 +11,10 @@ Ext.define('MarlowApp.view.PinterestV',{
 		modal: true,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,
-		height: 340,
-		width: 370,
+		height: '70%',
+        width: '92%',
+        maxWidth: 420,
+        maxHeight: 360,  
 		baseCls: 'custom-social-alert-box',
 		items: [
 			{
@@ -20,7 +22,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 				baseCls: 'custom-social-toolbar',
 				docked: 'top',
 				title: 'Pinterest',
-                style: 'padding-top: 5px;',     
+                style: 'padding-top: 1%; font-size: 90%; ',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -33,11 +35,11 @@ Ext.define('MarlowApp.view.PinterestV',{
 						text: 'Cancel',
 						action: 'hide',
 						cls: 'custom-button',
-						style: 'color: #258dc8; margin-left: -20px;',
+						style: 'color: #258dc8; margin-left: -5%;',
 					},
 					{
 						xtype: 'image',
-						html: '<img src = "resources/images/social/4-gray.png" style = "margin-left: -140px; margin-bottom: -17px;">',
+						html: '<img src = "resources/images/social/4-gray.png" style = "margin-left: -0.2%; margin-bottom: -1%px;">',
 						
 					},
 					{
@@ -72,13 +74,14 @@ Ext.define('MarlowApp.view.PinterestV',{
 						docked: 'left',
                         id: 'pinterestdesc',
 						cls: 'custom-text-fieldarea',
-						width: 250,
-						height: 120,
+						width: '80%',
+                        height: '20%',
+                        style: 'background-color: inherit;',
 					},
 					{
 						xtype: 'image',
                         id: 'itemimage',
-						html: '<img src = "resources/images/guy-dummy.png" style = "height: 120px; width: 80px;">',	
+						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
 					}
 				]
@@ -92,36 +95,34 @@ Ext.define('MarlowApp.view.PinterestV',{
 					{
 						html: '118',
                         id: 'itemprice',
-						style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',		
+						style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',		
 					},
 				]	
 			},
             {
                 xtype: 'container',
                 layout: 'hbox',
-                style: 'padding-top: 10px; border-bottom: 1px solid #C5C5C5;',
+                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;', 
                 items: [
                     {
                         html: 'Account',
                         docked: 'left',
-                        id: 'account-to',
                         flex: 1,
-                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;'
                     },
                     {
                         html: 'example@example.com',
-                        width: 200,
+                        width: '60%',
                         docked: 'left',
-                        id: 'account-info', 
-                        flex: 1,
-                        style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
+                        flex: 1,     
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: #A0A0A0; padding-top: 1%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
                     },
                     {
                         xtype: 'image',
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px; height: 40px; width: 40px;',
+                        style: 'margin-top: -1%; height: 40px; width: 40px;',
                     }
                 ]
             },
@@ -133,17 +134,18 @@ Ext.define('MarlowApp.view.PinterestV',{
                     {
                         html: 'Location',
                         docked: 'left',
-                        id: 'location-to', 
+                    
                         flex: 1,
-                        style: 'font-size: 22px; font-family: HelveticaLight; color: black; padding-right: 10px;'
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;' 
+                        
                     },
                     {
                         html: 'example@exaasdadasdsadmple.com',
-                        width: 200,
+                        width: '60%',
                         docked: 'left',
-                        id: 'location-info', 
+                        
                         flex: 1,
-                        style: 'font-size: 18px; font-family: HelveticaLight; color: #A0A0A0; padding-top: 4px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: #A0A0A0; padding-top: 1%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
                     },
                     {
                         xtype: 'image',
