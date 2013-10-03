@@ -24,7 +24,9 @@ Ext.define('MarlowApp.controller.PinterestC',{
 	showPopup: function(){  
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
-		popup.show();  
+		popup.show();
+        Ext.getCmp('pinterestdesc').setValue(finalNote);
+        Ext.getCmp('pinterestprice').setHtml('<span>\u00A3'+finalPrice+'</span>');    
 	},  
 	hide: function(){           
 		var popup = this.getPopup();  

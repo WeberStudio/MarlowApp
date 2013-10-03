@@ -50,13 +50,14 @@ Ext.define('MarlowApp.view.PinterestV',{
 						style: 'color: #258dc8; margin-right: -20px;',
                         handler: function() {
                             
-                            var pinDescription = Ext.getCmp('pinterestdesc').getValue();
-                            var pinPrice =   Ext.getCmp('itemprice').getHtml();   
+                            var pinDescription = finalNote;
+                            var pinPrice =   finalPrice   
                             // var pinImage =   Ext.getCmp('itemimage').getSrc();  
                             var pinImage =  'http%3A%2F%2Fcdn5.fonearena.com%2Fdesirehd%2Fhtc-desire-hd-01_1.jpg'
-                            alert(pinPrice);
                             var pin_url = 'http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.pinterest.com%2F&media=' + pinImage + '&description=' + pinDescription + ' and price ' + pinPrice;
-                            window.location = pin_url;
+                            url =  pin_url;                    
+                            window.open(url,'Pin It!', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
+                            return false ;
                         } 
 					}
 				]
@@ -94,7 +95,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 				items: [
 					{
 						html: '118',
-                        id: 'itemprice',
+                        id: 'pinterestprice',
 						style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',		
 					},
 				]	
