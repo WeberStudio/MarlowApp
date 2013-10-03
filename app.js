@@ -77,6 +77,7 @@ Ext.application({
         finalPrice          = ''; 
         finalImage          = ''; 
         finalEmailFrom      = '';
+        finalBrandName      = '';
         addIndex            = [];
         Ext.fly('appLoadingIndicator').destroy();
 
