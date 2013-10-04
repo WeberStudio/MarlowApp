@@ -77,19 +77,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
             }
         },10000);*/
         
-        if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+        /*if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
 
                 app.application.redirectTo('dashboardd'); 
             }
             else {
 
                 app.application.redirectTo('dashboard');
-            }
+            }*/
         
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            /*if(screenWidth == 320 && screenHeight == 426) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
@@ -104,13 +104,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
             if(screenWidth == 720 && screenHeight == 960) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-            }
+            } */
             if(screenWidth == 320 && screenHeight == 456) {
                 
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/320x456.jpg") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/320x426-night.gif") 100% 100%'); 
             }
         }
-        else if(Ext.os.is.iOS) {
+        /*else if(Ext.os.is.iOS) {
             
             //iphone 5
             if(screenWidth == 640 && screenHeight == 1136) {
@@ -123,7 +123,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
-        }
+        }  */
        
         //console.log() 
         //Ext.getCmp("ssntxt").blur(); 
@@ -157,7 +157,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
         
-        setInterval(function(){
+           /*setInterval(function(){
             if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
 
                 app.application.redirectTo('dashboardd'); 
@@ -166,46 +166,55 @@ Ext.define('MarlowApp.controller.DashboardC', {
 
                 app.application.redirectTo('dashboard');
             } 
-        },10000);
+        },10000);*/
             
+        /*if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+        
+                app.application.redirectTo('dashboardd'); 
+            }
+            else {
+
+                app.application.redirectTo('dashboard');
+            }*/
+        
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            /*if(screenWidth == 320 && screenHeight == 426) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
             if(screenWidth == 320 && screenHeight == 470) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
             if(screenWidth == 480 && screenHeight == 640) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
             if(screenWidth == 720 && screenHeight == 960) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-            }
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+            } */
             if(screenWidth == 320 && screenHeight == 456) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/320x456.jpg") 100% 100%');            
+               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/320x426-day.gif") 100% 100%');           
             }
         }
-        else if(Ext.os.is.iOS) {
+        /*else if(Ext.os.is.iOS) {
             
             //iphone 5
             if(screenWidth == 640 && screenHeight == 1136) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
             
             //iphone 4
             if(screenWidth == 640 && screenHeight == 960) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
-        }
+        }  */
         //Ext.getCmp("ssntxt").blur(); 
     },
     
@@ -226,11 +235,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
-            
-            finalNote           = productViewBrand.note; 
-            finalPrice          = productViewBrand.price;
-            finalBrandName      = productViewBrand.name;  
-            
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
 		}
@@ -481,8 +485,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                note = note.replace('</span>','');
                price = price.replace('<span>\u00A3','');
                price = price.replace('</span>','');                
-               Ext.getCmp('useritemnote').setValue(finalNote);
-               Ext.getCmp('itemprice').setValue(finalPrice);
+               Ext.getCmp('useritemnote').setValue(note);
+               Ext.getCmp('itemprice').setValue(price);
            }
         }
         else
@@ -508,10 +512,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalBrandId   = selectionInfo.getAt(0).getData().brand_id; 
                     finalNote      = selectionInfo.getAt(0).getData().note;
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
-                    finalImage     = selectionInfo.getAt(0).getData().image; 
-                    finalBrandName = shopSelectedName;
-                    //console.log(selectionInfo.getAt(0).getData());
-                    loadMask();
+                    finalImage     = selectionInfo.getAt(0).getData().image;                  
+                   // console.log(selectionInfo.getAt(0).getData());
+                    loadMask() 
                 
                     
                 Ext.Ajax.request({ 
@@ -520,7 +523,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 headers: {
                     "Content-Type": "application/json",
                     'Accept': 'application/json',
-                    "cache-control": "no-cache"
+                        "cache-control": "no-cache"
                 },
                 callbackKey: 'callback',
                 timeout : 60000,

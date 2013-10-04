@@ -13,8 +13,8 @@ Ext.define('MarlowApp.view.EmailPost',{
         styleHtmlContent: true,
         height: '70%',
         width: '92%',
-        maxWidth: 420,
-        maxHeight: 360,
+        maxWidth: 370,
+        maxHeight: 320,
         baseCls: 'custom-social-alert-box',
         items: [
             {
@@ -132,7 +132,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                        height: '30%', 
                        width: '80%',                      
                        flex: 2,
-                       cls: 'custom-text-field-dark',
+                       //cls: 'custom-text-field-dark',
                         
                     },
                     {

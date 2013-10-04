@@ -68,7 +68,6 @@ Ext.define('MarlowApp.view.FacebookV',{
 				items: [
 					{
 						xtype: 'textareafield',
-                        
 						docked: 'left',
                         id: 'facebookdesc',
 						cls: 'custom-text-fieldarea',
@@ -91,12 +90,14 @@ Ext.define('MarlowApp.view.FacebookV',{
 				items: [
 					{
 						html: '<span>118<span>', 
-						style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;', 
+						id: 'facebookPrice',
+                        style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',        	
                         id: 'facebookPrice',	
 					},
 				]	
 			},
             {
+            /*{
                 xtype: 'container',
                 layout: 'hbox',
                 style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',        
@@ -122,7 +123,6 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-top: -1%; height: 40px; width: 40px;', 
                     }
                 ]
-            },
             {
                 xtype: 'container',
                 layout: 'hbox',
@@ -149,7 +149,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            }*/
 		]
 	}
 });  

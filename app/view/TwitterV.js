@@ -73,7 +73,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 						docked: 'left',
 						cls: 'custom-text-fieldarea',
 						width: '80%',
-                        height: '20%',
+                        height: '40%',
                         style: 'background-color: inherit;',
 					},
 					{
@@ -91,12 +91,12 @@ Ext.define('MarlowApp.view.TwitterV',{
 				items: [
 					{
 						html: '<span>118<span>',
-						style: 'font-family:  HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',
+						style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',
                         id: 'twitterPrice',		
 					},
 				]	
 			},
-            {
+            /*{
                 xtype: 'container',
                 layout: 'hbox',
                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',
@@ -146,10 +146,10 @@ Ext.define('MarlowApp.view.TwitterV',{
                         docked: 'right',
                         flex: 1,
                         html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px; height: 40px; width: 40px;', 
+                        style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            }*/
 		]
 	}
 });  
