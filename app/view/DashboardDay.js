@@ -17,6 +17,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                 //items: [
                     {
                         xtype: 'image',
+                        id: 'dashboard-day-logo',
                         //centered: true, 
                         html: '<img src = "resources/images/marlow-back/marlow-day.png">',
                         height: '35%',

@@ -52,7 +52,7 @@ style: 'background-color:black;',
                  {
                     xtype: 'toolbar',
                     docked: 'bottom',
-                    ui: "white",
+                    ui: 'white',
                     cls: 'bottom-toolbar',
                     layout: {
                         align: 'center',
@@ -63,9 +63,10 @@ style: 'background-color:black;',
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "height: 75px; margin-right: 20px;" >',
+								html: '<img src = "resources/images/marlow-icons/snap-it-disabled.png" style = "margin-right: 5%;">',
 								iconMask: true,
 								title: 'Snap It',
+                                width: '25%',
 								id: 'snap-it-image',
 								listeners: {
 									tap: function() {
@@ -92,9 +93,10 @@ style: 'background-color:black;',
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">',
 								iconMask: true,
 								title: 'Shops',
+                                width: '25%',
 								id: 'shops-image',
 								listeners: {
 									tap: function() {
@@ -122,9 +124,10 @@ style: 'background-color:black;',
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "height: 75px; margin-right: 20px;">',
+								html: '<img src = "resources/images/marlow-icons/my-list-active.png" style = "margin-right: 5%;">',
 								iconMask: true,
 								title: 'My List',
+                                width: '25%',
 								id: 'my-list-image',
 								listeners: {
 									tap: function() {
@@ -163,10 +166,11 @@ style: 'background-color:black;',
 							{
 								xtype: 'img',
 								iconAlign: 'center',
-								html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
+								html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">',
 								iconMask: true,
 								title: 'Info',
 								id: 'info-image',
+                                width: '25%',
 								listeners: {
 									tap: function() {
 									app.application.redirectTo('info')
@@ -194,7 +198,7 @@ style: 'background-color:black;',
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                        '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;height:55px;">{note}</p>',
+                        '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;">{note}</p>',
                         '       <b>{price}</b>',
                         '   </div>',
                         '</div>'),

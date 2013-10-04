@@ -23,7 +23,7 @@ Ext.define('MarlowApp.view.AddNote', {
 					{
 						xtype: 'button',
 						align: 'left',
-						text: '< Back',
+						text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 						cls: 'custom-button',
 						handler:function()
 						{
