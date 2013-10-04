@@ -231,7 +231,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			xtype: 'mylistView'
             
 		});
-		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
+		    
+            Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
@@ -340,12 +342,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         hideloadingMask();   
                         // console.log(err)
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                     },                     
                     failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                     },  
                     callback:function(response)
                     {
@@ -425,12 +427,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
@@ -538,19 +540,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             var store = Ext.getStore('allshopsStoreId');
                             
                              hideloadingMask();
-                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')
+                              Ext.Msg.alert('', 'Product saved successfully!')
                              
                             //store.setData(response);
                             //console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                            Ext.Msg.alert('', 'No internet connection available')
                         }
                     },                     
                     failure: function(response) {
                         //response = Ext.decode(response.responseText)
-                        Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                        Ext.Msg.alert('', 'Server is not responding please try again');     
                     },
                     callback:function(response)
                     {
@@ -579,7 +581,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                            Ext.Msg.alert('', 'No internet connection available')
                         }
                     }
                 });
@@ -653,12 +655,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
@@ -696,18 +698,18 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(emailTo.length == 0)
         {
                
-            Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
+            Ext.Msg.alert('', 'Please enter the Email.');
             return false;    
         }
         if(/[ ]/.test(emailTo))
         {
-            Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
+            Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Email.');
             return false;
         }
         var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if(!(email_re.test(emailTo))) 
         {
-            Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
+            Ext.Msg.alert('', 'Please Enter Valid Email.');
             return false;
         }  
         
@@ -750,7 +752,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                    
                     
                     Ext.getCmp('shareitem').hide({type: 'slideOut', direction: 'right'});                     
-                    Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                    Ext.Msg.alert('', 'No internet connection available')
                 }
             }
         }); 

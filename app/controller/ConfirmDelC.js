@@ -96,12 +96,12 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                    Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                    Ext.Msg.alert('', 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-                Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                Ext.Msg.alert('', 'Server is not responding please try again');     
             },
             callback:function(response)
             {
@@ -143,18 +143,18 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 try{
                      
                      hideloadingMask();   
-                     Ext.Msg.alert('Record has been deleted successfully!', 'Record has been deleted successfully');
+                     Ext.Msg.alert('', 'Record has been deleted successfully');
                      app.application.redirectTo('myitemlist');           
                     //console.log(store.setData(response));
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                    Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                    Ext.Msg.alert('', 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-                Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                Ext.Msg.alert('', 'Server is not responding please try again');     
             },
             callback:function(response)
             {
@@ -181,7 +181,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                            Ext.Msg.alert('', 'No internet connection available')
                         }
                     }
                 });
