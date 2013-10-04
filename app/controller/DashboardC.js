@@ -47,9 +47,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var screenHeight = window.innerHeight;
         //alert('w: ' + screenWidth + ' h: ' + screenHeight);
         
-        var date = new Date;
+        /*var date = new Date;
         var minutes = date.getMinutes();
-        var hours = date.getHours();
+        var hours = date.getHours(); */
         
         
         if(Ext.Viewport.getComponent('dashboardId') == undefined)
@@ -198,11 +198,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
             else {
 
                 app.application.redirectTo('dashboard');
-            }
+            } 
         },10000);*/
-        
+            
         /*if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
-
+        
                 app.application.redirectTo('dashboardd'); 
             }
             else {
@@ -264,7 +264,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			xtype: 'mylistView'
             
 		});
-		    Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
+		    
+            Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
@@ -373,12 +375,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         hideloadingMask();   
                         // console.log(err)
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                     },                     
                     failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                     },  
                     callback:function(response)
                     {
@@ -458,12 +460,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
@@ -548,55 +550,49 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalImage     = selectionInfo.getAt(0).getData().image;                  
                    // console.log(selectionInfo.getAt(0).getData());
                     loadMask() 
-                    Ext.Ajax.request({
-                   
-                    url: serviceUrl+'add_product',
-                    headers: {
-                        "Content-Type": "application/json",
-                        'Accept': 'application/json',                    
+                
+                    
+                Ext.Ajax.request({ 
+                
+                url: serviceUrl+'add_product',
+                headers: {
+                    "Content-Type": "application/json",
+                    'Accept': 'application/json',
                         "cache-control": "no-cache"
-                    },
-                    callbackKey: 'callback', 
-                    timeout : 6000,
-                    method: 'POST',               
-                    jsonData: {
-                        "product_id":   selectionInfo.getAt(0).getData().product_id ,
-                        "user_id":      selectionInfo.getAt(0).getData().user_id ,
-                        "brand_id":     selectionInfo.getAt(0).getData().brand_id,
-                        "note":         selectionInfo.getAt(0).getData().note,
-                        'price':        selectionInfo.getAt(0).getData().price,
-                        'image':        selectionInfo.getAt(0).getData().image                           
-                    },
-                     
-                    withCredentials: false,
-                    useDefaultXhrHeader: false,
-                    success: function(response) {      
+                },
+                callbackKey: 'callback',
+                timeout : 60000,
+                method: 'POST',
+                jsonData: {"product_id": '' ,"user_id": finalUserId,"brand_id":finalBrandId,"note":finalNote,"price":finalPrice,"image":finalImage},
+                withCredentials: false,
+                useDefaultXhrHeader: false,
+                success: function(response) {      
                         try{
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
                             
                              hideloadingMask();
-                              Ext.Msg.alert('Product saved successfully!', 'Product saved successfully!')
+                              Ext.Msg.alert('', 'Product saved successfully!')
                              
                             //store.setData(response);
                             //console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                            Ext.Msg.alert('', 'No internet connection available')
                         }
                     },                     
                     failure: function(response) {
                         //response = Ext.decode(response.responseText)
-                        Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                        Ext.Msg.alert('', 'Server is not responding please try again');     
                     },
                     callback:function(response)
                     {
                         //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
                 });
-                    
+                   
                    
                     var store   = Ext.getStore('all_productsid');
                     Ext.Ajax.request({
@@ -618,7 +614,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                            Ext.Msg.alert('', 'No internet connection available')
                         }
                     }
                 });
@@ -651,9 +647,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //alert('w: ' + screen.width + ' h:' + screen.height);    
                 }
                 
-				
-                Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
+				Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
@@ -692,12 +688,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                        Ext.Msg.alert('', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('Server is not responding please try again', 'Server is not responding please try again');     
+                    Ext.Msg.alert('', 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
@@ -735,18 +731,18 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(emailTo.length == 0)
         {
                
-            Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
+            Ext.Msg.alert('', 'Please enter the Email.');
             return false;    
         }
         if(/[ ]/.test(emailTo))
         {
-            Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
+            Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Email.');
             return false;
         }
         var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if(!(email_re.test(emailTo))) 
         {
-            Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
+            Ext.Msg.alert('', 'Please Enter Valid Email.');
             return false;
         }  
         
@@ -789,7 +785,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                    
                     
                     Ext.getCmp('shareitem').hide({type: 'slideOut', direction: 'right'});                     
-                    Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                    Ext.Msg.alert('', 'No internet connection available')
                 }
             }
         }); 

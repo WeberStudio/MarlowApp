@@ -64,22 +64,17 @@ Ext.define('MarlowApp.controller.LoginC', {
             finalEmailFrom   = username;
             loadMask();
             Ext.Ajax.request({ 
+                
                 url: serviceUrl+'login',
                 headers: {
                     "Content-Type": "application/json",
-                    'Accept': 'application/json',                    
+                    'Accept': 'application/json',
                     "cache-control": "no-cache"
                 },
-                 withCredentials: false,
-                 useDefaultXhrHeader: false,
-                callbackKey: 'callback', 
-                timeout : 6000,
-                method: 'POST',                
-               /* jsonData: 'email='+username+'&password='+password,//{"userName": username ,"password": password}, */
-                jsonData: {
-                            "email":       username ,
-                            "password":    password
-                        }, 
+                callbackKey: 'callback',
+                timeout : 60000,
+                method: 'POST',
+                jsonData: {"email": username ,"password": password},
                 withCredentials: false,
                 useDefaultXhrHeader: false,
                 success: function(response) 
@@ -92,10 +87,10 @@ Ext.define('MarlowApp.controller.LoginC', {
                         response = Ext.decode(response.responseText);
                         Ext.getStore("SignupInfoStore").setData(response[0]);
                         
-                        //console.log(response[0].ERROR);                        
-                        //console.log(Ext.getStore("SignupInfoStore"));
-                      //  app.application.redirectTo('dashboard');
-                        if(response[0].ERROR == 'YOU ENTERED INVALID EMAIL OR PASSWORD')
+                           // console.log(response[0]);                        
+                           //console.log(Ext.getStore("SignupInfoStore"));
+                          //  app.application.redirectTo('dashboard');
+                        if(response[0].user_id == 'YOU ENTERED INVALID EMAIL OR PASSWORD')
                         {
                             
                             hideloadingMask();
@@ -103,7 +98,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                             app.application.redirectTo('login');
                         }
                         else
-                        {       
+                        {      
                             hideloadingMask();
                             Ext.getCmp('loginusername').reset();
                             Ext.getCmp('loginpassword').reset();
@@ -114,7 +109,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                     catch(err)
                     {
                         hideloadingMask();      
-                        Ext.Msg.alert('No internet connection available', 'No internet connection available')
+                       // Ext.Msg.alert('No internet connection available', 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
@@ -125,7 +120,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                 callback:function(response)
                 {
                     //Ext.Msg.alert('', 'Server is not responding please try again'); 
-                }
+                }                  
             });                   
         }
     },

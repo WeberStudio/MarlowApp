@@ -57,7 +57,7 @@ Ext.define('MarlowApp.view.AddNote', {
                             }
                             else
                             {
-                                Ext.Msg.alert('Only Numbers Allowed!', 'Name');
+                                Ext.Msg.alert('', 'Only Numbers Allowed!');
                                 return false;                               
                             }
                             if(Ext.getCmp("my-list-image")){                                 
