@@ -47,9 +47,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var screenHeight = window.innerHeight;
         //alert('w: ' + screenWidth + ' h: ' + screenHeight);
         
-        var date = new Date;
+        /*var date = new Date;
         var minutes = date.getMinutes();
-        var hours = date.getHours();
+        var hours = date.getHours(); */
         
         
         if(Ext.Viewport.getComponent('dashboardId') == undefined)
@@ -510,33 +510,25 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
                     finalImage     = selectionInfo.getAt(0).getData().image; 
                     finalBrandName = shopSelectedName;
-                   //console.log(selectionInfo.getAt(0).getData());
+                    //console.log(selectionInfo.getAt(0).getData());
                     loadMask();
-                    Ext.Ajax.request({
-                   
-                    url: serviceUrl+'add_product',
-                    headers: {
-                        "Content-Type": "application/json",
-                        'Accept': 'application/json',                    
-                        "cache-control": "no-cache",                         
-                    },
-                     withCredentials: false,
-                     useDefaultXhrHeader: false,
-                    callbackKey: 'callback', 
-                    timeout : 6000,
-                    method: 'GET',               
-                    jsonData: {
-                        "product_id":   selectionInfo.getAt(0).getData().product_id ,
-                        "user_id":      selectionInfo.getAt(0).getData().user_id ,
-                        "brand_id":     selectionInfo.getAt(0).getData().brand_id,
-                        "note":         selectionInfo.getAt(0).getData().note,
-                        'price':        selectionInfo.getAt(0).getData().price,
-                        'image':        selectionInfo.getAt(0).getData().image                           
-                    },
-                     
-                    withCredentials: false,
-                    useDefaultXhrHeader: false,
-                    success: function(response) {      
+                
+                    
+                Ext.Ajax.request({ 
+                
+                url: serviceUrl+'add_product',
+                headers: {
+                    "Content-Type": "application/json",
+                    'Accept': 'application/json',
+                    "cache-control": "no-cache"
+                },
+                callbackKey: 'callback',
+                timeout : 60000,
+                method: 'POST',
+                jsonData: {"product_id": '' ,"user_id": finalUserId,"brand_id":finalBrandId,"note":finalNote,"price":finalPrice,"image":finalImage},
+                withCredentials: false,
+                useDefaultXhrHeader: false,
+                success: function(response) {      
                         try{
                             
                             response = Ext.decode(response.responseText) 
@@ -562,7 +554,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         //Ext.Msg.alert('', 'Server is not responding please try again'); 
                     }
                 });
-                    
+                   
                    
                     var store   = Ext.getStore('all_productsid');
                     Ext.Ajax.request({
