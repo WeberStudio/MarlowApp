@@ -612,9 +612,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //alert('w: ' + screen.width + ' h:' + screen.height);    
                 }
                 
-				
-                Ext.getCmp('productViewNote').setHtml('<span>' + selectionInfo.getAt(0).getData().note + '</span>');
-                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + selectionInfo.getAt(0).getData().price + '</span>');
+				Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
+                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else

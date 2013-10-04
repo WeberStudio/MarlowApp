@@ -96,60 +96,6 @@ Ext.define('MarlowApp.view.FacebookV',{
 					},
 				]	
 			},
-            {
-            /*{
-                xtype: 'container',
-                layout: 'hbox',
-                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',        
-                items: [
-                    {
-                        html: 'Account',
-                        docked: 'left',
-                        flex: 1,
-                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;' 
-                    },
-                    {
-                        html: 'example@example.com',
-                        width: '60%',
-                        docked: 'left',
-                        flex: 1,
-                        style: 'font-size: 100%; font-family: HelveticaLight; color: #A0A0A0; padding-top: 1%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
-                    },
-                    {
-                        xtype: 'image',
-                        docked: 'right',
-                        flex: 1,
-                        html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -1%; height: 40px; width: 40px;', 
-                    }
-                ]
-            {
-                xtype: 'container',
-                layout: 'hbox',
-                style: 'padding-top: 10px;',
-                items: [
-                    {
-                        html: 'Location',
-                        docked: 'left',   
-                        flex: 1,
-                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;'   
-                    },
-                    {
-                        html: 'example@exaasdadasdsadmple.com',
-                        width: '60%',
-                        docked: 'left',
-                        flex: 1,
-                        style: 'font-size: 100%; font-family: HelveticaLight; color: #A0A0A0; padding-top: 1%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;',
-                    },
-                    {
-                        xtype: 'image',
-                        docked: 'right',
-                        flex: 1,
-                        html: '<img src = "resources/images/marlow/arrow copy.png">',
-                        style: 'margin-top: -6px; height: 40px; width: 40px;',
-                    }
-                ]
-            }*/
-		]
-	}
+        ]
+    }
 });  
