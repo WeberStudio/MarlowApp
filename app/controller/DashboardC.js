@@ -6,7 +6,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay', 'EmailPost'  ],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay', 'EmailPost' ],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -69,15 +69,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //alert('Orientation: ' + Ext.Viewport.getOrientation());
         
         if(Ext.Viewport.getOrientation() == 'landscape')    {
-            
-             Ext.getCmp('dashboard-night-logo').setHeight('25%');
-             Ext.getCmp('dashboard-night-logo').setWidth('25%'); 
+                     
              Ext.getCmp('dashboard-night-logo').setPadding('0 15% 0 30%');     
         }
         else {
-            
-            Ext.getCmp('dashboard-night-logo').setHeight('25%');
-            Ext.getCmp('dashboard-night-logo').setWidth('25%');
+                       
             Ext.getCmp('dashboard-night-logo').setPadding('0 15% 0 15%');            
         }
        
@@ -179,14 +175,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
         
         if(Ext.Viewport.getOrientation() == 'landscape')    {
             
-             Ext.getCmp('dashboard-day-logo').setHeight('25%');
-             Ext.getCmp('dashboard-day-logo').setWidth('25%'); 
              Ext.getCmp('dashboard-day-logo').setPadding('0 15% 0 30%');     
         }
         else {
-            
-            Ext.getCmp('dashboard-day-logo').setHeight('25%');
-            Ext.getCmp('dashboard-day-logo').setWidth('25%');
+             
             Ext.getCmp('dashboard-day-logo').setPadding('0 15% 0 15%');            
         }
         

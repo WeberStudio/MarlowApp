@@ -98,6 +98,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                         xtype: 'image',
                         html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',    
                         docked: 'right',
+                        flex: 1,
                     }
                 ]
                     

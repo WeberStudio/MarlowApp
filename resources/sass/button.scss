@@ -14,17 +14,17 @@
 	}
 	
 	.custom-white-button  {
-	
-		font-weight: lighter !important;
+		
 		border: none !important;
-		color: #258dc8 !important;
-		background-color: inherit !important;
-	
+        background-color: inherit !important;
+        font-size: 90% !important;  
+        
 		.x-button-label {
 		
-			font-family: HelveticaLight; 
-			font-weight: lighter;
-			font-size: 130% !important;
+		    color: #0079FF !important;
+            font-family: HelveticaLight; 
+            font-weight: lighter !important;
+            
 		}
 	}
 
@@ -117,6 +117,33 @@
 		font-weight: lighter;
 		color: #258dc8 !important;
 	}
+    
+    .share-item-button  {
+    
+        border: none !important;
+        background-color: inherit !important;
+        
+        .x-button-label {
+        
+            font-family: HelveticaLight; 
+            font-weight: lighter;
+            color: #0079FF;
+            font-size: 120% !important;
+        }
+    }
+    .share-item-title  {
+    
+        border: none !important;
+        background-color: inherit !important;
+        
+        .x-button-label {
+        
+            font-family: HelveticaLight; 
+            font-weight: lighter;
+            color: black;
+            font-size: 120% !important;
+        }
+    }
     
 
 /*    .x-item-selected { background-color: #fcd9db !important; color: black !important; } */    

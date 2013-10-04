@@ -8,7 +8,6 @@ Ext.define('MarlowApp.view.AddToList', {
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
-        style: 'background-color: black;',
         items: [ 
             {
                 xtype: 'toolbar',
@@ -182,8 +181,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Scan another item',
-                        id: 'share-left-button',
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         handler:function()
                         {
                             
@@ -219,8 +217,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Share this item',
-                        id: 'share-right-button',       
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         action: 'shareitem',
                     }
                 ]

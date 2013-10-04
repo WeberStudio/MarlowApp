@@ -9,8 +9,10 @@ Ext.define('MarlowApp.view.ConfirmDel',{
 		floating: true,  
 		centered: true,  
 		modal: true,  
-		height: 150,  
-		width: 350,  
+        height: '45%',  
+        width: '80%',
+        maxHeight: 150,  
+        maxWidth: 350,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,
 		baseCls: 'custom-delete-alert-box',
@@ -23,7 +25,7 @@ Ext.define('MarlowApp.view.ConfirmDel',{
 					{
 						html: 'Are you sure you want to delete this item from your shopping list?',
 						flex: 1,
-						style: 'text-align: center; font-famiy: HelveticaLight; font-size: 18px; color: black;',
+						style: 'text-align: center; font-famiy: HelveticaLight; font-size: 100%; color: black;',
 					}
 				]
 			},

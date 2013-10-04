@@ -7,66 +7,64 @@ Ext.define('MarlowApp.view.ShareItem',{
 		floating: true,  
 		centered: true,  
 		modal: true,  
-		height: '60%',  
-		width: '70%',
+		height: '50%',  
+		width: '75%',
         maxWidth: 330,
         maxHeight: 240,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
-		styleHtmlContent: true,  
-        scroller: 'verticle',
-		style: 'border-radius: 10px; background-color: black;',
+		styleHtmlContent: true, 
+		cls: 'share-item-page',
 		items:[
 		{
             xtype: 'toolbar',
             docked: 'top',
-			title: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Share this item',
-			baseCls: 'custom-share-toolbar',
-			align: 'right',
-			style: 'background: url("resources/images/template/share-background.png"); height: 20%; width: 100%; border-radius: 10px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;' ,
-			layout: {
-				pack: 'justify',
-				type: 'hbox'
-			}, 
+			baseCls: 'custom-share-toolbar', 
+            layout: {
+                
+                type: 'hbox',
+                pack: 'left',
+            },
      		items: [
 				{
 					xtype: 'button',
 					align: 'left',
                     text: 'Cancel',
-					style: 'color: #258dc8;',
 					action: 'hide',
-					cls: 'custom-button',
+					cls: 'share-item-button',
 				},
+                {
+                    xtype: 'button',
+                    align: 'left',
+                    text: 'Share this item',
+                    cls: 'share-item-title',
+                },
             ]
 	 	},	
 		{
 			xtype: 'panel',
-			
+            baseCls: 'custom-share-panel',
 			items: [
 				
 				{
 					xtype: 'button',
-                    //text: 'Email',
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; margin-top: -0.3%; background: url("resources/images/template/email1.png"); height: 30%; border-radius: 0px;',
+                    cls: 'share-email',
 					action: 'shareemail',
 
 				},
 				{
 					xtype: 'button',
-                    //text: 'Twitter',   
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/twitter1.png"); height: 30%; border-radius: 0px; margin-top: -4%',
+                    cls: 'share-twitter',
 					action: 'showtwitter', 
 
 				},
 				{
-					xtype: 'button',
-                    //text: 'Facebook',   
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/facebook1.png"); height: 30%; border-radius: 0px; margin-top: -4%',
+					xtype: 'button',   
+                    cls: 'share-facebook',
 					action: 'showfacebook',
 				},
 				{
-					xtype: 'button',
-                    //text: 'Pinterest',   
-					style: 'color: #258dc8; font-size: 120%; font-family: HelveticaLight; background: url("resources/images/template/pinterest1.png"); height: 28%; border-radius: 8%px;  border-top-right-radius: 0px; border-top-left-radius: 0px; border-bottom: 0px; margin-top: -2%', 
+					xtype: 'button',   
+                    cls: 'share-pinterest',
                     action: 'showpinterest',
 
 				},

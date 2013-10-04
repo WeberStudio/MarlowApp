@@ -1,0 +1,38 @@
+@mixin panel-settings {
+	
+    .custom-share-panel {
+    
+        background: url("../images/template/share-background.png"); 
+        border-radius: 10px;
+        
+        .share-email  {
+            
+            background: url("../images/template/email1.png"); 
+            height: 28%;
+            border-radius: 0px;
+            margin-top: 0%;
+        }
+        .share-twitter  {
+            
+            background: url("../images/template/twitter1.png"); 
+            height: 28%;
+            border-radius: 0px;
+            margin-top: -4%;
+        }
+        .share-facebook  {
+            
+            background: url("../images/template/facebook1.png"); 
+            height: 28%; 
+            border-radius: 0px; 
+            margin-top: -4%;
+        }
+        .share-pinterest  {
+            
+            background: url("../images/template/pinterest1.png"); 
+            height: 28%; 
+            border-radius: 0px;
+            border-bottom: 0px; 
+            margin-top: -3.5%;
+        }
+    }
+}
