@@ -618,26 +618,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     xtype: 'addtolistView'                 
                 });
                 
-                var screenWidth = window.innerWidth;
-                var screenHeight = window.innerHeight;
-                
-                if (Ext.os.is.Android) {            
-
-                    alert('w: ' + screenWidth + ' h:' + screenHeight);
-                    Ext.getCmp('share-left-button').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 84.8) + 'px;');     
-                    Ext.getCmp('share-right-button').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 84.8) + 'px;');     
-                }
-                else if(Ext.os.is.iOS) {
-
-                    alert('w: ' + screenWidth + ' h:' + screenHeight);
-                    Ext.getCmp('share-left-button').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 84.8) + 'px;');     
-                    Ext.getCmp('share-right-button').setStyle('font-size: ' + ((screenWidth +  screenHeight) / 84.8) + 'px;');
-                    Ext.getCmp('productViewNote').setStyle('font-size: ' + ((screenWidth +  screenHeight) /  106) + 'px;');
-                }
-                else {
-
-                    //alert('w: ' + screen.width + ' h:' + screen.height);    
-                }
                 
 				Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');

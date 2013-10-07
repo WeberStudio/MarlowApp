@@ -13,16 +13,14 @@ Ext.define('MarlowApp.view.TwitterV',{
 		styleHtmlContent: true,
 		height: '70%',
         width: '92%',
-        maxWidth: 420,
-        maxHeight: 360,
-		baseCls: 'custom-social-alert-box',
+        maxWidth: 330,
+        maxHeight: 320,
+		baseCls: 'custom-social-alert-box',  
 		items: [
 			{
 				xtype: 'toolbar',
 				baseCls: 'custom-social-toolbar',
 				docked: 'top',
-				title: 'Twitter',
-                style: 'padding-top: 1%; font-size: 90%; ',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -34,21 +32,31 @@ Ext.define('MarlowApp.view.TwitterV',{
 						align: 'left',
 						text: 'Cancel',
 						action: 'hide',
-						cls: 'custom-button',
-						style: 'color: #258dc8; margin-left: -5%;', 
+						cls: 'social-popup-button',
+						style: 'margin-right: -8%; ', 
 					},
-					{
+                    {
+                        xtype: 'image',
+                        html: '<img src = "resources/images/social/2-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
+                        
+                    },
+                    {
+                        xtype: 'button',
+                        text: 'Twitter',
+                        action: 'hide',
+                        cls: 'social-popup-title ',
+                    },
+					/*{
 						xtype: 'image',
 						html: '<img src = "resources/images/social/2-gray.png" style = "margin-left: -0.2%; margin-bottom: -1%px;">',
 						
-					},
+					},*/
 					{
 						xtype: 'button',
 						align: 'right',
 						text: 'Post',
-						//action: 'hide',
-						cls: 'custom-button',
-						style: 'color: #258dc8; margin-right: -20px;',
+						cls: 'social-popup-button',
+						style: 'margin-left: -8%; ', 
                         handler:function() 
                         {
                             //url =  'http://twitter.com/intent/tweet?text= Brand%22'+finalBrandName+'%22 Note:'+finalNote+' Price'+finalPrice;
@@ -56,7 +64,8 @@ Ext.define('MarlowApp.view.TwitterV',{
                             window.open(url,'Twitter Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
                             return false ;
                         },
-					}
+					},
+                    
 				]
 			},
 			{
@@ -71,16 +80,17 @@ Ext.define('MarlowApp.view.TwitterV',{
 						xtype: 'textareafield',
                         id:    'twitterdesc',
 						docked: 'left',
+                        width: '80%',
 						cls: 'custom-text-fieldarea',
-						width: '80%',
-                        height: '40%',
                         style: 'background-color: inherit;',
 					},
 					{
 						xtype: 'image',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',    
 						docked: 'right',
-					}
+					},
+                   
+                    
 				]
 					
 			},
@@ -96,7 +106,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 					},
 				]	
 			},
-            /*{
+            {
                 xtype: 'container',
                 layout: 'hbox',
                style: 'padding-top: 2%; border-bottom: 1px solid #C5C5C5;',
@@ -149,7 +159,7 @@ Ext.define('MarlowApp.view.TwitterV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }*/
+            }
 		]
 	}
 });  

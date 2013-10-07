@@ -35,4 +35,34 @@
             margin-top: -3.5%;
         }
     }
+    
+    .custom-form-input-labels   {
+        
+        border: 1px solid #C5C5C5;
+        
+        .x-form-field {
+        
+            color: #1283B8;
+            font-family: HelveticaLight;
+            font-size: 120%;
+        }
+    
+        .x-form-label {
+        
+            font-family: HelveticaLight !important;
+            font-size: 120% !important;
+        }
+    }
+    .price-html {
+        
+        font-size: 120%;
+        margin-top: 1%;
+        padding-right: 2%;
+        font-family: HelveticaLight;
+    }
+    
+    .add-note-form-panel {
+         
+        background-color: #ffffff;
+    }
 }

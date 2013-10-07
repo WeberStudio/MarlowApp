@@ -2,11 +2,13 @@ Ext.define('MarlowApp.view.AddNote', {
     extend: 'Ext.form.Panel', 
 	requires: ['Ext.field.TextArea', 'Ext.Toolbar'],
     xtype:'addnoteview',
+    
     config: 
     {
 		xtype: 'formpanel',
 		id:'addnoteid',
 		layout: 'vbox',
+        baseCls: 'add-note-form-panel',
 		
 		items: [
 			{
@@ -87,20 +89,19 @@ Ext.define('MarlowApp.view.AddNote', {
 				maxRows: 10,
 				name: 'note',
 				placeHolder: 'Enter notes...',
-				style: 'border: 1px solid #C5C5C5;',
-				cls: 'custom-form-labels'
+				cls: 'custom-form-input-labels'
 			},
 			{
 				xtype: 'formpanel',
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
-				},
+				},       
 				items: [
 					{
 						html: 'Price: ',
-						style: 'font-size: 18px; margin-top: 10px; padding-right: 20px; font-family: HelveticaLight',
-						docked: 'left',
+						baseCls: 'price-html',
+                        docked: 'left',
 						flex: 1,
 					},
 					{

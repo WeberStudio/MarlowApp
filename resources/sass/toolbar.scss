@@ -18,12 +18,12 @@
 	
 	.bottom-toolbar {
 	
-		height: 14% !important;     
+		height: 10% !important;     
 		border-top: #C5C5C5 1px solid !important;
 	}
     .bottom-up-toolbar {
     
-        height: 14% !important; 
+        height: 2% !important; 
         border-top: #C5C5C5 1px solid !important;
     }
 	
@@ -55,13 +55,13 @@
 	.custom-social-toolbar 
 	{
         height: 15%;
-        padding: 6%; 
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(100%,#d1d1d1), color-stop(100%,#fefefe));
-		border-radius: 10%;
-		border-bottom-left-radius: 0px;
+        /*background-color: #e3e5e6;*/
+        background: -webkit-linear-gradient(top, rgba(228,232,231,1) 9%,rgba(216,221,222,1) 68%,rgba(232,233,233,1) 100%);
+		border-radius: 10px;
+        border-bottom: 1px solid #C5C5C5;
+        border-bottom-left-radius: 0px;
         font-family: HelveticaLight;
 		border-bottom-right-radius: 0px;
-		border-bottom: #C0C0C0 solid 1px; 
         
 	}
 }

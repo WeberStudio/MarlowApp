@@ -8,6 +8,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
     navigationBar: {hidden: true},
      fullscreen: true,
      id:'deleteitemid',
+     cls: 'delete-items-list',
 
       
          
@@ -39,17 +40,16 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 xtype       : 'button',
                                 text        : 'Delete selected()',
                                 align       : 'left',
-                                baseCls     :  null,
                                 action      : 'deleteBulk',
                                 id          : 'count',
-                                cls         :'delete_btn',
+                                cls         :'delete-item-button',
 
                             },
                             {
                                 xtype       :'button',
                                 text        :'Cancel',
                                 align       :'right',
-                                cls         :'cancel_btn',
+                                cls         :'share-item-button',  
                                 handler:function()
                                 {
                                     var deleteItemId              = Ext.getCmp("deleteitemid");
