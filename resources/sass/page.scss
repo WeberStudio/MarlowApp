@@ -1,6 +1,9 @@
 @mixin page-settings {
 	
-	
+	.share-item-page {
+        
+        border-radius: 10px;
+    }
 	.custom-page-bg {
 	
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(-10%,#d3d3d3));

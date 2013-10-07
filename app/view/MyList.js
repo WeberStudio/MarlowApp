@@ -28,7 +28,7 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'button',
 						align: 'left',
-						text: '< Back',
+						text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 						cls: 'custom-button',
 						handler:function()
 						{
@@ -63,8 +63,10 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;">',
-						iconMask: true,
+						html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">',
+						width: '25%',
+                        id: 'snap-it-image',  
+                        iconMask: true,
 						listeners: {
 							tap: function() {
 								app.application.redirectTo('snapit');
@@ -74,7 +76,9 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+						html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">',
+                        width: '25%',
+                        id: 'shops-image',
 						iconMask: true,
 						listeners: {
 							tap: function() {
@@ -85,8 +89,10 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">',
 						iconMask: true,
+                        id: 'my-list-image',   
+                        width: '25%',
 						listeners: {
 							tap: function() {
 								app.application.redirectTo('mylist');
@@ -97,8 +103,10 @@ Ext.define('MarlowApp.view.MyList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
-						iconMask: true,
+						html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">',
+						iconMask: true, 
+                        id: 'info-image',
+                        width: '25%',
 						listeners: {
 							tap: function() {
 								app.application.redirectTo('info');

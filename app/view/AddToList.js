@@ -2,14 +2,12 @@ Ext.define('MarlowApp.view.AddToList', {
     require: ['Ext.Img'],
     extend: 'Ext.Panel', 
     xtype:'addtolistView', 
-   
     
     config: {
         
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
-        style: 'background-color: black;',
         items: [ 
             {
                 xtype: 'toolbar',
@@ -36,7 +34,8 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/snap-it-active.png">',
+						html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">',
+                        width: '25%',
 						iconMask: true,
 						id: 'snap-it-image',
 						listeners: {
@@ -71,8 +70,9 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/shops-disabled.png">',
+						html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">',
 						iconMask: true,
+                        width: '25%',
 						id: 'shops-image',
 						listeners: {
 							tap: function() {
@@ -107,8 +107,9 @@ Ext.define('MarlowApp.view.AddToList', {
 					{
 						xtype: 'image',
 						iconAlign: 'center',
-						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png">',
+						html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">',
 						iconMask: true,
+                        width: '25%',
 						id: 'my-list-image',
 						listeners: {
 							tap: function() {
@@ -152,8 +153,10 @@ Ext.define('MarlowApp.view.AddToList', {
                     {
                         xtype: 'image',
                         iconAlign: 'center',
-                        html: '<img src = "resources/images/marlow-icons/info-disabled.png" >',
+                        width: '20%',
+                        html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">',
                         iconMask: true,
+                        id: 'info-image',
                         listeners: {
                             tap: function() {
                                 app.application.redirectTo('info')
@@ -178,8 +181,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Scan another item',
-                        id: 'share-left-button',
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         handler:function()
                         {
                             
@@ -215,8 +217,7 @@ Ext.define('MarlowApp.view.AddToList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Share this item',
-                        id: 'share-right-button',       
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         action: 'shareitem',
                     }
                 ]

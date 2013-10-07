@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'button',
 					align: 'left',
-					text: '<span style = "font-size: 22px; font-family: HelveticaLight; font-weight: bolder; padding-right: 2px;"> <</span><span style = "font-family: HelveticaLight; font-size: 18px; font-weight: lighter;">Back  </span> ',
+					text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 					cls: 'custom-button',
                     handler:function()
                     {
@@ -46,7 +46,7 @@ Ext.define('MarlowApp.view.Snap', {
 				},
 				{	
 					xtype: 'button',
-					text: '<span style = "font-size: 18px; font-family: HelveticaLight; font-weight: lighter;">Confirm  </span> ',
+					text: 'Confirm',
 					align: 'right',
 					cls: 'custom-button',
                     handler:function()
@@ -59,7 +59,7 @@ Ext.define('MarlowApp.view.Snap', {
 		{
 			xtype: 'toolbar',
 			docked: 'bottom',
-			ui: "white",
+            ui: 'white',
 			cls: 'bottom-toolbar',
 			layout: {
 			align: 'center',
@@ -70,8 +70,9 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'img',
 					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "height: 75px; margin-right: 20px;" >',
+					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">',
 					iconMask: true,
+                    width: '25%',  
 					title: 'Snap It',
 					id: 'snap-it-image',
 					listeners: {
@@ -103,9 +104,10 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'img',
 					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "height: 75px; margin-right: 20px;">',
+					html: '<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">',
 					iconMask: true,
 					title: 'Shops',
+                    width: '25%',  
 					id: 'shops-image',
 					listeners: {
 						tap: function() {
@@ -139,9 +141,10 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'img',
 					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "height: 75px; margin-right: 20px;">',
+					html: '<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">',
 					iconMask: true,
 					title: 'My List',
+                    width: '25%',  
 					id: 'my-list-image',
 					listeners: {
 						tap: function() {
@@ -173,9 +176,10 @@ Ext.define('MarlowApp.view.Snap', {
 				{
 					xtype: 'img',
 					iconAlign: 'center',
-					html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "height: 75px; margin-right: 20px;">',
+					html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">',
 					iconMask: true,
 					title: 'Info',
+                    width: '25%',  
 					id: 'info-image',
 					listeners: {
 						tap: function() {

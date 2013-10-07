@@ -1,0 +1,68 @@
+@mixin panel-settings {
+	
+    .custom-share-panel {
+    
+        background: url("../images/template/share-background.png"); 
+        border-radius: 10px;
+        
+        .share-email  {
+            
+            background: url("../images/template/email1.png"); 
+            height: 28%;
+            border-radius: 0px;
+            margin-top: 0%;
+        }
+        .share-twitter  {
+            
+            background: url("../images/template/twitter1.png"); 
+            height: 28%;
+            border-radius: 0px;
+            margin-top: -4%;
+        }
+        .share-facebook  {
+            
+            background: url("../images/template/facebook1.png"); 
+            height: 28%; 
+            border-radius: 0px; 
+            margin-top: -4%;
+        }
+        .share-pinterest  {
+            
+            background: url("../images/template/pinterest1.png"); 
+            height: 28%; 
+            border-radius: 0px;
+            border-bottom: 0px; 
+            margin-top: -3.5%;
+        }
+    }
+    
+    .custom-form-input-labels   {
+        
+        border: 1px solid #C5C5C5;
+        
+        .x-form-field {
+        
+            color: #1283B8;
+            font-family: HelveticaLight;
+            font-size: 120%;
+        }
+    
+        .x-form-label {
+        
+            font-family: HelveticaLight !important;
+            font-size: 120% !important;
+        }
+    }
+    .price-html {
+        
+        font-size: 120%;
+        margin-top: 1%;
+        padding-right: 2%;
+        font-family: HelveticaLight;
+    }
+    
+    .add-note-form-panel {
+         
+        background-color: #ffffff;
+    }
+}

@@ -9,7 +9,7 @@
 		background-color: white;
 		font-family: HelveticaBold;
 		color: black;
-		font-size: 18px;
+		font-size: 100%;
 		border-top: none;
 		border-bottom: #C5C5C5 solid 1px;
 	}
@@ -35,19 +35,19 @@
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
-        font-size: 18px;
+        font-size: 100%; 
         border: none;
         
     }
     .delete-item .x-list-header .x-innerhtml 
     {
-    font-size: 23px; 
+    font-size: 100%;  
     font-family: HelveticaBold; 
     }
     
     .delete-item .tweet p 
     {
-    font-size: 20px;
+    font-size: 80%;    
     font-family: HelveticaLight; 
     }
     
@@ -69,14 +69,14 @@
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
-        font-size: 18px;
+        font-size: 100%; 
         border: none;
         
     }
     
     .item-list .x-list-header .x-innerhtml
     {
-        font-size: 23px;
+        font-size: 100%; 
         margin-left: 18px;
     }
     .item-list .x-list-footer-wrap

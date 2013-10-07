@@ -15,9 +15,19 @@ Ext.define('MarlowApp.view.Dashboard', {
                 //width: '85%',
                 //height: '40%',
                 //items: [
-                    {
+                    /*{
                         xtype: 'image',
                         //centered: true, 
+                        html: '<img src = "resources/images/marlow-back/marlow-night.png">',
+                        height: '35%',
+                        width: '35%',
+                        padding: '0 15% 0 15%' ,
+                         
+                    },*/
+                    {
+                        xtype: 'image',
+                        //centered: true,
+                        id: 'dashboard-night-logo', 
                         html: '<img src = "resources/images/marlow-back/marlow-night.png">',
                         height: '35%',
                         width: '35%',
