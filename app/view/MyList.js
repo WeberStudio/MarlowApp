@@ -33,6 +33,7 @@ Ext.define('MarlowApp.view.MyList', {
 						handler:function()
 						{
 							if(Ext.getCmp("myitemlistviewId")){
+                                
                              Ext.getCmp("myitemlistviewId").destroy();
                             }                       
                             app.application.redirectTo('myitemlist');
@@ -145,7 +146,7 @@ Ext.define('MarlowApp.view.MyList', {
 						xtype: 'image',
                         id:'productViewImage',
 						id:'snapId',
-						html: '<img src = "resources/images/marlow-back/home_day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+						html: '<img src = "resources/images/marlow-back/home-day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
 					},
 					{
 					    xtype: 'panel',

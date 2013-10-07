@@ -32,6 +32,15 @@ Ext.define('MarlowApp.view.Snap', {
                         {                             
                             snapViewId.destroy();
                         }
+                        if(Ext.getCmp("dashboard-night")){
+                                
+                             Ext.getCmp("dashboard-night").destroy();
+                        }
+                         if(Ext.getCmp("dashboard-day")){
+                                
+                             Ext.getCmp("dashboard-day").destroy();
+                        }                                              
+                        
                         app.application.redirectTo('dashboard')
                     }
 				},

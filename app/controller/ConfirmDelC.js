@@ -96,16 +96,16 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                    Ext.Msg.alert('', 'No internet connection available')
+                    Ext.Msg.alert( 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-                Ext.Msg.alert('', 'Server is not responding please try again');     
+                Ext.Msg.alert( 'Server is not responding please try again');     
             },
             callback:function(response)
             {
-                //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                //Ext.Msg.alert( 'Server is not responding please try again'); 
             }
         });
         
@@ -115,8 +115,8 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
       
     showPopup: function(){  
         var popup = this.getPopup();  
-        Ext.Viewport.add(popup);  
-        popup.show();  
+        Ext.Viewport.add(popup);
+        popup.show(); 
     },  
     hide: function(){           
         var popup = this.getPopup();  
@@ -143,22 +143,26 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 try{
                      
                      hideloadingMask();   
-                     Ext.Msg.alert('', 'Record has been deleted successfully');
+                     Ext.Msg.alert( 'Deleted successfully');
+                     if(Ext.getCmp("myitemlistviewId"))
+                     {                                 
+                                Ext.getCmp("myitemlistviewId").destroy();
+                     }                       
                      app.application.redirectTo('myitemlist');           
                     //console.log(store.setData(response));
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                    Ext.Msg.alert('', 'No internet connection available')
+                    Ext.Msg.alert( 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-                Ext.Msg.alert('', 'Server is not responding please try again');     
+                Ext.Msg.alert( 'Server is not responding please try again');     
             },
             callback:function(response)
             {
-                //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                //Ext.Msg.alert( 'Server is not responding please try again'); 
             }
         });
         var store   = Ext.getStore('all_productsid');
@@ -181,7 +185,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert('', 'No internet connection available')
+                            Ext.Msg.alert( 'No internet connection available')
                         }
                     }
                 });
