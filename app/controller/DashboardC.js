@@ -251,13 +251,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
             all_productsid_store            = Ext.getStore('all_productsid');
             var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
             deleteProductId                 = productViewBrand.product_id;
-            //console.log(all_productsid_store.getAt(editProductIndex).getData());
+            //console.log(productViewBrand);
             Ext.Viewport.setActiveItem({
 			xtype: 'mylistView'
             
 		});
 		    
-            Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            //Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
@@ -367,16 +367,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         hideloadingMask();   
                         // console.log(err)
-                        Ext.Msg.alert('', 'No internet connection available')
+                        Ext.Msg.alert( 'No internet connection available')
                     }
                     },                     
                     failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('', 'Server is not responding please try again');     
+                    Ext.Msg.alert( 'Server is not responding please try again');     
                     },  
                     callback:function(response)
                     {
-                    //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    //Ext.Msg.alert( 'Server is not responding please try again'); 
                     }
                     });
                 }
@@ -414,12 +414,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('myitemlistid') == undefined)
             {
             
-             loadMask()
+            loadMask()
             var store   = Ext.getStore('all_productsid');
             if(store.getCount()== 0)
-            {
-                    
-            Ext.Ajax.request({
+            {                    
+                Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
                     "Content-Type": "application/json",
@@ -452,16 +451,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('', 'No internet connection available')
+                        Ext.Msg.alert( 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('', 'Server is not responding please try again');     
+                    Ext.Msg.alert( 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
-                    //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    //Ext.Msg.alert( 'Server is not responding please try again'); 
                 }
             });
             }
@@ -536,7 +535,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     selectionInfo.getAt(0).getData().user_id  = SignupInfoStore.getAt(0).getData().user_id; 
                     finalProductId = selectionInfo.getAt(0).getData().product_id; 
                     finalUserId    = selectionInfo.getAt(0).getData().user_id;
-                    finalBrandId   = selectionInfo.getAt(0).getData().brand_id; 
+                    finalBrandId   = selectionInfo.getAt(0).getData().brand_id;
+                    finalBrandName = shopSelectedName; 
                     finalNote      = selectionInfo.getAt(0).getData().note;
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
                     finalImage     = selectionInfo.getAt(0).getData().image;                  
@@ -565,23 +565,23 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             var store = Ext.getStore('allshopsStoreId');
                             
                              hideloadingMask();
-                              Ext.Msg.alert('', 'Product saved successfully!')
+                              Ext.Msg.alert( 'Product saved successfully!')
                              
                             //store.setData(response);
                             //console.log(store.setData(response));
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
-                            Ext.Msg.alert('', 'No internet connection available')
+                            Ext.Msg.alert( 'No internet connection available')
                         }
                     },                     
                     failure: function(response) {
                         //response = Ext.decode(response.responseText)
-                        Ext.Msg.alert('', 'Server is not responding please try again');     
+                        Ext.Msg.alert( 'Server is not responding please try again');     
                     },
                     callback:function(response)
                     {
-                        //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                        //Ext.Msg.alert( 'Server is not responding please try again'); 
                     }
                 });
                    
@@ -606,7 +606,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert('', 'No internet connection available')
+                            Ext.Msg.alert( 'No internet connection available')
                         }
                     }
                 });
@@ -619,7 +619,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 });
                 
                 
-				Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+				//Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
@@ -660,16 +660,16 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     }catch(err){
                         // console.log(err)
                         hideloadingMask();  
-                        Ext.Msg.alert('', 'No internet connection available')
+                        Ext.Msg.alert( 'No internet connection available')
                     }
                 },                     
                 failure: function(response) {
                     //response = Ext.decode(response.responseText)
-                    Ext.Msg.alert('', 'Server is not responding please try again');     
+                    Ext.Msg.alert( 'Server is not responding please try again');     
                 },
                 callback:function(response)
                 {
-                    //Ext.Msg.alert('', 'Server is not responding please try again'); 
+                    //Ext.Msg.alert( 'Server is not responding please try again'); 
                 }
             });
             
@@ -703,18 +703,18 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(emailTo.length == 0)
         {
                
-            Ext.Msg.alert('', 'Please enter the Email.');
+            Ext.Msg.alert( 'Please enter the Email.');
             return false;    
         }
         if(/[ ]/.test(emailTo))
         {
-            Ext.Msg.alert('', 'Empty spaces and  special characters are not allowed in Email.');
+            Ext.Msg.alert( 'Empty spaces and  special characters are not allowed in Email.');
             return false;
         }
         var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if(!(email_re.test(emailTo))) 
         {
-            Ext.Msg.alert('', 'Please Enter Valid Email.');
+            Ext.Msg.alert( 'Please Enter Valid Email.');
             return false;
         }  
         
@@ -757,7 +757,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                    
                     
                     Ext.getCmp('shareitem').hide({type: 'slideOut', direction: 'right'});                     
-                    Ext.Msg.alert('', 'No internet connection available')
+                    Ext.Msg.alert( 'No internet connection available')
                 }
             }
         }); 

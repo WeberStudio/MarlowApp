@@ -211,6 +211,11 @@ style: 'background-color:black;',
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
                                editProductIndex = index;
+                              
+                                if(Ext.getCmp("mylistid")){
+                                    
+                                 Ext.getCmp("mylistid").destroy();
+                                }                       
                                app.application.redirectTo('mylist'); 
                             }
                    
