@@ -35,16 +35,17 @@ Ext.define('MarlowApp.view.PinterestV',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ',
 					},
-                    {
+                    
+                    /*{
                         xtype: 'image',
                         html: '<img src = "resources/images/social/4-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
                         
-                    },
+                    },*/
                     {
                         xtype: 'button',
-                        text: 'Pinterest',
-                        action: 'hide',
+                        text: '&nbsp;&nbsp;&nbsp;Pinterest',
                         cls: 'social-popup-title ',
+                        style: 'background: url("resources/images/social/4-gray.png")  no-repeat',
                     },
 					/*{
 						xtype: 'image',

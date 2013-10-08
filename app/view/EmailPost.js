@@ -35,17 +35,16 @@ Ext.define('MarlowApp.view.EmailPost',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ', 
                     },
-                    {
+                    /*{
                         xtype: 'image',
                         html: '<img src = "resources/images/social/1-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
                         
-                    },
+                    },*/
                     {
                         xtype: 'button',
-                        text: 'Email',
-                        align: 'left',
-                        action: 'hide',
+                        text: '&nbsp;&nbsp;&nbsp;Email',
                         cls: 'social-popup-title ',
+                        style: 'background: url("resources/images/social/1-gray.png")  no-repeat',
                     },
                     {
                         xtype: 'button',

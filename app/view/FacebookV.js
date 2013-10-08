@@ -35,16 +35,16 @@ Ext.define('MarlowApp.view.FacebookV',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ',
 					},
-                    {
+                    /*{
                         xtype: 'image',
                         html: '<img src = "resources/images/social/3-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
                         
-                    },
+                    },*/
                     {
                         xtype: 'button',
-                        text: 'Facebook',
-                        action: 'hide',
+                        text: '&nbsp;&nbsp;&nbsp;Facebook',
                         cls: 'social-popup-title ',
+                        style: 'background: url("resources/images/social/3-gray.png")  no-repeat',    
                     },
 					/*{
 						xtype: 'image',
