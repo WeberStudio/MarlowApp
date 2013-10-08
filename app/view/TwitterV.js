@@ -42,9 +42,9 @@ Ext.define('MarlowApp.view.TwitterV',{
                     },
                     {
                         xtype: 'button',
-                        text: 'Twitter',
-                        action: 'hide',
+                        text: '&nbsp;&nbsp;&nbsp;Twitter',
                         cls: 'social-popup-title ',
+                        style: 'background: url("resources/images/social/2-gray.png")  no-repeat',    
                     },
 					/*{
 						xtype: 'image',
