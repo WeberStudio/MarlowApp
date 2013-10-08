@@ -40,6 +40,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
         });  
     },
     itemdeletpopup: function(){
+        console.log('i am in popo');
      
         var popup = this.getBulkdpopup();  
         popup.show();  

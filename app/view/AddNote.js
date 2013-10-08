@@ -27,6 +27,7 @@ Ext.define('MarlowApp.view.AddNote', {
 						align: 'left',
 						text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 						cls: 'custom-button',
+                        style: 'margin-left: 0px;',
 						handler:function()
 						{
 							var loginView   = Ext.getCmp("addnoteid");
@@ -50,6 +51,7 @@ Ext.define('MarlowApp.view.AddNote', {
 						align: 'right',
 						text: 'Confirm',
 						cls: 'custom-button',
+                        style: 'margin-right: 0px;' , 
 						handler:function()
 						{
 						    price = Ext.getCmp('itemprice').getValue();  
@@ -86,7 +88,6 @@ Ext.define('MarlowApp.view.AddNote', {
 				xtype: 'textareafield',
 				id:'useritemnote',
 				layout: 'auto',  
-				maxRows: 10,
 				name: 'note',
 				placeHolder: 'Enter notes...',
 				cls: 'custom-form-input-labels'
@@ -110,6 +111,7 @@ Ext.define('MarlowApp.view.AddNote', {
 						placeHolder: '\u00A3',
 						name: 'price',
 						width: '100%',
+                        height: '40%',
 						docked: 'left',
 						flex: 2,
 						cls: 'custom-textfield-settings'

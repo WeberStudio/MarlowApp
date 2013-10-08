@@ -153,7 +153,7 @@ Ext.define('MarlowApp.view.AddToList', {
                     {
                         xtype: 'image',
                         iconAlign: 'center',
-                        width: '20%',
+                        width: '25%',
                         html: '<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">',
                         iconMask: true,
                         id: 'info-image',

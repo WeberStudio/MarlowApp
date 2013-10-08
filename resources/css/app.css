@@ -6329,7 +6329,7 @@ final_img {
 }
 
 .bottom-toolbar {
-  height: 10% !important;
+  height: 15% !important;
   border-top: #C5C5C5 1px solid !important;
 }
 
@@ -6397,7 +6397,7 @@ final_img {
 }
 
 .custom-delete-alert-box {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #f2f6f8), color-stop(13%, #daddf2), color-stop(51%, #e6ebf4), color-stop(100%, #d7def4));
+  background: -webkit-linear-gradient(top, #e4e8e7 9%, #d8ddde 68%, #e8e9e9 100%);
   border-radius: 10px;
 }
 

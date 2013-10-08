@@ -27,12 +27,14 @@ style: 'background-color:black;',
                                 text: '',
                                 cls: 'custom-button',
                                 itemId: 'loginButton',
+                                style: 'margin-left: 0px;',
                             },
                             {    
                                 xtype: 'button',
                                 text: 'Edit ',
                                 align: 'right',
                                 cls: 'custom-button',
+                                style: 'margin-right: 0px;' ,   
 								handler:function()
 								{
                                      

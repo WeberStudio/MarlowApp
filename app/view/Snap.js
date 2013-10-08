@@ -21,6 +21,7 @@ Ext.define('MarlowApp.view.Snap', {
 					align: 'left',
 					text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 					cls: 'custom-button',
+                     style: 'margin-left: 0px;',
                     handler:function()
                     {
                        
@@ -40,6 +41,7 @@ Ext.define('MarlowApp.view.Snap', {
 					text: 'Confirm',
 					align: 'right',
 					cls: 'custom-button',
+                    style: 'margin-right: 0px;' ,
                     handler:function()
                     {
                         app.application.redirectTo('addnote')

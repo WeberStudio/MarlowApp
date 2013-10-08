@@ -30,6 +30,7 @@ Ext.define('MarlowApp.view.MyList', {
 						align: 'left',
 						text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 						cls: 'custom-button',
+                        style: 'margin-left: 0px;',
 						handler:function()
 						{
 							if(Ext.getCmp("myitemlistviewId")){
@@ -44,6 +45,7 @@ Ext.define('MarlowApp.view.MyList', {
 						align: 'right',
 						action: 'deleteitem',
 						cls: 'custom-button',
+                        style: 'margin-right: 0px;' ,    
 					} 
 				]
 			},

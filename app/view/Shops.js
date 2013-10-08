@@ -30,6 +30,7 @@ Ext.define('MarlowApp.view.Shops', {
                     id:     'shopViewBackButton',
                     text: '<span style = "font-size: 120%; font-family: HelveticaLight; font-weight: bolder; padding-right: 2%;"> <</span> Back',
 					cls: 'custom-button',
+                    style: 'margin-left: 0px;' ,
                     handler:function()
                     {
                         var loginView = Ext.getCmp("shopid");
@@ -44,6 +45,7 @@ Ext.define('MarlowApp.view.Shops', {
 					text: 'Confirm', 
 					align: 'right',
 					cls: 'custom-button',
+                    style: 'margin-right: 0px;' ,
                     handler:function()
                     {                         
                         if(Ext.getCmp("shops-image")){
@@ -79,7 +81,7 @@ Ext.define('MarlowApp.view.Shops', {
 			},
      		items: [
 				{
-					xtype: 'img',
+					xtype: 'image',
 					iconAlign: 'center',
 					html: '<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">',
 					iconMask: true,
