@@ -75,7 +75,7 @@ style: 'background-color:black;',
                                     var shopid              = Ext.getCmp("shopid");
                                     var snapViewId          = Ext.getCmp("snapViewId");
                                     var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
-                                    
+                                                                   
                                     
                                     if(myitemlistviewId){
                                     myitemlistviewId.destroy();
@@ -196,13 +196,14 @@ style: 'background-color:black;',
                     itemTpl: Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
-                        '   <img src="resources/icons/Icon@2x.png" />',
-                        '   <div class="tweet">',
-                        //'<span class="posted"><input type="radio"></span>',
-                        //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                        '       <p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;">{note}</p>',
-                        '       <b>{price}</b>',
-                        '   </div>',
+                            //'<img src="resources/icons/Icon@2x.png"  style = "width: 8%; height: 8%" />',
+                            '<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 25%; height: 25%">',                        
+                            '<div class="tweet">',
+                            //'<span class="posted"><input type="radio"></span>',
+                            //'<span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
+                            '<p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;">{note}</p>',
+                            '<b>{price}</b>',
+                            '</div>',
                         '</div>'),
                         
                         fullscreen: true,
@@ -210,8 +211,20 @@ style: 'background-color:black;',
                         {
                             itemtap: function(cmp, index, target, record, e, eOpts)
                             {
-                               editProductIndex = index;
-                              
+                                editProductIndex = index;
+                                 if(Ext.getCmp("shops-image")){
+                                    Ext.getCmp("shops-image").destroy();
+                                    }                               
+                                                                    
+                                    if(Ext.getCmp("snap-it-image")){
+                                        Ext.getCmp("snap-it-image").destroy();
+                                    }                                
+                                    if(Ext.getCmp("my-list-image")){
+                                        Ext.getCmp("my-list-image").destroy();
+                                    }                                
+                                    if(Ext.getCmp("info-image")){
+                                        Ext.getCmp("info-image").destroy();
+                                    }
                                 if(Ext.getCmp("mylistid")){
                                     
                                  Ext.getCmp("mylistid").destroy();
@@ -220,7 +233,7 @@ style: 'background-color:black;',
                             }
                    
                         }    
-                        } 
+            } 
                         
         ]
        

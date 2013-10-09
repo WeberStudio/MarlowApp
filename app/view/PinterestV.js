@@ -90,7 +90,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 					},
 					{
 						xtype: 'image',
-                        id: 'itemimage',
+                        id: 'shareimage',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
 					}

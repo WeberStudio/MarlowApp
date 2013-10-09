@@ -97,6 +97,35 @@ Ext.define('MarlowApp.view.MyList', {
                         width: '25%',
 						listeners: {
 							tap: function() {
+                                if(Ext.getCmp("my-list-image")){                                 
+                                    Ext.getCmp('my-list-image').destroy();                                
+                                }
+                                if(Ext.getCmp("myitemlistviewId")){
+                                    Ext.getCmp("myitemlistviewId").destroy();
+                                }                       
+                                if(Ext.getCmp("shopid")){
+                                    Ext.getCmp("shopid").destroy();
+                                }
+                                if(Ext.getCmp("snapViewId")){
+                                    Ext.getCmp("snapViewId").destroy();
+                                }
+                                if( Ext.getCmp("addtolistid")){
+                                    Ext.getCmp("addtolistid").destroy();
+                                }
+                                
+                                if(Ext.getCmp("shops-image")){
+                                    Ext.getCmp("shops-image").destroy();
+                                }                               
+                                                                
+                                if(Ext.getCmp("snap-it-image")){
+                                    Ext.getCmp("snap-it-image").destroy();
+                                }                                
+                                if(Ext.getCmp("my-list-image")){
+                                    Ext.getCmp("my-list-image").destroy();
+                                }                                
+                                if(Ext.getCmp("info-image")){
+                                    Ext.getCmp("info-image").destroy();
+                                }                                    
 								app.application.redirectTo('mylist');
 							},
 						},

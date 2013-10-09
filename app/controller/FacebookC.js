@@ -25,6 +25,7 @@ Ext.define('MarlowApp.controller.FacebookC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
 		popup.show();
+        Ext.getCmp('shareimage').setValue('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 5%; height: 8%">'); 
         Ext.getCmp('facebookdesc').setValue(finalNote);
         Ext.getCmp('facebookPrice').setHtml('<span>\u00A3'+finalPrice+'</span>');
 	},  
