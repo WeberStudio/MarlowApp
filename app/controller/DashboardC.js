@@ -257,7 +257,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
 		});
 		    
-            //Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            Ext.getCmp('productViewImage').setHtml('<img src = "'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
@@ -279,7 +279,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('snapViewId') == undefined)
         {       
                 Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
-                //console.log(Ext.getStore("SaveInfoStoreId"));     
+                //console.log(Ext.getStore("SaveInfoStoreId"));  
+              
                 Ext.Viewport.setActiveItem
                 ({
                     xtype: 'snapView'                 
@@ -291,6 +292,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
+                 Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
@@ -619,7 +621,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 });
                 
                 
-				//Ext.getCmp('productViewImage').setHtml('<img src = "'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+				Ext.getCmp('productViewImage').setHtml('<img src = "data:image/gif;base64'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
