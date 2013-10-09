@@ -285,7 +285,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                      
         if(Ext.Viewport.getComponent('snapViewId') == undefined)
         {       
-                loadMask();
+               
                 Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
                 //console.log(Ext.getStore("SaveInfoStoreId"));  
               
@@ -300,7 +300,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
-                hideloadingMask();
+              
                Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
@@ -515,8 +515,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem({
                 xtype: 'addnoteview'                 
             });
-          Ext.getCmp('useritemnote').setValue(' ');
-          Ext.getCmp('itemprice').setValue(' ');          
            if(Ext.getCmp('productViewNote'))
            {
                note = note.replace('<span>','');
