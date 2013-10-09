@@ -8,6 +8,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
             xtype: 'deletebox',  
             autoCreate: true,  
             },
+            
             bulkdpopup: { 
             selector: '#confirmdltitem',  
             xtype: 'confirmdltitem',  
@@ -41,9 +42,10 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
     },
     itemdeletpopup: function(){
         console.log('i am in popo');
-     
         var popup = this.getBulkdpopup();  
+        Ext.Viewport.add(popup);
         popup.show();  
+ 
     },
     hideitemdeletpop: function(){           
         var popup = this.getBulkdpopup();  

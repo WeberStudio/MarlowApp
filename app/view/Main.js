@@ -9,7 +9,6 @@ Ext.define('MarlowApp.view.Main', {
 		navigationBar: {
 			hidden: true
 		},
-		
        	scrollable : 'vertical',
 		items: [
         {	
