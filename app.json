@@ -40,7 +40,7 @@
      */
     "js": [
         {
-            "path": "touch/sencha-touch.js",
+            "path": "touch/sencha-touch-all.js",
             "x-bootstrap": true
         },
         {
@@ -48,6 +48,10 @@
             "bundle": true,  /* Indicates that all class dependencies are concatenated into this file when build */
             "update": "delta"
         }
+ 		
+
+		
+
     ],
 
     /**
