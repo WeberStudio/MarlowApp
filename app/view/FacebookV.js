@@ -59,7 +59,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-left: -8%; ', 
                         handler:function() 
                         {
-                            url =  'https://www.facebook.com/sharer/sharer.php?s=100&p[title]='+finalBrandName+'&p[url]=http://talabeaman.org/&p[summary]='+finalNote+' Price:'+finalPrice+'&p[images][0]=http://talabeaman.org/wp-content/uploads/2013/09/tbm.png';                            
+                            url =  'https://www.facebook.com/sharer/sharer.php?s=100&p[title]='+finalBrandName+'&p[url]=http://talabeaman.org/&p[summary]='+finalNote+' Price:'+finalPrice+'&p[images][0]=http://data:text/javascript;base64,'+finalImage;                            
                             window.open(url,'Facebook Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
                             return false ;
                         },
@@ -84,7 +84,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 					},
 					{
 						xtype: 'image',
-                        id: 'shareimage',
+                        id: 'facebookimage',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
 					}
