@@ -183,8 +183,7 @@ Ext.define('MarlowApp.view.MyList', {
 				items: [
 					{
 						xtype: 'image',
-                        id:'productViewImage',
-						id:'snapId',
+                        id:'productViewImage',  						
 						html: '<img src = "resources/images/marlow-back/home-day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
 					},
 					{

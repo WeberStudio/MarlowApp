@@ -41,11 +41,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
     dashboardView:function(){ 
     
         
-        //getting device height and width
+        //getting device browser height and width
+        var browserWidth = window.innerWidth;
+        var browserHeight = window.innerHeight;
         
-        var screenWidth = window.innerWidth;
-        var screenHeight = window.innerHeight;
-        //alert('w: ' + screenWidth + ' h: ' + screenHeight);
+        //getting device screen height and width 
+        var screenWidth = screen.width;
+        var screenHeight = screen.height;
+        
+        //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);
         
         /*var date = new Date;
         var minutes = date.getMinutes();
@@ -100,41 +104,37 @@ Ext.define('MarlowApp.controller.DashboardC', {
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            if(screenWidth <= 320 && screenHeight <= 426) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x426-night.gif") 100% 100%');        
             }
-            if(screenWidth == 320 && screenHeight == 470) {
+            if(screenWidth <= 320 && screenHeight <= 470) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x470-night.gif") 100% 100%'); 
             }
-            if(screenWidth == 480 && screenHeight == 640) {
+            if(screenWidth <= 480 && screenHeight <= 640) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x640-night.gif") 100% 100%');           
             }
-            if(screenWidth == 720 && screenHeight == 960) {
+            if(screenWidth <= 720 && screenHeight <= 960) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/720x960-night.gif") 100% 100%');            
             } 
-            if(screenWidth == 320 && screenHeight == 456) {
-                
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x470-night.gif") 100% 100%'); 
-            }
         }
         else if(Ext.os.is.iOS) {
             
             //iphone 5
-            if(screenWidth == 640 && screenHeight == 1136) {
+            if(screenWidth <= 640 && screenHeight <= 1136) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
             }
             
             //iphone 4
-            if(screenWidth == 640 && screenHeight == 960) {
+            if(screenWidth <= 640 && screenHeight <= 960) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
-            if(screenWidth == 768 && screenHeight == 928) {
+            if(screenWidth <= 768 && screenHeight <= 1024) {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
@@ -147,9 +147,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
 	
 	dashboarddayView:function(){ 
         
-        //getting device height and width
-        var screenWidth = window.innerWidth;
-        var screenHeight = window.innerHeight;
+        //getting device browser height and width
+        var browserWidth = window.innerWidth;
+        var browserHeight = window.innerHeight;
+        
+        //getting device screen height and width 
+        var screenWidth = screen.width;
+        var screenHeight = screen.height;
+        
+        //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);
         
         var date = new Date;
         var minutes = date.getMinutes();
@@ -235,6 +241,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
             }
+            if(screenWidth <= 768 && screenHeight <= 1024) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+            }
         }  
         //Ext.getCmp("ssntxt").blur(); 
     },
@@ -253,8 +263,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
 			xtype: 'mylistView'
             
 		});
-		    
-            Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+		    //alert(productViewBrand.image);
+            Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
@@ -620,9 +630,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 Ext.Viewport.setActiveItem({
                     xtype: 'addtolistView'                 
                 });
-                
-                
-				Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                 //alert(finalImage);
+                Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+				//Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 

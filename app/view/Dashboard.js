@@ -68,9 +68,10 @@ Ext.define('MarlowApp.view.Dashboard', {
                         app.application.redirectTo('snapit');   
                     }, onFail, { quality: 50,
                         destinationType: Camera.DestinationType.DATA_URL
-                    });
-                  //  snapSrc = 'snap-it-active.png' ; 
-                  
+                    }); 
+                    
+                    //snapSrc = 'snap-it-active.png' ; 
+                    //app.application.redirectTo('snapit'); 
                 }
             },    
             ]
