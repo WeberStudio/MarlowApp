@@ -209,8 +209,19 @@ Ext.define('MarlowApp.view.AddToList', {
                                 if(Ext.getCmp("addtolistid")){
                                     var addtolistid         = Ext.getCmp("addtolistid");
                                     addtolistid.destroy();
-                                }                                 
-                            app.application.redirectTo('snapit');
+                                } 
+                                
+                                 /*navigator.camera.getPicture(function(imagedata){
+
+                                    snapSrc = imagedata;
+                                  
+                                    app.application.redirectTo('snapit');   
+                                }, onFail, { quality: 50,
+                                    destinationType: Camera.DestinationType.DATA_URL
+                                });*/ 
+                    
+                                snapSrc = 'snap-it-active.png' ;                                                    
+                                app.application.redirectTo('snapit');
                         }    
                     },
                     {

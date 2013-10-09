@@ -61,12 +61,23 @@ Ext.define('MarlowApp.view.AddNote', {
                             }
                             else
                             {
-                                Ext.Msg.alert('', 'Only Numbers Allowed!');
+                                Ext.Msg.alert('Only Numbers Allowed!');
                                 return false;                               
                             }
-                            if(Ext.getCmp("my-list-image")){                                 
-                                    Ext.getCmp('my-list-image').destroy();                                
-                                }
+                            if(Ext.getCmp("shops-image")){
+                            Ext.getCmp("shops-image").destroy();
+                            }                               
+                                                            
+                            if(Ext.getCmp("snap-it-image")){
+                                Ext.getCmp("snap-it-image").destroy();
+                            }                                
+                            if(Ext.getCmp("my-list-image")){
+                                Ext.getCmp("my-list-image").destroy();
+                            }                                
+                            if(Ext.getCmp("info-image")){
+                                Ext.getCmp("info-image").destroy();
+                            }                                
+                                
                                 if(Ext.getCmp("myitemlistviewId")){
                                     Ext.getCmp("myitemlistviewId").destroy();
                                 }                       

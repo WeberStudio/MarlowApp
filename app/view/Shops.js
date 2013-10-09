@@ -62,6 +62,18 @@ Ext.define('MarlowApp.view.Shops', {
                             Ext.getCmp("info-image").destroy();
                         }                                
                         
+                        if(Ext.getCmp("myitemlistviewId")){
+                            Ext.getCmp("myitemlistviewId").destroy();
+                        }                       
+                        if(Ext.getCmp("shopid")){
+                            Ext.getCmp("shopid").destroy();
+                        }
+                        if(Ext.getCmp("snapViewId")){
+                            Ext.getCmp("snapViewId").destroy();
+                        }
+                        if( Ext.getCmp("addtolistid")){
+                            Ext.getCmp("addtolistid").destroy();
+                        }
                         app.application.redirectTo('addtolist');                       
 						 
                     }
