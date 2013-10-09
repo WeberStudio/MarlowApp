@@ -150,7 +150,7 @@ Ext.define('MarlowApp.view.MyList', {
 				xtype: 'toolbar',
 				docked: 'bottom',
 				ui: 'white',
-				cls: 'bottom-toolbar',				
+				cls: 'bottom-up-toolbar',				
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
