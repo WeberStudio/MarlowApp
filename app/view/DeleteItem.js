@@ -29,7 +29,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     xtype                   : 'toolbar',
                     docked                  : 'bottom',
                     ui                      : 'white',
-                    cls                     : 'bottom-toolbar',
+                    cls                     : 'bottom-up-toolbar',
                     layout: {
                        // align: 'center',
                         pack                : 'justify',

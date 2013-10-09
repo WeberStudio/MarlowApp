@@ -138,6 +138,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                        width: '80%',                      
                        flex: 2,
                        cls: 'custom-text-field-dark',
+                       style: 'background-color: inherit;', 
                         
                     },
                     {
@@ -169,6 +170,7 @@ Ext.define('MarlowApp.view.EmailPost',{
                         width: '65%',
                         flex: 2,
                         cls: 'custom-text-field-light',
+                        style: 'background-color: inherit;', 
                         
                     },
                     {

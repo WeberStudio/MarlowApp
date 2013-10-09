@@ -205,26 +205,22 @@ Ext.define('MarlowApp.controller.DashboardC', {
         
         if(Ext.os.is.Android) {
             
-            if(screenWidth == 320 && screenHeight == 426) {
+            if(screenWidth <= 320 && screenHeight <= 426) {
                 
                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/320x426-day.gif") 100% 100%');        
             }
-            if(screenWidth == 320 && screenHeight == 470) {
+            if(screenWidth <= 320 && screenHeight <= 470) {
                 
                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/320x470-day.gif") 100% 100%'); 
             }
-            if(screenWidth == 480 && screenHeight == 640) {
+            if(screenWidth <= 480 && screenHeight <= 640) {
                 
                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/480x640-day.gif") 100% 100%');           
             }
-            if(screenWidth == 720 && screenHeight == 960) {
+            if(screenWidth <= 720 && screenHeight <= 960) {
                 
                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/720x960-day.gif") 100% 100%');            
             } 
-            if(screenWidth == 320 && screenHeight == 456) {
-                
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/320x470-day.gif") 100% 100%'); 
-            }
         }
         else if(Ext.os.is.iOS) {
             
