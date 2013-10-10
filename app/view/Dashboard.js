@@ -69,6 +69,7 @@ Ext.define('MarlowApp.view.Dashboard', {
             {
                 xtype: 'image',
                 src: 'resources/images/marlow/camera-white-icon.png',
+                id: 'snapit-main-icon',
                 centered: true,   
                 height: '50%',      
                 width: '50%',      
@@ -106,7 +107,8 @@ Ext.define('MarlowApp.view.Dashboard', {
             {
                 xtype: 'image',
                 src: 'resources/images/marlow/my-list-white-icon.png',
-                centered: true,   
+                centered: true,  
+                id: 'shops-main-icon', 
                 height: '50%',      
                 width: '50%',
                 flex: 1,
@@ -137,6 +139,7 @@ Ext.define('MarlowApp.view.Dashboard', {
             {
                 xtype: 'image',
                 src: 'resources/images/marlow/shops-white-icon.png',
+                id: 'mylist-main-icon',
                 height: '50%',      
                 width: '50%',
                 centered: true,                         

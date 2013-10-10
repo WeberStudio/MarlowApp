@@ -39,8 +39,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     dashboardView:function(){ 
-    
-        
+         
         //getting device browser height and width
         var browserWidth = window.innerWidth;
         var browserHeight = window.innerHeight;
@@ -69,32 +68,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
                   
         }
-        
-        //getting device orientation
-        //alert('Orientation: ' + Ext.Viewport.getOrientation());
-        
-        /*if(Ext.os.is.Android) {
-         
-            if(Ext.Viewport.getOrientation() == 'landscape')    {
-                         
-                 Ext.getCmp('dashboard-night-logo').setPadding('0 20% 0 25%');     
-            }
-            else {
-                           
-                Ext.getCmp('dashboard-night-logo').setPadding('0 20% 0 5%');            
-            }
-        }
-        else if(Ext.os.is.iOS) {     
-            
-            if(Ext.Viewport.getOrientation() == 'landscape')    {
-                         
-                 Ext.getCmp('dashboard-night-logo').setPadding('0 15% 0 30%');     
-            }
-            else {
-                           
-                Ext.getCmp('dashboard-night-logo').setPadding('0 15% 0 15%');            
-            }
-        } */
        
        //setting font-size dynamically by getting screen width and height
        if(Ext.os.is.Android) {
@@ -103,6 +76,27 @@ Ext.define('MarlowApp.controller.DashboardC', {
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           
+            //getting device orientation and setting layout accordingly.
+           //alert('Orientation: ' + Ext.Viewport.getOrientation());
+           
+           if(Ext.Viewport.getOrientation() == 'landscape')    {
+                
+               
+                Ext.getCmp('snapit-main-icon').setCentered(true);
+                Ext.getCmp('snapit-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('shops-main-icon').setCentered(true);
+                Ext.getCmp('shops-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('mylist-main-icon').setCentered(true);
+                Ext.getCmp('mylist-main-icon').setStyle('margin-right: 25%;');
+                
+                Ext.getCmp('snapit-button').setCentered(true);
+                Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('shops-button').setCentered(true);
+                Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('mylist-button').setCentered(true);
+                Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');                }
+       
        }
        else if(Ext.os.is.iOS) { 
            
@@ -111,6 +105,26 @@ Ext.define('MarlowApp.controller.DashboardC', {
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           
+           //getting device orientation and setting layout accordingly.
+           //alert('Orientation: ' + Ext.Viewport.getOrientation());
+           if(Ext.Viewport.getOrientation() == 'landscape')    {
+               
+           
+                Ext.getCmp('snapit-main-icon').setCentered(true);
+                Ext.getCmp('snapit-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('shops-main-icon').setCentered(true);
+                Ext.getCmp('shops-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('mylist-main-icon').setCentered(true);
+                Ext.getCmp('mylist-main-icon').setStyle('margin-right: 25%;');
+                
+                Ext.getCmp('snapit-button').setCentered(true);
+                Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('shops-button').setCentered(true);
+                Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('mylist-button').setCentered(true);
+                Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           }
        }
         
         /*setInterval(function(){
@@ -214,35 +228,32 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
         
-        /*if(Ext.os.is.Android) {
-         
-            if(Ext.Viewport.getOrientation() == 'landscape')    {
-                         
-                 Ext.getCmp('dashboard-day-logo').setPadding('0 20% 0 25%');     
-            }
-            else {
-                           
-                Ext.getCmp('dashboard-day-logo').setPadding('0 20% 0 5%');            
-            }
-        }
-        else if(Ext.os.is.iOS) {     
-            
-            if(Ext.Viewport.getOrientation() == 'landscape')    {
-                         
-                 Ext.getCmp('dashboard-day-logo').setPadding('0 15% 0 30%');     
-            }
-            else {
-                           
-                Ext.getCmp('dashboard-day-logo').setPadding('0 15% 0 15%');            
-            }
-        }*/
-        
-        if(Ext.os.is.Android) {
+        //setting font-size dynamically by getting screen width and height
+       if(Ext.os.is.Android) {
             
            //for both dashboards
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           
+            //getting device orientation and setting layout accordingly.
+           //alert('Orientation: ' + Ext.Viewport.getOrientation());
+           if(Ext.Viewport.getOrientation() == 'landscape')    {
+                
+                Ext.getCmp('snapit-main-icon').setCentered(true);
+                Ext.getCmp('snapit-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('shops-main-icon').setCentered(true);
+                Ext.getCmp('shops-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('mylist-main-icon').setCentered(true);
+                Ext.getCmp('mylist-main-icon').setStyle('margin-right: 25%;');
+                
+                Ext.getCmp('snapit-button').setCentered(true);
+                Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('shops-button').setCentered(true);
+                Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('mylist-button').setCentered(true);
+                Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 70  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+            }
        }
        else if(Ext.os.is.iOS) { 
            
@@ -251,6 +262,25 @@ Ext.define('MarlowApp.controller.DashboardC', {
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           
+           //getting device orientation and setting layout accordingly.
+           //alert('Orientation: ' + Ext.Viewport.getOrientation());
+           if(Ext.Viewport.getOrientation() == 'landscape')    {
+               
+                Ext.getCmp('snapit-main-icon').setCentered(true);
+                Ext.getCmp('snapit-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('shops-main-icon').setCentered(true);
+                Ext.getCmp('shops-main-icon').setStyle('margin-right: 25%;'); 
+                Ext.getCmp('mylist-main-icon').setCentered(true);
+                Ext.getCmp('mylist-main-icon').setStyle('margin-right: 25%;');
+                
+                Ext.getCmp('snapit-button').setCentered(true);
+                Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('shops-button').setCentered(true);
+                Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+                Ext.getCmp('mylist-button').setCentered(true);
+                Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           }
        }
         
            /*setInterval(function(){
