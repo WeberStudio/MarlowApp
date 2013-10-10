@@ -301,7 +301,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
               
-               Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+              Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
@@ -334,10 +334,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
             //console.log(detstoredata.getAt(0).getData());        
         }
         
-        
         if(Ext.Viewport.getComponent('shopid') == undefined)
             {    
                   
+                 Ext.Viewport.setActiveItem({
+                            xtype: 'shopsview'                 
+                        });
                 /* Get All Shops Listing */   
                 loadMask()
                 var store = Ext.getStore('allshopsStoreId');
@@ -363,9 +365,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                          response = Ext.decode(response.responseText);                                                    
                          hideloadingMask();   
                          store.setData(response);
-                         Ext.Viewport.setActiveItem({
-                            xtype: 'shopsview'                 
-                        });
+                        
                          
                          if(Ext.getCmp('shops-image')) { 
 
@@ -396,10 +396,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 {
                     
                     hideloadingMask();    
-                    Ext.Viewport.setActiveItem({
-                            xtype: 'shopsview'                 
-                        });
-                      
                     if(Ext.getCmp('shops-image')) { 
 
                        Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-active.png" style = "margin-right: 5%;">')
@@ -426,10 +422,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('myitemlistid') == undefined)
             {
             
-            loadMask()
+           
             var store   = Ext.getStore('all_productsid');
             if(store.getCount()== 0)
             {                    
+                 Ext.Viewport.setActiveItem({
+                            xtype: 'myitemlistview'                 
+                        });
+                         loadMask()
                 Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
@@ -449,9 +449,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                         store.setData(response);
                         //console.log(response);
                         hideloadingMask(); 
-                         Ext.Viewport.setActiveItem({
-                            xtype: 'myitemlistview'                 
-                        });
+                        
                         if(Ext.getCmp('my-list-image')) {
                
                                Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
@@ -478,10 +476,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             }
             else
             {
-                hideloadingMask(); 
-                Ext.Viewport.setActiveItem({
-                xtype: 'myitemlistview'                 
-                });
+              
                 if(Ext.getCmp('my-list-image')) {
 
                    Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')

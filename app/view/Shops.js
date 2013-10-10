@@ -107,7 +107,17 @@ Ext.define('MarlowApp.view.Shops', {
                          Ext.getCmp('shops-image').destroy();
                          Ext.getCmp('my-list-image').destroy(); 
                          Ext.getCmp('info-image').destroy();
-						 app.application.redirectTo('snapit')
+                         
+                           navigator.camera.getPicture(function(imagedata){
+
+                        snapSrc = imagedata;
+                      
+                        app.application.redirectTo('snapit');   
+                    }, onFail, { quality: 50,
+                        destinationType: Camera.DestinationType.DATA_URL
+                    }); 
+                         
+						 
 						
 					},
 					},
@@ -128,7 +138,7 @@ Ext.define('MarlowApp.view.Shops', {
                         var addtolistid         = Ext.getCmp("addtolistid");
                         //var loginId        = Ext.getCmp("loginId");
                                        
-                       /* Ext.getCmp('shops-image').destroy();                        
+                        Ext.getCmp('shops-image').destroy();                        
                         if(addtolistid){
                         addtolistid.destroy();
                         }                                 
@@ -141,10 +151,10 @@ Ext.define('MarlowApp.view.Shops', {
                         }
                         if(snapViewId){
                         snapViewId.destroy();
-                        }          */
+                        }          
 						app.application.redirectTo('shops')
-						Ext.getCmp("shopViewBackButton").hide();
-                        Ext.getCmp("shopViewConfirmButton").hide();
+						//Ext.getCmp("shopViewBackButton").hide();
+                      //  Ext.getCmp("shopViewConfirmButton").hide();
                         
 					},
 					},

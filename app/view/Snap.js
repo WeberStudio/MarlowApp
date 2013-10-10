@@ -97,8 +97,18 @@ Ext.define('MarlowApp.view.Snap', {
                         }
                         if(snapViewId){
                         snapViewId.destroy();
-                        }          
-						app.application.redirectTo('snapit')
+                        }   
+                        
+                          navigator.camera.getPicture(function(imagedata){
+
+                        snapSrc = imagedata;
+                      
+                        app.application.redirectTo('snapit');   
+                    }, onFail, { quality: 50,
+                        destinationType: Camera.DestinationType.DATA_URL
+                    }); 
+                               
+						
 						
 					},
 					},
