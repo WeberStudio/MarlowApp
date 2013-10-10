@@ -24,24 +24,48 @@ Ext.define('MarlowApp.view.Dashboard', {
         padding: '0 15% 0 15%' ,
 
         },*/
-        {
-            xtype: 'image',
+        //{
+           // xtype: 'container',
             //centered: true,
-            id: 'dashboard-night-logo', 
-            html: '<img src = "resources/images/marlow-back/marlow-night.png">',
-            height: '35%',
-            width: '35%',
-            padding: '0 15% 0 15%' ,
+           // docked:'left',
+           // id: 'dashboard-night-logo', 
+           // html: '<img src = "resources/images/marlow-back/marlow-night.png">',
+           // height: '35%',
+          //  width: '35%',
+            //padding: '0 20% 0 5%' ,
+           // items: [
+                //{
+                    
+               // }
+            //]
 
-        },
+        //},
         //]    
         // },
         {
             xtype: 'container',
             width: '100%',
-            height: '15%',
+            height: '40%',
+            //style: 'border: 2px solid white;',
             items: [
 
+                {
+                    xtype: 'image',
+                    src: 'resources/images/marlow-back/marlow-night.png',
+                    //centered: true,   
+                    height: '100%',      
+                    width: '100%',      
+                    flex: 1,
+                    //style: 'margin-right: 40%;',
+                },    
+            ]
+        },
+        {
+            xtype: 'container',
+            width: '100%',
+            height: '15%',
+            //style: 'border: 2px solid white;',  
+            items: [
             {
                 xtype: 'image',
                 src: 'resources/images/marlow/camera-white-icon.png',
@@ -52,27 +76,25 @@ Ext.define('MarlowApp.view.Dashboard', {
                 style: 'margin-right: 40%;',
             },
             {
-                xtype: 'button',
-                text: 'SNAP IT',
-                baseCls: 'null',
-                centered: true,
-                docked: 'right',
-                style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing: 5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
-                flex: 1,
-                handler:function()
-                {
-                    navigator.camera.getPicture(function(imagedata){
-
-                        snapSrc = imagedata;
-
-                        app.application.redirectTo('snapit');   
-                    }, onFail, { quality: 50,
-                        destinationType: Camera.DestinationType.DATA_URL
-                    }); 
-
-
-                }
-            },    
+                        xtype: 'button',
+                        text: 'SNAP IT',
+                        id: 'snapit-button',
+                        baseCls: 'null',
+                        centered: true,
+                        docked: 'right',
+                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing: 5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
+                        flex: 1,
+                        handler:function()
+                        { 
+                            navigator.camera.getPicture(function(imagedata){
+                            snapSrc = imagedata; 
+                            app.application.redirectTo('snapit');   
+                            }, onFail, { 
+                                quality: 50,
+                                destinationType: Camera.DestinationType.DATA_URL
+                            }); 
+                        }
+                    },    
             ]
         },
         {
@@ -93,6 +115,7 @@ Ext.define('MarlowApp.view.Dashboard', {
             {
                 xtype: 'button',
                 text: 'SHOPS',
+                id: 'shops-button',
                 baseCls: 'null',
                 centered: true,
                 docked: 'right',
@@ -115,7 +138,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                 xtype: 'image',
                 src: 'resources/images/marlow/shops-white-icon.png',
                 height: '50%',      
-                width: '50%',     
+                width: '50%',
                 centered: true,                         
                 flex: 1,
                 style: 'margin-right: 40%;', 
@@ -123,6 +146,7 @@ Ext.define('MarlowApp.view.Dashboard', {
             {
                 xtype: 'button',
                 text: 'MY LIST',
+                id: 'mylist-button',
                 centered: true,
                 baseCls: 'null',
                 docked: 'right',

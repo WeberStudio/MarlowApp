@@ -11,10 +11,10 @@ Ext.define('MarlowApp.view.PinterestV',{
 		modal: true,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,
-		height: '70%',
+		 height: '50%',
         width: '92%',
         maxWidth: 330,
-        maxHeight: 320,
+        maxHeight: 240,
         baseCls: 'custom-social-alert-box',
 		items: [
 			{
@@ -35,23 +35,12 @@ Ext.define('MarlowApp.view.PinterestV',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ',
 					},
-                    
-                    /*{
-                        xtype: 'image',
-                        html: '<img src = "resources/images/social/4-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
-                        
-                    },*/
                     {
                         xtype: 'button',
                         text: '&nbsp;&nbsp;&nbsp;Pinterest',
                         cls: 'social-popup-title ',
                         style: 'background: url("resources/images/social/4-gray.png")  no-repeat',
                     },
-					/*{
-						xtype: 'image',
-						html: '<img src = "resources/images/social/4-gray.png" style = "margin-left: -0.2%; margin-bottom: -1%px;">',
-						
-					},*/
 					{
 					    xtype: 'button',
                         align: 'right',
@@ -82,18 +71,28 @@ Ext.define('MarlowApp.view.PinterestV',{
 				items: [
 					{
 						xtype: 'textareafield',
-						docked: 'left',
                         id: 'pinterestdesc',
-						width: '80%',
+                        docked: 'left',
+                        width: '80%',
+                        maxRows: 5,
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},
-					{
+					/*{
 						xtype: 'image',
                         id: 'shareimage',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
-					}
+					}*/
+                    {
+                        xtype: 'image',
+                        id: 'shareimage',
+                        src: 'resources/images/guy-dummy.png',
+                        height: '15%',
+                        width: '15%',    
+                        docked: 'right',
+                    }
+                    
 				]
 					
 			},
@@ -102,13 +101,18 @@ Ext.define('MarlowApp.view.PinterestV',{
 				layout: 'fit',
 				
 				items: [
-					{
-						html: '118',
+                    {
+                        html: '<br>',     
+                    },
+                    {
+                        html: '118', 
                         id: 'pinterestprice',
-						style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',		
-					},
+                        style: 'font-family: HelveticaLight; color: #A0A0A0; font-size: 100%',            
+                    },
 				]	
 			},
+            /* not using this code anymore from now on
+            
             {
                 xtype: 'container',
                 layout: 'hbox',
@@ -165,7 +169,7 @@ Ext.define('MarlowApp.view.PinterestV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            } */
 		]
 	}
 });  

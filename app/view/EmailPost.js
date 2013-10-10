@@ -35,11 +35,6 @@ Ext.define('MarlowApp.view.EmailPost',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ', 
                     },
-                    /*{
-                        xtype: 'image',
-                        html: '<img src = "resources/images/social/1-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
-                        
-                    },*/
                     {
                         xtype: 'button',
                         text: '&nbsp;&nbsp;&nbsp;Email',
@@ -51,33 +46,8 @@ Ext.define('MarlowApp.view.EmailPost',{
                         align: 'right',
                         text: 'Send',
                         id: 'sendEmail',
-                        //action: 'hide',
                         cls: 'social-popup-button',
                         style: 'margin-left: -8%; ', 
-                       /* handler:function()
-                        {
-                            email   = Ext.getCmp('emailTo').getValue();  
-                                 
-                            if(email.length == 0)
-                            {
-                                     alert(email.length);
-                                Ext.Msg.alert('Please enter the Email.', 'Please enter the Email.');
-                                return false    
-                            } 
-                             return flase;   
-                           
-                            if(/[ ]/.test(email))
-                            {
-                                Ext.Msg.alert('Empty spaces and  special characters are not allowed in Email.', 'Empty spaces and  special characters are not allowed in Email.');
-                                return false;
-                            }
-                          var email_re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                          if(!(email_re.test(email))) 
-                            {
-                                Ext.Msg.alert('Please Enter Valid Email.', 'Please Enter Valid Email.');
-                                return false;
-                            } 
-                        }  */
                     }
                 ]
             },

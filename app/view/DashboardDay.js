@@ -15,18 +15,36 @@ Ext.define('MarlowApp.view.DashboardDay', {
                 //width: '85%',
                 //height: '40%',
                 //items: [
-                    {
-                        xtype: 'image',
-                        id: 'dashboard-day-logo',
+                    //{
+                       // xtype: 'image',
+                        //id: 'dashboard-day-logo',
                         //centered: true, 
-                        html: '<img src = "resources/images/marlow-back/marlow-day.png">',
-                        height: '35%',
-                        width: '35%',
-                        padding: '0 15% 0 15%' ,
+                        //html: '<img src = "resources/images/marlow-back/marlow-day.png">',
+                        //height: '35%',
+                       // width: '35%',
+                       // padding: '0 20% 0 5%' ,
                          
-                    },
+                    //},
                 //]    
            // },
+           {
+            xtype: 'container',
+            width: '100%',
+            height: '40%',
+            //style: 'border: 2px solid white;',
+            items: [
+
+                {
+                    xtype: 'image',
+                    src: 'resources/images/marlow-back/marlow-day.png',
+                    //centered: true,   
+                    height: '100%',      
+                    width: '100%',      
+                    flex: 1,
+                    //style: 'margin-right: 40%;',
+                },    
+            ]
+        },
              {
                 xtype: 'container',
                 width: '100%',
@@ -46,6 +64,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         xtype: 'button',
                         text: 'SNAP IT',
                         baseCls: 'null',
+                        id: 'snapit-button', 
                         centered: true,
                         docked: 'right',
                         style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing: 5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
@@ -72,8 +91,15 @@ Ext.define('MarlowApp.view.DashboardDay', {
                                 scope: this
                             }); */                                     
                             //window.location = 'SnapIt' ;
-                            snapSrc = 'snap-it-active.png' ; 
-                            app.application.redirectTo('snapit'); 
+                            navigator.camera.getPicture(function(imagedata){
+                            snapSrc = imagedata; 
+                            app.application.redirectTo('snapit');   
+                            }, onFail, { 
+                                quality: 50,
+                                destinationType: Camera.DestinationType.DATA_URL
+                            });
+                            //snapSrc = 'snap-it-active.png' ; 
+                            //app.application.redirectTo('snapit'); 
                         }
                     },    
                 ]
@@ -87,7 +113,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                      {
                         xtype: 'image',
                         src: 'resources/images/marlow/my-list-blue-icon.png',
-                        centered: true,   
+                        centered: true, 
                         height: '50%',      
                         width: '50%',
                         flex: 1,
@@ -97,6 +123,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         xtype: 'button',
                         text: 'SHOPS',
                         baseCls: 'null',
+                        id: 'shops-button', 
                         centered: true,
                         docked: 'right',
                         style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 18%;',
@@ -127,6 +154,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         xtype: 'button',
                         text: 'MY LIST',
                         centered: true,
+                        id: 'mylist-button', 
                         baseCls: 'null',
                         docked: 'right',
                         style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing:5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',

@@ -11,10 +11,10 @@ Ext.define('MarlowApp.view.FacebookV',{
 		modal: true,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true,
-		height: '70%',
+		height: '50%',
         width: '92%',
         maxWidth: 330,
-        maxHeight: 320,
+        maxHeight: 240,
         baseCls: 'custom-social-alert-box',
 		items: [
 			{
@@ -35,22 +35,12 @@ Ext.define('MarlowApp.view.FacebookV',{
                         cls: 'social-popup-button',
                         style: 'margin-right: -8%; ',
 					},
-                    /*{
-                        xtype: 'image',
-                        html: '<img src = "resources/images/social/3-gray.png" style = "margin-right: -80px; height: 22px; width: 22px;">',
-                        
-                    },*/
                     {
                         xtype: 'button',
                         text: '&nbsp;&nbsp;&nbsp;Facebook',
                         cls: 'social-popup-title ',
                         style: 'background: url("resources/images/social/3-gray.png")  no-repeat',    
                     },
-					/*{
-						xtype: 'image',
-						html: '<img src = "resources/images/social/3-gray.png" style = "margin-left: -0.2%; margin-bottom: -1%px;">',
-						
-					},*/
 					{
 					    xtype: 'button',
                         align: 'right',
@@ -79,15 +69,24 @@ Ext.define('MarlowApp.view.FacebookV',{
                         id: 'facebookdesc',
 						docked: 'left',
                         width: '80%',
+                        maxRows: 5,
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},
-					{
+					/*{
 						xtype: 'image',
                         id: 'facebookimage',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
-					}
+					},*/
+                    {
+                        xtype: 'image',
+                        id: 'facebookimage',
+                        src: 'resources/images/guy-dummy.png',
+                        height: '15%',
+                        width: '15%',    
+                        docked: 'right',
+                    }
 				]
 					
 			},
@@ -96,14 +95,18 @@ Ext.define('MarlowApp.view.FacebookV',{
 				layout: 'fit',
 				
 				items: [
+                    {
+                        html: '<br>',     
+                    },
 					{
-						html: '<span>118<span>', 
+						html: '118', 
 						id: 'facebookPrice',
-                        style: 'font-family: HelveticaLight; color: #A0A0A0; border-bottom: 1px solid #C5C5C5;',        	
-                        id: 'facebookPrice',	
+                        style: 'font-family: HelveticaLight; color: #A0A0A0; font-size: 100%',        	
 					},
 				]	
 			},
+            /* not using this code anymore from now on
+            
             {
                 xtype: 'container',
                 layout: 'hbox',
@@ -141,7 +144,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         docked: 'left',
                     
                         flex: 1,
-                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;'
+                        style: 'font-size: 100%; font-family: HelveticaLight; color: black; padding-right: 5%;' 
                         
                     },
                     {
@@ -160,7 +163,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-top: -6px; height: 40px; width: 40px;',
                     }
                 ]
-            }
+            } */
         ]
     }
 });  
