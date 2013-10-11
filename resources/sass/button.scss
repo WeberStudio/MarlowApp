@@ -3,7 +3,7 @@
 	.custom-button  {
 	
 		border: none !important;
-		background-color: inherit !important;
+		background: inherit !important;
 		
 		.x-button-label {
 		
@@ -16,7 +16,7 @@
     .social-popup-button  {
     
         border: none !important;
-        background-color: inherit !important;
+        background: inherit !important;
         color: #0079FF !important;
         
         .x-button-label {
@@ -46,7 +46,7 @@
 	.custom-white-button  {
 		
 		border: none !important;
-        background-color: inherit !important;
+        background: inherit !important;
         font-size: 90% !important;  
         
 		.x-button-label {
@@ -87,17 +87,6 @@
 		top: -120px;
 	}
 	
-
-	.custom-gradient-button {
-	
-		background-image: linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -o-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -moz-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -ms-linear-gradient(bottom, rgb(223,229,235) 9%, rgb(201,210,212) 55%, rgb(224,224,224) 78%);
-		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(223,229,235)),color-stop(0.55, rgb(201,210,212)),color-stop(0.78, rgb(224,224,224)));
-	}
-	
 	.alert-cancel-btn {
 		
 		padding: 15px;
@@ -127,7 +116,7 @@
     .share-item-button  {
     
         border: none !important;
-        background-color: inherit !important;
+        background: inherit !important;
         
         .x-button-label {
         
@@ -141,7 +130,7 @@
     .delete-item-button {
     
         border: none !important;
-        background-color: inherit !important;
+        background: inherit !important;
         
         .x-button-label {
         
@@ -154,7 +143,7 @@
     .share-item-title  {
     
         border: none !important;
-        background-color: inherit !important;
+        background: inherit !important;
         
         .x-button-label {
         

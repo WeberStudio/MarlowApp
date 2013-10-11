@@ -29,7 +29,7 @@ Ext.application({
         'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'TwitterV', 'FacebookV', 'PinterestV', 'MyList', 'EmailPost', 'DashboardDay', 'ConfirmDltItem'],
     
     controllers: [
-        'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'TwitterC', 'FacebookC', 'PinterestC', 'EmailPostC'], 
+        'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'TwitterC', 'FacebookC', 'PinterestC', 'EmailPostC' ], 
     
     models: ['SignupInfoM'],   
     stores: ['SignupInfoS'],

@@ -9,7 +9,7 @@ Ext.define('MarlowApp.view.ShareItem',{
 		modal: true,  
 		height: '50%',  
 		width: '75%',
-        maxWidth: 330,
+        maxWidth: 280,
         maxHeight: 240,  
 		showAnimation: { type: 'slide', direction: 'bottom'},  
 		styleHtmlContent: true, 

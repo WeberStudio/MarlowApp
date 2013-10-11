@@ -14,9 +14,16 @@
 	font-family: LeagueGothicRegular;
 	src: url("fonts/leaguegothic-regular-webfont.ttf") format("truetype");
 }
-
 $base-color: #17a4e6;
-$base-gradient: black;
+$base-gradient: 'bevel';
+$base-gradient-glossy: 'glossy';
+$base-gradient-matte: 'matte';
+$base-gradient-bevel: 'bevel';
+//$list-header-bg-color: transparentize(saturate(#ffffff, 10%), .25);
+$list-header-bg-color: #FFFFFF;
+
+/*$base-color: #17a4e6;
+$base-gradient: black;*/
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 @import 'list.scss';

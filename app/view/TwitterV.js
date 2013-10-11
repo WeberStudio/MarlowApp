@@ -47,12 +47,13 @@ Ext.define('MarlowApp.view.TwitterV',{
 						text: 'Post',
 						cls: 'social-popup-button',
 						style: 'margin-left: -8%; ', 
-                        handler:function() 
+                        handler:function(btn) 
                         {
-                            url =  'http://twitter.com/intent/tweet?text= Brand:%22'+finalBrandName+'%22 Note:'+finalNote+' Price:'+finalPrice;
+                            //url =  'http://twitter.com/intent/tweet?text= Brand:%22'+finalBrandName+'%22 Note:'+finalNote+' Price:'+finalPrice;
                             //url =  'http://twitter.com/intent/tweet?text=&lt;h1&gt;finalBrandName&lt;/h1&gt;&lt;br/&gt;finalNote&lt;br/&gt;finalPrice&lt;br/&gt;&lt;img data-role=&quot;user-avatar&quot; src=&quot;http://talabeaman.org/wp-content/uploads/2013/09/tbm.png&quot;&gt;';
-                            window.open(url,'Twitter Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
-                            return false ;
+                            //window.open(url,'Twitter Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
+                            //return false ;
+                            //window.plugins.childbrowser.showWebPage(url);
                         },
 					},
                     

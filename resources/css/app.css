@@ -13,6 +13,8 @@
   src: url("fonts/leaguegothic-regular-webfont.ttf") format("truetype");
 }
 
+/*$base-color: #17a4e6;
+$base-gradient: black;*/
 /**
  * @class Global_CSS
  * Global CSS variables and mixins of Sencha Touch's Default Theme.
@@ -3333,6 +3335,11 @@ body.x-desktop {
 .x-button, .x-button.x-button-back:after, .x-button.x-button-forward:after, .x-toolbar .x-button, .x-toolbar .x-button.x-button-back:after, .x-toolbar .x-button.x-button-forward:after {
   background-image: none;
   background-color: #cccccc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(30%, #e0e0e0), color-stop(65%, #cccccc), color-stop(100%, #bdbdbd));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e0e0e0 30%, #cccccc 65%, #bdbdbd);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e0e0e0 30%, #cccccc 65%, #bdbdbd);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e0e0e0 30%, #cccccc 65%, #bdbdbd);
+  background-image: linear-gradient(top, #f2f2f2, #e0e0e0 30%, #cccccc 65%, #bdbdbd);
 }
 .x-button.x-button-pressing, .x-button.x-button-pressing:after, .x-button.x-button-pressed, .x-button.x-button-pressed:after, .x-button.x-button-active, .x-button.x-button-active:after, .x-toolbar .x-button.x-button-pressing, .x-toolbar .x-button.x-button-pressing:after, .x-toolbar .x-button.x-button-pressed, .x-toolbar .x-button.x-button-pressed:after, .x-toolbar .x-button.x-button-active, .x-toolbar .x-button.x-button-active:after {
   background-image: none;
@@ -3580,6 +3587,11 @@ body.x-desktop {
   color: #ffcccc;
   background-image: none;
   background-color: #cc0000;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff1a1a), color-stop(30%, #f50000), color-stop(65%, #cc0000), color-stop(100%, #ad0000));
+  background-image: -webkit-linear-gradient(top, #ff1a1a, #f50000 30%, #cc0000 65%, #ad0000);
+  background-image: -moz-linear-gradient(top, #ff1a1a, #f50000 30%, #cc0000 65%, #ad0000);
+  background-image: -o-linear-gradient(top, #ff1a1a, #f50000 30%, #cc0000 65%, #ad0000);
+  background-image: linear-gradient(top, #ff1a1a, #f50000 30%, #cc0000 65%, #ad0000);
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
   -ms-border-radius: 0.2em;
@@ -3966,6 +3978,11 @@ body.x-desktop {
 .x-button.x-button-action-small.x-button-forward:after {
   background-image: none;
   background-color: #008aca;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18b5ff), color-stop(30%, #00a5f3), color-stop(65%, #008aca), color-stop(100%, #0075ab));
+  background-image: -webkit-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -moz-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -o-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
 }
 .x-button.x-button-action.x-button-pressing, .x-button.x-button-action.x-button-pressing:after, .x-button.x-button-action.x-button-pressed, .x-button.x-button-action.x-button-pressed:after, .x-button.x-button-action.x-button-active, .x-button.x-button-action.x-button-active:after, .x-toolbar .x-button.x-button-action.x-button-pressing, .x-toolbar .x-button.x-button-action.x-button-pressing:after, .x-toolbar .x-button.x-button-action.x-button-pressed, .x-toolbar .x-button.x-button-action.x-button-pressed:after, .x-toolbar .x-button.x-button-action.x-button-active, .x-toolbar .x-button.x-button-action.x-button-active:after,
 .x-button.x-button-action-round.x-button-pressing,
@@ -4037,6 +4054,11 @@ body.x-desktop {
 .x-button.x-button-confirm-small.x-button-forward:after {
   background-image: none;
   background-color: #6c9804;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a2e306), color-stop(30%, #89c005), color-stop(65%, #6c9804), color-stop(100%, #577a03));
+  background-image: -webkit-linear-gradient(top, #a2e306, #89c005 30%, #6c9804 65%, #577a03);
+  background-image: -moz-linear-gradient(top, #a2e306, #89c005 30%, #6c9804 65%, #577a03);
+  background-image: -o-linear-gradient(top, #a2e306, #89c005 30%, #6c9804 65%, #577a03);
+  background-image: linear-gradient(top, #a2e306, #89c005 30%, #6c9804 65%, #577a03);
 }
 .x-button.x-button-confirm.x-button-pressing, .x-button.x-button-confirm.x-button-pressing:after, .x-button.x-button-confirm.x-button-pressed, .x-button.x-button-confirm.x-button-pressed:after, .x-button.x-button-confirm.x-button-active, .x-button.x-button-confirm.x-button-active:after, .x-toolbar .x-button.x-button-confirm.x-button-pressing, .x-toolbar .x-button.x-button-confirm.x-button-pressing:after, .x-toolbar .x-button.x-button-confirm.x-button-pressed, .x-toolbar .x-button.x-button-confirm.x-button-pressed:after, .x-toolbar .x-button.x-button-confirm.x-button-active, .x-toolbar .x-button.x-button-confirm.x-button-active:after,
 .x-button.x-button-confirm-round.x-button-pressing,
@@ -4108,6 +4130,11 @@ body.x-desktop {
 .x-button.x-button-decline-small.x-button-forward:after {
   background-image: none;
   background-color: #c70505;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f91f1f), color-stop(30%, #ef0606), color-stop(65%, #c70505), color-stop(100%, #a90404));
+  background-image: -webkit-linear-gradient(top, #f91f1f, #ef0606 30%, #c70505 65%, #a90404);
+  background-image: -moz-linear-gradient(top, #f91f1f, #ef0606 30%, #c70505 65%, #a90404);
+  background-image: -o-linear-gradient(top, #f91f1f, #ef0606 30%, #c70505 65%, #a90404);
+  background-image: linear-gradient(top, #f91f1f, #ef0606 30%, #c70505 65%, #a90404);
 }
 .x-button.x-button-decline.x-button-pressing, .x-button.x-button-decline.x-button-pressing:after, .x-button.x-button-decline.x-button-pressed, .x-button.x-button-decline.x-button-pressed:after, .x-button.x-button-decline.x-button-active, .x-button.x-button-decline.x-button-active:after, .x-toolbar .x-button.x-button-decline.x-button-pressing, .x-toolbar .x-button.x-button-decline.x-button-pressing:after, .x-toolbar .x-button.x-button-decline.x-button-pressed, .x-toolbar .x-button.x-button-decline.x-button-pressed:after, .x-toolbar .x-button.x-button-decline.x-button-active, .x-toolbar .x-button.x-button-decline.x-button-active:after,
 .x-button.x-button-decline-round.x-button-pressing,
@@ -4232,6 +4259,11 @@ body.x-desktop {
   border-top: 1px solid #09415b;
   background-image: none;
   background-color: rgba(4, 32, 45, 0.9);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(11, 81, 114, 0.9)), color-stop(30%, rgba(8, 58, 82, 0.9)), color-stop(65%, rgba(4, 32, 45, 0.9)), color-stop(100%, rgba(2, 12, 17, 0.9)));
+  background-image: -webkit-linear-gradient(top, rgba(11, 81, 114, 0.9), rgba(8, 58, 82, 0.9) 30%, rgba(4, 32, 45, 0.9) 65%, rgba(2, 12, 17, 0.9));
+  background-image: -moz-linear-gradient(top, rgba(11, 81, 114, 0.9), rgba(8, 58, 82, 0.9) 30%, rgba(4, 32, 45, 0.9) 65%, rgba(2, 12, 17, 0.9));
+  background-image: -o-linear-gradient(top, rgba(11, 81, 114, 0.9), rgba(8, 58, 82, 0.9) 30%, rgba(4, 32, 45, 0.9) 65%, rgba(2, 12, 17, 0.9));
+  background-image: linear-gradient(top, rgba(11, 81, 114, 0.9), rgba(8, 58, 82, 0.9) 30%, rgba(4, 32, 45, 0.9) 65%, rgba(2, 12, 17, 0.9));
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -4381,6 +4413,11 @@ body.x-desktop {
 .x-toolbar-dark {
   background-image: none;
   background-color: #1283b8;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2daeea), color-stop(30%, #169ddd), color-stop(65%, #1283b8), color-stop(100%, #106f9c));
+  background-image: -webkit-linear-gradient(top, #2daeea, #169ddd 30%, #1283b8 65%, #106f9c);
+  background-image: -moz-linear-gradient(top, #2daeea, #169ddd 30%, #1283b8 65%, #106f9c);
+  background-image: -o-linear-gradient(top, #2daeea, #169ddd 30%, #1283b8 65%, #106f9c);
+  background-image: linear-gradient(top, #2daeea, #169ddd 30%, #1283b8 65%, #106f9c);
   border-color: black;
 }
 .x-toolbar-dark .x-title {
@@ -4435,6 +4472,11 @@ body.x-desktop {
 .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-forward:after {
   background-image: none;
   background-color: #1072a0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #17a4e6), color-stop(30%, #148dc6), color-stop(65%, #1072a0), color-stop(100%, #0d5f85));
+  background-image: -webkit-linear-gradient(top, #17a4e6, #148dc6 30%, #1072a0 65%, #0d5f85);
+  background-image: -moz-linear-gradient(top, #17a4e6, #148dc6 30%, #1072a0 65%, #0d5f85);
+  background-image: -o-linear-gradient(top, #17a4e6, #148dc6 30%, #1072a0 65%, #0d5f85);
+  background-image: linear-gradient(top, #17a4e6, #148dc6 30%, #1072a0 65%, #0d5f85);
 }
 .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar-dark .x-button.x-button-active, .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-button.x-button-active, .x-toolbar .x-toolbar-dark .x-button.x-button-active:after,
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing,
@@ -4479,6 +4521,11 @@ body.x-desktop {
 .x-toolbar-light {
   background-image: none;
   background-color: #17a4e6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5bc0ef), color-stop(30%, #3ab3eb), color-stop(65%, #17a4e6), color-stop(100%, #1490ca));
+  background-image: -webkit-linear-gradient(top, #5bc0ef, #3ab3eb 30%, #17a4e6 65%, #1490ca);
+  background-image: -moz-linear-gradient(top, #5bc0ef, #3ab3eb 30%, #17a4e6 65%, #1490ca);
+  background-image: -o-linear-gradient(top, #5bc0ef, #3ab3eb 30%, #17a4e6 65%, #1490ca);
+  background-image: linear-gradient(top, #5bc0ef, #3ab3eb 30%, #17a4e6 65%, #1490ca);
   border-color: black;
 }
 .x-toolbar-light .x-title {
@@ -4509,6 +4556,11 @@ body.x-desktop {
 .x-toolbar-light .x-button, .x-toolbar-light .x-button.x-button-back:after, .x-toolbar-light .x-button.x-button-forward:after, .x-toolbar .x-toolbar-light .x-button, .x-toolbar .x-toolbar-light .x-button.x-button-back:after, .x-toolbar .x-toolbar-light .x-button.x-button-forward:after, .x-toolbar-light .x-field-select .x-component-outer, .x-toolbar-light .x-field-select .x-component-outer.x-button-back:after, .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-back:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:after, .x-toolbar-light .x-field-select .x-component-outer:before, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-back:after, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-forward:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-back:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-forward:after {
   background-image: none;
   background-color: #1593cf;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #44b7ec), color-stop(30%, #23aae9), color-stop(65%, #1593cf), color-stop(100%, #1280b3));
+  background-image: -webkit-linear-gradient(top, #44b7ec, #23aae9 30%, #1593cf 65%, #1280b3);
+  background-image: -moz-linear-gradient(top, #44b7ec, #23aae9 30%, #1593cf 65%, #1280b3);
+  background-image: -o-linear-gradient(top, #44b7ec, #23aae9 30%, #1593cf 65%, #1280b3);
+  background-image: linear-gradient(top, #44b7ec, #23aae9 30%, #1593cf 65%, #1280b3);
 }
 .x-toolbar-light .x-button.x-button-pressing, .x-toolbar-light .x-button.x-button-pressing:after, .x-toolbar-light .x-button.x-button-pressed, .x-toolbar-light .x-button.x-button-pressed:after, .x-toolbar-light .x-button.x-button-active, .x-toolbar-light .x-button.x-button-active:after, .x-toolbar .x-toolbar-light .x-button.x-button-pressing, .x-toolbar .x-toolbar-light .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-light .x-button.x-button-pressed, .x-toolbar .x-toolbar-light .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-light .x-button.x-button-active, .x-toolbar .x-toolbar-light .x-button.x-button-active:after, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar-light .x-field-select .x-component-outer.x-button-active, .x-toolbar-light .x-field-select .x-component-outer.x-button-active:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-active, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-active:after, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-active, .x-toolbar-light .x-field-select .x-component-outer:before.x-button-active:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-active, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-active:after {
   background-image: none;
@@ -4528,6 +4580,11 @@ body.x-desktop {
 .x-toolbar-neutral {
   background-image: none;
   background-color: #e0e0e0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f4f4f4), color-stop(65%, #e0e0e0), color-stop(100%, #d1d1d1));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: -moz-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: -o-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
   border-color: #616161;
 }
 .x-toolbar-neutral .x-title {
@@ -4558,6 +4615,11 @@ body.x-desktop {
 .x-toolbar-neutral .x-button, .x-toolbar-neutral .x-button.x-button-back:after, .x-toolbar-neutral .x-button.x-button-forward:after, .x-toolbar .x-toolbar-neutral .x-button, .x-toolbar .x-toolbar-neutral .x-button.x-button-back:after, .x-toolbar .x-toolbar-neutral .x-button.x-button-forward:after, .x-toolbar-neutral .x-field-select .x-component-outer, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-back:after, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-forward:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-back:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-forward:after, .x-toolbar-neutral .x-field-select .x-component-outer:before, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-back:after, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-forward:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-back:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-forward:after {
   background-image: none;
   background-color: #d3d3d3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(30%, #e8e8e8), color-stop(65%, #d3d3d3), color-stop(100%, #c4c4c4));
+  background-image: -webkit-linear-gradient(top, #fafafa, #e8e8e8 30%, #d3d3d3 65%, #c4c4c4);
+  background-image: -moz-linear-gradient(top, #fafafa, #e8e8e8 30%, #d3d3d3 65%, #c4c4c4);
+  background-image: -o-linear-gradient(top, #fafafa, #e8e8e8 30%, #d3d3d3 65%, #c4c4c4);
+  background-image: linear-gradient(top, #fafafa, #e8e8e8 30%, #d3d3d3 65%, #c4c4c4);
 }
 .x-toolbar-neutral .x-button.x-button-pressing, .x-toolbar-neutral .x-button.x-button-pressing:after, .x-toolbar-neutral .x-button.x-button-pressed, .x-toolbar-neutral .x-button.x-button-pressed:after, .x-toolbar-neutral .x-button.x-button-active, .x-toolbar-neutral .x-button.x-button-active:after, .x-toolbar .x-toolbar-neutral .x-button.x-button-pressing, .x-toolbar .x-toolbar-neutral .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-neutral .x-button.x-button-pressed, .x-toolbar .x-toolbar-neutral .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-neutral .x-button.x-button-active, .x-toolbar .x-toolbar-neutral .x-button.x-button-active:after, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active, .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active:after, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active, .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active, .x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active:after {
   background-image: none;
@@ -5327,6 +5389,11 @@ body.x-desktop {
 .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl {
   background-image: none;
   background-color: #008aca;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18b5ff), color-stop(30%, #00a5f3), color-stop(65%, #008aca), color-stop(100%, #0075ab));
+  background-image: -webkit-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -moz-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -o-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
   color: white;
 }
 .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
@@ -5335,11 +5402,16 @@ body.x-desktop {
 
 .x-list-normal .x-list-header {
   background-image: none;
-  background-color: #6acbf9;
-  color: #0887c2;
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(65%, #ffffff), color-stop(100%, #f0f0f0));
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff 30%, #ffffff 65%, #f0f0f0);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 30%, #ffffff 65%, #f0f0f0);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff 30%, #ffffff 65%, #f0f0f0);
+  background-image: linear-gradient(top, #ffffff, #ffffff 30%, #ffffff 65%, #f0f0f0);
+  color: #b3b3b3;
   text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
-  border-top: 1px solid #6acbf9;
-  border-bottom: 1px solid #0aa9f3;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #cccccc;
   font-weight: bold;
   font-size: 0.8em;
   padding: 0.2em 1.02em;
@@ -5461,6 +5533,11 @@ body.x-desktop {
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-item-selected > .x-dock-body {
   background-image: none;
   background-color: #008aca;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18b5ff), color-stop(30%, #00a5f3), color-stop(65%, #008aca), color-stop(100%, #0075ab));
+  background-image: -webkit-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -moz-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: -o-linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
+  background-image: linear-gradient(top, #18b5ff, #00a5f3 30%, #008aca 65%, #0075ab);
   color: white;
 }
 .x-list-round .x-indexbar-vertical {
@@ -5518,6 +5595,11 @@ body.x-desktop {
   height: 2.5em;
   background-image: none;
   background-color: rgba(13, 169, 242, 0.3);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(85, 195, 246, 0.3)), color-stop(30%, rgba(52, 183, 244, 0.3)), color-stop(65%, rgba(13, 169, 242, 0.3)), color-stop(100%, rgba(11, 149, 213, 0.3)));
+  background-image: -webkit-linear-gradient(top, rgba(85, 195, 246, 0.3), rgba(52, 183, 244, 0.3) 30%, rgba(13, 169, 242, 0.3) 65%, rgba(11, 149, 213, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(85, 195, 246, 0.3), rgba(52, 183, 244, 0.3) 30%, rgba(13, 169, 242, 0.3) 65%, rgba(11, 149, 213, 0.3));
+  background-image: -o-linear-gradient(top, rgba(85, 195, 246, 0.3), rgba(52, 183, 244, 0.3) 30%, rgba(13, 169, 242, 0.3) 65%, rgba(11, 149, 213, 0.3));
+  background-image: linear-gradient(top, rgba(85, 195, 246, 0.3), rgba(52, 183, 244, 0.3) 30%, rgba(13, 169, 242, 0.3) 65%, rgba(11, 149, 213, 0.3));
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
@@ -5537,6 +5619,11 @@ body.x-desktop {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0.1em 0.3em;
   background-image: none;
   background-color: #21b2f6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6acbf9), color-stop(30%, #48bff7), color-stop(65%, #21b2f6), color-stop(100%, #0aa5ee));
+  background-image: -webkit-linear-gradient(top, #6acbf9, #48bff7 30%, #21b2f6 65%, #0aa5ee);
+  background-image: -moz-linear-gradient(top, #6acbf9, #48bff7 30%, #21b2f6 65%, #0aa5ee);
+  background-image: -o-linear-gradient(top, #6acbf9, #48bff7 30%, #21b2f6 65%, #0aa5ee);
+  background-image: linear-gradient(top, #6acbf9, #48bff7 30%, #21b2f6 65%, #0aa5ee);
 }
 .x-picker-slot-title > div {
   font-size: 0.8em;
@@ -5842,6 +5929,11 @@ body.x-desktop {
   border-bottom-color: #196f98;
   background-image: none;
   background-color: #249fd9;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #64bce6), color-stop(30%, #45afe1), color-stop(65%, #249fd9), color-stop(100%, #1f8cbf));
+  background-image: -webkit-linear-gradient(top, #64bce6, #45afe1 30%, #249fd9 65%, #1f8cbf);
+  background-image: -moz-linear-gradient(top, #64bce6, #45afe1 30%, #249fd9 65%, #1f8cbf);
+  background-image: -o-linear-gradient(top, #64bce6, #45afe1 30%, #249fd9 65%, #1f8cbf);
+  background-image: linear-gradient(top, #64bce6, #45afe1 30%, #249fd9 65%, #1f8cbf);
 }
 .x-tabbar-light .x-tab {
   color: #d1ebf8;
@@ -5894,6 +5986,11 @@ body.x-desktop {
   border-bottom-color: #073044;
   background-image: none;
   background-color: #0e6289;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1593cf), color-stop(30%, #117cae), color-stop(65%, #0e6289), color-stop(100%, #0b4e6d));
+  background-image: -webkit-linear-gradient(top, #1593cf, #117cae 30%, #0e6289 65%, #0b4e6d);
+  background-image: -moz-linear-gradient(top, #1593cf, #117cae 30%, #0e6289 65%, #0b4e6d);
+  background-image: -o-linear-gradient(top, #1593cf, #117cae 30%, #0e6289 65%, #0b4e6d);
+  background-image: linear-gradient(top, #1593cf, #117cae 30%, #0e6289 65%, #0b4e6d);
 }
 .x-tabbar-dark .x-tab {
   color: #72c8f1;
@@ -5946,6 +6043,11 @@ body.x-desktop {
   border-bottom-color: #bababa;
   background-image: none;
   background-color: #e0e0e0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f4f4f4), color-stop(65%, #e0e0e0), color-stop(100%, #d1d1d1));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: -moz-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: -o-linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
+  background-image: linear-gradient(top, #ffffff, #f4f4f4 30%, #e0e0e0 65%, #d1d1d1);
 }
 .x-tabbar-neutral .x-tab {
   color: #7a7a7a;
@@ -6014,12 +6116,12 @@ body.x-desktop {
 }
 
 .shops-list .x-list-header {
-  background-color: white;
-  font-family: HelveticaBold;
-  color: black;
-  font-size: 100%;
-  border-top: none;
-  border-bottom: #C5C5C5 solid 1px;
+  background-color: white !important;
+  font-family: HelveticaBold !important;
+  color: black !important;
+  font-size: 100% !important;
+  border-top: none !important;
+  border-bottom: #C5C5C5 solid 1px !important;
 }
 
 .x-list-normal .x-list-item.x-list-item-tpl, .x-list-normal .x-list-item .x-dock-horizontal {
@@ -6084,7 +6186,7 @@ body.x-desktop {
 
 .custom-button {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
 }
 .custom-button .x-button-label, .custom-button .x-badge, .custom-button .x-hasbadge .x-badge, .x-hasbadge .custom-button .x-badge {
   font-family: HelveticaLight;
@@ -6094,7 +6196,7 @@ body.x-desktop {
 
 .social-popup-button {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
   color: #0079FF !important;
 }
 .social-popup-button .x-button-label, .social-popup-button .x-badge, .social-popup-button .x-hasbadge .x-badge, .x-hasbadge .social-popup-button .x-badge {
@@ -6116,7 +6218,7 @@ body.x-desktop {
 
 .custom-white-button {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
   font-size: 90% !important;
 }
 .custom-white-button .x-button-label, .custom-white-button .x-badge, .custom-white-button .x-hasbadge .x-badge, .x-hasbadge .custom-white-button .x-badge {
@@ -6150,15 +6252,6 @@ final_img {
   top: -120px;
 }
 
-.custom-gradient-button {
-  background-image: linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -o-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -moz-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -webkit-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -ms-linear-gradient(bottom, #dfe5eb 9%, #c9d2d4 55%, #e0e0e0 78%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, #dfe5eb), color-stop(0.55, #c9d2d4), color-stop(0.78, #e0e0e0));
-}
-
 .alert-cancel-btn {
   padding: 15px;
   border: 1px solid #C5C5C5;
@@ -6185,7 +6278,7 @@ final_img {
 
 .share-item-button {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
 }
 .share-item-button .x-button-label, .share-item-button .x-badge, .share-item-button .x-hasbadge .x-badge, .x-hasbadge .share-item-button .x-badge {
   font-family: HelveticaLight;
@@ -6196,7 +6289,7 @@ final_img {
 
 .delete-item-button {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
 }
 .delete-item-button .x-button-label, .delete-item-button .x-badge, .delete-item-button .x-hasbadge .x-badge, .x-hasbadge .delete-item-button .x-badge {
   font-family: HelveticaLight;
@@ -6207,7 +6300,7 @@ final_img {
 
 .share-item-title {
   border: none !important;
-  background-color: inherit !important;
+  background: inherit !important;
 }
 .share-item-title .x-button-label, .share-item-title .x-badge, .share-item-title .x-hasbadge .x-badge, .x-hasbadge .share-item-title .x-badge {
   font-family: HelveticaLight;
@@ -6387,7 +6480,7 @@ final_img {
 }
 
 .custom-share-panel {
-  background: url("../images/template/share-background.png");
+  background: url("../images/template/strip.png");
   border-radius: 10px;
 }
 .custom-share-panel .share-email {
