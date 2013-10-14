@@ -49,9 +49,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var screenHeight = screen.height;
         
         //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);
-        /*var date = new Date;
+        var date = new Date;
         var minutes = date.getMinutes();
-        var hours = date.getHours(); */
+        var hours = date.getHours(); 
         
         
         if(Ext.Viewport.getComponent('dashboardId') == undefined)
@@ -67,7 +67,24 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
                   
         }
-            
+        
+           setInterval(function(){
+                
+                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+                    
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboardd'); 
+                    
+                }
+                else {
+
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboard'); 
+                    //alert('Time: ' + hours + ':' + minutes);
+                }     
+                    
+            }, 5000);
+        
             //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);  
             //alert('browserScreen w: ' + browserWidth + ' browserScreen h: ' + browserHeight);
             
@@ -172,30 +189,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
            }
        } 
         
-        /*setInterval(function(){
-            if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
-
-                app.application.redirectTo('dashboardd'); 
-            }
-            else {
-
-                app.application.redirectTo('dashboard');
-            }
-        },10000);*/
-        
-        /*if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
-
-                app.application.redirectTo('dashboardd'); 
-            }
-            else {
-
-                app.application.redirectTo('dashboard');
-            }*/
-        
-        
-          
-       
-        //console.log() 
+       //console.log() 
         //Ext.getCmp("ssntxt").blur(); 
     },
 	
@@ -214,9 +208,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var date = new Date;
         var minutes = date.getMinutes();
         var hours = date.getHours();
-        // console.log(Ext.Viewport.getCmp('sigupId'))
-
-        
+        // console.log(Ext.Viewport.getCmp('sigupId'))      
         
         if(Ext.Viewport.getComponent('dashboardId') == undefined)
             {  
@@ -232,6 +224,23 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
                   
         }
+       
+        setInterval(function(){
+                
+                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+                    
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboardd'); 
+                    
+                }
+                else {
+
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboard'); 
+                    //alert('Time: ' + hours + ':' + minutes);
+                }     
+                    
+            }, 5000);
         
        if(screenWidth <= 320 && screenHeight <= 426) {
                 
