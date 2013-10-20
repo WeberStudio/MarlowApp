@@ -7,7 +7,6 @@ Ext.define('MarlowApp.view.Dashboard', {
         style: 'background: url("resources/images/marlow-back/home-night.gif")',
         width: '100%',
         height: '100%',
-
         fullscreen: true,
         items: [
         //{
@@ -87,16 +86,16 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         { 
-                            navigator.camera.getPicture(function(imagedata){
-                            snapSrc = imagedata; 
-                            app.application.redirectTo('snapit');   
-                            }, onFail, { 
+                           navigator.camera.getPicture(function(imagedata){
+                           snapSrc = imagedata; 
+                           app.application.redirectTo('snapit');   
+                           }, onFail, { 
                                 quality: 50,
                                 destinationType: Camera.DestinationType.DATA_URL
-                            }); 
+                           });
                         }
-                    },    
-            ]
+            },    
+        ]
         },
         {
             xtype: 'container',

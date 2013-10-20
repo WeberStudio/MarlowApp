@@ -71,20 +71,18 @@
 
     .x-msgbox-dark .x-msgbox-text {
         color: #000 !important;
-        font-size: 80%;
         font-family: HelveticaLight;
     }
 
     .x-msgbox .x-button {
            
         background-image: none !important;
-        background-color : #818185 !important; // red will be the button color
+        background-color : #818185 !important; // button color
     }
     
     .x-msgbox-title .x-title {
         color:#000 !important;
-        font-size: 100% !important;
-        font-family: HelveticaLight !important;
+        font-family: HelveticaBold !important;
     }
     
     .custom-form {

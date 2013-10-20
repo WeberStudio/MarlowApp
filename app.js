@@ -78,6 +78,7 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('MarlowApp.view.Main'));
+        
     },
 
     onUpdated: function() {
