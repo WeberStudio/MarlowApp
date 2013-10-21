@@ -535,6 +535,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 },
                 callbackKey: 'callback', 
                 timeout : 6000,
+                method: 'POST',                
+                jsonData: {"finalUserId": finalUserId},
                 method: 'GET',                
               
                 withCredentials: false,
