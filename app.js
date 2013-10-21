@@ -56,7 +56,8 @@ Ext.application({
         // Destroy the #appLoadingIndicator element
         app = this;
         //serviceUrl          = 'http://localhost/MarlowApp/marlow_admin/client/';
-        serviceUrl          = 'http://geordie.testbench.co.uk/index.php/client/';        
+        serviceUrl          = 'http://geordie.testbench.co.uk/index.php/client/';
+        imageUrl            = 'http://geordie.testbench.co.uk/assets/media/';        
         snapSrc             = '';
         shopSelectedId      = '';
         shopSelectedName    = ''; 
@@ -78,7 +79,6 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('MarlowApp.view.Main'));
-        
     },
 
     onUpdated: function() {

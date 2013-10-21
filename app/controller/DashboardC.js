@@ -1,6 +1,6 @@
 Ext.define('MarlowApp.controller.DashboardC', {
     extend: 'Ext.app.Controller',
-	require: ['Ext.Img', 'Ext.dom.Element'],
+    require: ['Ext.Img'],
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
@@ -11,34 +11,34 @@ Ext.define('MarlowApp.controller.DashboardC', {
            
             saveNoteId:    '#saveNoteId',
             sendEmailId:     '#sendEmail',
-          	
+              
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
-				
+                
             },
             
             sendEmailId: {
                 tap: 'onButtonTapSendEMail',
             }
-			
-			
+            
+            
         },
         routes : {
             'dashboard'     : 'dashboardView',
-			'dashboardd'	: 'dashboarddayView',
+            'dashboardd'    : 'dashboarddayView',
             'snapit'        : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-			'mylist' 		: 'mylistView',            
+            'mylist'         : 'mylistView',            
         }                                    
     },
     
-    dashboardView:function(){    
+     dashboardView:function(){    
         
         //getting device browser height and width
         var browserWidth = window.innerWidth;
@@ -175,8 +175,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
        //console.log() 
         //Ext.getCmp("ssntxt").blur(); 
     },
-	
-	dashboarddayView:function(){ 
+    
+    dashboarddayView:function(){ 
         
         //getting device browser height and width
         var browserWidth = window.innerWidth;
@@ -311,21 +311,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-	mylistView:function(){ 
-		
-		
+    mylistView:function(){ 
+        
+        
         all_productsid_store            = Ext.getStore('all_productsid');
         var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
         deleteProductId                 = productViewBrand.product_id;
         if(Ext.Viewport.getComponent('mylistid') == undefined)
-		{  			   
+        {                 
               
             //console.log(productViewBrand);
             Ext.Viewport.setActiveItem({
-			xtype: 'mylistView'
+            xtype: 'mylistView'
             
-		});
-		    //alert(productViewBrand.image);
+        });
+            //alert(productViewBrand.image);
             Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
@@ -333,14 +333,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
-		}
-		else
-		{       
+        }
+        else
+        {       
              
             Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
-		} 
-		//Ext.getCmp("ssntxt").blur(); 
-	},
+        } 
+        //Ext.getCmp("ssntxt").blur(); 
+    },
 
     
     snapView:function(){
@@ -355,15 +355,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 ({
                     xtype: 'snapView'                 
                 }); 
-				if(Ext.getCmp('snap-it-image')) {
-					
-					Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
-					Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">')
-					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
-					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
-				}
+                if(Ext.getCmp('snap-it-image')) {
+                    
+                    Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
+                    Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">')
+                    Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
+                    Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
+                }
               
-              Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+              //Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
@@ -373,11 +373,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     shopsview:function(){ 
-		
-		
+        
+        
         var itemnote = '';
         var itemprice = '';
-		
+        
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -473,8 +473,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             {
             Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));     
         } 
-        //Ext.getCmp("ssntxt").blur();
-         
+        //Ext.getCmp("ssntxt").blur(); 
     },
     
    
@@ -503,9 +502,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 callbackKey: 'callback', 
                 timeout : 6000,
                 method: 'POST',                
-                jsonData: {"finalUserId": finalUserId},
-                method: 'GET',                
-              
+                jsonData: {"finalUserId": finalUserId},     
                 withCredentials: false,
                 useDefaultXhrHeader: false,
                 success: function(response) {      
@@ -689,8 +686,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     xtype: 'addtolistView'                 
                 });
                  //alert(finalImage);
-                Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
-				//Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                //Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                //Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
@@ -763,8 +761,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //SaveInfoStoreId.add({ note: note, price: price }); 
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
-	
-	onButtonTapSendEMail:function()
+    
+    onButtonTapSendEMail:function()
     {
         emailMessage    = Ext.getCmp('emailMessage').getValue();
         emailTo         = Ext.getCmp('emailTo').getValue();

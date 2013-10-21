@@ -25,7 +25,8 @@ Ext.define('MarlowApp.controller.PinterestC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
 		popup.show();
-        Ext.getCmp('shareimage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 80px; height: 80px;">'); 
+        // Ext.getCmp('shareimage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 80px; height: 80px;">');       
+        document.getElementById("shareimage").src = imageUrl+finalImage; 
         Ext.getCmp('pinterestdesc').setValue(finalNote);
         Ext.getCmp('pinterestprice').setHtml('<span>\u00A3'+finalPrice+'</span>');    
 	},  

@@ -86,7 +86,8 @@ Ext.define('MarlowApp.controller.LoginC', {
                         
                         response = Ext.decode(response.responseText);
                         Ext.getStore("SignupInfoStore").setData(response[0]);
-                        
+                        finalUserId = response[0].user_id; 
+                           
                            // console.log(response[0]);                        
                            //console.log(Ext.getStore("SignupInfoStore"));
                           //  app.application.redirectTo('dashboard');
@@ -97,14 +98,13 @@ Ext.define('MarlowApp.controller.LoginC', {
                             Ext.Msg.alert('ENTERED INVALID RECORD');    
                             app.application.redirectTo('login');
                         }
-                        else
+                       else
                         {      
   
                             var date = new Date;
                             var minutes = date.getMinutes();
                             var hours = date.getHours();
-                            
-                            
+                                  
                             setInterval(function(){
 
                                 hideloadingMask(); 
