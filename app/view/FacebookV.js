@@ -49,6 +49,7 @@ Ext.define('MarlowApp.view.FacebookV',{
                         style: 'margin-left: -8%; ', 
                         handler:function() 
                         {
+                               // alert(imageUrl+finalImage);
                             url =  'https://www.facebook.com/sharer/sharer.php?s=100&p[title]='+finalBrandName+'&p[url]=http://geordie.testbench.co.uk/&p[summary]='+finalNote+' Price:'+finalPrice+'&p[images][0]='+imageUrl+finalImage;                            
                             window.open(url,'Facebook Share', 'width=400,height=400,scrollbars=yes,toolbar=yes,location=yes');
                             return false ;
@@ -73,20 +74,21 @@ Ext.define('MarlowApp.view.FacebookV',{
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},
-					/*{
+					{
 						xtype: 'image',
                         id: 'facebookimage',
 						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
 						docked: 'right',
-					},*/
-                    {
+                        
+					},
+                   /* {
                         xtype: 'image',
                         id: 'facebookimage',
                         src: 'resources/images/guy-dummy.png',
-                        height: '5%',
-                        width: '5%',    
+                        height: '15%',
+                        width: '15%',    
                         docked: 'right',
-                    }
+                    }  */
 				]
 					
 			},
