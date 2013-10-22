@@ -6427,7 +6427,6 @@ final_img {
 
 .x-msgbox-dark .x-msgbox-text {
   color: #000 !important;
-  font-size: 80%;
   font-family: HelveticaLight;
 }
 
@@ -6438,8 +6437,7 @@ final_img {
 
 .x-msgbox-title .x-title {
   color: #000 !important;
-  font-size: 100% !important;
-  font-family: HelveticaLight !important;
+  font-family: HelveticaBold !important;
 }
 
 .custom-form {
