@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.FacebookV',{
 		items: [
 			{
 				xtype: 'toolbar',
-                baseCls: 'custom-social-toolbar',
+                baseCls: 'custom-social-toolbar-extra',
                 docked: 'top',
                 layout: {
                     pack: 'justify',
@@ -68,8 +68,8 @@ Ext.define('MarlowApp.view.FacebookV',{
 						xtype: 'textareafield',
                         id: 'facebookdesc',
 						docked: 'left',
-                        width: '80%',
-                        maxRows: 5,
+                        //width: '80%',
+                        //maxRows: 5,
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},

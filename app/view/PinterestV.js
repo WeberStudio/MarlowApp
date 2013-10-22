@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.PinterestV',{
 		items: [
 			{
 				xtype: 'toolbar',
-                baseCls: 'custom-social-toolbar',
+                baseCls: 'custom-social-toolbar-extra',
                 docked: 'top',
                 layout: {
                     pack: 'justify',
