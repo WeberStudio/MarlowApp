@@ -93,7 +93,9 @@ Ext.define('MarlowApp.view.Dashboard', {
                             }, onFail, { 
                                 quality: 50,
                                 destinationType: Camera.DestinationType.DATA_URL
-                            }); 
+                            });  
+                            /*snapSrc = 'imagedata.jpg'; 
+                            app.application.redirectTo('snapit');  */
                         }
                     },    
             ]

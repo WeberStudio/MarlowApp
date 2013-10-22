@@ -86,7 +86,8 @@ Ext.define('MarlowApp.controller.LoginC', {
                         
                         response = Ext.decode(response.responseText);
                         Ext.getStore("SignupInfoStore").setData(response[0]);
-                        
+                        finalUserId = response[0].user_id; 
+                           
                            // console.log(response[0]);                        
                            //console.log(Ext.getStore("SignupInfoStore"));
                           //  app.application.redirectTo('dashboard');

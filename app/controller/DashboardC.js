@@ -68,7 +68,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
         
-           setInterval(function(){
+          /* setInterval(function(){
                 
                 if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
                     
@@ -83,7 +83,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //alert('Time: ' + hours + ':' + minutes);
                 }     
                     
-            }, 5000);
+            }, 5000);   */
         
             //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);  
             //alert('browserScreen w: ' + browserWidth + ' browserScreen h: ' + browserHeight);
@@ -134,9 +134,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
          if(Ext.os.is.Android) {
             
            //for both dashboards
-           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
 
            
             //getting device orientation and setting layout accordingly.
@@ -164,9 +164,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
            
            //for both dashboards
            //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight); 
-           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
            
            //getting device orientation and setting layout accordingly.
            //alert('Orientation: ' + Ext.Viewport.getOrientation());
@@ -225,7 +225,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
        
-        setInterval(function(){
+       /* setInterval(function(){
                 
                 if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
                     
@@ -240,7 +240,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //alert('Time: ' + hours + ':' + minutes);
                 }     
                     
-            }, 5000);
+            }, 5000);  */
         
        if(screenWidth <= 320 && screenHeight <= 426) {
                 
@@ -288,9 +288,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
          if(Ext.os.is.Android) {
             
            //for both dashboards
-           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
 
            
             //getting device orientation and setting layout accordingly.
@@ -318,9 +318,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
            
            //for both dashboards
            //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight); 
-           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 40  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
+           Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
            
            //getting device orientation and setting layout accordingly.
            //alert('Orientation: ' + Ext.Viewport.getOrientation());
@@ -536,9 +536,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 callbackKey: 'callback', 
                 timeout : 6000,
                 method: 'POST',                
-                jsonData: {"finalUserId": finalUserId},
-                method: 'GET',                
-              
+                jsonData: {"finalUserId": finalUserId},     
                 withCredentials: false,
                 useDefaultXhrHeader: false,
                 success: function(response) {      
@@ -667,12 +665,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
-                            
+                             finalImage = response[0].MESSAGE;
+                             //alert(finalImage);
                              hideloadingMask();
                               Ext.Msg.alert( 'Product saved successfully!')
-                             
+                             //console.log(response[0].MESSAGE);
                             //store.setData(response);
                             //console.log(store.setData(response));
+                             Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
@@ -722,8 +723,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     xtype: 'addtolistView'                 
                 });
                  //alert(finalImage);
-                Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                //Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
 				//Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                     
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
