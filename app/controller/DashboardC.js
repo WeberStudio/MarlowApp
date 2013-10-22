@@ -1,6 +1,6 @@
 Ext.define('MarlowApp.controller.DashboardC', {
     extend: 'Ext.app.Controller',
-    require: ['Ext.Img'],
+	require: ['Ext.Img'],
    // requires: ['Ext.data.JsonP','Ext.Ajax'],
     
     config: {
@@ -11,39 +11,38 @@ Ext.define('MarlowApp.controller.DashboardC', {
            
             saveNoteId:    '#saveNoteId',
             sendEmailId:     '#sendEmail',
-              
+          	
         },
         control: {
             saveNoteId: {
                 tap: 'onButtonTapNote',
-                
+				
             },
             
             sendEmailId: {
                 tap: 'onButtonTapSendEMail',
             }
-            
-            
+			
+			
         },
         routes : {
             'dashboard'     : 'dashboardView',
-            'dashboardd'    : 'dashboarddayView',
+			'dashboardd'	: 'dashboarddayView',
             'snapit'        : 'snapView',
             'shops'         : 'shopsview',
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-            'mylist'         : 'mylistView',            
+			'mylist' 		: 'mylistView',            
         }                                    
     },
     
-     dashboardView:function(){    
-        
+    dashboardView:function(){ 
+         
         //getting device browser height and width
         var browserWidth = window.innerWidth;
         var browserHeight = window.innerHeight;
-        var dashboardName = 'Dashboard Night';
         
         //getting device screen height and width 
         var screenWidth = screen.width;
@@ -54,72 +53,89 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var minutes = date.getMinutes();
         var hours = date.getHours(); 
         
+        
         if(Ext.Viewport.getComponent('dashboardId') == undefined)
-            {
-              
+            {  
             Ext.Viewport.setActiveItem({
-                 xtype: 'dashboardView'
+                xtype: 'dashboardView'
             });
            
         }
-        else {
+        else
+            {
                 
-           Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
-          
+            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
                   
-        } 
+        }
         
-        //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);  
-        //alert('browserScreen w: ' + browserWidth + ' browserScreen h: ' + browserHeight);
+          /* setInterval(function(){
+                
+                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+                    
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboardd'); 
+                    
+                }
+                else {
+
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboard'); 
+                    //alert('Time: ' + hours + ':' + minutes);
+                }     
+                    
+            }, 5000);   */
+        
+            //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);  
+            //alert('browserScreen w: ' + browserWidth + ' browserScreen h: ' + browserHeight);
             
-        if(screenWidth <= 320 && screenHeight <= 426) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x426-night.gif") 100% 100%');        
-        }
-        else if(screenWidth <= 320 && screenHeight <= 480) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x470-night.gif") 100% 100%'); 
-        }
-        else if((screenWidth <= 480) && screenHeight <= 640) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x640-night.gif") 100% 100%');           
-        }
-        else if(screenWidth <= 720 && screenHeight <= 960) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/720x960-night.gif") 100% 100%');            
-        }
-        else if(screenWidth <= 800 && screenHeight <= 1280) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/800x1280-night.gif") 100% 100%');            
+            if(screenWidth <= 320 && screenHeight <= 426) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x426-night.gif") 100% 100%');        
+            }
+            else if(screenWidth <= 320 && screenHeight <= 480) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/320x470-night.gif") 100% 100%'); 
+            }
+            else if((screenWidth <= 480) && screenHeight <= 640) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x640-night.gif") 100% 100%');           
+            }
+            else if(screenWidth <= 720 && screenHeight <= 960) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/720x960-night.gif") 100% 100%');            
+            }
+            else if(screenWidth <= 800 && screenHeight <= 1280) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/800x1280-night.gif") 100% 100%');            
+               
+            }
+            else if(screenWidth <= 480 && screenHeight <= 800) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x800-night.gif") 100% 100%');            
+               
+            }    
            
-        }
-        else if(screenWidth <= 480 && screenHeight <= 800) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x800-night.gif") 100% 100%');            
-           
-        }    
-       
-        //iphone 5
-        else if(screenWidth <= 640 && screenHeight <= 1136) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
-        }
-        //iphone 4
-        else if(screenWidth <= 640 && screenHeight <= 960) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-        }
-        else if(screenWidth <= 768 && screenHeight <= 1024) {
-            
-           Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
-        }
+            //iphone 5
+            else if(screenWidth <= 640 && screenHeight <= 1136) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+            }
+            //iphone 4
+            else if(screenWidth <= 640 && screenHeight <= 960) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+            }
+            else if(screenWidth <= 768 && screenHeight <= 1024) {
+                
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+            }
     
          //setting font-size dynamically by getting screen width and height
          if(Ext.os.is.Android) {
             
            //for both dashboards
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50 +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: white; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
 
            
@@ -127,7 +143,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
            //alert('Orientation: ' + Ext.Viewport.getOrientation());
            
            if(Ext.Viewport.getOrientation() == 'landscape')    {
-                       
+                
+               
                 Ext.getCmp('snapit-main-icon').setCentered(true);
                 Ext.getCmp('snapit-main-icon').setStyle('margin-right: 25%;'); 
                 Ext.getCmp('shops-main-icon').setCentered(true);
@@ -175,13 +192,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
        //console.log() 
         //Ext.getCmp("ssntxt").blur(); 
     },
-    
-    dashboarddayView:function(){ 
+	
+	dashboarddayView:function(){ 
         
         //getting device browser height and width
         var browserWidth = window.innerWidth;
         var browserHeight = window.innerHeight;
-        var dashboardName = 'Dashboard Day';
+        
         //getting device screen height and width 
         var screenWidth = screen.width;
         var screenHeight = screen.height;
@@ -193,20 +210,37 @@ Ext.define('MarlowApp.controller.DashboardC', {
         var hours = date.getHours();
         // console.log(Ext.Viewport.getCmp('sigupId'))      
         
-        if(Ext.Viewport.getComponent('dashboardId') == undefined)   {  
-            
+        if(Ext.Viewport.getComponent('dashboardId') == undefined)
+            {  
             Ext.Viewport.setActiveItem({
-                
                 xtype: 'dashboarddayView'
             });
-                  
+            
+            
         }
         else
         {
                 
-            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));        
+            Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));
+                  
         }
-   
+       
+       /* setInterval(function(){
+                
+                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+                    
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboardd'); 
+                    
+                }
+                else {
+
+                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                    app.application.redirectTo('dashboard'); 
+                    //alert('Time: ' + hours + ':' + minutes);
+                }     
+                    
+            }, 5000);  */
         
        if(screenWidth <= 320 && screenHeight <= 426) {
                 
@@ -255,7 +289,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
            //for both dashboards
            Ext.getCmp('snapit-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
-           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50 +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
+           Ext.getCmp('shops-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');     
            Ext.getCmp('mylist-button').setStyle('font-family: LeagueGothicRegular; color: #004A80; font-size: ' + (screenWidth + screenHeight) / 50  +'px; letter-spacing: ' + (screenWidth + screenHeight) / 220 + 'px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;');      
 
            
@@ -311,21 +345,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //Ext.getCmp("ssntxt").blur(); 
     },
     
-    mylistView:function(){ 
-        
-        
+	mylistView:function(){ 
+		
+		
         all_productsid_store            = Ext.getStore('all_productsid');
         var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
         deleteProductId                 = productViewBrand.product_id;
         if(Ext.Viewport.getComponent('mylistid') == undefined)
-        {                 
+		{  			   
               
             //console.log(productViewBrand);
             Ext.Viewport.setActiveItem({
-            xtype: 'mylistView'
+			xtype: 'mylistView'
             
-        });
-            //alert(productViewBrand.image);
+		});
+		    //alert(productViewBrand.image);
             Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
@@ -333,14 +367,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.getStore("SaveInfoStoreId").setData(productViewBrand);
             //console.log(Ext.getStore("SaveInfoStoreId").getAt(0).getData());    
             
-        }
-        else
-        {       
+		}
+		else
+		{       
              
             Ext.Viewport.setActiveItem(Ext.getCmp('mylistid'));
-        } 
-        //Ext.getCmp("ssntxt").blur(); 
-    },
+		} 
+		//Ext.getCmp("ssntxt").blur(); 
+	},
 
     
     snapView:function(){
@@ -355,15 +389,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 ({
                     xtype: 'snapView'                 
                 }); 
-                if(Ext.getCmp('snap-it-image')) {
-                    
-                    Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
-                    Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">')
-                    Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
-                    Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
-                }
+				if(Ext.getCmp('snap-it-image')) {
+					
+					Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
+					Ext.getCmp('snap-it-image').setHtml('<img src = "resources/images/marlow-icons/snap-it-active.png" style = "margin-right: 5%;">')
+					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
+					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
+				}
               
-              //Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+              Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
@@ -373,11 +407,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     shopsview:function(){ 
-        
-        
+		
+		
         var itemnote = '';
         var itemprice = '';
-        
+		
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -631,12 +665,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
-                            
+                             finalImage = response[0].MESSAGE;
+                             //alert(finalImage);
                              hideloadingMask();
                               Ext.Msg.alert( 'Product saved successfully!')
-                             
+                             //console.log(response[0].MESSAGE);
                             //store.setData(response);
                             //console.log(store.setData(response));
+                             Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)
@@ -687,8 +724,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 });
                  //alert(finalImage);
                 //Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
-                //Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
-                Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+				//Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+                     
                 Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
                 Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
                 Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
@@ -761,8 +798,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
         //SaveInfoStoreId.add({ note: note, price: price }); 
         // console.log(Ext.getStore("SaveInfoStoreId"));       
     },
-    
-    onButtonTapSendEMail:function()
+	
+	onButtonTapSendEMail:function()
     {
         emailMessage    = Ext.getCmp('emailMessage').getValue();
         emailTo         = Ext.getCmp('emailTo').getValue();
