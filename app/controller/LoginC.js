@@ -104,8 +104,6 @@ Ext.define('MarlowApp.controller.LoginC', {
                             var date = new Date;
                             var minutes = date.getMinutes();
                             var hours = date.getHours();
-                                  
-                            setInterval(function(){
 
                                 hideloadingMask(); 
                                 Ext.getCmp('loginusername').reset();
@@ -122,9 +120,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                                     Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
                                     app.application.redirectTo('dashboard'); 
                                     //alert('Time: ' + hours + ':' + minutes);
-                                }     
-
-                            }, 5000);
+                                }    
                         }
                                                     
                     }

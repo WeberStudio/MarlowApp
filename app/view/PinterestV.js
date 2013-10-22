@@ -73,25 +73,24 @@ Ext.define('MarlowApp.view.PinterestV',{
 						xtype: 'textareafield',
                         id: 'pinterestdesc',
                         docked: 'left',
-                        width: '80%',
-                        maxRows: 5,
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},
-					/*{
+					{
 						xtype: 'image',
                         id: 'shareimage',
-						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',	
-						docked: 'right',
-					}*/
-                    {
+						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 50px;">',    
+                        docked: 'right',
+                        flex: 1,
+					},
+                    /*{
                         xtype: 'image',
                         id: 'shareimage',
                         src: 'resources/images/guy-dummy.png',
                         height: '15%',
                         width: '15%',    
                         docked: 'right',
-                    }
+                    }*/
                     
 				]
 					

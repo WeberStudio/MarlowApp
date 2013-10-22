@@ -63,14 +63,13 @@ Ext.define('MarlowApp.view.EmailPost',{
                         xtype: 'textareafield',
                         id:    'emailMessage',   
                         docked: 'left',
-                        width: '80%',
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
                     },
                     {
                         xtype: 'image',
                         id: 'emailImage',
-                        html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',    
+                        html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 50px;">',    
                         docked: 'right',
                         flex: 1,
                     }
