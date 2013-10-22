@@ -69,22 +69,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
         
-          /* setInterval(function(){
-                
-                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
-                    
-                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
-                    app.application.redirectTo('dashboardd'); 
-                    
-                }
-                else {
-
-                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
-                    app.application.redirectTo('dashboard'); 
-                    //alert('Time: ' + hours + ':' + minutes);
-                }     
-                    
-            }, 5000);   */
         
             //alert('deviceScreen w: ' + screenWidth + ' deviceScreen h: ' + screenHeight);  
             //alert('browserScreen w: ' + browserWidth + ' browserScreen h: ' + browserHeight);
@@ -226,22 +210,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                   
         }
        
-       /* setInterval(function(){
-                
-                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
-                    
-                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
-                    app.application.redirectTo('dashboardd'); 
-                    
-                }
-                else {
-
-                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
-                    app.application.redirectTo('dashboard'); 
-                    //alert('Time: ' + hours + ':' + minutes);
-                }     
-                    
-            }, 5000);  */
+       
         
        if(screenWidth <= 320 && screenHeight <= 426) {
                 
@@ -401,7 +370,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
               
-             // Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+              Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
