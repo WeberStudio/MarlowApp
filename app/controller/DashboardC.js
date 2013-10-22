@@ -6,7 +6,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
     config: {
         models: ['all_products', 'Shops_Model', 'Save_User_SelectionM'],         
         stores: ['all_products', 'Shops_Store', 'Save_User_SelectionS'],         
-        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay', 'EmailPost' ],     
+        views : ['Dashboard', 'Snap', 'Shops', 'MyItemList', 'AddNote', 'AddToList' ,'DeleteItem', 'TwitterV', 'FacebookV', 'PinterestV', 'ShareItem', 'ConfirmDel', 'MyList', 'EmailPost', 'DashboardDay', 'EmailPost', 'EditNote'],     
         refs: {
            
             saveNoteId:    '#saveNoteId',
@@ -34,7 +34,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
             'deleteitems'   : 'deleteitemView',
-			'mylist' 		: 'mylistView',            
+			'mylist' 		: 'mylistView',
+            'editnote'      : 'editnoteview',      
         }                                    
     },
     
@@ -347,10 +348,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
 	mylistView:function(){ 
 		
-		
+		 
         all_productsid_store            = Ext.getStore('all_productsid');
         var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
         deleteProductId                 = productViewBrand.product_id;
+        
         if(Ext.Viewport.getComponent('mylistid') == undefined)
 		{  			   
               
@@ -361,6 +363,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		});
 		    //alert(productViewBrand.image);
             Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            
+            //Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
@@ -411,7 +415,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
 		
         var itemnote = '';
         var itemprice = '';
-		
+        
         if (Ext.getCmp('useritemnote')) 
         {
             itemnote  = Ext.getCmp('useritemnote').getValue();
@@ -620,6 +624,38 @@ Ext.define('MarlowApp.controller.DashboardC', {
             {
             Ext.Viewport.setActiveItem(Ext.getCmp('addnoteid'));     
         } 
+        //Ext.getCmp("ssntxt").blur(); 
+    },
+    
+    editnoteview:function(){ 
+        // console.log(Ext.Viewport.getCmp('sigupId'))
+
+        if(Ext.Viewport.getComponent('editnoteid') == undefined)
+        {    
+            if(Ext.getCmp('productViewNote'))
+            {
+                var note  =  Ext.getCmp('productViewNote').getHtml();  
+                var price =  Ext.getCmp('productViewPrice').getHtml();
+                                    
+            }      
+            
+            Ext.Viewport.setActiveItem({
+                xtype: 'editnoteview'                 
+            });
+           if(Ext.getCmp('productViewNote'))
+           {
+               note = note.replace('<span>','');
+               note = note.replace('</span>','');
+               price = price.replace('<span>\u00A3','');
+               price = price.replace('</span>','');                
+               Ext.getCmp('useritemnote').setValue(note);
+               Ext.getCmp('itemprice').setValue(price);
+           }
+        }
+        /*else
+            {
+            Ext.Viewport.setActiveItem(Ext.getCmp('addnoteid'));     
+        } */
         //Ext.getCmp("ssntxt").blur(); 
     },
     

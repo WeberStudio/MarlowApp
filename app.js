@@ -26,7 +26,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'TwitterV', 'FacebookV', 'PinterestV', 'MyList', 'EmailPost', 'DashboardDay', 'ConfirmDltItem'],
+        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'TwitterV', 'FacebookV', 'PinterestV', 'MyList', 'EmailPost', 'DashboardDay', 'ConfirmDltItem', 'EditNote'],
     
     controllers: [
         'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'TwitterC', 'FacebookC', 'PinterestC', 'EmailPostC' ], 
