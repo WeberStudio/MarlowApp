@@ -98,12 +98,33 @@ Ext.define('MarlowApp.controller.LoginC', {
                             Ext.Msg.alert('ENTERED INVALID RECORD');    
                             app.application.redirectTo('login');
                         }
-                        else
+                       else
                         {      
-                            hideloadingMask();
-                            Ext.getCmp('loginusername').reset();
-                            Ext.getCmp('loginpassword').reset();
-                            app.application.redirectTo('dashboard');                            
+  
+                            var date = new Date;
+                            var minutes = date.getMinutes();
+                            var hours = date.getHours();
+                                  
+                            setInterval(function(){
+
+                                hideloadingMask(); 
+                                Ext.getCmp('loginusername').reset();
+                                Ext.getCmp('loginpassword').reset();
+                                
+                                if((hours >= 0 && hours <= 11) && (minutes >= 1 || minutes <= 59)) {
+
+                                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                                    app.application.redirectTo('dashboardd'); 
+
+                                }
+                                else {
+
+                                    Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+                                    app.application.redirectTo('dashboard'); 
+                                    //alert('Time: ' + hours + ':' + minutes);
+                                }     
+
+                            }, 5000);
                         }
                                                     
                     }
