@@ -19,7 +19,7 @@ Ext.define('MarlowApp.view.TwitterV',{
 		items: [
 			{
 				xtype: 'toolbar',
-				baseCls: 'custom-social-toolbar',
+				baseCls: 'custom-social-toolbar-extra',
 				docked: 'top',
 				layout: {
 					pack: 'justify',
@@ -71,25 +71,24 @@ Ext.define('MarlowApp.view.TwitterV',{
 						xtype: 'textareafield',
                         id:    'twitterdesc',          
                         docked: 'left',
-                        width: '80%',
-                        maxRows: 5,
                         cls: 'custom-text-fieldarea',
                         style: 'background-color: inherit;',
 					},
-					/*{
+					{
 						xtype: 'image',
-                        id: 'twitterImage',
-						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 60px;">',    
-						docked: 'right',
-					},*/
-                    {
+                        id: 'twitterImage',    
+						html: '<img src = "resources/images/guy-dummy.png" style = "height: 80px; width: 50px;">',    
+                        docked: 'right',
+                        flex: 1,
+					},
+                    /*{
                         xtype: 'image',
                         id: 'twitterImage',
                         src: 'resources/images/guy-dummy.png',
                         height: '15%',
                         width: '15%',    
                         docked: 'right',
-                    }
+                    }*/
                    
                     
 				]

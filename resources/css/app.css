@@ -6360,7 +6360,16 @@ final_img {
 
 .custom-social-toolbar {
   height: 15%;
-  /*background-color: #e3e5e6;*/
+  background: -webkit-linear-gradient(top, #e4e8e7 9%, #d8ddde 68%, #e8e9e9 100%);
+  border-radius: 10px;
+  border-bottom: 1px solid #C5C5C5;
+  border-bottom-left-radius: 0px;
+  font-family: HelveticaLight;
+  border-bottom-right-radius: 0px;
+}
+
+.custom-social-toolbar-extra {
+  height: 18%;
   background: -webkit-linear-gradient(top, #e4e8e7 9%, #d8ddde 68%, #e8e9e9 100%);
   border-radius: 10px;
   border-bottom: 1px solid #C5C5C5;
@@ -6405,9 +6414,7 @@ final_img {
 }
 
 .custom-text-fieldarea .x-input-el {
-  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,rgba(228,232,231,1)), color-stop(100%,rgba(216,221,222,1)), color-stop(100%,rgba(232,233,233,1)));*/
-  background-color: #E1E5E5;
-  border-radius: 0px;
+  background: -webkit-linear-gradient(top, #e0e5e4 9%, #dce1e1 68%, #dadfdf 100%);
 }
 
 .custom-text-field-dark .x-input-el {

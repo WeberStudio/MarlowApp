@@ -48,9 +48,7 @@
 	
 	.custom-text-fieldarea .x-input-el  {
 		
-        /*background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,rgba(228,232,231,1)), color-stop(100%,rgba(216,221,222,1)), color-stop(100%,rgba(232,233,233,1)));*/
-        background-color: #E1E5E5;
-		border-radius: 0px;
+        background: -webkit-linear-gradient(top, rgba(224,229,228, 1) 9%,rgba(220,225,225,1) 68%,rgba(218,223,223,1) 100%); 
 	}
 	
 	.custom-text-field-dark .x-input-el  {

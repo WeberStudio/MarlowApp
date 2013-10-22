@@ -94,8 +94,8 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 quality: 50,
                                 destinationType: Camera.DestinationType.DATA_URL
                             });  
-                            /*snapSrc = 'imagedata.jpg'; 
-                            app.application.redirectTo('snapit');  */
+                            //snapSrc = 'imagedata.jpg'; 
+                            //app.application.redirectTo('snapit');  
                         }
                     },    
             ]
