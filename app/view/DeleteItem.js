@@ -5,7 +5,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
     requires: [ 'Ext.dataview.List', 'Ext.mixin.Selectable' ],
     
      config: {
-    navigationBar: {hidden: true},
+     navigationBar: {hidden: true},
      fullscreen: true,
      id:'deleteitemid',
      cls: 'delete-items-list',
@@ -68,7 +68,6 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     store                   :'all_productsid', 
                     xtype                   : 'list',
                     grouped                 : true,
-                    //ui                      :'#ffffff',
                     id                      :'delete_item_list',
                     cls                     :'delete-item',
                     //allowMultiple: true,
@@ -76,7 +75,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     itemTpl:Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
-                        '   <img src="resources/icons/Icon@2x.png" />',
+                       '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 10%; height: 10%">',
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
@@ -110,7 +109,8 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                          }*/
                                     //this is the user id for delete items
                                     deleteUserId = record.data.user_id;
-                                    //this is for  set the deleteids
+                                    console.log(deleteUserId);
+                                    //this is for  set the delete ids
                                     deleteIdIndex = deleteBulkIds.indexOf(record.data.product_id);
                                     if(deleteIdIndex > -1)
                                     {

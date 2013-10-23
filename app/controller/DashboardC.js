@@ -33,7 +33,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
-            'deleteitems'   : 'deletelitemView',
+            'deleteitems'   : 'deleteitemView',
 			'mylist' 		: 'mylistView',            
             'editnote'      : 'editnoteview',      
         }                                    
@@ -855,7 +855,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 try{
                     response    = Ext.decode(response.responseText);
                     var popup = this.getPopup();  
-                    popup.hide({type: 'slideOut', direction: 'right'}); 
+            aa        popup.hide({type: 'slideOut', direction: 'right'}); 
                     Ext.getCmp('emailMessage').setValue() = '';
                     Ext.getCmp('emailTo').setValue() = '';
                     Ext.getCmp('emailSubject').setValue() = '';                    
@@ -875,4 +875,5 @@ Ext.define('MarlowApp.controller.DashboardC', {
         }); 
     }    
    
-});
+});           
+//Shahid Nadeem

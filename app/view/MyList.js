@@ -33,11 +33,22 @@ Ext.define('MarlowApp.view.MyList', {
                         style: 'margin-left: 0px;',
                         handler:function()
                         {
-                            if(Ext.getCmp("myitemlistviewId")){
-                             
-                             Ext.getCmp("myitemlistviewId").destroy();
-                             
-                            } 
+                        if(Ext.getCmp("myitemlistviewId")){
+                            Ext.getCmp("myitemlistviewId").destroy();
+                        }
+                        if(Ext.getCmp("shops-image")){
+                            Ext.getCmp("shops-image").destroy();
+                        }                               
+
+                        if(Ext.getCmp("snap-it-image")){
+                            Ext.getCmp("snap-it-image").destroy();
+                        }                                
+                        if(Ext.getCmp("my-list-image")){
+                            Ext.getCmp("my-list-image").destroy();
+                        }                                
+                        if(Ext.getCmp("info-image")){
+                            Ext.getCmp("info-image").destroy();
+                        }
                              
                             app.application.redirectTo('myitemlist');  
                            
@@ -76,14 +87,14 @@ Ext.define('MarlowApp.view.MyList', {
                             tap: function() {
                                 
                                   
-                           navigator.camera.getPicture(function(imagedata){
+                           /*navigator.camera.getPicture(function(imagedata){
 
                         snapSrc = imagedata;
                       
                         app.application.redirectTo('snapit');   
                     }, onFail, { quality: 50,
                         destinationType: Camera.DestinationType.DATA_URL
-                    }); 
+                    });   */
                          
                             
                             },
@@ -175,17 +186,17 @@ Ext.define('MarlowApp.view.MyList', {
                         xtype: 'button',
                         align: 'left',
                         text: 'Edit Notes',
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         handler:function()
                         {
-                            app.application.redirectTo('addnote');
+                            app.application.redirectTo('editnote');
                         }    
                     },
                     {
                         xtype: 'button',
                         align: 'right',
                         text: 'Share this item',
-                        cls: 'custom-white-button',
+                        baseCls: 'custom-white-button',
                         action: 'shareitem',
                     }
                 ]

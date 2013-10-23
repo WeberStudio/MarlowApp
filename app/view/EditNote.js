@@ -44,7 +44,7 @@ Ext.define('MarlowApp.view.EditNote', {
 								snapViewId.destroy();
 							} */
                                    
-							app.application.redirectTo('myitemlist');
+							app.application.redirectTo('mylist');
 						}	
 					},
 					{
