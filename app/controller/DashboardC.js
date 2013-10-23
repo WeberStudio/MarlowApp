@@ -33,7 +33,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
             'myitemlist'    : 'myitemlistview',
             'addnote'       : 'addnoteview',
             'addtolist'     : 'addtolistView',
-            'deleteitems'   : 'deleteitemView',
+            'deleteitems'   : 'deletelitemView',
 			'mylist' 		: 'mylistView',            
             'editnote'      : 'editnoteview',      
         }                                    
@@ -492,11 +492,13 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
            
             var store   = Ext.getStore('all_productsid');
+           
+                Ext.Viewport.setActiveItem({
+                            xtype: 'myitemlistview'                 
+                });
             if(store.getCount()== 0)
             {                    
-                 Ext.Viewport.setActiveItem({
-                            xtype: 'myitemlistview'                 
-                        });
+                        
                          loadMask()
                 Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',

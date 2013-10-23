@@ -240,6 +240,8 @@ Ext.define('MarlowApp.view.MyItemList', {
                         Ext.getCmp("mylistid").destroy();
                     }
                     
+                    
+                       
                    app.application.redirectTo('mylist'); 
                 }
 

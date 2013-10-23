@@ -175,8 +175,10 @@ Ext.define('MarlowApp.view.Shops', {
                         var myitemlistviewId    = Ext.getCmp("myitemlistviewId");
                         var addtolistid         = Ext.getCmp("addtolistid");   
                        
+                          if(Ext.getCmp('my-list-image')){
+                         Ext.getCmp('my-list-image').destroy();       
+                        }                                 
                        
-                        Ext.getCmp('my-list-image').destroy();
                         
                         if(addtolistid){
                         addtolistid.destroy();

@@ -33,14 +33,14 @@ Ext.define('MarlowApp.view.MyList', {
                         style: 'margin-left: 0px;',
                         handler:function()
                         {
-                            /*if(Ext.getCmp("mylistid")){
+                            if(Ext.getCmp("myitemlistviewId")){
                              
                              Ext.getCmp("myitemlistviewId").destroy();
                              
-                            } */
+                            } 
                              
                             app.application.redirectTo('myitemlist');  
-                           // 
+                           
                         }
                     },
                     {    
