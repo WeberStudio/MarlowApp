@@ -648,6 +648,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "MarlowApp.view.Dashboard": [],
   "MarlowApp.view.DashboardDay": [],
   "MarlowApp.view.DeleteItem": [],
+  "MarlowApp.view.EditNote": [],
   "MarlowApp.view.EmailPost": [],
   "MarlowApp.view.FacebookV": [],
   "MarlowApp.view.Main": [],
@@ -1531,6 +1532,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "MarlowApp.view.DeleteItem": [
     "widget.deleteitemView"
+  ],
+  "MarlowApp.view.EditNote": [
+    "widget.editnoteview"
   ],
   "MarlowApp.view.EmailPost": [
     "widget.emailindivisual"
