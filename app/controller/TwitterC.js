@@ -25,8 +25,8 @@ Ext.define('MarlowApp.controller.TwitterC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup); 
 		popup.show();
-       Ext.getCmp('twitterImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 70px; height: 90px;">'); 
-        
+       //Ext.getCmp('twitterImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 70px; height: 90px;">'); 
+       Ext.getCmp('twitterImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 70px; height: 90px;">');  
         //document.getElementById("twitterImage").src = imageUrl+finalImage;
         Ext.getCmp('twitterdesc').setValue(finalNote);
         Ext.getCmp('twitterPrice').setHtml('<span>\u00A3'+finalPrice+'</span>');  

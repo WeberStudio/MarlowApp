@@ -30,7 +30,8 @@ Ext.define('MarlowApp.controller.EmailPostC',{
 		Ext.Viewport.add(popup);
 		popup.show();
         
-        Ext.getCmp('emailImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 70px; height: 90px;">'); 
+        //Ext.getCmp('emailImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 70px; height: 90px;">'); 
+        Ext.getCmp('emailImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 70px; height: 90px;">');  
         Ext.getCmp('emailMessage').setValue(finalNote);
         Ext.getCmp('emailSubject').setValue(finalBrandName);
         Ext.getCmp('emailPrice').setHtml('<span>\u00A3'+finalPrice+'</span>'); 

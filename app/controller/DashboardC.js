@@ -329,7 +329,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             
 		});
 		    //alert(productViewBrand.image);
-            Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            Ext.getCmp('productViewImage').setHtml('<img src = "'+imageUrl+productViewBrand.image +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
+            //Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');    
             Ext.getCmp('productViewBrand').setHtml('<span>' + productViewBrand.name + '</span>');           
             Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + productViewBrand.price + '</span>');
             Ext.getCmp('productViewNote').setHtml('<span>' + productViewBrand.note + '</span>');
