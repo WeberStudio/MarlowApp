@@ -9,10 +9,7 @@ Ext.define('MarlowApp.view.Shops', {
 		navigationBar: {
         hidden: true
     	},
-		
-        
-        
-        
+
 	items : [
 	{
             xtype: 'toolbar',

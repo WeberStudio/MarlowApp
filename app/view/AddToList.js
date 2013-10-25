@@ -272,7 +272,7 @@ Ext.define('MarlowApp.view.AddToList', {
                 {
                     baseCls: 'overlapped-brand',
                     id:    'productViewBrand',
-                    html: '<span> Marks and Spencer </span>',
+                    html: '<span> Meteor </span>',
                 },
                 {
                     baseCls: 'overlapped-price',

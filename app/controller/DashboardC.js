@@ -98,21 +98,29 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/480x800-night.gif") 100% 100%');            
                
-            }    
+            }
+            else if(screenWidth <= 1080  && screenHeight <= 1920) { 
+                
+                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/800x1280-night.gif") 100% 100%');    
+            }
            
             //iphone 5
             else if(screenWidth <= 640 && screenHeight <= 1136) {
                 
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');            
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/640x1136-night.gif") 100% 100%');            
             }
             //iphone 4
             else if(screenWidth <= 640 && screenHeight <= 960) {
                 
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/640x960-night.gif") 100% 100%');             
             }
             else if(screenWidth <= 768 && screenHeight <= 1024) {
                 
-               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/home-night.gif") 100% 100%');             
+               Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/800x1280-night.gif") 100% 100%');
+            }
+            else {
+                
+                Ext.getCmp('dashboard-night').setStyle('background: url("resources/images/marlow-back/800x1280-night.gif") 100% 100%');
             }
     
          //setting font-size dynamically by getting screen width and height
@@ -237,21 +245,31 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 
                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/480x800-day.gif") 100% 100%');            
                
-            }    
-            //iphone 5
+            }
+            else if(screenWidth <= 1080  && screenHeight <= 1920) { 
+                
+                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/800x1280-day.gif") 100% 100%');    
+            }
+              
+             //iphone 5
             else if(screenWidth <= 640 && screenHeight <= 1136) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-day.gif") 100% 100%');            
+               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/640x1136-day.gif") 100% 100%');            
             }
             //iphone 4
             else if(screenWidth <= 640 && screenHeight <= 960) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-day.gif") 100% 100%');             
+               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/640x960-day.gif") 100% 100%');             
             }
             else if(screenWidth <= 768 && screenHeight <= 1024) {
                 
-               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/home-day.gif") 100% 100%');             
+               Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/800x1280-day.gif") 100% 100%');
             }
+             else {
+                
+                Ext.getCmp('dashboard-day').setStyle('background: url("resources/images/marlow-back/800x1280-day.gif") 100% 100%');
+            } 
+            
             
     
          //setting font-size dynamically by getting screen width and height
@@ -732,9 +750,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 //Ext.getCmp('productViewImage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
 				//Ext.getCmp('productViewImage').setHtml('<img src = "data:image/jpeg;base64,'+ finalImage +'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');
                      
-                Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
-                Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
-                Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
+                //Ext.getCmp('productViewNote').setHtml('<span>' + finalNote + '</span>');
+                //Ext.getCmp('productViewPrice').setHtml('<span>\u00A3' + finalPrice + '</span>');
+                //Ext.getCmp('productViewBrand').setHtml('<span>' + shopSelectedName + '</span>');                 
             }
             else
             {
