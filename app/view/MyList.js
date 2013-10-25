@@ -84,8 +84,7 @@ Ext.define('MarlowApp.view.MyList', {
                         id: 'snap-it-image',  
                         iconMask: true,
                         listeners: {
-                            tap: function() {
-                                
+                            tap: function() {                                
                                   
                            navigator.camera.getPicture(function(imagedata){
 

@@ -522,10 +522,10 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 Ext.Viewport.setActiveItem({
                             xtype: 'myitemlistview'                 
                 });
-            if(store.getCount()== 0)
+            if(store.getCount()== 0 || updateFlag == 1)
             {                    
                         
-                         loadMask()
+                loadMask()
                 Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
@@ -569,10 +569,11 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //Ext.Msg.alert( 'Server is not responding please try again'); 
                 }
             });
+                updateFlag = 0;
             }
             else
             {
-              
+                Ext.getStore('all_productsid').load();
                 if(Ext.getCmp('my-list-image')) {
 
                    Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
@@ -713,7 +714,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             //store.setData(response);
                             //console.log(store.setData(response));
                              Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
-
+                             updateFlag = 1;
                         }catch(err){
                             hideloadingMask();   
                             // console.log(err)

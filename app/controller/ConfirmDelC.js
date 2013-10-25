@@ -150,7 +150,8 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                      if(Ext.getCmp("myitemlistviewId"))
                      {                                 
                                 Ext.getCmp("myitemlistviewId").destroy();
-                     }                       
+                     }
+                     updateFlag = 1;                    
                      app.application.redirectTo('myitemlist');           
                     //console.log(store.setData(response));
                 }catch(err){

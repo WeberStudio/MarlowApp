@@ -63,6 +63,7 @@ Ext.application({
         shopSelectedName    = ''; 
         editProductIndex    = '';
         deleteProductId     = '';
+        updateFlag          = '0';
         deleteBulkIds       = [];
         
        // After Save Product Global Varibale Will Set 
