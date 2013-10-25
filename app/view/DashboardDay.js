@@ -59,7 +59,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         height: '50%',      
                         width: '50%',      
                         flex: 1,
-                        style: 'margin-right: 40%;',
+                        style: 'margin-right: 60%;',
                     },
                     {
                         xtype: 'button',
@@ -119,7 +119,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         id: 'shops-main-icon',     
                         width: '50%',
                         flex: 1,
-                        style: 'margin-right: 40%;',
+                        style: 'margin-right: 60%;',
                     },
                     {
                         xtype: 'button',
@@ -151,7 +151,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                         id: 'mylist-main-icon',          
                         centered: true,                         
                         flex: 1,
-                        style: 'margin-right: 40%;', 
+                        style: 'margin-right: 60%;', 
                     },
                     {
                         xtype: 'button',

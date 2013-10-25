@@ -61,17 +61,17 @@ class client extends CI_Controller{
     {   
         $data                   = file_get_contents("php://input");
         $decode                 = json_decode($data, true);
-        $firstName              = $decode['firstName'];
-        $lastName               = $decode['lastName'];
+        //$firstName              = $decode['firstName'];
+        //$lastName               = $decode['lastName'];
         $email                  = $decode['emailId'];
         $password               = $decode['password'];
-        $gender                 = $decode['gender'];
+        //$gender                 = $decode['gender'];
         $date                   = date('Y-m-d');
                
         $find_email             = $this->Client_model->email_finder($email);
          
         
-       if($find_email >0)
+       if($find_email > 0)
         {
             $error              = array(array('MESSAGE'=>''));
             $error              = json_encode($error);
@@ -82,11 +82,11 @@ class client extends CI_Controller{
         {
             $save = array();
             $save['user_id']        = ''; 
-            $save['fname']          = $firstName;
-            $save['lname']          = $lastName; 
+            //$save['fname']          = $firstName;
+            //$save['lname']          = $lastName; 
             $save['email']          = $email; 
             $save['password']       = md5($password);
-            $save['gender']         = $gender;
+            //$save['gender']         = $gender;
             $save['join_date']      = $date;
             $save['status']         = '1';
             

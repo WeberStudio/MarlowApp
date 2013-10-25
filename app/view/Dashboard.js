@@ -74,7 +74,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                 height: '50%',      
                 width: '50%',      
                 flex: 1,
-                style: 'margin-right: 40%;',
+                style: 'margin-right: 60%;',
             },
             {
                         xtype: 'button',
@@ -87,7 +87,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         { 
-                            navigator.camera.getPicture(function(imagedata){
+                           navigator.camera.getPicture(function(imagedata){
                             snapSrc = imagedata; 
                             alert('sdfsfsdfsd');
                             app.application.redirectTo('snapit');   
@@ -95,8 +95,8 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 quality: 50,
                                 destinationType: Camera.DestinationType.DATA_URL
                             });  
-                            //snapSrc = 'imagedata.jpg'; 
-                            //app.application.redirectTo('snapit');  
+                            snapSrc = 'imagedata.jpg'; 
+                            app.application.redirectTo('snapit');  
                         }
                     },    
             ]
@@ -115,7 +115,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                 height: '50%',      
                 width: '50%',
                 flex: 1,
-                style: 'margin-right: 40%;',
+                style: 'margin-right: 60%;',
             },
             {
                 xtype: 'button',
@@ -147,7 +147,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                 width: '50%',
                 centered: true,                         
                 flex: 1,
-                style: 'margin-right: 40%;', 
+                style: 'margin-right: 60%;', 
             },
             {
                 xtype: 'button',

@@ -17,7 +17,7 @@ Ext.define('MarlowApp.view.Signup', {
                 labelWidth : '50%'
             },
             items: [
-            {
+           /*
                 xtype:        'textfield',
                 id:           'fnametxt',
                 autoComplete: false,
@@ -41,7 +41,7 @@ Ext.define('MarlowApp.view.Signup', {
                         }
                     }
                 
-            },
+            }, 
              {
                 xtype: 'radiofield',
                 id   : 'maleRadio',
@@ -56,7 +56,7 @@ Ext.define('MarlowApp.view.Signup', {
                 name : 'gender',
                 value: 'female',
                 label: 'Female:'
-            },                           
+            }, */                        
            
             {
                     xtype: 'emailfield',
@@ -108,19 +108,20 @@ Ext.define('MarlowApp.view.Signup', {
             flex : 1,  
             ui: 'gray' ,            
             handler : function(){
-                Ext.getCmp("fnametxt").blur(); 
-                Ext.getCmp("lnametxt").blur();               
+               
+               // Ext.getCmp("fnametxt").blur(); 
+               // Ext.getCmp("lnametxt").blur();               
                 Ext.getCmp("email").blur();                
                 Ext.getCmp("newpasswordtxt").blur(); 
                 Ext.getCmp("confirmPasswordtxt").blur(); 
                 
-                var fname = Ext.getCmp("fnametxt").getValue();
-                 if(fname == '')
+                /* var fname = Ext.getCmp("fnametxt").getValue();
+                if(fname == '')
                  {
                     Ext.Msg.alert( 'Please enter the First Name.');
                     return false   
                  }
-                 
+                   
                  
                 if(/[ ,*,?,/,-,_,=,#,$,%,^,&,*,@.:,<,>,+,!,~,(,),{,},[,]]/.test(fname))
                 {
@@ -133,9 +134,10 @@ Ext.define('MarlowApp.view.Signup', {
                     Ext.Msg.alert( 'Numbers are not allowed in First Name.');
                     return false      
                 }
+                
                var allowchracter = /^[a-zA-Z\_]+$/g;
               // console.log((allowchracter.test(lname)))
-               if(!(allowchracter.test(fname))) 
+              if(!(allowchracter.test(fname))) 
                 {
                     Ext.Msg.alert( 'Empty spaces and  special characters are not allowed in First Name.');
                     return false;
@@ -167,9 +169,9 @@ Ext.define('MarlowApp.view.Signup', {
                 {
                     Ext.Msg.alert( 'Empty spaces and  special characters are not allowed in Last Name.');
                     return false;
-                }                   
+                }     */            
               
-                var gender           = '';                 
+                //var gender           = '';                 
                 var isParticipate    = '';
                 var newuserName      = '';
                 var newpassword      = '';
@@ -234,7 +236,7 @@ Ext.define('MarlowApp.view.Signup', {
                 if(isParticipate)
                 {                      
                  
-                    loadMask()            
+                    loadMask();            
                     Ext.Ajax.request({
                         url: serviceUrl+'register',
                          headers: {
@@ -244,13 +246,13 @@ Ext.define('MarlowApp.view.Signup', {
                         },                        
                         timeout : 60000,
                         method: 'POST',
-                        jsonData: {"userId": newuserName, "password": newpassword, "firstName": fname, 'lastName': lname, 'emailId': email, 'gender': gender, 'ErrorCode':''}, 
+                        jsonData: {"userId": newuserName, "password": newpassword, 'emailId': email, 'ErrorCode':''}, 
+                        //jsonData: {"userId": newuserName, "password": newpassword, "firstName": fname, 'lastName': lname, 'emailId': email, 'gender': gender, 'ErrorCode':''}, 
                         withCredentials: false,
                         useDefaultXhrHeader: false,
-                        success: function(response) { 
-                             
+                        success: function(response) {      
                         response = Ext.decode(response.responseText)
-                        //console.log(response[0].MESSAGE);
+                        console.log(response[0].MESSAGE);
                        
                         if(response[0].MESSAGE)
                              {
@@ -299,8 +301,8 @@ Ext.define('MarlowApp.view.Signup', {
             handler:function(){
                 
                 Ext.Viewport.remove(Ext.getCmp('signupId'))   
-                Ext.Viewport.remove(Ext.getCmp('lnametxt'))               
-                Ext.Viewport.remove(Ext.getCmp('fnametxt'))
+                //Ext.Viewport.remove(Ext.getCmp('lnametxt'))               
+                //Ext.Viewport.remove(Ext.getCmp('fnametxt'))
                 Ext.Viewport.remove(Ext.getCmp('email'))
                 Ext.Viewport.remove(Ext.getCmp('newpasswordtxt'))
                 Ext.Viewport.remove(Ext.getCmp('confirmPasswordtxt'))
