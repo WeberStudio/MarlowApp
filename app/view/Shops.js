@@ -106,12 +106,11 @@ Ext.define('MarlowApp.view.Shops', {
                          Ext.getCmp('info-image').destroy();
                          
                            navigator.camera.getPicture(function(imagedata){
-
-                        snapSrc = imagedata;
+                           snapSrc = imagedata;
                       
-                        app.application.redirectTo('snapit');   
-                    }, onFail, { quality: 50,
-                        destinationType: Camera.DestinationType.DATA_URL
+                            app.application.redirectTo('snapit');   
+                            }, onFail, { quality: 50,
+                            destinationType: Camera.DestinationType.DATA_URL
                     }); 
                          
 						 
