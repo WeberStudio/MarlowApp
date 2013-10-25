@@ -96,7 +96,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                 itemtap: function(cmp, index, target, record, e, eOpts)
                                 {
                                     
-                                     console.log(target._tpl.html);
+                                    //console.log(target._tpl.html);
                                      /*var expnew = target._tpl.html.split("src");
                                        console.log(expnew[2]);
                                          var modi = expnew[2].split("/");
@@ -109,7 +109,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                                          }*/
                                     //this is the user id for delete items
                                     deleteUserId = record.data.user_id;
-                                    console.log(deleteUserId);
+                                    //console.log(deleteUserId);
                                     //this is for  set the delete ids
                                     deleteIdIndex = deleteBulkIds.indexOf(record.data.product_id);
                                     if(deleteIdIndex > -1)

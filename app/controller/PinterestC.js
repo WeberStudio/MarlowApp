@@ -25,6 +25,15 @@ Ext.define('MarlowApp.controller.PinterestC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
 		popup.show();
+        
+        if(editProductIndex !='')
+        {
+            var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
+            finalImage                      = productViewBrand.image ;
+            finalNote                       = productViewBrand.note  ;
+            finalPrice                      = productViewBrand.price    ;
+            finalBrandName                  = productViewBrand.name  ;
+        }
        // Ext.getCmp('shareimage').setHtml('<img src ="data:image/jpeg;base64,'+finalImage+'" style = "width: 70px; height: 90px;">'); 
        Ext.getCmp('shareimage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 70px; height: 90px;">');  
         //document.getElementById("shareimage").src = imageUrl+finalImage; 
