@@ -8,6 +8,8 @@ Ext.define('MarlowApp.view.AddToList', {
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
+        style: 'background-color: black;',
+        
         items: [ 
         {
             xtype: 'toolbar',

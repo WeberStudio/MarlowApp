@@ -75,7 +75,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                     itemTpl:Ext.create(
                         'Ext.XTemplate',
                         '<div class="tweet-wrapper">',
-                       '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 10%; height: 10%">',
+                       '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 25%; height: 25%">',
                         '   <div class="tweet">',
                         //'<span class="posted"><input type="radio"></span>',
                         //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
