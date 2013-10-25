@@ -855,7 +855,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 try{
                     response    = Ext.decode(response.responseText);
                     var popup = this.getPopup();  
-            aa        popup.hide({type: 'slideOut', direction: 'right'}); 
+                    popup.hide({type: 'slideOut', direction: 'right'}); 
                     Ext.getCmp('emailMessage').setValue() = '';
                     Ext.getCmp('emailTo').setValue() = '';
                     Ext.getCmp('emailSubject').setValue() = '';                    

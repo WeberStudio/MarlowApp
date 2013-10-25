@@ -22,7 +22,7 @@ Ext.define('MarlowApp.view.Main', {
             xtype: 'fieldset', 
 			                
             items: [{
-                xtype: 'textfield',
+                xtype: 'emailfield',
                 id:'loginusername',
                 autoComplete: true, 
                 labelWidth : '45%',
