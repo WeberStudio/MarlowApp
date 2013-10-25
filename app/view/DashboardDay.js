@@ -93,7 +93,7 @@ Ext.define('MarlowApp.view.DashboardDay', {
                             }); */                                     
                             //window.location = 'SnapIt' ;
                             navigator.camera.getPicture(function(imagedata){
-                            snapSrc = imagedata; 
+                            snapSrc = imagedata;                             
                             app.application.redirectTo('snapit');   
                             }, onFail, { 
                                 quality: 50,

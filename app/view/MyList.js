@@ -178,7 +178,7 @@ Ext.define('MarlowApp.view.MyList', {
                         cls: 'custom-white-button',
                         handler:function()
                         {
-                            app.application.redirectTo('addnote');
+                            app.application.redirectTo('editnote');
                         }    
                     },
                     {

@@ -351,16 +351,24 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     snapView:function(){
                      
+        if (Ext.getCmp('useritemnote')) 
+        {
+            Ext.getCmp('useritemnote').reset();
+        }
+        if (Ext.getCmp('itemprice')) 
+        {
+            Ext.getCmp('itemprice').reset();
+        }
+        
         if(Ext.Viewport.getComponent('snapViewId') == undefined)
         {       
-               
-                Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
-                //console.log(Ext.getStore("SaveInfoStoreId"));  
-              
-                Ext.Viewport.setActiveItem
+                 Ext.Viewport.setActiveItem
                 ({
                     xtype: 'snapView'                 
-                }); 
+                });
+                
+                Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
+                //console.log(Ext.getStore("SaveInfoStoreId"));               
 				if(Ext.getCmp('snap-it-image')) {
 					
 					Ext.getCmp('shops-image').setHtml('<img src = "resources/images/marlow-icons/shops-disabled.png" style = "margin-right: 5%;">')
@@ -599,13 +607,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
     
     editnoteview:function(){ 
         // console.log(Ext.Viewport.getCmp('sigupId'))
-
+        if (Ext.getCmp('useritemnote')) 
+        {
+            Ext.getCmp('useritemnote').reset();
+        }
+        if (Ext.getCmp('itemprice')) 
+        {
+            Ext.getCmp('itemprice').reset();
+        }
+        
         if(Ext.Viewport.getComponent('editnoteid') == undefined)
         {    
             if(Ext.getCmp('productViewNote'))
             {
                 var note  =  Ext.getCmp('productViewNote').getHtml();  
-                var price =  Ext.getCmp('productViewPrice').getHtml();
+                var price =  Ext.getCmp('productViewPrice').getHtml();  
                                     
             }      
             
