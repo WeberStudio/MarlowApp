@@ -8,7 +8,8 @@ Ext.define('MarlowApp.view.Signup', {
         items: [
         {
             xtype: 'toolbar',
-            docked: 'top',            
+            docked: 'top', 
+            cls: 'top-toolbar',           
             title: '<div class="toolbarLogo">Sign Up Now!</div>'
         },		
         {

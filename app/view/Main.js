@@ -15,6 +15,7 @@ Ext.define('MarlowApp.view.Main', {
 			
      		xtype: 'toolbar',
             docked: 'top',
+            cls: 'top-toolbar',
             title: '<div class="toolbarLogo">Marlow Window Shopper</div>',
         }, 	
 		

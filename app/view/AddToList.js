@@ -259,7 +259,7 @@ Ext.define('MarlowApp.view.AddToList', {
             {
                 xtype: 'image',
                 id:'productViewImage',                        
-                html: '<img src = "resources/images/sample.jpg" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                html: '<img src = "resources/images/sample.png" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
             },
             {
                 xtype: 'panel',
@@ -273,11 +273,13 @@ Ext.define('MarlowApp.view.AddToList', {
                     baseCls: 'overlapped-brand',
                     id:    'productViewBrand',
                     html: '<span> Meteor </span>',
+                    
                 },
                 {
                     baseCls: 'overlapped-price',
                     id:    'productViewPrice',      
-                    html: '<span> £17.99 </span>',    
+                    html: '<span> £17.99 </span>', 
+                      
                 }
                 ]
             }

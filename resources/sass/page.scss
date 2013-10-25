@@ -11,31 +11,28 @@
 	
 	.overlapped-brand {
 	
-		font-size: 300%;
 		color: white;
 		font-family: HelveticaBold;
 		text-align: center; 
-		word-wrap:break-word;
+		word-wrap:break-word;   
 		
 	}
 	.overlapped-price {
 	
-		font-size: 300%;
 		color: white;
 		font-family: HelveticaBold;
 		text-align: center;
-		word-wrap:break-word;
-       
+		word-wrap:break-word;   
 		
 	}
 	.overlapped-msg {
 	
-		font-size: 100%;
 		color: white;
+        font-size: 100%;
 		font-weight: lighter;
 		text-align: center;
 		word-wrap:break-word;
-        margin-top: 50%;
+        margin-top: 60%;
         background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
         border-radius: 10px;
         padding: 2%;
