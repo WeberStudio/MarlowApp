@@ -95,7 +95,7 @@ Ext.define('MarlowApp.controller.LoginC', {
                         {
                             
                             hideloadingMask();
-                            Ext.Msg.alert('ENTERED INVALID RECORD');    
+                            Ext.Msg.alert('Your password was entered incorrectly');    
                             app.application.redirectTo('login');
                         }
                        else

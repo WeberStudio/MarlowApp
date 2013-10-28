@@ -75,6 +75,20 @@ Ext.define('MarlowApp.view.Dashboard', {
                 width: '50%',      
                 flex: 1,
                 style: 'margin-right: 60%;',
+                listeners: {
+                    
+                    tap: function() {
+                        
+                        navigator.camera.getPicture(function(imagedata){
+                            snapSrc = imagedata; 
+                            alert('sdfsfsdfsd');
+                            app.application.redirectTo('snapit');   
+                        }, onFail, { 
+                            quality: 50,
+                            destinationType: Camera.DestinationType.DATA_URL
+                        });
+                    }
+                }
             },
             {
                         xtype: 'button',
@@ -116,6 +130,13 @@ Ext.define('MarlowApp.view.Dashboard', {
                 width: '50%',
                 flex: 1,
                 style: 'margin-right: 60%;',
+                listeners: {
+                    
+                    tap: function() {
+                        
+                        app.application.redirectTo('shops');
+                    }
+                }
             },
             {
                 xtype: 'button',
@@ -147,7 +168,14 @@ Ext.define('MarlowApp.view.Dashboard', {
                 width: '50%',
                 centered: true,                         
                 flex: 1,
-                style: 'margin-right: 60%;', 
+                style: 'margin-right: 60%;',
+                listeners: {
+                    
+                    tap: function() {
+                        
+                        app.application.redirectTo('myitemlist');
+                    }
+                } 
             },
             {
                 xtype: 'button',
