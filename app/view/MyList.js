@@ -86,14 +86,14 @@ Ext.define('MarlowApp.view.MyList', {
                         listeners: {
                             tap: function() {                                
                                   
-                           navigator.camera.getPicture(function(imagedata){
+                           navigator.camera.getPicture(function(imagedata)
+                           {
 
-                        snapSrc = imagedata;
-                      
-                        app.application.redirectTo('snapit');   
-                    }, onFail, { quality: 50,
-                        destinationType: Camera.DestinationType.DATA_URL
-                    });   
+                           snapSrc = imagedata;                      
+                           app.application.redirectTo('snapit');   
+                           }, onFail, { quality: 50,
+                             destinationType: Camera.DestinationType.DATA_URL
+                             });   
                          
                             
                             },
@@ -184,10 +184,11 @@ Ext.define('MarlowApp.view.MyList', {
                     {
                         xtype: 'button',
                         align: 'left',
-                        text: 'Edit Notes',
+                        text: 'Edit Notes sdfsdfsd',
                         baseCls: 'custom-white-button',
                         handler:function()
                         {
+                           
                             app.application.redirectTo('editnote');
                         }    
                     },

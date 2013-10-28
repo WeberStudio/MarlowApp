@@ -103,13 +103,13 @@ Ext.define('MarlowApp.view.Dashboard', {
                         { 
                            navigator.camera.getPicture(function(imagedata){
                             snapSrc = imagedata; 
-                            alert('sdfsfsdfsd');
+                           
                             app.application.redirectTo('snapit');   
                             }, onFail, { 
                                 quality: 50,
                                 destinationType: Camera.DestinationType.DATA_URL
-                            });  
-                           // snapSrc = 'imagedata.jpg'; 
+                            });    
+                            //snapSrc = 'imagedata.jpg'; 
                             //app.application.redirectTo('snapit');  
                         }
                     },    

@@ -783,7 +783,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
         if(Ext.Viewport.getComponent('deleteitemid') == undefined)
             {
               
-            loadMask()       
+           /* loadMask()       
             Ext.Ajax.request({
                 url: serviceUrl+'get_mylist_record',
                 headers: {
@@ -793,7 +793,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 },
                 callbackKey: 'callback', 
                 timeout : 6000,
-                method: 'GET',                
+                method: 'POST',                
               
                 withCredentials: false,
                 useDefaultXhrHeader: false,
@@ -818,7 +818,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 {
                     //Ext.Msg.alert( 'Server is not responding please try again'); 
                 }
-            });
+            });   */
             
             
             Ext.Viewport.setActiveItem({
@@ -875,28 +875,21 @@ Ext.define('MarlowApp.controller.DashboardC', {
             },
             callbackKey: 'callback', 
             timeout : 6000,
-            method: 'POST',                
-            jsonData: {
-                        "emailMessage":     emailMessage ,
-                        "emailTo":          emailTo ,
-                        "finalEmailFrom":   finalEmailFrom ,
-                        "emailSubject":     emailSubject,
-                        "finalProductId":   finalProductId,
-                        'finalImage':       finalImage
-                    },
+            method: 'POST',
+            jsonData: {"emailMessage": emailMessage ,"emailTo": emailTo ,"finalEmailFrom": finalEmailFrom ,"emailSubject": emailSubject, "finalProductId":   finalProductId, 'finalImage': finalImage},
             withCredentials: false,
             useDefaultXhrHeader: false,
             success: function(response) {      
                 try{
                     response    = Ext.decode(response.responseText);
-                    var popup = this.getPopup();  
-                    popup.hide({type: 'slideOut', direction: 'right'}); 
-                    Ext.getCmp('emailMessage').setValue() = '';
-                    Ext.getCmp('emailTo').setValue() = '';
-                    Ext.getCmp('emailSubject').setValue() = '';                    
+                   // var popup = this.getPopup();  
+                    //popup.hide({type: 'slideOut', direction: 'right'}); 
+                   /* Ext.getCmp('emailMessage').setValue()   = '';
+                    Ext.getCmp('emailTo').setValue()        = '';
+                    Ext.getCmp('emailSubject').setValue()   = '';  */               
                     hideloadingMask();                          
                 }catch(err){
-                    // console.log(err)
+                    console.log(err) ;
                     hideloadingMask();
                     
                     var popup = Ext.getCmp('emailindivisual'); 

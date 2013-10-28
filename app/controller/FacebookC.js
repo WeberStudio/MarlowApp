@@ -25,6 +25,16 @@ Ext.define('MarlowApp.controller.FacebookC',{
 		var popup = this.getPopup();  
 		Ext.Viewport.add(popup);  
 		popup.show();
+        
+        if(editProductIndex !='')
+        {
+            var productViewBrand            = all_productsid_store.getAt(editProductIndex).getData();
+            finalImage                      = productViewBrand.image ;
+            finalNote                       = productViewBrand.note  ;
+            finalPrice                      = productViewBrand.price    ;
+            finalBrandName                  = productViewBrand.name  ;
+        }
+        
         Ext.getCmp('facebookimage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 70px; height: 90px;">'); 
        
         //document.getElementById("facebookimage").src = imageUrl+finalImage;
