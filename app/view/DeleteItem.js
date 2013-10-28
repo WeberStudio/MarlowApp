@@ -5,9 +5,11 @@ Ext.define('MarlowApp.view.DeleteItem', {
 	{	
 		id:'deleteitemid',  
 		fullscreen: true,
+        scrollable: true,
 		navigationBar: {
         hidden: true
         },
+        
 	    items : [
 	    {
             xtype: 'toolbar',
@@ -56,15 +58,17 @@ Ext.define('MarlowApp.view.DeleteItem', {
 		    xtype: 'list',
 		    inline: true,
 		    grouped: true,
+            pinHeaders: true, 
 		    id:'delete_item_list',
 		    store:'all_productsid',
             indexBar: true,
-            mode: 'MULTI',
+            mode: 'MULTI',  
 		    //itemTpl: '<div class="contact">{name}</div>',
+            selectedCls: 'delete-item-list',
             itemTpl:Ext.create(
                 'Ext.XTemplate',
                 '<div class="tweet-wrapper">',
-               '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 5%; height: 5%">',
+               '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 25%; height: 25%">',
                 '   <div class="tweet">',
                 //'<span class="posted"><input type="radio"></span>',
                 //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
@@ -123,11 +127,13 @@ Ext.define('MarlowApp.view.DeleteItem', {
                         var exp = e.target.src.split("/");
                         if(exp[6] == 'c2.png' )
                         {
-                            e.target.src = 'resources/images/c1.png'; 
+                            e.target.src = 'resources/images/c1.png';
+                             
                         }
                         else if(exp[6] == 'c1.png')
                         {
                             e.target.src = 'resources/images/c2.png';
+                            Ext.getCmp('delete_item_list').setStyle('background-color: orange');
                         }
                     }
                 }

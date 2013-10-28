@@ -6206,6 +6206,33 @@ body.x-desktop {
   float: right;
 }
 
+    /* not using it anymore, as it applies to all automatically
+    
+    .delete-item-list .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item .x-item-selected .x-list-item-tpl {
+
+        background-image: linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -o-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -moz-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -webkit-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -ms-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+
+        background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.05, rgb(252,189,189)),
+        color-stop(0.53, rgb(250,197,197))
+        );
+    }*/
+.delete-item-list {
+  background-image: linear-gradient(bottom, #fcbdbd 5%, #fac5c5 53%);
+  background-image: -o-linear-gradient(bottom, #fcbdbd 5%, #fac5c5 53%);
+  background-image: -moz-linear-gradient(bottom, #fcbdbd 5%, #fac5c5 53%);
+  background-image: -webkit-linear-gradient(bottom, #fcbdbd 5%, #fac5c5 53%);
+  background-image: -ms-linear-gradient(bottom, #fcbdbd 5%, #fac5c5 53%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #fcbdbd), color-stop(0.53, #fac5c5));
+}
+
 .x-list {
   background-color: white !important;
 }
@@ -6232,7 +6259,7 @@ body.x-desktop {
   color: #0079FF;
 }
 
-.delete-item .x-list-header {
+.delete-item-list .x-list-header {
   background-color: #F8F8F8;
   color: black;
   font-family: HelveticaBold;
@@ -6241,17 +6268,23 @@ body.x-desktop {
   border: none;
 }
 
-.delete-item .x-list-header .x-innerhtml {
+.delete-item-list .x-list-header .x-innerhtml {
   font-size: 100%;
   font-family: HelveticaBold;
 }
 
-.delete-item .tweet p {
+.delete-item-list .x-item-selected {
+  background-color: #fcd9db !important;
+  color: black !important;
+  background-image: url(images/c2.png);
+}
+
+.delete-item-list .tweet p {
   font-size: 80%;
   font-family: HelveticaLight;
 }
 
-.delete-item .tweet b {
+.delete-item-list .tweet b {
   font-family: HelveticaBold;
 }
 
@@ -6545,7 +6578,7 @@ final_img {
 }
 
 .custom-form-fields .x-form-label {
-  border: 1px solid #c5c5c5;
+  border-right: 1px solid #c5c5c5;
 }
 
 .share-item-page {
