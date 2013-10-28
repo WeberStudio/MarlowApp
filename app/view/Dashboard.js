@@ -79,30 +79,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                     
                     tap: function() {
                         
-                        navigator.camera.getPicture(function(imagedata){
-                            snapSrc = imagedata; 
-                            alert('sdfsfsdfsd');
-                            app.application.redirectTo('snapit');   
-                        }, onFail, { 
-                            quality: 50,
-                            destinationType: Camera.DestinationType.DATA_URL
-                        });
-                    }
-                }
-            },
-            {
-                        xtype: 'button',
-                        text: 'SNAP IT',
-                        id: 'snapit-button',
-                        baseCls: 'null',
-                        centered: true,
-                        docked: 'right',
-                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing: 5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
-                        flex: 1,
-                        handler:function()
-                        { 
-                          
-                           
+                                                   if(Ext.os.is.Android) { 
                             document.addEventListener("deviceready",function(imagedata){
                                 
                                 pictureSource=navigator.camera.PictureSourceType;
@@ -120,6 +97,85 @@ Ext.define('MarlowApp.view.Dashboard', {
                             
                              snapSrc = ''; 
                             app.application.redirectTo('snapit'); 
+                           }
+                           else if(Ext.os.is.iOS) { 
+                                //alert('Tapped on index: '+record.data.title); 
+                            Ext.device.Camera.capture
+                            ({
+                                source: 'camera',
+                                destination: 'data',
+                                success: function(imagedata) 
+                                {
+                                    //console.log(imagedata)
+                                    snapSrc = imagedata;
+                                   // img.setSrc('data:image/jpeg;base64,' +imagedata);
+                                    app.application.redirectTo('snapit');   
+                                },
+                                failure: function() {
+                                    Ext.Msg.alert('Error', 'There was an error when acquiring the picture.');
+                                    app.application.redirectTo('dashboard');
+                                },
+                                scope: this
+                            });                                      
+                            //window.location = 'SnapIt' ;
+                            
+                           }
+                    }
+                }
+            },
+            {
+                        xtype: 'button',
+                        text: 'SNAP IT',
+                        id: 'snapit-button',
+                        baseCls: 'null',
+                        centered: true,
+                        docked: 'right',
+                        style: 'font-family: LeagueGothicRegular; color: white; font-size: 24px; letter-spacing: 5px; font-weight: lighter; border: none; margin-top: -1%; margin-left: 20%;',
+                        flex: 1,
+                        handler:function()
+                        { 
+                          
+                           if(Ext.os.is.Android) { 
+                            document.addEventListener("deviceready",function(imagedata){
+                                
+                                pictureSource=navigator.camera.PictureSourceType;
+                                destinationType=navigator.camera.DestinationType;
+                                
+                                 navigator.camera.getPicture(function(imagedata){
+                                   snapSrc = imagedata; 
+                                    app.application.redirectTo('snapit');   
+                                    }, onFail, { 
+                                        quality: 50,
+                                        destinationType: Camera.DestinationType.DATA_URL
+                                    });    
+                                
+                            },false);
+                            
+                             snapSrc = ''; 
+                            app.application.redirectTo('snapit'); 
+                           }
+                           else if(Ext.os.is.iOS) { 
+                                //alert('Tapped on index: '+record.data.title); 
+                            Ext.device.Camera.capture
+                            ({
+                                source: 'camera',
+                                destination: 'data',
+                                success: function(imagedata) 
+                                {
+                                    //console.log(imagedata)
+                                    snapSrc = imagedata;
+                                   // img.setSrc('data:image/jpeg;base64,' +imagedata);
+                                    app.application.redirectTo('snapit');   
+                                },
+                                failure: function() {
+                                    Ext.Msg.alert('Error', 'There was an error when acquiring the picture.');
+                                    app.application.redirectTo('dashboard');
+                                },
+                                scope: this
+                            });                                      
+                            //window.location = 'SnapIt' ;
+                            
+                           }
                              
                         }
                     },    
