@@ -26,7 +26,7 @@ Ext.application({
    
      
     views: [
-        'Main', 'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'TwitterV', 'FacebookV', 'PinterestV', 'MyList', 'EmailPost', 'DashboardDay', 'ConfirmDltItem', 'EditNote'],
+         'Signup', 'Dashboard', 'Snap', 'Shops', 'MyItemList' , 'AddNote', 'ConfirmDel', 'ShareItem', 'TwitterV', 'FacebookV', 'PinterestV', 'MyList', 'EmailPost', 'DashboardDay', 'ConfirmDltItem', 'EditNote'],
     
     controllers: [
         'LoginC', 'DashboardC', 'ConfirmDelC', 'ShareItemC', 'TwitterC', 'FacebookC', 'PinterestC', 'EmailPostC' ], 
@@ -79,7 +79,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('MarlowApp.view.Main'));
+        Ext.Viewport.add(Ext.create('MarlowApp.view.Signup'));
     },
 
     onUpdated: function() {
