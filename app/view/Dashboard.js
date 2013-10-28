@@ -101,16 +101,26 @@ Ext.define('MarlowApp.view.Dashboard', {
                         flex: 1,
                         handler:function()
                         { 
-                           navigator.camera.getPicture(function(imagedata){
-                            snapSrc = imagedata; 
+                          
                            
-                            app.application.redirectTo('snapit');   
-                            }, onFail, { 
-                                quality: 50,
-                                destinationType: Camera.DestinationType.DATA_URL
-                            });    
-                            //snapSrc = 'imagedata.jpg'; 
-                            //app.application.redirectTo('snapit');  
+                            document.addEventListener("deviceready",function(imagedata){
+                                
+                                pictureSource=navigator.camera.PictureSourceType;
+                                destinationType=navigator.camera.DestinationType;
+                                
+                                 navigator.camera.getPicture(function(imagedata){
+                                   snapSrc = imagedata; 
+                                    app.application.redirectTo('snapit');   
+                                    }, onFail, { 
+                                        quality: 50,
+                                        destinationType: Camera.DestinationType.DATA_URL
+                                    });    
+                                
+                            },false);
+                            
+                             snapSrc = ''; 
+                            app.application.redirectTo('snapit'); 
+                             
                         }
                     },    
             ]
@@ -120,7 +130,6 @@ Ext.define('MarlowApp.view.Dashboard', {
             width: '100%',
             height: '15%',
             items: [
-
             {
                 xtype: 'image',
                 src: 'resources/images/marlow/my-list-white-icon.png',

@@ -184,7 +184,7 @@ Ext.define('MarlowApp.view.MyList', {
                     {
                         xtype: 'button',
                         align: 'left',
-                        text: 'Edit Notes sdfsdfsd',
+                        text: 'Edit Notes',
                         baseCls: 'custom-white-button',
                         handler:function()
                         {

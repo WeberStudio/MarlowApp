@@ -256,13 +256,20 @@ Ext.define('MarlowApp.view.Signup', {
                         useDefaultXhrHeader: false,
                         success: function(response) {      
                         response = Ext.decode(response.responseText)
-                        console.log(response[0].MESSAGE);
+                        //console.log(response);
                        
-                        if(response[0].MESSAGE)
+                        if(response.email)
                              {
                                
+                                /*response = Ext.decode(response.responseText);
+                                console.log(response); */  
+                                Ext.getStore("SignupInfoStore").setData(response);
+                                finalUserId = response.user_id; 
+                                SignupInfoStore = Ext.getStore('SignupInfoStore');                 
+                                //console.log(SignupInfoStore.getAt(0).getData());
+                                //alert(finalUserId);
                                 hideloadingMask();
-                                Ext.Msg.alert( 'You have registered successfully!');
+                                //Ext.Msg.alert( 'You have registered successfully!');
                                 app.application.redirectTo('dashboard');
                                 /*var userNameObj = document.getElementById('UserNameLandingpageID');
                                 userNameObj.innerHTML = '';
@@ -294,7 +301,7 @@ Ext.define('MarlowApp.view.Signup', {
                          Ext.getCmp("newpasswordtxt").blur(); 
                          Ext.getCmp("confirmPasswordtxt").blur();
             }
-        },
+        }/*,
          {
             xtype: 'button',
             id:'cancelbtn',
@@ -316,7 +323,7 @@ Ext.define('MarlowApp.view.Signup', {
                 app.application.redirectTo(url) 
                 
             } 
-         }]
+         }*/]
          }    
         ]
     }
