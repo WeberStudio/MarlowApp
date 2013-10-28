@@ -31,7 +31,7 @@
     
     .delete-item .x-list-header  {
         
-        background-color: #F8F8F8  ;
+        background-color: #F8F8F8;
         color: black;
         font-family: HelveticaBold;
         font-weight: bolder;
@@ -54,14 +54,7 @@
     .delete-item .tweet b 
     {
     font-family: HelveticaBold; 
-    }
-    .delete-item  .x-item-selected
-    {
-        background-color    : #fcd9db !important;
-        color               : black !important;
-        background-image: url(images/c2.png);
-    }
-    
+    } 
     
     .item-list .x-list-header  {
         
@@ -82,10 +75,5 @@
     .item-list .x-list-footer-wrap
     {
         margin-bottom: 10px;
-    } 
-    
-
-
-
-    
+    }
 }

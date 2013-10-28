@@ -61,6 +61,7 @@ Ext.define('MarlowApp.view.Signup', {
            
             {
                     xtype: 'emailfield',
+                    cls: 'custom-form-fields',   
                     label: 'Email *',
                     name: 'email',
                     id:   'email'
@@ -68,6 +69,7 @@ Ext.define('MarlowApp.view.Signup', {
             {
                 xtype: 'passwordfield',
                 id:'newpasswordtxt',
+                cls: 'custom-form-fields',   
                 label: '<div class="separator">Create Password *</div>',
                 listeners: {
                     keyup: function( textfield, e, eOpts ) {
@@ -82,6 +84,7 @@ Ext.define('MarlowApp.view.Signup', {
             },
             {
                 xtype: 'passwordfield',
+                cls: 'custom-form-fields',   
                 id:'confirmPasswordtxt',
                 label: '<div class="separator">Confirm Password *</div>',
                 listeners: {

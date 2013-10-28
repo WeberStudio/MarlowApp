@@ -88,4 +88,12 @@
         background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#f2f6f8), color-stop(13%,#daddf2), color-stop(51%,#e6ebf4), color-stop(100%,#d7def4)); 
         border-radius: 10px;
     }
+    
+     .custom-form-fields {
+     
+        .x-form-label {
+
+        border: 1px solid #c5c5c5;
+        }
+     }
 }

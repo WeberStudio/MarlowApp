@@ -25,6 +25,7 @@ Ext.define('MarlowApp.view.Main', {
             items: [{
                 xtype: 'emailfield',
                 id:'loginusername',
+                cls: 'custom-form-fields',
                 autoComplete: true, 
                 labelWidth : '45%',
                 label: '<div class="separator">Email</div>',
@@ -44,6 +45,7 @@ Ext.define('MarlowApp.view.Main', {
             {
                 xtype: 'passwordfield',
                 id:'loginpassword',
+                cls: 'custom-form-fields', 
                 labelWidth : '45%',
                 autoComplete: true,   
                 label: '<div class="separator">Password</div>',
