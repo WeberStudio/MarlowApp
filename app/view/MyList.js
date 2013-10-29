@@ -2,9 +2,6 @@ Ext.define('MarlowApp.view.MyList', {
     extend: 'Ext.Panel', 
     require: ['Ext.Img', 'Ext.Toolbar'],
     xtype:'mylistView', 
-    //constructor: function() {
-        //alert(this.self.getName()); // alerts 'My.cool.Class'
-    //},
     
     config: {
         
@@ -242,7 +239,7 @@ Ext.define('MarlowApp.view.MyList', {
                     {
                         xtype: 'image',
                         id:'productViewImage',                          
-                        html: '<img src = "resources/images/marlow-back/home-day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                        //html: '<img src = "resources/images/marlow-back/home-day.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
                     },
                     {
                         xtype: 'panel',
