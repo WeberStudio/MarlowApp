@@ -76,8 +76,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 '       <b>{price}</b>',
                 '   </div>',
                 '</div>',
-                '<img class="logo0" id="{product_id}" src="resources/images/c1.png" style="float: right;">',
-                '<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: none;">'
+                '<img class="logo0" id="del-image_{product_id}" src="resources/images/c1.png" style="float: right;">'
                 //style="float: right; position: relative; top:-40px;"
             ),
             listeners:
@@ -85,8 +84,8 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 // getSelectionCount:function( ){}, 
                 itemtap: function(cmp, index, target, record, e, eOpts)
                 {
-                    //console.log(e.target);
-                    console.log(target._tpl.html);
+                    //console.log(e.target.id);
+                    //console.log(target._tpl.html);
                     /*var expnew = target._tpl.html.split("src");
                     console.log(expnew[2]);
                     var modi = expnew[2].split("/");
@@ -125,19 +124,22 @@ Ext.define('MarlowApp.view.DeleteItem', {
                         count =  addIndex.length;
                     }
                     Ext.getCmp('count').setText('Delete selected('+count+')');
+                    //console.log(e.target.src);
                     if(e.target.src){
-                        var exp = e.target.src.split("/");
-                        if(exp[6] == 'c2.png' )
+                        var exp = e.target.src.split("resources");
+                        console.log(exp[1]); 
+                        
+                        if(exp[1] == '/images/c2.png' )
                         {
-                            e.target.src = 'resources/images/c1.png';
-                             
+                            e.target.src = 'resources/images/c1.png';  
+                            //Ext.getCmp('del-image_' + e.target.id).setSrc('resources/images/c1.png');  
+                            
                         }
-                        else if(exp[6] == 'c1.png')
+                        else 
                         {
-                            e.target.src = 'resources/images/c2.png';
-                            e.target.html = '<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: inline;">';       
-                            //target.setHtml('<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: inline;">');
-                        }
+                            e.target.src = 'resources/images/c2.png';  
+                            //Ext.getCmp('del-image_' + e.target.id).setSrc('resources/images/c2.png');
+                        }   
                     }
                 }
             }
