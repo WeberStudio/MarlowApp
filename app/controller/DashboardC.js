@@ -668,7 +668,6 @@ Ext.define('MarlowApp.controller.DashboardC', {
     },
     
     addtolistView:function(){
-        
       
         if(Ext.Viewport.getComponent('addtolistid') == undefined)
             {            
@@ -687,27 +686,27 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
                     finalImage     = selectionInfo.getAt(0).getData().image;
                     
-                    ////////
-                    img = document.getElementById("base_32");
+                   // ////////
+//                    img = document.getElementById("base_32");
                     //img = Ext.getCmp('useritemnote');
                     //alert(img);
                     // Create an empty canvas element
-                    var canvas = document.createElement("canvas");
-                    canvas.width = img.width;
-                    canvas.height = img.height;
+//                    var canvas = document.createElement("canvas");
+//                    canvas.width = img.width;
+//                    canvas.height = img.height;
 
                     // Copy the image contents to the canvas
-                    var ctx = canvas.getContext("2d");
-                    ctx.drawImage(img, 0, 0);
+//                    var ctx = canvas.getContext("2d");
+//                    ctx.drawImage(img, 0, 0);
 
                     // Get the data-URL formatted image
                     // Firefox supports PNG and JPEG. You could check img.src to guess the
                     // original format, but be aware the using "image/jpg" will re-encode the image.
-                    var dataURL = canvas.toDataURL("image/png");
+//                    var dataURL = canvas.toDataURL("image/png");
 
-                    alert(dataURL.replace(/^data:image\/(png|jpg);base64,/, ""));
+                //    alert(dataURL.replace(/^data:image\/(png|jpg);base64,/, ""));
                     
-                      return false;
+                  //    return false;
                     ///////
                     
                     
@@ -729,6 +728,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 timeout : 60000,
                 method: 'POST',
                 jsonData: {"product_id": finalProductId ,"user_id": finalUserId,"brand_id":finalBrandId,"note":finalNote,"price":finalPrice,"image":finalImage},
+               // jsonData: {"product_id": finalProductId ,"user_id": finalUserId,"brand_id":finalBrandId,"note":finalNote,"price":finalPrice,"image":dataURL.replace(/^data:image\/(png|jpg);base64,/, "")},
                 withCredentials: false,
                 useDefaultXhrHeader: false,
                 success: function(response) {      
@@ -743,7 +743,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                              //console.log(response[0].MESSAGE);
                             //store.setData(response);
                             //console.log(store.setData(response));
-                             Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                             Ext.getCmp('productViewImage').setHtml('<img src ="'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
                              updateFlag = 1;
                         }catch(err){
                             hideloadingMask();   

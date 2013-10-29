@@ -71,6 +71,7 @@ Ext.define('MarlowApp.view.AddToList', {
                                 destinationType=navigator.camera.DestinationType;
                                 
                                  navigator.camera.getPicture(function(imagedata){
+                                   snapSrc = '';
                                     snapSrc = imagedata;
                                     app.application.redirectTo('snapit');   
                                     }, onFail, { 
@@ -91,6 +92,7 @@ Ext.define('MarlowApp.view.AddToList', {
                                 success: function(imagedata) 
                                 {
                                     //console.log(imagedata)
+                                     snapSrc = ''; 
                                     snapSrc = imagedata;
                                    // img.setSrc('data:image/jpeg;base64,' +imagedata);
                                     app.application.redirectTo('snapit');   
