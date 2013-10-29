@@ -76,7 +76,8 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 '       <b>{price}</b>',
                 '   </div>',
                 '</div>',
-                '<img class="logo0" id="{product_id}" src="resources/images/c1.png" style="float: right;">'
+                '<img class="logo0" id="{product_id}" src="resources/images/c1.png" style="float: right;">',
+                '<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: none;">'
                 //style="float: right; position: relative; top:-40px;"
             ),
             listeners:
@@ -84,6 +85,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 // getSelectionCount:function( ){}, 
                 itemtap: function(cmp, index, target, record, e, eOpts)
                 {
+                    //console.log(e.target);
                     console.log(target._tpl.html);
                     /*var expnew = target._tpl.html.split("src");
                     console.log(expnew[2]);
@@ -133,7 +135,8 @@ Ext.define('MarlowApp.view.DeleteItem', {
                         else if(exp[6] == 'c1.png')
                         {
                             e.target.src = 'resources/images/c2.png';
-                            Ext.getCmp('delete_item_list').setStyle('background-color: orange');
+                            e.target.html = '<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: inline;">';       
+                            //target.setHtml('<img class="logo0" id="{product_id}" src="resources/images/c2.png" style="float: right; display: inline;">');
                         }
                     }
                 }
