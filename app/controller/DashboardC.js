@@ -752,7 +752,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     },                     
                     failure: function(response) {
                         //response = Ext.decode(response.responseText)
-                        Ext.Msg.alert( 'Server is not responding please try again');     
+                       // Ext.Msg.alert( 'Server is not responding please try again');     
                     },
                     callback:function(response)
                     {
