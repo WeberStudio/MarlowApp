@@ -188,8 +188,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                        
                             response    = Ext.decode(response.responseText);
                             var store   = Ext.getStore('all_productsid'); 
-                            var records = store.getRange();
-                            store.remove(records);  
+                            store.removeAll();
                             store.setData(response);
                             //alert();
                             
