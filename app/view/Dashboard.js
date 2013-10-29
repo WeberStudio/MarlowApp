@@ -86,7 +86,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 
                                  navigator.camera.getPicture(function(imagedata){
                                     snapSrc = imagedata;
-                                    //app.application.redirectTo('snapit');   
+                                    app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
                                         destinationType: Camera.DestinationType.FILE_URI 
@@ -140,7 +140,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 
                                  navigator.camera.getPicture(function(imagedata){
                                     snapSrc = imagedata;
-                                    //app.application.redirectTo('snapit');   
+                                    app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
                                         destinationType: Camera.DestinationType.FILE_URI 
@@ -148,7 +148,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 
                             },false);
                             
-                          app.application.redirectTo('snapit'); 
+                            app.application.redirectTo('snapit'); 
                            }
                            else if(Ext.os.is.iOS) { 
                                 //alert('Tapped on index: '+record.data.title); 

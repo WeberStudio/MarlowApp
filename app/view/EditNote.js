@@ -16,6 +16,7 @@ Ext.define('MarlowApp.view.EditNote', {
 				title: 'Edit Note',
 				docked: 'top',
 				cls: 'top-toolbar',
+                
 				layout: {
 					pack: 'justify',
 					type: 'hbox'
@@ -121,6 +122,7 @@ Ext.define('MarlowApp.view.EditNote', {
 						xtype: 'textfield',
 						id:'itemprice', 
 						placeHolder: '\u00A3',
+                        autoComplete: false,
 						name: 'price',
 						width: '100%',
                         height: '40%',

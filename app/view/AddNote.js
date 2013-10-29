@@ -121,6 +121,7 @@ Ext.define('MarlowApp.view.AddNote', {
 						id:'itemprice', 
 						placeHolder: '\u00A3',
 						name: 'price',
+                        autoComplete: false,
 						width: '100%',
                         height: '40%',
 						docked: 'left',
