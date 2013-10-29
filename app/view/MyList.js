@@ -94,7 +94,7 @@ Ext.define('MarlowApp.view.MyList', {
                                     app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
-                                        destinationType: Camera.DestinationType.FILE_URI 
+                                        destinationType: Camera.DestinationType.DATA_URL 
                                     });    
                                 
                             },false);

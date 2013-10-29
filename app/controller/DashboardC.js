@@ -395,15 +395,14 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
-                Ext.getCmp('snapId').setHtml('<img id = "base_32" src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
                 Ext.Viewport.setActiveItem(Ext.getCmp('snapViewId'));
-                Ext.getCmp('snapId').setHtml('<img id = "base_32" src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
      
         } 
-
         //Ext.getCmp("ssntxt").blur(); 
     },
     
@@ -687,7 +686,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalImage     = selectionInfo.getAt(0).getData().image;
                     
                    // ////////
-//                    img = document.getElementById("base_32");
+                   
                     //img = Ext.getCmp('useritemnote');
                     //alert(img);
                     // Create an empty canvas element
@@ -743,7 +742,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                              //console.log(response[0].MESSAGE);
                             //store.setData(response);
                             //console.log(store.setData(response));
-                             Ext.getCmp('productViewImage').setHtml('<img src ="'+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                             Ext.getCmp('productViewImage').setHtml('<img src ="'+imageUrl+finalImage+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
                              updateFlag = 1;
                         }catch(err){
                             hideloadingMask();   

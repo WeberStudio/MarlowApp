@@ -90,7 +90,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                                     app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
-                                        destinationType: Camera.DestinationType.FILE_URI 
+                                        destinationType: Camera.DestinationType.DATA_URL 
                                     });    
                                 
                             },false);
@@ -146,11 +146,11 @@ Ext.define('MarlowApp.view.Dashboard', {
                                     app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
-                                        destinationType: Camera.DestinationType.FILE_URI 
+                                        destinationType: Camera.DestinationType.DATA_URL 
                                     });    
                                 
                             },false);
-                            
+                            //snapSrc = '/resouces/images/marlow_splash.png'
                             app.application.redirectTo('snapit'); 
                            }
                            else if(Ext.os.is.iOS) { 
@@ -176,6 +176,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                             //window.location = 'SnapIt' ;
                             
                            }
+                         
                              
                         }
                     },    
