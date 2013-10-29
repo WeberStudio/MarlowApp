@@ -395,12 +395,12 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
-                Ext.getCmp('snapId').setHtml('<img src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                Ext.getCmp('snapId').setHtml('<img id = "base_32" src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
                 Ext.Viewport.setActiveItem(Ext.getCmp('snapViewId'));
-                Ext.getCmp('snapId').setHtml('<img src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+                Ext.getCmp('snapId').setHtml('<img id = "base_32" src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
      
         } 
 
@@ -685,7 +685,34 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     finalBrandName = shopSelectedName; 
                     finalNote      = selectionInfo.getAt(0).getData().note;
                     finalPrice     = selectionInfo.getAt(0).getData().price; 
-                    finalImage     = selectionInfo.getAt(0).getData().image;                  
+                    finalImage     = selectionInfo.getAt(0).getData().image;
+                    
+                    ////////
+                    img = document.getElementById("base_32");
+                    //img = Ext.getCmp('useritemnote');
+                    //alert(img);
+                    // Create an empty canvas element
+                    var canvas = document.createElement("canvas");
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+
+                    // Copy the image contents to the canvas
+                    var ctx = canvas.getContext("2d");
+                    ctx.drawImage(img, 0, 0);
+
+                    // Get the data-URL formatted image
+                    // Firefox supports PNG and JPEG. You could check img.src to guess the
+                    // original format, but be aware the using "image/jpg" will re-encode the image.
+                    var dataURL = canvas.toDataURL("image/png");
+
+                    alert(dataURL.replace(/^data:image\/(png|jpg);base64,/, ""));
+                    
+                      return false;
+                    ///////
+                    
+                    
+                    
+                                      
                     //console.log(selectionInfo.getAt(0).getData());
                    // loadMask(); 
                 
