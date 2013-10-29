@@ -29,7 +29,7 @@
 	
 	}
     
-    .delete-item .x-list-header  {
+    .delete-item-list .x-list-header  {
         
         background-color: #F8F8F8;
         color: black;
@@ -39,22 +39,17 @@
         border: none;
         
     }
-    .delete-item .x-list-header .x-innerhtml 
+    .delete-item-list .x-list-header .x-innerhtml 
     {
     font-size: 100%;  
     font-family: HelveticaBold; 
     }
-    
-    .delete-item .tweet p 
+    /*.delete-item-list  .x-item-selected
     {
-    font-size: 80%;    
-    font-family: HelveticaLight; 
-    }
-    
-    .delete-item .tweet b 
-    {
-    font-family: HelveticaBold; 
-    } 
+        background-color    : #fcd9db !important;
+        color               : black !important;
+        background-image: url(images/c2.png);
+    }*/ 
     
     .item-list .x-list-header  {
         
@@ -76,4 +71,6 @@
     {
         margin-bottom: 10px;
     }
+    
+    
 }

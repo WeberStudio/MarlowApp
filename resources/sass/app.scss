@@ -19,7 +19,7 @@ $base-gradient: 'bevel';
 $base-gradient-glossy: 'glossy';
 $base-gradient-matte: 'matte';
 $base-gradient-bevel: 'bevel';
-//$list-header-bg-color: transparentize(saturate(#ffffff, 10%), .25);
+$list-header-bg-color: transparentize(saturate(#ffffff, 10%), .25);
 $list-header-bg-color: #FFFFFF;
 
 /*$base-color: #17a4e6;
@@ -52,6 +52,42 @@ $base-gradient: black;*/
 		float: right;
 	}
 }
+
+    /* not using it anymore, as it applies to all automatically
+    
+    .delete-item-list .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item .x-item-selected .x-list-item-tpl {
+
+        background-image: linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -o-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -moz-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -webkit-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -ms-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+
+        background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.05, rgb(252,189,189)),
+        color-stop(0.53, rgb(250,197,197))
+        );
+    }*/
+    
+    .delete-item-list  {
+    
+        background-image: linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -o-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -moz-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -webkit-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+        background-image: -ms-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
+
+        background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.05, rgb(252,189,189)),
+        color-stop(0.53, rgb(250,197,197))
+        );
+    }
 
 @include list-settings;
 @include button-style;
