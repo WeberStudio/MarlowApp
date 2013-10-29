@@ -395,16 +395,15 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('my-list-image').setHtml('<img src = "resources/images/marlow-icons/my-list-disabled.png" style = "margin-right: 5%;">')
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
-                if(snapSrc!='')
-                {
-                Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
-   
-                }
+                Ext.getCmp('snapId').setHtml('<img src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
         }
         else
         {
-                Ext.Viewport.setActiveItem(Ext.getCmp('dashboardId'));     
+                Ext.Viewport.setActiveItem(Ext.getCmp('snapViewId'));
+                Ext.getCmp('snapId').setHtml('<img src ="'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+     
         } 
+
         //Ext.getCmp("ssntxt").blur(); 
     },
     
