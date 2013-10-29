@@ -78,8 +78,8 @@ Ext.define('MarlowApp.view.Dashboard', {
                 listeners: {
                     
                     tap: function() {
-                        
-                                                   if(Ext.os.is.Android) { 
+                            snapSrc = '';
+                          if(Ext.os.is.Android) { 
                             document.addEventListener("deviceready",function(imagedata){
                                 
                                 pictureSource=navigator.camera.PictureSourceType;
@@ -87,16 +87,15 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 
                                  navigator.camera.getPicture(function(imagedata){
                                    snapSrc = imagedata; 
+                                    
                                     app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
                                         destinationType: Camera.DestinationType.DATA_URL
                                     });    
                                 
-                            },false);
+                            },false);                            
                             
-                             snapSrc = ''; 
-                            app.application.redirectTo('snapit'); 
                            }
                            else if(Ext.os.is.iOS) { 
                                 //alert('Tapped on index: '+record.data.title); 
@@ -118,7 +117,6 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 scope: this
                             });                                      
                             //window.location = 'SnapIt' ;
-                            
                            }
                     }
                 }
@@ -137,22 +135,20 @@ Ext.define('MarlowApp.view.Dashboard', {
                           
                            if(Ext.os.is.Android) { 
                             document.addEventListener("deviceready",function(imagedata){
-                                
                                 pictureSource=navigator.camera.PictureSourceType;
                                 destinationType=navigator.camera.DestinationType;
                                 
                                  navigator.camera.getPicture(function(imagedata){
-                                   snapSrc = imagedata; 
-                                    app.application.redirectTo('snapit');   
+                                    snapSrc = imagedata;
+                                    //app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
-                                        destinationType: Camera.DestinationType.DATA_URL
+                                        destinationType: Camera.DestinationType.FILE_URI 
                                     });    
                                 
                             },false);
                             
-                             snapSrc = ''; 
-                            app.application.redirectTo('snapit'); 
+                          app.application.redirectTo('snapit'); 
                            }
                            else if(Ext.os.is.iOS) { 
                                 //alert('Tapped on index: '+record.data.title); 

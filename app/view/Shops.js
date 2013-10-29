@@ -105,7 +105,7 @@ Ext.define('MarlowApp.view.Shops', {
                          Ext.getCmp('my-list-image').destroy(); 
                          Ext.getCmp('info-image').destroy();
                          
-                                                   if(Ext.os.is.Android) { 
+                         if(Ext.os.is.Android) { 
                             document.addEventListener("deviceready",function(imagedata){
                                 
                                 pictureSource=navigator.camera.PictureSourceType;

@@ -203,9 +203,7 @@ Ext.define('MarlowApp.view.Signup', {
                 {
                     Ext.Msg.alert( 'Please Enter Valid Email.');
                     return false;
-                }
-               
-                
+                } 
                                
                 if(newpassword == '')
                 {
@@ -213,11 +211,11 @@ Ext.define('MarlowApp.view.Signup', {
                     return false    
                 } 
                 
-                if(getPasswordlength<7)
+               /* if(getPasswordlength<7)
                 {
                     Ext.Msg.alert( 'Password cannot be less than 7 characters.');
                     return false      
-                }
+                }   */
               
                  if(confirmPassword == '')
                 {
@@ -225,11 +223,11 @@ Ext.define('MarlowApp.view.Signup', {
                     return false    
                 } 
                 
-                if(confirmPassword<7)
+               /* if(confirmPassword<7)
                 {
                     Ext.Msg.alert( ' Please insert a minimum of 7 characters for the Password.');
                     return false      
-                }
+                }*/
                 
                 if(newpassword != confirmPassword)
                 {
