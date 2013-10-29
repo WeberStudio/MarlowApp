@@ -8,7 +8,7 @@ Ext.define('MarlowApp.view.AddToList', {
         id :'addtolistid',
         fullscreen: true,
         scrollable: true,
-        style: 'background-color: black;',
+        //style: 'background-color: black;',
         
         items: [ 
         {
@@ -317,7 +317,7 @@ Ext.define('MarlowApp.view.AddToList', {
             {
                 xtype: 'image',
                 id:'productViewImage',                        
-                html: '<img src = "resources/images/sample.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
+                //html: '<img src = "resources/images/sample.gif" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">',
             },
             {
                 xtype: 'panel',
