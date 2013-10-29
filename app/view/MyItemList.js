@@ -8,7 +8,9 @@ Ext.define('MarlowApp.view.MyItemList', {
         id:'myitemlistviewId', 
         navigationBar: {hidden: true},
         fullscreen: true,
-        style: 'background-color:black;',
+        layout: {
+            type: 'card'
+        },
 
         items : [
         {
@@ -237,7 +239,7 @@ Ext.define('MarlowApp.view.MyItemList', {
             '<div class="tweet-wrapper">',
             //'<img src="resources/icons/Icon@2x.png"  style = "width: 8%; height: 8%" />',
             //'<img src ="data:image/jpeg;base64,{image}" style = "width: 10%; height: 10%">',  
-            '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 25%; height: 25%">',
+            '<img src ="http://geordie.testbench.co.uk/assets/media/{image}">',
             '<div class="tweet">',
             //'<span class="posted"><input type="radio"></span>',
             //'<span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
