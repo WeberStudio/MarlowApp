@@ -105,13 +105,47 @@ Ext.define('MarlowApp.view.Shops', {
                          Ext.getCmp('my-list-image').destroy(); 
                          Ext.getCmp('info-image').destroy();
                          
-                           navigator.camera.getPicture(function(imagedata){
-                           snapSrc = imagedata;
-                      
-                            app.application.redirectTo('snapit');   
-                            }, onFail, { quality: 50,
-                            destinationType: Camera.DestinationType.DATA_URL
-                    }); 
+                                                   if(Ext.os.is.Android) { 
+                            document.addEventListener("deviceready",function(imagedata){
+                                
+                                pictureSource=navigator.camera.PictureSourceType;
+                                destinationType=navigator.camera.DestinationType;
+                                
+                                 navigator.camera.getPicture(function(imagedata){
+                                   snapSrc = imagedata; 
+                                    app.application.redirectTo('snapit');   
+                                    }, onFail, { 
+                                        quality: 50,
+                                        destinationType: Camera.DestinationType.DATA_URL
+                                    });    
+                                
+                            },false);
+                            
+                             snapSrc = ''; 
+                            app.application.redirectTo('snapit'); 
+                           }
+                           else if(Ext.os.is.iOS) { 
+                                //alert('Tapped on index: '+record.data.title); 
+                            Ext.device.Camera.capture
+                            ({
+                                source: 'camera',
+                                destination: 'data',
+                                success: function(imagedata) 
+                                {
+                                    //console.log(imagedata)
+                                    snapSrc = imagedata;
+                                   // img.setSrc('data:image/jpeg;base64,' +imagedata);
+                                    app.application.redirectTo('snapit');   
+                                },
+                                failure: function() {
+                                    Ext.Msg.alert('Error', 'There was an error when acquiring the picture.');
+                                    app.application.redirectTo('dashboard');
+                                },
+                                scope: this
+                            });                                      
+                            //window.location = 'SnapIt' ;
+                            
+                           }
                          
 						 
 						
