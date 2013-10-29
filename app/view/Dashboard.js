@@ -78,24 +78,23 @@ Ext.define('MarlowApp.view.Dashboard', {
                 listeners: {
                     
                     tap: function() {
-                            snapSrc = '';
-                          if(Ext.os.is.Android) { 
+                        
+                        if(Ext.os.is.Android) { 
                             document.addEventListener("deviceready",function(imagedata){
-                                
                                 pictureSource=navigator.camera.PictureSourceType;
                                 destinationType=navigator.camera.DestinationType;
                                 
                                  navigator.camera.getPicture(function(imagedata){
-                                   snapSrc = imagedata; 
-                                    
-                                    app.application.redirectTo('snapit');   
+                                    snapSrc = imagedata;
+                                    //app.application.redirectTo('snapit');   
                                     }, onFail, { 
                                         quality: 50,
-                                        destinationType: Camera.DestinationType.DATA_URL
+                                        destinationType: Camera.DestinationType.FILE_URI 
                                     });    
                                 
-                            },false);                            
+                            },false);
                             
+                          app.application.redirectTo('snapit'); 
                            }
                            else if(Ext.os.is.iOS) { 
                                 //alert('Tapped on index: '+record.data.title); 
@@ -117,6 +116,7 @@ Ext.define('MarlowApp.view.Dashboard', {
                                 scope: this
                             });                                      
                             //window.location = 'SnapIt' ;
+                            
                            }
                     }
                 }

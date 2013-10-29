@@ -6101,9 +6101,9 @@ body.x-desktop {
 }
 .tweet-wrapper img {
   border-radius: 5px;
-  float: left;
 }
 .tweet-wrapper .tweet {
+  font-size: 70%;
   margin-left: 135px;
   min-height: 50px;
 }
