@@ -99,12 +99,12 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                    //Ext.Msg.alert( 'No internet connection available')
+                    Ext.Msg.alert( 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-                //Ext.Msg.alert( 'Server is not responding please try again');     
+                Ext.Msg.alert( 'Server is not responding please try again');     
             },
             callback:function(response)
             {
@@ -128,8 +128,9 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
     confdelete: function(){           
         //alert(deleteProductId);
         loadMask() 
+        //alert(deleteProductId);  
         Ext.Ajax.request({
-           
+            
             url: serviceUrl+'delete_list_item'+'/'+deleteProductId,
             headers: {
                 "Content-Type": "application/json",
@@ -149,7 +150,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                      Ext.Msg.alert( 'Deleted successfully');
                      if(Ext.getCmp("myitemlistviewId"))
                      {                                 
-                                Ext.getCmp("myitemlistviewId").destroy();
+                        Ext.getCmp("myitemlistviewId").destroy();
                      }
                      updateFlag = 1;                    
                      app.application.redirectTo('myitemlist');           
@@ -157,19 +158,19 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                 }catch(err){
                     hideloadingMask();   
                     // console.log(err)
-                   // Ext.Msg.alert( 'No internet connection available')
+                    //Ext.Msg.alert( 'No internet connection available')
                 }
             },                     
             failure: function(response) {
                 //response = Ext.decode(response.responseText)
-              //  Ext.Msg.alert( 'Server is not responding please try again');     
+                Ext.Msg.alert( 'Server is not responding please try again');     
             },
             callback:function(response)
             {
                 //Ext.Msg.alert( 'Server is not responding please try again'); 
             }
         });
-        var store   = Ext.getStore('all_productsid');
+       
         Ext.Ajax.request({
                     url: serviceUrl+'get_mylist_record',
                     headers: {
@@ -184,14 +185,16 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                     withCredentials: false,
                     useDefaultXhrHeader: false,
                     success: function(response) {      
-                        try{
-                            response    = Ext.decode(response.responseText);                       
+                       
+                            response    = Ext.decode(response.responseText);
+                            var store   = Ext.getStore('all_productsid'); 
+                            var records = store.getRange();
+                            store.remove(records);  
                             store.setData(response);
+                            //alert();
+                            
                         }
-                        catch(err){                           
-                          //  Ext.Msg.alert( 'No internet connection available')
-                        }
-                    }
+                        
                 });
         var popup = this.getPopup();  
         popup.hide({type: 'slideOut', direction: 'right'});

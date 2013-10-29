@@ -386,7 +386,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     xtype: 'snapView'                 
                 });
                 
-                Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
+                  
                 //console.log(Ext.getStore("SaveInfoStoreId"));               
 				if(Ext.getCmp('snap-it-image')) {
 					
@@ -396,13 +396,19 @@ Ext.define('MarlowApp.controller.DashboardC', {
 					Ext.getCmp('info-image').setHtml('<img src = "resources/images/marlow-icons/info-disabled.png" style = "margin-right: 5%;">')
 				}
                 Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
+               // Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});
+                if(Ext.os.is.iOS)
+                  {
+                       Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});  
+                  }
         }
         else
         {
                 Ext.Viewport.setActiveItem(Ext.getCmp('snapViewId'));
                 Ext.getCmp('snapId').setHtml('<img src ="data:image/jpeg;base64,'+snapSrc+'" style = "width: 100%; margin: 0; padding: 0; top: 0; left: 0; right: 0; bottom: 0;">');   
-     
-        } 
+                 Ext.getStore("SaveInfoStoreId").add({ image: snapSrc});
+        }
+         
         //Ext.getCmp("ssntxt").blur(); 
     },
     
@@ -714,7 +720,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                     //console.log(selectionInfo.getAt(0).getData());
                    // loadMask(); 
                 
-                    
+                  
                 Ext.Ajax.request({ 
                 
                 url: serviceUrl+'add_product',
@@ -736,7 +742,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             response = Ext.decode(response.responseText) 
                             var store = Ext.getStore('allshopsStoreId');
                              finalImage = response[0].MESSAGE;
-                             //alert(finalImage);
+                            // alert(imageUrl+'/'+finalImage);
                              //hideloadingMask();
                               Ext.Msg.alert( 'Product saved successfully!')
                              //console.log(response[0].MESSAGE);
@@ -781,7 +787,7 @@ Ext.define('MarlowApp.controller.DashboardC', {
                             store.setData(response);
                         }
                         catch(err){                           
-                            Ext.Msg.alert( 'No internet connection available')
+                            //Ext.Msg.alert( 'No internet connection available')
                         }
                     }
                 });
