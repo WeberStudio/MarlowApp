@@ -379,6 +379,8 @@ Ext.define('MarlowApp.controller.DashboardC', {
             Ext.getCmp('itemprice').reset();
         }
         
+        var store   = Ext.getStore('SaveInfoStoreId'); 
+        store.removeAll();
         if(Ext.Viewport.getComponent('snapViewId') == undefined)
         {       
                  Ext.Viewport.setActiveItem
@@ -549,7 +551,9 @@ Ext.define('MarlowApp.controller.DashboardC', {
                 useDefaultXhrHeader: false,
                 success: function(response) {      
                     try{
-                        response    = Ext.decode(response.responseText);                       
+                        response    = Ext.decode(response.responseText); 
+                        var store   = Ext.getStore('all_productsid'); 
+                        store.removeAll();                      
                         store.setData(response);
                         //console.log(response);
                         hideloadingMask(); 

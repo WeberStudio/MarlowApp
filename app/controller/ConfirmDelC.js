@@ -127,11 +127,12 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
     },
     confdelete: function(){           
         //alert(deleteProductId);
-        loadMask() 
+        loadMask()
+         
         //alert(deleteProductId);  
         Ext.Ajax.request({
-            
-            url: serviceUrl+'delete_list_item'+'/'+deleteProductId,
+               
+            url: serviceUrl+'delete_list_item',
             headers: {
                 "Content-Type": "application/json",
                 'Accept': 'application/json',                    
@@ -140,7 +141,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
             callbackKey: 'callback', 
             timeout : 6000,
             method: 'POST',                
-          
+            jsonData: {"deleteProductId": deleteProductId},  
             withCredentials: false,
             useDefaultXhrHeader: false,
             success: function(response) {      
@@ -171,7 +172,7 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
             }
         });
        
-        Ext.Ajax.request({
+        /*Ext.Ajax.request({
                     url: serviceUrl+'get_mylist_record',
                     headers: {
                         "Content-Type": "application/json",
@@ -189,12 +190,12 @@ Ext.define('MarlowApp.controller.ConfirmDelC',{
                             response    = Ext.decode(response.responseText);
                             var store   = Ext.getStore('all_productsid'); 
                             store.removeAll();
-                            store.setData(response);
+                            //store.setData(response); 
                             //alert();
                             
                         }
                         
-                });
+                });  */
         var popup = this.getPopup();  
         popup.hide({type: 'slideOut', direction: 'right'});
     }    
