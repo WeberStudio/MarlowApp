@@ -8,9 +8,7 @@ Ext.define('MarlowApp.view.MyItemList', {
         id:'myitemlistviewId', 
         navigationBar: {hidden: true},
         fullscreen: true,
-        layout: {
-            type: 'card'
-        },
+        
 
         items : [
         {
@@ -235,20 +233,38 @@ Ext.define('MarlowApp.view.MyItemList', {
             grouped                 : true,
             ui                      : '#FFFFFF',
             id                      : 'list',
-            cls                     : 'item-list',
-            itemTpl: Ext.create(
+            //cls                     : 'item-list',
+            /*itemTpl: Ext.create(
+            //<div class="x-list-item" id="ext-element-20"><div class="x-list-item-label"><div class="run"><img src="https://graph.facebook.com/100004926815322/picture?type=square"><div class="info"><b>Zohaib Hassan</b> jogged <b>5 miles</b></div><div class="location">Wahdat Road, Muslim Town, Lahore, Pakistan</div><div class="time">2 days ago</div></div></div></div>
             'Ext.XTemplate',
             '<div class="tweet-wrapper">',
             //'<img src="resources/icons/Icon@2x.png"  style = "width: 8%; height: 8%" />',
             //'<img src ="data:image/jpeg;base64,{image}" style = "width: 10%; height: 10%">',  
-            '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 30%; height: 30%">',
+            '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style="width: 20%; height: 20%;">',
             '<div class="tweet">',
             //'<span class="posted"><input type="radio"></span>',
             //'<span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-            '<p style="text-overflow: ellipsis;overflow: hidden;white-space: normal;">{note}</p>',
-            '<b>{price}</b>',
+            '<p class = "myitem-note">{note}</p>',
+            '<b class = "myitem-price">{price}</b>',
             '</div>',
-            '</div>'),
+            '</div>'),*/
+            itemTpl: Ext.create(
+            'Ext.XTemplate',
+            //'<img src="resources/icons/Icon@2x.png"  style = "width: 8%; height: 8%" />',
+            //'<img src ="data:image/jpeg;base64,{image}" style = "width: 10%; height: 10%">', 
+            '<div class="run">',
+            '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style="width: 20%; height: 20%; margin-right: 5%;">',
+            '<div class="info">',  
+            ' <b> {note}</b> ',
+            '</div>', 
+            '<div class="location">',
+            '&pound; {price}',
+            ' </div>',
+            ' </div>' ),                      
+            //'<span class="posted"><input type="radio"></span>',
+            //'<span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
+            //'</div>',
+            //'</div>' 
 
             fullscreen: true,
             listeners:

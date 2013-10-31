@@ -35,42 +35,33 @@ $base-gradient: black;*/
 
 // Custom code goes here..
 
-.tweet-wrapper {
-
-	h2 { 
-		font-weight: bold; padding-bottom: 3px; 
-	}
-	img { 
-		border-radius: 5px; 
-	}
-	.tweet {
-		font-size: 70%;
-		margin-left: 135px;
-		min-height: 50px;
-	}
-	.posted { 
-		float: right;
-	}
+.run {
+    min-height: 45px; 
+    font-family: HelveticaLight; 
+    color: black;
+    font-size: 16px; 
 }
+.run b {
+    font-weight: lighter;
+}
+.run img {
+    border-radius: 0px;
+    float: left;
+}
+.run .info {
+    /*margin: 0 0 2px 60px;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+}
+.run .location {
 
-    /* not using it anymore, as it applies to all automatically
-    
-    .delete-item-list .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item .x-item-selected .x-list-item-tpl {
-
-        background-image: linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
-        background-image: -o-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
-        background-image: -moz-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
-        background-image: -webkit-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
-        background-image: -ms-linear-gradient(bottom, rgb(252,189,189) 5%, rgb(250,197,197) 53%);
-
-        background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.05, rgb(252,189,189)),
-        color-stop(0.53, rgb(250,197,197))
-        );
-    }*/
+    /*margin-left: 60px;*/
+    font-size: 16px;
+    font-weight: bold;
+    color: black;  
+    /*padding-left: 10px;*/
+}
     
     .delete-item-list  {
     

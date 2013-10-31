@@ -67,16 +67,17 @@ Ext.define('MarlowApp.view.DeleteItem', {
             selectedCls: 'delete-item-list',
             itemTpl:Ext.create(
                 'Ext.XTemplate',
-                '<div class="tweet-wrapper">',
-               '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style = "width: 25%; height: 25%">',
-                '   <div class="tweet">',
-                //'<span class="posted"><input type="radio"></span>',
-                //'       <span class="posted">{[this.timeAgoInWords(values.created_at)]}</span>',
-                '       <p>{note}</p>',
-                '       <b>{price}</b>',
-                '   </div>',
-                '</div>',
-                '<img class="logo0" id="del-image_{product_id}" src="resources/images/c1.png" style="float: right;">'
+                '<div class="run">',
+                '<img src ="http://geordie.testbench.co.uk/assets/media/{image}" style="width: 20%; height: 20%; margin-right: 5%;">',
+                '<div class="info">',  
+                ' <b> {note}</b> ',
+                '</div>', 
+                '<div class="location">',
+                '&pound; {price}',
+                ' </div>',
+                '<img class="logo0" id="del-image_{product_id}" src="resources/images/c1.png" style="float: right; widht: 10%; height: 10%;">',
+                ' </div>'
+                
                 //style="float: right; position: relative; top:-40px;"
             ),
             listeners:
