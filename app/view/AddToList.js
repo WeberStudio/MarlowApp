@@ -321,22 +321,22 @@ Ext.define('MarlowApp.view.AddToList', {
             },
             {
                 xtype: 'panel',
-                id:    'productViewNote',
+                //id:    'productViewNote',
                 baseCls: 'overlapped-msg', 
                 centered: true,
-                html: '<span> Saw this and thought Bob might like it? </span>',
+                html: '<span style = "font-size: 80%;"> Saw this and thought Bob might like it? </span>',
 
                 items: [
                 {
                     baseCls: 'overlapped-brand',
-                    id:    'productViewBrand',
-                    html: '<span> Meteor </span>',
+                   // id:    'productViewBrand',
+                    html: '<span style = "font-size: 130%;"> Marks and Spencer </span>',
                     
                 },
                 {
                     baseCls: 'overlapped-price',
-                    id:    'productViewPrice',      
-                    html: '<span> £17.99 </span>', 
+                  //  id:    'productViewPrice',      
+                    html: '<span style = "font-size: 130%;"> &pound; 17.99 </span>', 
                       
                 }
                 ]

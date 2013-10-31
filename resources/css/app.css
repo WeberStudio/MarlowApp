@@ -6560,6 +6560,7 @@ final_img {
   font-family: HelveticaBold;
   text-align: center;
   word-wrap: break-word;
+  padding-bottom: 10px;
 }
 
 .overlapped-price {
@@ -6567,6 +6568,7 @@ final_img {
   font-family: HelveticaBold;
   text-align: center;
   word-wrap: break-word;
+  padding-bottom: 10px;
 }
 
 .overlapped-msg {
@@ -6575,7 +6577,7 @@ final_img {
   font-weight: lighter;
   text-align: center;
   word-wrap: break-word;
-  margin-top: 60%;
+  margin-top: 50%;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* Chrome10+,Safari5.1+ */
   border-radius: 10px;
