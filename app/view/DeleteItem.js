@@ -73,7 +73,7 @@ Ext.define('MarlowApp.view.DeleteItem', {
                 ' <b> {note}</b> ',
                 '</div>', 
                 '<div class="location">',
-                '&pound; {price}',
+                '<span style = "font-weight: bolder; "> &pound; {price} <span> ',
                 ' </div>',
                 '<img class="logo0" id="del-image_{product_id}" src="resources/images/c1.png" style="float: right; widht: 10%; height: 10%;">',
                 ' </div>'

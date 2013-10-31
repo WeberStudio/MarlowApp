@@ -52,14 +52,16 @@ $base-gradient: black;*/
     /*margin: 0 0 2px 60px;*/
     text-overflow: ellipsis;
     overflow: hidden;
+    width: 60%;
     white-space: normal;
 }
 .run .location {
 
     /*margin-left: 60px;*/
     font-size: 16px;
-    font-weight: bold;
-    color: black;  
+    font-weight: bolder;
+    color: black;
+    width: 60%;
     /*padding-left: 10px;*/
 }
     
